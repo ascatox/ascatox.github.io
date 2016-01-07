@@ -9,9 +9,9 @@ My blog available under Jekyll.
 ## Run, debug, study my stuff
 Just download this repository, and serve the content using the Jekyll built-in webserver.
 
-```bash
-$ git clone git@github.com:ascatox/ascatox.github.io.git
-$ cd ascatox.github.io
-$ jekyll serve
-```
+<pre><code>
+	$ git clone https://github.com/ascatox/ascatox.github.io.git
+	$ cd ascatox.github.io
+	$ jekyll serve
+</code></pre>
 

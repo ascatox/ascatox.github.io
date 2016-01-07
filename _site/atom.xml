@@ -4,7 +4,7 @@
  <title>Antonio Scatoloni</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-01-07T12:34:52+01:00</updated>
+ <updated>2016-01-07T13:11:29+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Antonio Scatoloni</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/2015/03/la-professione-dello-sviluppatore"/>
    <updated>2015-03-12T08:29:29+01:00</updated>
    <id>http://localhost:4000/2015/03/la-professione-dello-sviluppatore</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/Ry8JdyQpLWg?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
@@ -43,7 +43,10 @@
    <id>http://localhost:4000/2011/11/il-futuro-del-lavoro</id>
    <content type="html">&lt;p&gt;Interessante video che mostra uno spaccato, di come potrebbe essere il lavoro domani, un domani a parer mio sempre più vicino.&lt;/p&gt;
 &lt;p&gt;Buona visione.&lt;/p&gt;
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/G8Yt4wxSblc?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+	
+&lt;/p&gt;
 </content>
  </entry>
  
@@ -98,7 +101,8 @@
    <link href="http://localhost:4000/2009/11/ican"/>
    <updated>2009-11-01T15:04:01+01:00</updated>
    <id>http://localhost:4000/2009/11/ican</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/tw-r_2xns68?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 </content>
  </entry>
  
@@ -130,7 +134,8 @@
    <link href="http://localhost:4000/2009/09/lentamente-muore"/>
    <updated>2009-09-05T13:52:50+02:00</updated>
    <id>http://localhost:4000/2009/09/lentamente-muore</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/JgqNr61hp5w?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;</content>
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</content>
  </entry>
  
  <entry>
@@ -200,7 +205,8 @@
    <link href="http://localhost:4000/2009/07/thinking-to-ireland"/>
    <updated>2009-07-18T13:45:39+02:00</updated>
    <id>http://localhost:4000/2009/07/thinking-to-ireland</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/2iUPb7y0hgE?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 </content>
  </entry>
  
@@ -252,7 +258,8 @@
    <link href="http://localhost:4000/2009/05/servizi-online-pericolosi"/>
    <updated>2009-05-31T09:27:34+02:00</updated>
    <id>http://localhost:4000/2009/05/servizi-online-pericolosi</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/rcFqdb5lDTo?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 </content>
  </entry>
  
@@ -261,7 +268,8 @@
    <link href="http://localhost:4000/2009/04/la-grande-opera"/>
    <updated>2009-04-19T14:59:47+02:00</updated>
    <id>http://localhost:4000/2009/04/la-grande-opera</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/uRofMkUgzfo?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Caparezza La Grande Opera&lt;/p&gt;
 &lt;p class=&quot;technorati-tags&quot;&gt;&lt;a href=&quot;http://technorati.com/tag/Musica&quot; rel=&quot;tag&quot;&gt;Musica&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/Caparezza&quot; rel=&quot;tag&quot;&gt;Caparezza&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -357,7 +365,8 @@
    <updated>2009-02-23T17:57:10+01:00</updated>
    <id>http://localhost:4000/2009/02/crisi-del-credito-spiegata-a-tutti</id>
    <content type="html">&lt;p&gt;Girovagando ho trovato questo simpatico video che spiega ai &quot;profani&quot; come me, cos&#39;è la crisi del Credito, che sta modificando il mondo.&lt;/p&gt;
-&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;http://player.vimeo.com/video/3261363 &quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Buon Video a tutti!!!&lt;/p&gt;
 &lt;p&gt;PS: In Inglese!!!&lt;/p&gt;
 &lt;p&gt;Fonte: &lt;a href=&quot;http://guidoserra.it/archivi/2009/02/23/crisis-of-credit-made-easy-to-understand/&quot;&gt;Guido Serra Blog&lt;/a&gt;&lt;/p&gt;
@@ -496,7 +505,8 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
    <link href="http://localhost:4000/2008/09/cervellum_vitae"/>
    <updated>2008-09-29T15:20:01+02:00</updated>
    <id>http://localhost:4000/2008/09/cervellum_vitae</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/ixS-etJjGVE?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;</content>
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</content>
  </entry>
  
  <entry>
@@ -519,7 +529,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
    <id>http://localhost:4000/2008/09/il-googlephone-e-tra-noi-2</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/HTC-T-Mobile-G1_35912_1.jpg&quot; alt=&quot;HTC T-Mobile G1&quot; height=&quot;244&quot; width=&quot;223&quot; /&gt;Ed alla fine anche il fantomatico SO per terminali mobili &lt;a href=&quot;http://code.google.com/android/&quot;&gt;Android&lt;/a&gt;, creato dal gigante del Web Google fece la sua comparsa. Il terminale è prodotto, dal leader degli smartphone &lt;a href=&quot;http://www.htc.com/it/&quot;&gt;HTC&lt;/a&gt; il suo nome è &lt;b&gt;HTC T-Mobile G1&lt;/b&gt; (conosciuto come Dream) per quanto riguarda le caratteristiche: possiede una fotocamera da 3.6 MPix e possiede un sistema di navigazione satellitare &lt;a href=&quot;http://it.wikipedia.org/wiki/Assisted_GPS&quot;&gt;A-GPS&lt;/a&gt;. Interessante è la presenza di una tastiera QWERTY a scomparsa, una delle cose che forse manca maggiormente agli utenti professionali su iPhone (ma io perferisco la virtuale :-D ). Nota molto interessante è il prezzo di 179$, il telefono sarà commercializzato negli USA dal 22 Ottobre tramite operatore T-Mobile, in Europa arriverà nel 2009.&lt;br /&gt;&lt;img src=&quot;/assets/HTC-T-Mobile-G1_35915_1.jpg&quot; alt=&quot;HTC T-Mobile G1&quot; height=&quot;226&quot; width=&quot;268&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Foto e Maggiori info: &lt;a href=&quot;http://www.telefonino.net/HTC/Notizie/n19641/HTC-T-Mobile-G1-googlephone-Android.html&quot;&gt;Telefonino.net&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/z7qbPa1O8Ys?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Aggiornamento: il prezzo è legato ad un contratto con l&#39;operatore T-Mobile come avviene già con l&#39;iPhone che ha un costo di 199$, di poco superiore quindi al GooglePhone.&lt;/p&gt;
 </content>
  </entry>
@@ -531,9 +543,11 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
    <id>http://localhost:4000/2008/09/im-a-pc</id>
    <content type="html">&lt;p&gt;Anche Microsoft punta sugli spot come Apple con la famosa serie &lt;a href=&quot;http://www.apple.com/it/getamac/&quot;&gt;getaMac&lt;/a&gt; e subito arriva il video parodia eccoli: l&#39;originale e la parodia.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/HrmF-mPLybw?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/7Q2aulxK0hE?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 
 &lt;p&gt;Davvero migliore il secondo, non c&#39;è storia :-D .&lt;/p&gt;
 </content>
@@ -556,7 +570,8 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
    <updated>2008-08-27T15:50:58+02:00</updated>
    <id>http://localhost:4000/2008/08/helpdesk-medievale</id>
    <content type="html">&lt;p&gt;Davvero simpatico questo video su youtube :-D !!!!&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/Rm9SkbhPfE4?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Helpdesk medievale (Medieval helpdesk, Italian subtitles)&lt;/p&gt;
 </content>
  </entry>
@@ -758,8 +773,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
    <id>http://localhost:4000/2008/04/asus-eee-pc-900-debutto</id>
    <content type="html">&lt;p&gt;Ne ero sicuro, la nuova versione del mio amato Eee PC sarebbe arrivata prima che io avessi tra le mani la vecchia versione con la nota &lt;a href=&quot;http://www.antonioscatoloni.it/2008/03/17/146&quot; target=&quot;_blank&quot;&gt;vicenda con Eprice &lt;/a&gt;che tutti conoscete. La prima differenza, che subito a primo sguardo si evidenzia fra i due modelli è lo schermo più generoso nella nuova versione, con un lcd da &lt;strong&gt;9 pollici&lt;/strong&gt; (risoluzione 1024x600) che non va ad aumentare le dimensioni del subnotebook andando ad eliminare le due casse, del tutto trascurabili in un portatile così piccolo. Altre novità, sono un dispositivo di storage più grande da &lt;strong&gt;12 GB&lt;/strong&gt; (&lt;strong&gt;20 GB&lt;/strong&gt; a scelta) una memoria Ram che passa da 512 ad &lt;strong&gt;1Gb&lt;/strong&gt; e cosa molto interessante la presenza di una &lt;em&gt;tecnologia multitouch&lt;/em&gt;, chiamata &lt;a href=&quot;http://www.asus.com/news_show.aspx?id=10911&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;em&gt;FingerGlide&lt;/em&gt;&lt;/strong&gt; &lt;/a&gt;che come nel caso dei nuovi portatili Apple, permette di effettuare operazioni come zoomare o ridemensionare finestre, semplicemente con due dita. A differenza dalla precedente versione c&#39;è ora anche la possibilità di scegliere tra una versione con &lt;strong&gt;Windows Xp&lt;/strong&gt; e disco da 20 GB ed una più economica con Linux e 12 GB di disco fisso.  Anche la webcam è stata migliorata disponendo ora di un sensore da 1,3 Mpixel. Il debutto dell&#39;Asus Eee PC 900 avverrà tra due settimane in Asia ed i primi di maggio nella verde Gran Bretagna ad un costo di &lt;strong&gt;329 sterline&lt;/strong&gt;, da noi il prezzo si aggirerà intorno ai 399€ facendo un rapido cambio con la sterlina.&lt;/p&gt;
 &lt;p&gt;Per avere maggiori dettagli ecco l&#39;articolo su &lt;a href=&quot;http://punto-informatico.it/p.aspx?i=2258601&quot; target=&quot;_blank&quot;&gt;PuntoInformatico&lt;/a&gt; ed una serie di video sul nuovo mini Asus :-)&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/dz0QYI104cI?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/aY2azHo0LAU?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;</content>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</content>
  </entry>
  
  <entry>
@@ -929,7 +945,8 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
 	&lt;span style=&quot;font-weight: bold&quot; class=&quot;Apple-style-span&quot;&gt;299&lt;/span&gt;€.Disponibile anche in Italia presso la catena &lt;a href=&quot;http://compraonline.mediaworld.it/webapp/wcs/stores/servlet/LoadProduct?catalogId=20000&amp;amp;storeId=20000&amp;amp;langId=-1&amp;amp;partNumber=p-523075&quot; target=&quot;_blank&quot;&gt;MediaWorld&lt;/a&gt;. Supporta pienamente Windows Xp che deve essere però installato tramite un lettore cd/dvd esterno tramite porta usb, perchè il mini Asus non dispone di un&#39;unità ottica interna.Che dire, non vedo l&#39;ora di riuscire almeno a provare questa &quot;delizia&quot; tecnologica :-) &lt;span style=&quot;font-style: italic&quot; class=&quot;Apple-style-span&quot;&gt;&lt;span style=&quot;font-style: normal&quot; class=&quot;Apple-style-span&quot;&gt;
 
 	&lt;br&gt;
-	&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/7w7FQKTIirg?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+	
 	&lt;br&gt;
 	&lt;a href=&quot;http://zeirus.wordpress.com/2007/09/21/asus-eeepc-3epc-vivisezionato-parzialmente/&quot; target=&quot;_blank&quot;&gt;Foto e Dimensioni&lt;/a&gt;&lt;/span&gt; 
 	&lt;/p&gt;
@@ -1116,7 +1133,8 @@ Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/arch
    <content type="html">&lt;p&gt;Voci ufficiose in diversi siti del panorama tecnologico, danno per imminente l&#39;uscita del fantomatico PSPhone, la fusione tra la piattaforma ludica portatile &lt;a href=&quot;http://it.playstation.com/psp/&quot;&gt;Sony PSP&lt;/a&gt; ed un cellulare della linea &lt;a href=&quot;http://www.sonyericsson.com/&quot;&gt;Sony Ericsson&lt;/a&gt;. Si parla di una tecnologia a doppio slider che ne permetterebbe l&#39;uso in due modalità differenti, una dedicata al gioco con tutti i controlli soliti delle console playstation, l&#39;altra come quella di un tipico cellulare slide phone.&lt;/p&gt;
 &lt;p&gt;Non si sa se avverrà veramente un annuncio da parte di Sony, attendiamo comunque (prima o poi) l&#39;arrivo di questo terminale.&lt;/p&gt;
 &lt;p&gt;Nell&#39;attesa un bel video del prodotto :-)&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/kf1Z3vJPKPc?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Fonte: &lt;a href=&quot;http://www.hwupgrade.it/news/telefonia/praticamente-ufficiale-il-psphone_23578.html&quot;&gt;Hardware Upgrade&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -1140,7 +1158,8 @@ Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/arch
    <updated>2007-11-13T16:14:34+01:00</updated>
    <id>http://localhost:4000/2007/11/android-una-nuova-tecnologia-targata-google</id>
    <content type="html">&lt;p&gt; Dopo tanto parlare dell&#39;imminente uscita di un telefonino targato Google, il gigante del Web ha mostrato al mondo la sua &quot;mossa&quot; sul fronte telefonia, niente hardware per ora, ma solo una nuova tecnologia software chiamata &lt;a href=&quot;http://code.google.com/android/index.html&quot;&gt;Android&lt;/a&gt;. Questa tecnologia sarà comune a molti produttori sarà infatti un vero e proprio sistema aperto che porterà almeno si spera, una boccata fresca nel mondo della telefonia e permetterà di sviluppare applicazioni molto interessanti. La BigG ha già rilasciato un&#39;&lt;a href=&quot;http://code.google.com/android/download.html&quot;&gt;sdk &lt;/a&gt;per lo sviluppo e ci mostra questa nuova tecnologia in un video dimostrativo.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/6rYozIZOgDk?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 &lt;p&gt;Spero di riuscire di trovare del tempo per mettere le mani su questa nuova tecnologia e di postare il prima possibile del codice a riguardo :-)&lt;/p&gt;
 &lt;p&gt;Come sempre:&lt;br /&gt;
 Stay Tuned!!!!&lt;/p&gt;
