@@ -4,7 +4,7 @@
  <title>Antonio Scatoloni</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2016-01-07T13:11:29+01:00</updated>
+ <updated>2016-01-07T14:42:55+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Antonio Scatoloni</name>
@@ -14,18 +14,18 @@
  
  <entry>
    <title>La professione dello sviluppatore</title>
-   <link href="http://localhost:4000/2015/03/la-professione-dello-sviluppatore"/>
+   <link href="http://localhost:4000/2015/03/12/la-professione-dello-sviluppatore"/>
    <updated>2015-03-12T08:29:29+01:00</updated>
-   <id>http://localhost:4000/2015/03/la-professione-dello-sviluppatore</id>
+   <id>http://localhost:4000/2015/03/12/la-professione-dello-sviluppatore</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
  <entry>
    <title>Corso Android</title>
-   <link href="http://localhost:4000/2014/10/corso-android"/>
+   <link href="http://localhost:4000/2014/10/04/corso-android"/>
    <updated>2014-10-04T14:01:29+02:00</updated>
-   <id>http://localhost:4000/2014/10/corso-android</id>
+   <id>http://localhost:4000/2014/10/04/corso-android</id>
    <content type="html">&lt;p&gt;&lt;img title=&quot;NewImage.png&quot; src=&quot;/assets/NewImage.png&quot; alt=&quot;NewImage&quot; width=&quot;240&quot; height=&quot;135&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;carriera lavorativa&lt;/strong&gt; nel mondo moderno è sempre più difficile, specialmente per noi generazione dei &lt;a href=&quot;http://en.wikipedia.org/wiki/Millennials&quot;&gt;Millenials&lt;/a&gt;, che dobbiamo sempre reinventarci, per essere sempre &lt;strong&gt;impiegabili&lt;/strong&gt;, in un mondo che cambia troppo rapidamente.&lt;/p&gt;
 &lt;p&gt;Venendo al nocciolo della questione, era molto tempo che pensavo di dare una spolverata alle mie conoscenze tecniche, che come si legge dal mio sito sono principalmente in tecnologia &lt;strong&gt;Java&lt;/strong&gt;/&lt;strong&gt;Javascript&lt;/strong&gt;.&lt;/p&gt;
@@ -38,9 +38,9 @@
  
  <entry>
    <title>Il Futuro del Lavoro</title>
-   <link href="http://localhost:4000/2011/11/il-futuro-del-lavoro"/>
+   <link href="http://localhost:4000/2011/11/12/il-futuro-del-lavoro"/>
    <updated>2011-11-12T15:21:01+01:00</updated>
-   <id>http://localhost:4000/2011/11/il-futuro-del-lavoro</id>
+   <id>http://localhost:4000/2011/11/12/il-futuro-del-lavoro</id>
    <content type="html">&lt;p&gt;Interessante video che mostra uno spaccato, di come potrebbe essere il lavoro domani, un domani a parer mio sempre più vicino.&lt;/p&gt;
 &lt;p&gt;Buona visione.&lt;/p&gt;
 &lt;p&gt;
@@ -52,9 +52,9 @@
  
  <entry>
    <title>Rebirth</title>
-   <link href="http://localhost:4000/2011/06/rebirth"/>
+   <link href="http://localhost:4000/2011/06/16/rebirth"/>
    <updated>2011-06-16T08:35:28+02:00</updated>
-   <id>http://localhost:4000/2011/06/rebirth</id>
+   <id>http://localhost:4000/2011/06/16/rebirth</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;../assetsrinascita.jpg&quot;&gt;&lt;img style=&quot;border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px&quot; title=&quot;rinascita&quot; border=&quot;0&quot; alt=&quot;rinascita&quot; src=&quot;/assets/rinascita_thumb.jpg&quot; width=&quot;244&quot; height=&quot;184&quot; /&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;Dopo un lungo periodo, quasi due anni che non posto regolarmente (i links non valgono :-D), provo a ricominciare sul serio.&lt;/p&gt;
 &lt;p&gt;Molte cose sono cambiate dal 2010, provo ad elencare le principali:&lt;/p&gt;
@@ -74,9 +74,9 @@
  
  <entry>
    <title>Terremoto Haiti!!!</title>
-   <link href="http://localhost:4000/2010/01/terremoto-haiti"/>
+   <link href="http://localhost:4000/2010/01/17/terremoto-haiti"/>
    <updated>2010-01-17T14:14:34+01:00</updated>
-   <id>http://localhost:4000/2010/01/terremoto-haiti</id>
+   <id>http://localhost:4000/2010/01/17/terremoto-haiti</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/red_cross.jpg&quot;&gt;&lt;img src=&quot;/assets/red_cross-150x150.jpg&quot; alt=&quot;red_cross&quot; title=&quot;red_cross&quot; width=&quot;150&quot; height=&quot;150&quot; class=&quot;alignleft size-thumbnail wp-image-598&quot; /&gt;&lt;/a&gt;Per Tutti coloro che come me hanno un account su iTunes Store, Apple fornisce la possibilità di donare tramite il conto che usate sullo Store. Per chi vuole utilizzare questo modo per aiutare questo paese martoriato, questo è i&lt;a href=&quot;https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard&quot;&gt;l link all&#39;iTunes Store&lt;/a&gt;. La donazione verrà inviata alla Croce Rossa Americana, in prima linea nella grande tragedia.&lt;/p&gt;
 &lt;p&gt;Non dimentichiamoli!!!&lt;/p&gt;
 </content>
@@ -84,9 +84,9 @@
  
  <entry>
    <title>Tanti Auguri !!!</title>
-   <link href="http://localhost:4000/2009/12/tanti-auguri"/>
+   <link href="http://localhost:4000/2009/12/24/tanti-auguri"/>
    <updated>2009-12-24T11:48:06+01:00</updated>
-   <id>http://localhost:4000/2009/12/tanti-auguri</id>
+   <id>http://localhost:4000/2009/12/24/tanti-auguri</id>
    <content type="html">&lt;p&gt;Eccomi di nuovo qui, rinasco dalle ceneri come l’araba fenice, purtroppo in questo ultimo periodo sono stato molto impegnato, con un nuovo lavoro ed i viaggi per raggiungere la città dove si trova la mia nuova occupazione sempre da consulente informatico, per i più curiosi date un’occhiata a &lt;a href=&quot;http://it.linkedin.com/in/antonioscatoloni&quot;&gt;Linkedin &lt;/a&gt;per i dettagli.&lt;/p&gt;
 &lt;p&gt;Comunque vada:&lt;/p&gt;
 &lt;p&gt;Buone Feste a Tutti !!!&lt;/p&gt;
@@ -98,9 +98,9 @@
  
  <entry>
    <title>iCan</title>
-   <link href="http://localhost:4000/2009/11/ican"/>
+   <link href="http://localhost:4000/2009/11/01/ican"/>
    <updated>2009-11-01T15:04:01+01:00</updated>
-   <id>http://localhost:4000/2009/11/ican</id>
+   <id>http://localhost:4000/2009/11/01/ican</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 </content>
@@ -108,9 +108,9 @@
  
  <entry>
    <title>Snow Leopard e NTFS</title>
-   <link href="http://localhost:4000/2009/10/snow-leopard-e-ntfs"/>
+   <link href="http://localhost:4000/2009/10/27/snow-leopard-e-ntfs"/>
    <updated>2009-10-27T17:33:43+01:00</updated>
-   <id>http://localhost:4000/2009/10/snow-leopard-e-ntfs</id>
+   <id>http://localhost:4000/2009/10/27/snow-leopard-e-ntfs</id>
    <content type="html">&lt;p&gt;Quante volte è venuto a casa vostra un amico, col suo mega disco esterno sul quale dovete copiare dei dati dal vostro Mac?&lt;br /&gt;A me è successo ieri sera, e non sono riuscito a scriverci ben nulla, senza utilizzare una macchina virtuale con &lt;a target=&quot;_blank&quot; href=&quot;http://www.parallels.com/it/&quot;&gt;Parallels &lt;/a&gt;e Windows 7 a bordo.&lt;br /&gt;Il mio macbook infatti direttamente da Snow Leopard non può scrivere su dischi formattati con file system &lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/NTFS&quot;&gt;NTFS&lt;/a&gt;,&lt;br /&gt;ma da&amp;nbsp; questo file system purtroppo riesce solo a leggere.&lt;br /&gt;La soluzione al problema è l&#39;acquisto del software shareware &lt;a target=&quot;_blank&quot; href=&quot;http://www.paragon-software.com/home/ntfs-mac/&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;NTFS for MAC OS X 7.0&lt;/b&gt;&lt;/font&gt;&lt;/a&gt; della Paragon Software Group, che permette l&#39;accesso totale al file system di Microsoft al costo di &lt;b&gt;30$&lt;/b&gt;.&lt;/p&gt;
 &lt;p&gt;Direi che il costo del programma visto il cambio euro-dollaro non è assolutamente elevato.&lt;/p&gt;
 &lt;p&gt;Stay Tuned!!!&lt;/p&gt;
@@ -121,9 +121,9 @@
  
  <entry>
    <title>Festival Filminute SUN-DAY</title>
-   <link href="http://localhost:4000/2009/09/festival-filminute-sun-day"/>
+   <link href="http://localhost:4000/2009/09/10/festival-filminute-sun-day"/>
    <updated>2009-09-10T16:54:38+02:00</updated>
-   <id>http://localhost:4000/2009/09/festival-filminute-sun-day</id>
+   <id>http://localhost:4000/2009/09/10/festival-filminute-sun-day</id>
    <content type="html">&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.filminute.com/2009/screeningroom/votingroom09.php?id=99&quot;&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/tr.png&quot; height=&quot;217&quot; width=&quot;186&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Un mio amico &lt;b&gt;Pantaleone A. Megna&lt;/b&gt; sta partecipando in questi giorni con un suo filmato dal nome&lt;font color=&quot;#ff0000&quot;&gt; &lt;big&gt;&lt;b&gt;Sun-Day&lt;/b&gt;&lt;/big&gt;&lt;/font&gt;, alla rassegna &lt;big&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.filminute.com/2009/index.php&quot;&gt;&lt;b&gt;Filminute&lt;/b&gt;&lt;/a&gt;&lt;/big&gt;, che raccoglie brevi filmati dalla durata massima di un minuto. &lt;br /&gt;Chiunque può visionare il suo &lt;a target=&quot;_blank&quot; href=&quot;http://www.filminute.com/2009/screeningroom/index.php?id=99&quot;&gt;filmato &lt;/a&gt;e magari aiutarlo a &lt;a target=&quot;_blank&quot; href=&quot;http://www.filminute.com/2009/screeningroom/votingroom09.php?id=99&quot;&gt;vincere &lt;/a&gt;la rassegna, una giuria infatti è proprio quella popolare, tramite voto sul sito Web.&lt;/p&gt;
 &lt;p&gt;Dateci un&#39;occhiata e mi raccomando &lt;a target=&quot;_blank&quot; href=&quot;http://www.filminute.com/2009/screeningroom/votingroom09.php?id=99&quot;&gt;&lt;b&gt;Votate&lt;/b&gt;&lt;/a&gt;!!!! &lt;/p&gt;
 </content>
@@ -131,18 +131,18 @@
  
  <entry>
    <title>Lentamente Muore</title>
-   <link href="http://localhost:4000/2009/09/lentamente-muore"/>
+   <link href="http://localhost:4000/2009/09/05/lentamente-muore"/>
    <updated>2009-09-05T13:52:50+02:00</updated>
-   <id>http://localhost:4000/2009/09/lentamente-muore</id>
+   <id>http://localhost:4000/2009/09/05/lentamente-muore</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
  <entry>
    <title>Fuochi di Ferragosto 2009</title>
-   <link href="http://localhost:4000/2009/08/fuochi-di-ferragosto-2009"/>
+   <link href="http://localhost:4000/2009/08/16/fuochi-di-ferragosto-2009"/>
    <updated>2009-08-16T09:42:05+02:00</updated>
-   <id>http://localhost:4000/2009/08/fuochi-di-ferragosto-2009</id>
+   <id>http://localhost:4000/2009/08/16/fuochi-di-ferragosto-2009</id>
    <content type="html">&lt;p&gt;Come ogni anno nella serata di Ferragosto arrivano i tradizionali fuochi d&#39;artificio sul Lago di Bolsena a &lt;a href=&quot;http://it.wikipedia.org/wiki/Capodimonte&quot;&gt;Capodimonte&lt;/a&gt; in provincia di Viterbo.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/assets/p-697-523-c161ac01-28e1-4ef9-8c30-e772934c6e6d.jpeg&quot;&gt;&lt;img src=&quot;/assets/p-697-523-c161ac01-28e1-4ef9-8c30-e772934c6e6d.jpeg&quot; alt=&quot;&quot; width=&quot;225&quot; height=&quot;300&quot; class=&quot;alignnone size-full wp-image-364&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/assets/p-1011-758-52504b3f-8d16-4178-b257-fd5a1558f508.jpeg&quot;&gt;&lt;img src=&quot;/assets/p-1011-758-52504b3f-8d16-4178-b257-fd5a1558f508.jpeg&quot; alt=&quot;&quot; width=&quot;224&quot; height=&quot;300&quot; class=&quot;alignnone size-full wp-image-364&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -157,17 +157,18 @@
  
  <entry>
    <title>Zero Assoluto</title>
-   <link href="http://localhost:4000/2009/08/zero-assoluto"/>
+   <link href="http://localhost:4000/2009/08/15/zero-assoluto"/>
    <updated>2009-08-15T15:23:09+02:00</updated>
-   <id>http://localhost:4000/2009/08/zero-assoluto</id>
-   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/W5Ot4mVCsKc?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;</content>
+   <id>http://localhost:4000/2009/08/15/zero-assoluto</id>
+   <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</content>
  </entry>
  
  <entry>
    <title>iPhone senza Messaggi</title>
-   <link href="http://localhost:4000/2009/07/iphone-senza-messaggi"/>
+   <link href="http://localhost:4000/2009/07/26/iphone-senza-messaggi"/>
    <updated>2009-07-26T11:43:59+02:00</updated>
-   <id>http://localhost:4000/2009/07/iphone-senza-messaggi</id>
+   <id>http://localhost:4000/2009/07/26/iphone-senza-messaggi</id>
    <content type="html">&lt;p style=&quot;clear: both&quot;&gt;&lt;a href=&quot;/assets/hero-messages-20090608-full.jpg&quot; class=&quot;image-link&quot;&gt;&lt;img class=&quot;linked-to-original&quot; src=&quot;/assets/hero-messages-20090608-thumb.jpg&quot; height=&quot;170&quot; align=&quot;left&quot; width=&quot;265&quot; style=&quot; display: inline; float: left; margin: 0 10px 10px 0;&quot; /&gt;&lt;/a&gt;Come già saprete nel mese di Aprile di quest&#39;anno ho aderito all&#39;&lt;a href=&quot;http://www.antonioscatoloni.it/2009/04/10/italian-iphone-developers-gruppo-linkedin-per-sviluppatori-italiani&quot; target=&quot;_blank&quot;&gt;iPhone Deveoper Program&lt;/a&gt;, iniziando così ad utilizzare le versioni beta sul mio iPhone. Mi rendo conto che uno sviluppatore come si deve (quindi io no), non dovrebbe usare lo stesso cellulare, sia per lo sviluppo che come telefono personale, ma il costo del dispositivo è molto elevato e poi a mia discolpa devo dire che spesso le versioni beta che Apple ci offre; sono in molti casi meno afflitte da bug di quelle ufficiali. Nelle varie beta che ho testato relative al firmware 3.0 ci sono state alcune che mi hanno particolarmente colpito per la maturità della piattaforma (non ho spento l&#39;iPhone per due settimane), solo da quando poi sono state rilasciate le &lt;a href=&quot;http://developer.apple.com/iphone/program/sdk/apns.html&quot; target=&quot;_blank&quot;&gt;Push Notifications&lt;/a&gt; a mio avviso sono iniziati i vari problemi. Proprio oggi dopo una discreta convivenza con la &lt;a href=&quot;http://www.ispazio.net/45073/le-novita-del-firmware-3-1-beta-in-continuo-aggiornamento-ispazio&quot; target=&quot;_blank&quot;&gt;3.1 beta 1&lt;/a&gt;, ho deciso di installare la &lt;a href=&quot;http://www.ispazio.net/48685/apple-rilascia-il-firmware-3-1-beta-2-agli-sviluppatori-iphone&quot; target=&quot;_blank&quot;&gt;3.1 beta 2&lt;/a&gt; perché a detta di molti risolveva il problema dell&#39;eccessivo surriscaldamento che di tanto in tanto succedeva sulla beta 1. Una volta installata la nuova release del firmware, mi è subito sembrata più reattiva nei menu della precedente, ma purtroppo l&#39;applicazione &lt;a href=&quot;http://www.apple.com/iphone/iphone-3gs/messages.html&quot; target=&quot;_blank&quot;&gt;Messaggi&lt;/a&gt; che serve per inviare e ricevere Sms/Mms, si chiudeva non appena aperta. La spiegazione sta in un problema che affligge l&#39;accesso al database SQLlite delle beta 2. &lt;br /&gt;Il problema è spiegato bene in questo articolo del &lt;a href=&quot;http://www.iphoneitalia.com/firmware-3-0-beta-2-e-crash-dei-messaggi-45999.html&quot; target=&quot;_blank&quot;&gt;blog iPhoneItalia&lt;/a&gt; (che ho letto solo in seguito :-( ), molti utenti dichiarano che anche l&#39;applicazione Mail si comporta come Messaggi, nel mio caso invece Mail andava bene. &lt;/p&gt;
 &lt;p&gt;Per tutti coloro che hanno fatto il terrificante sbaglio, di installare questa versione, l&#39;unica possibilità rimane il &lt;a href=&quot;http://www.ispazio.net/45811/downgrade-delliphone-3gs-dal-firmware-3-1-al-3-0-la-guida-di-ispazio#more-45811&quot; target=&quot;_blank&quot;&gt;downgrade alla 3.0&lt;/a&gt;.&lt;br /&gt;Leggendo l&#39;apposita guida di iSpazio e seguendo i passi, ho comunque riscontrato qualche problemino col software &lt;strong&gt;iRecovery&lt;/strong&gt; che lanciato col comando:&lt;/p&gt;
 &lt;blockquote style=&quot;clear: both&quot;&gt;&lt;p&gt;.&lt;em&gt;/iRecovery -s&lt;/em&gt; &lt;/p&gt;
@@ -202,9 +203,9 @@
  
  <entry>
    <title>Thinking to Ireland</title>
-   <link href="http://localhost:4000/2009/07/thinking-to-ireland"/>
+   <link href="http://localhost:4000/2009/07/18/thinking-to-ireland"/>
    <updated>2009-07-18T13:45:39+02:00</updated>
-   <id>http://localhost:4000/2009/07/thinking-to-ireland</id>
+   <id>http://localhost:4000/2009/07/18/thinking-to-ireland</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 </content>
@@ -212,9 +213,9 @@
  
  <entry>
    <title>Certificazione Java SCJP 6</title>
-   <link href="http://localhost:4000/2009/07/certificazione-java-scjp-6"/>
+   <link href="http://localhost:4000/2009/07/17/certificazione-java-scjp-6"/>
    <updated>2009-07-17T23:17:02+02:00</updated>
-   <id>http://localhost:4000/2009/07/certificazione-java-scjp-6</id>
+   <id>http://localhost:4000/2009/07/17/certificazione-java-scjp-6</id>
    <content type="html">&lt;p&gt;Le certificazioni in ambito informatico, sono una delle cose sulla quale vengono solitamente forniti una serie di pareri contrastanti, c&#39;è chi dice che servano nel mondo del lavoro ed arricchiscano un CV, chi invece le ritiene inutili come del resto ogni forma di titolo, specialmente nel Bel Paese, terra dove l&#39;informatica si vende tanto, anzi poco :-) al chilo. Comunque sia, dopo questi anni di lavoro in ambito Java, ho deciso di tentare questa strada.&lt;br /&gt;Inizio dalla&lt;strong&gt; &lt;/strong&gt;&lt;a href=&quot;https://www.suntrainingcatalogue.com/eduserv/client/learningPath.do?p=/training/certification/java/scjp.html&quot; target=&quot;_blank&quot;&gt;Sun Certifiied Java Programmer&lt;/a&gt; (con Java alla &lt;strong&gt;versione 6&lt;/strong&gt;), la prima per sviluppatori. Ho trovato questo&lt;strong&gt; &lt;a href=&quot;http://m4zi.wordpress.com/2007/09/20/certificazione-scjp-50-la-mia-esperienza/&quot; target=&quot;_blank&quot;&gt;ottimo post&lt;/a&gt; &lt;/strong&gt;che riporto e per il quale ringrazio l&#39;autore, ho acquistato il &lt;a href=&quot;http://www.amazon.com/SCJP-Certified-Programmer-Java-310-065/dp/0071591060/ref=pd_sim_b_4/190-6214234-2773532&quot; target=&quot;_blank&quot;&gt;kit col libro&lt;/a&gt; ed ora provo a studiare tutto per benino. Il periodo non è dei migliori con 38 gradi di temperatura, ma voglio cominciare, se non altro per riportare la programmazione ad essere quel piacere che è sempre stato per me.&lt;br /&gt;Vi terrò aggiornati in questa nuova avventura, come sempre.&lt;/p&gt;
 &lt;p&gt;Stay Tuned!!!&lt;/p&gt;
 &lt;p style=&quot;clear: both&quot;&gt;&lt;a href=&quot;/assets/java.png&quot; class=&quot;image-link&quot;&gt;&lt;img class=&quot;linked-to-original&quot; src=&quot;/assets/java-thumb.png&quot; height=&quot;163&quot; align=&quot;left&quot; width=&quot;380&quot; style=&quot; display: inline; float: left; margin: 0 10px 10px 0;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -224,9 +225,9 @@
  
  <entry>
    <title>Domani</title>
-   <link href="http://localhost:4000/2009/06/domani"/>
+   <link href="http://localhost:4000/2009/06/27/domani"/>
    <updated>2009-06-27T12:21:49+02:00</updated>
-   <id>http://localhost:4000/2009/06/domani</id>
+   <id>http://localhost:4000/2009/06/27/domani</id>
    <content type="html">&lt;p style=&quot;clear: both&quot;&gt;&lt;a href=&quot;/assets/bee61b42824d0a6f777ae411dd52c646.jpg&quot; class=&quot;image-link&quot;&gt;&lt;img class=&quot;linked-to-original&quot; src=&quot;/assets/bee61b42824d0a6f777ae411dd52c646-thumb.jpg&quot; height=&quot;285&quot; align=&quot;left&quot; width=&quot;380&quot; style=&quot; display: inline; float: left; margin: 0 10px 10px 0;&quot; /&gt;&lt;/a&gt;&lt;br style=&quot;clear: both&quot; /&gt;&lt;strong&gt;Domani&lt;/strong&gt;, da sempre simbolo del futuro, dell&#39;incerto, di qualcosa che non si conosce, un giorno carico di paura o di aspettative, tutto dipende da come uno si rapporta con il presente se oggi non ti piace di sicuro aspetti un domani migliore. Questa è la mia vita specialmente lavorativa, un oggi difficile senza certezze per il domani, non sono mai stato purtroppo uno che sa vivere alla giornata, sono un programmatore anche nella vita e cerco di costruire un domani migliore. La cosa più brutta è che questi anni di lavoro nell&#39;IT mi stanno annientando la passione per questo mondo per le tecnologie per tutto quello che fin da piccolo mi spingeva a passare giorni interi davanti ad una scatola ed un televisore, quella stessa passione che mi ha fatto scegliere un percorso di vita e mi ha fatto creare questo blog, che come vedete ormai ridotto ad un mero e triste contenitore di link, pescati da &lt;a href=&quot;http://delicious.com/network/ascatox&quot; target=&quot;_blank&quot;&gt;delicious&lt;/a&gt;.&lt;/p&gt;
 &lt;p style=&quot;clear: both&quot;&gt; Non so se riuscirò mai a trovare quello che necessito, per modificare questa situazione, intanto tengo duro, confidando nel domani........&lt;/p&gt;
 &lt;p style=&quot;clear: both&quot;&gt;Non so neanche quanti post scriverò in questo blog, ma di certo non voglio chiuderlo, rimarrà anche lui in attesa del &lt;strong&gt;domani&lt;/strong&gt;.&lt;/p&gt;
@@ -238,9 +239,9 @@
  
  <entry>
    <title>MobileMe</title>
-   <link href="http://localhost:4000/2009/06/mobileme"/>
+   <link href="http://localhost:4000/2009/06/06/mobileme"/>
    <updated>2009-06-06T10:41:08+02:00</updated>
-   <id>http://localhost:4000/2009/06/mobileme</id>
+   <id>http://localhost:4000/2009/06/06/mobileme</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/mobileme.jpg&quot;&gt;&lt;img src=&quot;/assets/mobileme-300x222.jpg&quot; alt=&quot;mobileme&quot; title=&quot;mobileme&quot; width=&quot;300&quot; height=&quot;222&quot; class=&quot;alignnone size-medium wp-image-470&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sono ormai molti anni che sono un felice utente della posta di Google, ma da un pò di tempo mi frullava in testa l&#39;idea di acquistare una casella di posta a pagamento, semplicemente per eliminare quei messaggi pubblicitari presenti su Gmail, o semplicemente per avere qualcosa di più professionale (non che Gmail non lo sia).&lt;br /&gt;Allora da buon utente Apple e felice possessore di iPhone ho deciso di acquistare &lt;a target=&quot;_blank&quot; href=&quot;http://www.apple.com/it/mobileme/&quot;&gt;MobileMe&lt;/a&gt;, avevo già fatto la prova gratuita di 60 giorni, non appena il servizio era stato presentato in quel di novembre, quindi già lo conoscevo e stavolta l&#39;ho subito preso.&lt;/p&gt;
 &lt;p&gt;Non voglio elencare le &lt;a target=&quot;_blank&quot; href=&quot;http://www.apple.com/it/mobileme/features/&quot;&gt;caratteristiche&lt;/a&gt; del servizio, per quello ci pensa Apple, volevo solo riportare una serie di impressioni che dopo una settimana di uso decretano il servizio, purtroppo non ancora del tutto sufficiente.&lt;/p&gt;
@@ -255,9 +256,9 @@
  
  <entry>
    <title>Servizi online pericolosi ?</title>
-   <link href="http://localhost:4000/2009/05/servizi-online-pericolosi"/>
+   <link href="http://localhost:4000/2009/05/31/servizi-online-pericolosi"/>
    <updated>2009-05-31T09:27:34+02:00</updated>
-   <id>http://localhost:4000/2009/05/servizi-online-pericolosi</id>
+   <id>http://localhost:4000/2009/05/31/servizi-online-pericolosi</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 </content>
@@ -265,9 +266,9 @@
  
  <entry>
    <title>La Grande Opera</title>
-   <link href="http://localhost:4000/2009/04/la-grande-opera"/>
+   <link href="http://localhost:4000/2009/04/19/la-grande-opera"/>
    <updated>2009-04-19T14:59:47+02:00</updated>
-   <id>http://localhost:4000/2009/04/la-grande-opera</id>
+   <id>http://localhost:4000/2009/04/19/la-grande-opera</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Caparezza La Grande Opera&lt;/p&gt;
@@ -277,9 +278,9 @@
  
  <entry>
    <title>Italia Ferita</title>
-   <link href="http://localhost:4000/2009/04/italia-ferita-2"/>
+   <link href="http://localhost:4000/2009/04/10/italia-ferita-2"/>
    <updated>2009-04-10T23:27:41+02:00</updated>
-   <id>http://localhost:4000/2009/04/italia-ferita-2</id>
+   <id>http://localhost:4000/2009/04/10/italia-ferita-2</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/speranzajpg1.jpeg&quot; alt=&quot;Speranza&quot; height=&quot;359&quot; width=&quot;236&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Quest&#39;anno i tradizionali Auguri di Buona Pasqua, hanno un tono diverso, tutta l&#39;Italia è scossa e ferita da un terremoto che ha sconvolto i nostri fratelli abruzzesi, quindi mi unisco al coro di coloro che forniscono informazioni utili per portare solidarietà a coloro che si trovano nel momento del bisogno. Aiutandoli a non perdere la speranza in un futuro.&lt;br /&gt;&lt;/i&gt;&lt;br /&gt;Tutte le informazioni aggiornate su come e dove si può offrire &lt;b&gt;solidarietà&lt;/b&gt;, le trovate in questa &lt;a target=&quot;_blank&quot; href=&quot;http://canali.kataweb.it/kataweb-consumi/2009/04/06/terremoto-in-abruzzo-solidarieta-e-aiuti/&quot;&gt;pagina&lt;/a&gt;. Trovate inoltre una &lt;a target=&quot;_blank&quot; href=&quot;http://canali.kataweb.it/kataweb-consumi/2009/04/06/cosa-fare-prima-del-terremoto/&quot;&gt;guida&lt;/a&gt; su come comportarsi in caso di Terremoto.&lt;/p&gt;
 &lt;p&gt;Qui sotto alcuni modi per farlo:&lt;/p&gt;
@@ -310,9 +311,9 @@
  
  <entry>
    <title>Italian iPhone Developers</title>
-   <link href="http://localhost:4000/2009/04/italian-iphone-developers-gruppo-linkedin-per-sviluppatori-italiani"/>
+   <link href="http://localhost:4000/2009/04/10/italian-iphone-developers-gruppo-linkedin-per-sviluppatori-italiani"/>
    <updated>2009-04-10T22:40:40+02:00</updated>
-   <id>http://localhost:4000/2009/04/italian-iphone-developers-gruppo-linkedin-per-sviluppatori-italiani</id>
+   <id>http://localhost:4000/2009/04/10/italian-iphone-developers-gruppo-linkedin-per-sviluppatori-italiani</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/iphoneitalia.jpg&quot; width=&quot;268&quot; height=&quot;166&quot; alt=&quot;iphoneitalia&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Il &lt;a href=&quot;http://www.apple.com/it/iphone/&quot;&gt;mondo iPhone&lt;/a&gt; è seguito ormai da moltissime persone in tutto il mondo, la stampa specializzata ma anche quella generalista danno molto spazio al telefono palmare della mela. Come molti sapranno dal mio &lt;a href=&quot;http://www.antonioscatoloni.it/2009/03/22/iphone-developer&quot;&gt;precedente post&lt;/a&gt;, ho deciso di partecipare all&#39;&lt;a href=&quot;http://developer.apple.com/iPhone/program/&quot;&gt;iPhone Developer Program&lt;/a&gt; della Apple e diventare così sviluppatore con regolare licenza. Grazie all&#39;idea di un &lt;a href=&quot;http://www.stefanofrosoni.it/&quot;&gt;amico&lt;/a&gt; anche lui sviluppatore iPhone, abbiamo pensato di creare un gruppo sul social Network &lt;a href=&quot;http://www.linkedin.com/&quot;&gt;Linkedin&lt;/a&gt; che raccogliesse gli sviluppatori Apple per iPhone italiani. La scelta è ricaduta su &lt;a href=&quot;http://www.linkedin.com/&quot;&gt;Linkedin&lt;/a&gt; e non sul più conosciuto &lt;a href=&quot;http://it-it.facebook.com/&quot;&gt;Facebook&lt;/a&gt;, perchè il primo ci è sembrato più professionale e più adatto ad un gruppo che volesse nel suo piccolo dar voce a tutti coloro che per passione o per lavoro, vogliono sviluppare qualche applicazione (o gioco) per il melafonino. Abbiamo creato adesso il gruppo, perchè con l&#39;arrivo delle &lt;a href=&quot;http://www.apple.com/it/iphone/preview-iphone-os/&quot;&gt;beta del firmware 3.0&lt;/a&gt; e con la nuova SDK, contenente più di 1000 nuove API, ci è sembrato opportuno condividere con altri sviluppatori idee e problematiche su così tanto materiale, ancora tutto da scoprire.&lt;/p&gt;
 &lt;p&gt;Riepilogando quindi:&lt;/p&gt;
@@ -329,9 +330,9 @@
  
  <entry>
    <title>Pensiero Sociale</title>
-   <link href="http://localhost:4000/2009/04/pensiero-sociale"/>
+   <link href="http://localhost:4000/2009/04/06/pensiero-sociale"/>
    <updated>2009-04-06T14:40:23+02:00</updated>
-   <id>http://localhost:4000/2009/04/pensiero-sociale</id>
+   <id>http://localhost:4000/2009/04/06/pensiero-sociale</id>
    <content type="html">&lt;div align=&quot;left&quot;&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/gallery-487f6b01cf665-gba5007.jpg&quot; height=&quot;292&quot; width=&quot;439&quot;  alt=&quot;Pensiero Sociale&quot;/&gt;&lt;/p&gt;
 &lt;p&gt;Ho trovato navigando questo pensiero che voglio condividere:&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;&quot;Se non fossimo con la testa china in contemplazione dell&#39;ombelico italiano ci accorgeremmo dei focolai di rivolta che si verificano sem­pre più vicino, da ultimo nuova­mente in Grecia, e avremmo una risposta alla domanda che si fan­no in molti: perché in Italia non è ancora scoppiata una rivoluzio­ne?&lt;/p&gt;
@@ -347,9 +348,9 @@
  
  <entry>
    <title>iPhone Developer</title>
-   <link href="http://localhost:4000/2009/03/iphone-developer"/>
+   <link href="http://localhost:4000/2009/03/22/iphone-developer"/>
    <updated>2009-03-22T10:30:16+01:00</updated>
-   <id>http://localhost:4000/2009/03/iphone-developer</id>
+   <id>http://localhost:4000/2009/03/22/iphone-developer</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/iphone-os-preview-sdk20090317.jpg&quot; alt=&quot;iphone-os-preview&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Tutti conoscono il mio forte interesse per il mondo &lt;a target=&quot;_blank&quot; href=&quot;http://www.apple.com/it/&quot;&gt;Apple&lt;/a&gt; ed in parte questo blog ne è una manifestazione, ma sono sempre stato un semplice utente e non ho mai pensato di &quot;&lt;b&gt;costruire&lt;/b&gt;&quot; qualcosa per il mondo Apple ed iPhone in particolare.&lt;/p&gt;
 &lt;p&gt;Dopo l&#39;&lt;a target=&quot;_blank&quot; href=&quot;http://www.apple.com/it/iphone/preview-iphone-os/&quot;&gt;annuncio&lt;/a&gt; del nuovo firmware per il mio amato smartphone della mela però, mi sono deciso e mi sono iscritto all&#39; &quot;&lt;a target=&quot;_blank&quot; href=&quot;http://developer.apple.com/iphone/program/&quot;&gt;iPhone Developer Program&lt;/a&gt;&quot;, scegliendo il programma standard al costo di 79€, sono presenti infatti altri due programmi per sviluppatori uno per quelli professionali o piccole aziende (&lt;i&gt;io sono uno sviluppatore della domenica :-)&lt;/i&gt; ) l&#39;altro per le grandi aziende del software.&lt;/p&gt;
@@ -361,9 +362,9 @@
  
  <entry>
    <title>Crisi del Credito!!!</title>
-   <link href="http://localhost:4000/2009/02/crisi-del-credito-spiegata-a-tutti"/>
+   <link href="http://localhost:4000/2009/02/23/crisi-del-credito-spiegata-a-tutti"/>
    <updated>2009-02-23T17:57:10+01:00</updated>
-   <id>http://localhost:4000/2009/02/crisi-del-credito-spiegata-a-tutti</id>
+   <id>http://localhost:4000/2009/02/23/crisi-del-credito-spiegata-a-tutti</id>
    <content type="html">&lt;p&gt;Girovagando ho trovato questo simpatico video che spiega ai &quot;profani&quot; come me, cos&#39;è la crisi del Credito, che sta modificando il mondo.&lt;/p&gt;
 &lt;iframe src=&quot;//player.vimeo.com/video/&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -375,9 +376,9 @@
  
  <entry>
    <title>Amug Siena</title>
-   <link href="http://localhost:4000/2009/01/amug-siena"/>
+   <link href="http://localhost:4000/2009/01/19/amug-siena"/>
    <updated>2009-01-19T13:25:25+01:00</updated>
-   <id>http://localhost:4000/2009/01/amug-siena</id>
+   <id>http://localhost:4000/2009/01/19/amug-siena</id>
    <content type="html">&lt;p&gt;Come molti già sapranno sono un profondo estimatore del mondo Mac e seguo constantementemente le vicende della società di Cupertino, volevo quindi segnalare l&#39;Amug Siena. Gli &lt;a href=&quot;http://www.amug.it/&quot;&gt;Amug &lt;/a&gt;(Apple Macintosh Users Group) sono dei gruppi di utenti Mac, che si uniscono per condividere la propria passione, ce ne sono di solito uno per città.&lt;a href=&quot;http://www.amugsiena.it/&quot;&gt; L&#39;Amug Siena&lt;/a&gt; organizza incontri ed iniziative molto interessanti.&lt;/p&gt;
 &lt;p&gt;Vi consiglio quindi di visitare il sito Web e se abitate in questa città e siete Mac Fan, allora ci si incontra a qualche riunione dell&#39;Amug.&lt;/p&gt;
 </content>
@@ -385,9 +386,9 @@
  
  <entry>
    <title>Javaday Roma Terza Edizione 24/01/2009</title>
-   <link href="http://localhost:4000/2009/01/javaday-roma-there-is-no-day-like-javaday"/>
+   <link href="http://localhost:4000/2009/01/19/javaday-roma-there-is-no-day-like-javaday"/>
    <updated>2009-01-19T11:17:50+01:00</updated>
-   <id>http://localhost:4000/2009/01/javaday-roma-there-is-no-day-like-javaday</id>
+   <id>http://localhost:4000/2009/01/19/javaday-roma-there-is-no-day-like-javaday</id>
    <content type="html">&lt;p&gt;Come ogni anno, la giornata dedicata al linguaggio Java ritorna e per tutti gli sviluppatori è un incontro immancabile.&lt;br /&gt;
 Riporto il manifesto completo della giornata per coloro interessati a venire.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Javaday Roma Terza  Edizione: There is no day like Javaday&lt;/em&gt;&lt;/p&gt;
@@ -420,9 +421,9 @@ Sito: &lt;a href=&quot;http://roma.javaday.it/%20&quot; target=&quot;_blank&quot
  
  <entry>
    <title>Buon Natale</title>
-   <link href="http://localhost:4000/2008/12/buon-natale"/>
+   <link href="http://localhost:4000/2008/12/23/buon-natale"/>
    <updated>2008-12-23T12:38:30+01:00</updated>
-   <id>http://localhost:4000/2008/12/buon-natale</id>
+   <id>http://localhost:4000/2008/12/23/buon-natale</id>
    <content type="html">&lt;p&gt;Come ogni anno Tantissimi &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Auguri di Buon Natale&lt;/font&gt; &lt;/b&gt;a Tutti!!!&lt;/p&gt;
 &lt;p&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/natale_2007.jpg&quot; height=&quot;245&quot; width=&quot;245&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -431,9 +432,9 @@ Sito: &lt;a href=&quot;http://roma.javaday.it/%20&quot; target=&quot;_blank&quot
  
  <entry>
    <title>XEPC Xandros installabile da USB</title>
-   <link href="http://localhost:4000/2008/12/xepc-xandros-in-chiavetta-usb-2"/>
+   <link href="http://localhost:4000/2008/12/20/xepc-xandros-in-chiavetta-usb-2"/>
    <updated>2008-12-20T14:16:12+01:00</updated>
-   <id>http://localhost:4000/2008/12/xepc-xandros-in-chiavetta-usb-2</id>
+   <id>http://localhost:4000/2008/12/20/xepc-xandros-in-chiavetta-usb-2</id>
    <content type="html">&lt;p&gt;Come molti di voi ricorderanno, sono un felice possessore di un&#39;Asus eeePc 701, con schermo 7 pollici e sistema operativo Linux Xandros. Dopo varie prove con sistemi operativi diversi da quello originale (&lt;a href=&quot;http://www.ubuntu-eee.com/&quot; target=&quot;_blank&quot;&gt;UbuntuEEE-Easy Peasy&lt;/a&gt;) ho deciso di ritornare a Xandros, ma non avendo un lettore DVD esterno a portata utilizzare il DVD della confezione mi risultava alquanto impossibile. Ho scoperto quindi navigando il progetto &lt;a href=&quot;http://www.roytanck.com/2008/08/21/setting-up-xepc-on-the-eee-pc-901-xp/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;XEPC&lt;/strong&gt;&lt;/a&gt;, tale progetto opensource è la versione Open dello Xandros distribuito da Asus ed è disponibile per il download da &lt;a href=&quot;http://sourceforge.net/projects/xepc&quot;&gt;questa pagina&lt;/a&gt;.&lt;br /&gt;
 Ho scaricato il file immagine del SO e l&#39;ho montato ed ho lanciato l&#39;applicativo &quot;&lt;em&gt;makeboot.bat&lt;/em&gt;&quot; presente per rendere la mia chiavetta bootable.&lt;/p&gt;
 &lt;p&gt;In questo modo una volta fatto partire l&#39;eeePC mi è bastato premere il tasto ESC all&#39;avvio selezionare la chiavetta ed in pochi minuti Xandros  era ripristinato!!!!&lt;br /&gt;
@@ -448,9 +449,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>iPhone Virus?</title>
-   <link href="http://localhost:4000/2008/11/iphone-virus-2"/>
+   <link href="http://localhost:4000/2008/11/29/iphone-virus-2"/>
    <updated>2008-11-29T14:21:52+01:00</updated>
-   <id>http://localhost:4000/2008/11/iphone-virus-2</id>
+   <id>http://localhost:4000/2008/11/29/iphone-virus-2</id>
    <content type="html">&lt;p&gt;Da ormai diverso tempo sul mio &lt;a target=&quot;_blank&quot; href=&quot;http://www.antonioscatoloni.it/2008/07/23/finalmente-3&quot;&gt;iPhone&lt;/a&gt; mi succedeva una cosa molto strana, praticamente ogni volta che utilizzavo &lt;a target=&quot;_blank&quot; href=&quot;http://www.spaziocellulare.com/ispazio/2008/03/02/cydia-un-nuovo-installer-per-iphone-ed-ipod-touch/&quot;&gt;Cydia&lt;/a&gt; (ma non solo) per vedere aggiornamenti o scaricare qualche software, quando chiudevo il programma e tornavo sulla Home dell&#39;iPhone avevo una serie di spazi vuoti tra le applicazioni installate, mi spiego meglio era come se ci fossero delle altre applicazioni senza icone invisibili che si erano installate. Tenendo premuto il tasto Home (prima immagine) mi apparivano le icone invisibile e potevo eliminarle (seconda immagine).&lt;br /&gt;Queste icone vuote non erano nient&#39;altro che dei collegamenti a pagine Web che portavano Safari in una fantomatica pagina &lt;i&gt;&lt;b&gt;http://designz999.com&lt;/b&gt;&lt;/i&gt;.&lt;/p&gt;
 &lt;p&gt;Cercando su Google ho trovato la &lt;a target=&quot;_blank&quot; href=&quot;http://www.modmyi.com/forums/general-iphone-chat/373451-i-think-my-iphone-3g-may-have-virus.html&quot;&gt;soluzione del mistero&lt;/a&gt;, questi collegamenti Web sulla SpringBoard erano stati creati quando avevo installato il tema &lt;b&gt;Blackberry&lt;/b&gt; che poi avevo eliminato ma queste pagine erano rimaste sotto la cartella &quot;&lt;!-- / icon and title --&gt;&lt;!-- message --&gt;&lt;i&gt;/private/var/mobile/Library/WebClips&quot; &lt;/i&gt;del mio iPhone e riapparivano anche se le eliminavo dalla SpringBoard, installato quindi &lt;a target=&quot;_blank&quot; href=&quot;http://www.spaziocellulare.com/ispazio/?s=MobileFinder&quot;&gt;MobileFinder&lt;/a&gt; ho provveduto ad eliminare tutte le sottocartelle che iniziavano col prefisso &lt;i&gt;&quot;Blank&quot;&lt;/i&gt; sotto la cartella &lt;i&gt;WebClips&lt;/i&gt; ed ora sembrano del tutto scomparse, queste fantomatiche pagine Web.&lt;/p&gt;
 &lt;p&gt;Non siamo quindi in presenza di alcun Virus, semmai di &lt;b&gt;una forma di Spam&lt;/b&gt;. &lt;/p&gt;
@@ -460,9 +461,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Finalmente ADSL</title>
-   <link href="http://localhost:4000/2008/11/finalmente-adsl"/>
+   <link href="http://localhost:4000/2008/11/29/finalmente-adsl"/>
    <updated>2008-11-29T13:51:16+01:00</updated>
-   <id>http://localhost:4000/2008/11/finalmente-adsl</id>
+   <id>http://localhost:4000/2008/11/29/finalmente-adsl</id>
    <content type="html">&lt;p&gt;Non ci speravo più ormai di scrivere questo post, era così tanto che aspettavo un collegamento ADSL nel mio piccolo paese di &lt;a target=&quot;_blank&quot; href=&quot;http://www.comunegrottedicastro.it/index.php&quot;&gt;Grotte di Castro&lt;/a&gt;, ma alla fine è arrivato dai primi di novembre infatti era possibile sottoscrivere un abbonamento con &lt;a href=&quot;http://www.wholesale-telecomitalia.it/cgi-bin/wholesale.dll/wholesale/TI_WS_GuestLogin.jsp&quot;&gt;Telecom Italia&lt;/a&gt; per avere &lt;a target=&quot;_blank&quot; href=&quot;http://adsl.alice.it/navigare/index.html&quot;&gt;Alice Adsl&lt;/a&gt;. Ho subito attivato l&#39;abbonamentoin modalità flat, Alice 7Mb e devo dire che va molto bene. Non ho preso il router wifi in comodato ma un fantastico &lt;a target=&quot;_blank&quot; href=&quot;http://www.netgear.it/&quot;&gt;Netgear&lt;/a&gt; decisamente più &quot;libero&quot;.&lt;br /&gt;Non ci speravo più in un collegamento ADSL e mi ero ormai rassegnato alla mia &lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/mobileweb/en/products/view.do?id=282&quot;&gt;Huawei E220&lt;/a&gt; con l&#39;opzione&lt;a target=&quot;_blank&quot; href=&quot;http://www.tim.it/consumer/c357/i56249/o688/tariffa.do&quot;&gt; Maxi Alice Tim Recharge&lt;/a&gt; , anche se ero già a conoscenza di fondi stanziati dalla regione Lazio per la copertura di zone ancora scoperte dal servizio.&lt;/p&gt;
 &lt;p&gt;Ci tengo a sottolineare che è possibile attivare anche ADSL con altri operatori diversi da Telecom, ma solo le offerte che prevedono il pagamento del canone.&lt;br /&gt;Chiunque voi scegliate complimenti Telecom!!!&lt;/p&gt;
 </content>
@@ -470,9 +471,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Aggiornare Wordpress in modo automatico</title>
-   <link href="http://localhost:4000/2008/11/aggiornare-wordpress-in-modo-automatico"/>
+   <link href="http://localhost:4000/2008/11/09/aggiornare-wordpress-in-modo-automatico"/>
    <updated>2008-11-09T09:56:31+01:00</updated>
-   <id>http://localhost:4000/2008/11/aggiornare-wordpress-in-modo-automatico</id>
+   <id>http://localhost:4000/2008/11/09/aggiornare-wordpress-in-modo-automatico</id>
    <content type="html">&lt;p&gt;&amp;nbsp;&lt;a href=&quot;http://images.google.it/imgres?imgurl=http://www.pietroiusti.net/wp-content/uploads/2007/12/wordpress1.png&amp;amp;imgrefurl=http://www.pietroiusti.net/%3Fs%3Dwordpress&amp;amp;h=300&amp;amp;w=300&amp;amp;sz=21&amp;amp;hl=it&amp;amp;start=14&amp;amp;sig2=vr3BWH58tPZkQANF5yX2zA&amp;amp;um=1&amp;amp;usg=__lDIk6qdjZh6HX5v4oYjhwnDz6JI=&amp;amp;tbnid=pP5PCDJyUheKkM:&amp;amp;tbnh=116&amp;amp;tbnw=116&amp;amp;ei=A6UWSd6PFIW4wQGysP21Cw&amp;amp;prev=/images%3Fq%3Dwordpress%26um%3D1%26hl%3Dit%26client%3Dfirefox-a%26rls%3Dorg.mozilla:it:official%26sa%3DN&quot;&gt;&lt;img style=&quot;border: 1px solid ;&quot; src=&quot;/assets/wordpress1.png&quot; height=&quot;116&quot; width=&quot;116&quot; /&gt; &lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://images.google.it/imgres?imgurl=http://www.pietroiusti.net/wp-content/uploads/2007/12/wordpress1.png&amp;amp;imgrefurl=http://www.pietroiusti.net/%3Fs%3Dwordpress&amp;amp;h=300&amp;amp;w=300&amp;amp;sz=21&amp;amp;hl=it&amp;amp;start=14&amp;amp;sig2=vr3BWH58tPZkQANF5yX2zA&amp;amp;um=1&amp;amp;usg=__lDIk6qdjZh6HX5v4oYjhwnDz6JI=&amp;amp;tbnid=pP5PCDJyUheKkM:&amp;amp;tbnh=116&amp;amp;tbnw=116&amp;amp;ei=A6UWSd6PFIW4wQGysP21Cw&amp;amp;prev=/images%3Fq%3Dwordpress%26um%3D1%26hl%3Dit%26client%3Dfirefox-a%26rls%3Dorg.mozilla:it:official%26sa%3DN&quot;&gt;T&lt;/a&gt;enere aggiornata la propria versione di Wordpress non è troppo facile, bisogna fare una serie di backup per non rischiare di perdere tutto il proprio sito, ma gli aggiornamenti sono fondamentali perchè rendono migliore il proprio &lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/Content_management_system&quot;&gt;CMS&lt;/a&gt; preferito. A tutto ciò pensa un plugin a dir poco fanatastico: &lt;a target=&quot;_blank&quot; href=&quot;http://wordpress.org/extend/plugins/wordpress-automatic-upgrade/&quot;&gt;Wordpress Automatic Upgrade &lt;/a&gt;che tramite una serie di passi senza mai uscire dall&#39;interfaccia di amministrazione di Wordpress, aggiorna il sistema all&#39;ultima versione disponibile. Alla fine del procedimento attenti però se riscontrate un errore del tipo &quot;&lt;b&gt;500 Internal Server Error&lt;/b&gt;&quot;, provate ad entrare come amministratori &quot;http://miosito.it/wp-admin&quot; e disabilitate tutti i plugin se già non lo sono, se non riuscite ad entrare come amministratori e siete utenti di un &lt;a target=&quot;_blank&quot; href=&quot;http://assistenza.aruba.it/kb/idx/43/152/article/Permessi-obbligatori-da-attribuire-a-files-e-cartelle.html&quot;&gt;dominio Aruba&lt;/a&gt;, aprite &lt;a target=&quot;_blank&quot; href=&quot;http://filezilla-project.org/&quot;&gt;Fi&lt;/a&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://filezilla-project.org/&quot;&gt;lezilla&lt;/a&gt; (o anche l&#39;ftp via Shell tramite chmod) ed impostate i permessi dei file come 755 e tutto dovrebbe ripartire come per magia. &lt;/p&gt;
 &lt;p&gt;Buon Blog a tutti :-)&lt;/p&gt;
 
@@ -481,9 +482,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Tasse sempre Tasse</title>
-   <link href="http://localhost:4000/2008/11/tasse-sempre-tasse"/>
+   <link href="http://localhost:4000/2008/11/02/tasse-sempre-tasse"/>
    <updated>2008-11-02T15:11:36+01:00</updated>
-   <id>http://localhost:4000/2008/11/tasse-sempre-tasse</id>
+   <id>http://localhost:4000/2008/11/02/tasse-sempre-tasse</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.alfonsofuggetta.org/?p=3691&quot;&gt;Questi &lt;/a&gt;sono i problemi del BelPaese che in altri paesi europei magari non ritrovi, ma nessuno dice nulla ai nostri politici (specialmente ad alcuni) non interessa affatto, i soldi li prendiamo a qualcun&#39;altro!!!&lt;/p&gt;
 
 </content>
@@ -491,9 +492,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Università</title>
-   <link href="http://localhost:4000/2008/10/universita"/>
+   <link href="http://localhost:4000/2008/10/26/universita"/>
    <updated>2008-10-26T15:56:30+01:00</updated>
-   <id>http://localhost:4000/2008/10/universita</id>
+   <id>http://localhost:4000/2008/10/26/universita</id>
    <content type="html">&lt;p&gt;Voglio contribuire al tema delle Università Italiane con questo &lt;a target=&quot;_blank&quot; href=&quot;http://www.alfonsofuggetta.org/?p=3672&quot;&gt;contributo del Prof. Fuggetta&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Stay Tuned&lt;/p&gt;
 
@@ -502,18 +503,18 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Cervellum Vitae</title>
-   <link href="http://localhost:4000/2008/09/cervellum_vitae"/>
+   <link href="http://localhost:4000/2008/09/29/cervellum_vitae"/>
    <updated>2008-09-29T15:20:01+02:00</updated>
-   <id>http://localhost:4000/2008/09/cervellum_vitae</id>
+   <id>http://localhost:4000/2008/09/29/cervellum_vitae</id>
    <content type="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
  <entry>
    <title>Pensiero</title>
-   <link href="http://localhost:4000/2008/09/pensiero"/>
+   <link href="http://localhost:4000/2008/09/24/pensiero"/>
    <updated>2008-09-24T11:23:16+02:00</updated>
-   <id>http://localhost:4000/2008/09/pensiero</id>
+   <id>http://localhost:4000/2008/09/24/pensiero</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/NiemollerQuoteMonmouthNJ200pxw.JPG&quot; height=&quot;330&quot; width=&quot;222&quot; /&gt;&lt;font face=&quot;arial&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/font&gt;&lt;br /&gt;
 &lt;h1 align=&quot;left&quot;&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Martin_Niem%C3%B6ller&quot;&gt;&lt;i&gt;&lt;font face=&quot;arial&quot;&gt;&lt;small&gt;&lt;font&gt;&lt;font size=&quot;5&quot;&gt;&lt;small&gt;&lt;font size=&quot;6&quot;&gt;&lt;small&gt;&lt;small&gt;Martin&lt;br /&gt;
@@ -524,9 +525,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>il GooglePhone è tra noi!!!</title>
-   <link href="http://localhost:4000/2008/09/il-googlephone-e-tra-noi-2"/>
+   <link href="http://localhost:4000/2008/09/24/il-googlephone-e-tra-noi-2"/>
    <updated>2008-09-24T09:20:02+02:00</updated>
-   <id>http://localhost:4000/2008/09/il-googlephone-e-tra-noi-2</id>
+   <id>http://localhost:4000/2008/09/24/il-googlephone-e-tra-noi-2</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/HTC-T-Mobile-G1_35912_1.jpg&quot; alt=&quot;HTC T-Mobile G1&quot; height=&quot;244&quot; width=&quot;223&quot; /&gt;Ed alla fine anche il fantomatico SO per terminali mobili &lt;a href=&quot;http://code.google.com/android/&quot;&gt;Android&lt;/a&gt;, creato dal gigante del Web Google fece la sua comparsa. Il terminale è prodotto, dal leader degli smartphone &lt;a href=&quot;http://www.htc.com/it/&quot;&gt;HTC&lt;/a&gt; il suo nome è &lt;b&gt;HTC T-Mobile G1&lt;/b&gt; (conosciuto come Dream) per quanto riguarda le caratteristiche: possiede una fotocamera da 3.6 MPix e possiede un sistema di navigazione satellitare &lt;a href=&quot;http://it.wikipedia.org/wiki/Assisted_GPS&quot;&gt;A-GPS&lt;/a&gt;. Interessante è la presenza di una tastiera QWERTY a scomparsa, una delle cose che forse manca maggiormente agli utenti professionali su iPhone (ma io perferisco la virtuale :-D ). Nota molto interessante è il prezzo di 179$, il telefono sarà commercializzato negli USA dal 22 Ottobre tramite operatore T-Mobile, in Europa arriverà nel 2009.&lt;br /&gt;&lt;img src=&quot;/assets/HTC-T-Mobile-G1_35915_1.jpg&quot; alt=&quot;HTC T-Mobile G1&quot; height=&quot;226&quot; width=&quot;268&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Foto e Maggiori info: &lt;a href=&quot;http://www.telefonino.net/HTC/Notizie/n19641/HTC-T-Mobile-G1-googlephone-Android.html&quot;&gt;Telefonino.net&lt;/a&gt;&lt;/p&gt;
 
@@ -538,9 +539,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>I'm a PC</title>
-   <link href="http://localhost:4000/2008/09/im-a-pc"/>
+   <link href="http://localhost:4000/2008/09/21/im-a-pc"/>
    <updated>2008-09-21T09:02:35+02:00</updated>
-   <id>http://localhost:4000/2008/09/im-a-pc</id>
+   <id>http://localhost:4000/2008/09/21/im-a-pc</id>
    <content type="html">&lt;p&gt;Anche Microsoft punta sugli spot come Apple con la famosa serie &lt;a href=&quot;http://www.apple.com/it/getamac/&quot;&gt;getaMac&lt;/a&gt; e subito arriva il video parodia eccoli: l&#39;originale e la parodia.&lt;/p&gt;
 
 
@@ -555,9 +556,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Google Chrome non accede a iGoogle!!!</title>
-   <link href="http://localhost:4000/2008/09/google-chrome-non-accede-a-igoogle"/>
+   <link href="http://localhost:4000/2008/09/06/google-chrome-non-accede-a-igoogle"/>
    <updated>2008-09-06T15:18:51+02:00</updated>
-   <id>http://localhost:4000/2008/09/google-chrome-non-accede-a-igoogle</id>
+   <id>http://localhost:4000/2008/09/06/google-chrome-non-accede-a-igoogle</id>
    <content type="html">&lt;p&gt;Come moltissimi anche io ho installato sul mio pc in ufficio il nuovissimo &lt;a href=&quot;http://www.google.com/chrome/index.html?hl=it&amp;brand=CHMG&amp;amp;utm_source=it-hpp&amp;utm_medium=hpp&amp;amp;utm_campaign=it&quot;&gt;browser &lt;/a&gt;&lt;a href=&quot;http://www.google.com/chrome/index.html?hl=it&amp;brand=CHMG&amp;amp;utm_source=it-hpp&amp;utm_medium=hpp&amp;amp;utm_campaign=it&quot;&gt;di casa Google,&lt;/a&gt; ne sono rimasto davvero stupito dalla sua reattività nel caricare le pagine e dall&#39;ottima gestione della memoria, ma non voglio anche&lt;a href=&quot;http://www.antonioscatoloni.it/2008/07/30/pensieri-sulliphone-3g&quot;&gt; in questo caso&lt;/a&gt; fare una recensione dell&#39;ottimo browser della grande G, bensì raccontare la soluzione trovata da un&#39;amico ad un &lt;a href=&quot;http://code.google.com/p/chromium/issues/detail?id=24&amp;q=https&amp;amp;colspec=ID%20Pri%20Area%20Mstone%20Type%20Owner%20Status%20Summary%20Modified&quot;&gt;fastidioso problema&lt;/a&gt; che ci affliggeva col suddetto browser. Lavorando in una grande azienda siamo vincolati ad un accesso tramite proxy con credenziali alla rete internet, ebbene con tutti i browser (Safari, Firefox,IE) riuscivamo ad &lt;b&gt;accedere ai servizi di Google (iGoogle,GMail etc) &lt;/b&gt;col nuovo browser (creato proprio da loro :-D ) invece la pagina di autenticazione a tutti i servizi rimaneva vuota impedendone quindi l&#39;accesso. &lt;/p&gt;
 &lt;p&gt;La soluzione al problema è stata fornita dal browser &lt;a href=&quot;http://chromium.sourceforge.net/&quot;&gt;Chromium&lt;/a&gt;, un progetto open-source nato da Chrome, in tale &lt;a href=&quot;http://build.chromium.org/buildbot/snapshots/chromium-rel-xp/1716/mini_installer.exe&quot;&gt;versione&lt;/a&gt; infatti il bug dell&#39;accesso ai servizi Google dietro ai proxy aziendali sembra risolto.&lt;/p&gt;
 &lt;p&gt;Aspettiamo che anche nella versione ufficiale sia risolto e magari anche l&#39;arrivo della versione OsX per velocizzare anche il mio Macbook Pro :-)
@@ -566,9 +567,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>Helpdesk Medievale</title>
-   <link href="http://localhost:4000/2008/08/helpdesk-medievale"/>
+   <link href="http://localhost:4000/2008/08/27/helpdesk-medievale"/>
    <updated>2008-08-27T15:50:58+02:00</updated>
-   <id>http://localhost:4000/2008/08/helpdesk-medievale</id>
+   <id>http://localhost:4000/2008/08/27/helpdesk-medievale</id>
    <content type="html">&lt;p&gt;Davvero simpatico questo video su youtube :-D !!!!&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -578,9 +579,9 @@ Subito però ci renderemo conto di avere un &lt;strong&gt;grosso problema&lt;/st
  
  <entry>
    <title>iPhone dopo un mese di utilizzo</title>
-   <link href="http://localhost:4000/2008/08/iphone-dopo-un-mese-di-utilizzo"/>
+   <link href="http://localhost:4000/2008/08/23/iphone-dopo-un-mese-di-utilizzo"/>
    <updated>2008-08-23T13:38:52+02:00</updated>
-   <id>http://localhost:4000/2008/08/iphone-dopo-un-mese-di-utilizzo</id>
+   <id>http://localhost:4000/2008/08/23/iphone-dopo-un-mese-di-utilizzo</id>
    <content type="html">&lt;p&gt;Pensiero (non mio) che condivido sul melafonino:&lt;/p&gt;
 &lt;p&gt;&quot;&lt;i&gt;da ex possessore di Diamond e Omnia, posso tranquillamente dire che&lt;br /&gt;
 l&#39;iphone è un&#39;altra cosa, nel bene e nel male. Sinceramente Htc e&lt;br /&gt;
@@ -596,9 +597,9 @@ hard user...&lt;/i&gt;&quot;&lt;/p&gt;
  
  <entry>
    <title>iPhone Bug Volume Suoneria</title>
-   <link href="http://localhost:4000/2008/08/iphone-bug-volume-suoneria"/>
+   <link href="http://localhost:4000/2008/08/23/iphone-bug-volume-suoneria"/>
    <updated>2008-08-23T07:40:45+02:00</updated>
-   <id>http://localhost:4000/2008/08/iphone-bug-volume-suoneria</id>
+   <id>http://localhost:4000/2008/08/23/iphone-bug-volume-suoneria</id>
    <content type="html">&lt;p&gt;In questi giorni di vacanza, il mio iPhone mi ha creato qualche &lt;b&gt;grattacapo&lt;/b&gt;, mi spiego meglio quando qualcuno mi telefonava il volume della suoneria era sempre al minimo, continuavo ad aumentarlo sotto la voce del Menu &lt;i&gt;Suoni&lt;/i&gt; ma nulla, in automatico l&#39;iPhone la reimpostava al minimo, uno strazio specialmente al mare :-D . Speravo che dopo i due mini &lt;b&gt;aggiornamenti&lt;/b&gt; 2.01 e 2.02 la cosa fosse stata sistemata ma nulla, il problema è rimasto. Ieri appena tornato dal mare (peccato vacanze ormai quasi finite :-( ), ho cercato un pò su google per vedere se altri avevano avuto lo stesso mio problema ed alla fine ho capito che il volume della suoneria di &lt;b&gt;default&lt;/b&gt;, è quello della modalità &lt;b&gt;iPod&lt;/b&gt; dell&#39;iPhone, cioè basta mettere il volume della musica dell&#39;iPod al massimo ed anche la suoneria lo sarà di default (&lt;i&gt;Impostazioni-&amp;gt;Suoni-&amp;gt;Suoneria&lt;/i&gt;).&lt;/p&gt;
 &lt;p&gt;Strana cosa che mi lascia alquanto perplesso, aspettiamo una soluzione ai tanti bug che affliggono il melafonino!!!&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -607,9 +608,9 @@ hard user...&lt;/i&gt;&quot;&lt;/p&gt;
  
  <entry>
    <title>Fuochi di Ferragosto</title>
-   <link href="http://localhost:4000/2008/08/fuochi-di-ferragosto"/>
+   <link href="http://localhost:4000/2008/08/16/fuochi-di-ferragosto"/>
    <updated>2008-08-16T23:58:07+02:00</updated>
-   <id>http://localhost:4000/2008/08/fuochi-di-ferragosto</id>
+   <id>http://localhost:4000/2008/08/16/fuochi-di-ferragosto</id>
    <content type="html">&lt;p&gt;Fuochi d&#39;artificio, tipici del Ferragosto!!!&lt;br /&gt;
 Buone Vacanze a tutti.&lt;/p&gt;
 &lt;p&gt;PS: Scusate per la qualità dell&#39;immagine ma e&#39; il massimo per l&#39;iphone :-(&lt;/p&gt;
@@ -620,18 +621,18 @@ Buone Vacanze a tutti.&lt;/p&gt;
  
  <entry>
    <title>In vacanza coll'iPhone</title>
-   <link href="http://localhost:4000/2008/08/in-vacanza-colliphone"/>
+   <link href="http://localhost:4000/2008/08/06/in-vacanza-colliphone"/>
    <updated>2008-08-06T11:41:51+02:00</updated>
-   <id>http://localhost:4000/2008/08/in-vacanza-colliphone</id>
+   <id>http://localhost:4000/2008/08/06/in-vacanza-colliphone</id>
    <content type="html">&lt;p&gt;Come non provare a scrivere un post col mio amato iPhone bene eccola qua. Ieri sera ho aggiornato il melafonino alla versione 2.01 e tutto sembra migliore ché mai. Buone Vacanze a tutti!!!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Buone Vacanze!!!</title>
-   <link href="http://localhost:4000/2008/08/buone-vacanze"/>
+   <link href="http://localhost:4000/2008/08/01/buone-vacanze"/>
    <updated>2008-08-01T08:06:02+02:00</updated>
-   <id>http://localhost:4000/2008/08/buone-vacanze</id>
+   <id>http://localhost:4000/2008/08/01/buone-vacanze</id>
    <content type="html">&lt;p&gt;&lt;img alt=&quot;/assets/buone_vacanze_11.gif&quot; src=&quot;/assets/buone_vacanze_11.gif&quot; height=&quot;224&quot; width=&quot;287&quot; /&gt;&lt;br /&gt;
 Ed eccoci arrivati ad Agosto il mese delle vacanze per milioni di Italiani, un mese molto speciale per me che ha sempre segnato la fine di un anno e con settembre l&#39;inizio di uno nuovo. Spero in questo nuovo anno che ci siano grosse novità nella mia vita, in tutti gli ambiti, per ora comunque mi godo le mie ferie.&lt;/p&gt;
 &lt;p&gt;Buone Vacanze a tutti!!!&lt;/p&gt;
@@ -641,9 +642,9 @@ Ed eccoci arrivati ad Agosto il mese delle vacanze per milioni di Italiani, un m
  
  <entry>
    <title>Pensieri sull'iPhone 3G</title>
-   <link href="http://localhost:4000/2008/07/pensieri-sulliphone-3g"/>
+   <link href="http://localhost:4000/2008/07/30/pensieri-sulliphone-3g"/>
    <updated>2008-07-30T17:03:00+02:00</updated>
-   <id>http://localhost:4000/2008/07/pensieri-sulliphone-3g</id>
+   <id>http://localhost:4000/2008/07/30/pensieri-sulliphone-3g</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/office-iphone-001.jpg&quot; height=&quot;219&quot; width=&quot;146&quot; /&gt; &lt;br /&gt;Dopo quasi una settimana di iPhone, non so cosa pensare di questo prodotto di Apple, come sempre la società di Cupertino preferisce puntare alla semplicità ed all&#39;immediatezza dei suoi prodotti (una sola porta usb sull&#39;Air etc) ed anche nel celebre telefono non si smentisce. Non voglio fare una recensione, quelle se ne trovano a bizeffe sul Web, vorrei solo riportare delle impressioni di un utente Mac, appassionato di tecnologia. La parte telefonica me l&#39;aspettavo peggio, anche la tastiera virtuale non mi è sembrata male anzi, le cose che preferisco sono disicuro, l&#39;accelerometro ed il browser Safari che con la tecnologia MultiTouch, è qualcosa di assolutamente innovativo, inoltre la sua funzione di iPod la fa sempre in modo egregio , ma ahimè la mancanza di un filebrowser si sente e la non possibilità di avere applicazioni in background mi lascia perplesso. Ai tempi dei miei &lt;a href=&quot;http://www.tuttoericsson.com/p800/default.htm&quot;&gt;SonyEriccson P800&lt;/a&gt; e &lt;a href=&quot;http://www.tuttoericsson.com/p900/default.htm&quot;&gt;P900&lt;/a&gt;, mi rimanevano sempre aperte una miriade di applicazioni che mi mangiavano la batteria, ma in tante occasioni il multitasking era fantastico. Anche Mail non permette di inviare allegati che non siano foto e devo dire che anche questa è una limitazione a mio avviso noiosa come la mancanza del copia ed incolla. Comunque anche con queste mancanze l&#39;iPhone mi affascina molto di più di altri &lt;a target=&quot;_blank&quot; href=&quot;http://www.samsung.com/it/consumer/detail/detail.do?group=mobilephone&amp;type=mobilephone&amp;subtype=omnia&amp;model_cd=SGH-I900DABXTC&amp;cid=google_cell_omnia&quot;&gt;terminali simili&lt;/a&gt;, ma mi rendo conto di essere un utente Mac che ama ed apprezza la filosofia di Apple dopo tutto il &lt;a href=&quot;http://it.youtube.com/watch?v=gLqqJDSWvyU&quot;&gt;&quot;Think Different&quot;&lt;/a&gt; è anche questo.&lt;br /&gt;Spero comunque che alcune limitazioni (allegati in Mail, copia ed incolla) vengano migliorate.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&quot;iPhone per molti ma non per tutti!!!&quot;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt; Rimane la frase più adeguata al caso :-)&lt;/p&gt;
@@ -655,9 +656,9 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>Finalmente 2!!!</title>
-   <link href="http://localhost:4000/2008/07/finalmente-2-2"/>
+   <link href="http://localhost:4000/2008/07/23/finalmente-2-2"/>
    <updated>2008-07-23T11:30:32+02:00</updated>
-   <id>http://localhost:4000/2008/07/finalmente-2-2</id>
+   <id>http://localhost:4000/2008/07/23/finalmente-2-2</id>
    <content type="html">&lt;p&gt;Ci siamo quasi all&#39;evasione del mio ordine, non vedo l&#39;ora  :-) !!!!&lt;/p&gt;
 &lt;p&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/pay1.jpg&quot; height=&quot;60&quot; width=&quot;520&quot; /&gt;&lt;/p&gt;
 </content>
@@ -665,9 +666,9 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>Finalmente!!!</title>
-   <link href="http://localhost:4000/2008/07/finalmente-3"/>
+   <link href="http://localhost:4000/2008/07/23/finalmente-3"/>
    <updated>2008-07-23T08:32:23+02:00</updated>
-   <id>http://localhost:4000/2008/07/finalmente-3</id>
+   <id>http://localhost:4000/2008/07/23/finalmente-3</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;max-width: 800px;&quot; src=&quot;/assets/iphone.jpg&quot; height=&quot;140&quot; width=&quot;325&quot;  alt=&quot;iphone&quot;/&gt;&lt;br /&gt;Come &lt;a href=&quot;http://www.amugsiena.it/&quot;&gt;utente Mac&lt;/a&gt; e da sempre appassionato dei prodotti della &lt;a href=&quot;http://www.apple.com/it/&quot;&gt;grande Mela&lt;/a&gt;, non ho saputo resistere all&#39;&lt;a href=&quot;http://www.apple.com/it/iphone/&quot;&gt;oggetto del momento&lt;/a&gt; di cui non pronuncio nemmeno il nome tanto tutti avrete capito di cosa sto parlando. Alla fine dopo una lunga ricerca e dopo la risposta di molti centri TIM che vendevano il prodotto &lt;a href=&quot;http://www.italiamac.it/forum/showthread.php?t=258210&quot;&gt;solo con abb&lt;/a&gt;&lt;a href=&quot;http://www.italiamac.it/forum/showthread.php?t=258210&quot;&gt;onamento&lt;/a&gt; (cosa assurda), ho deciso di prenderlo online sullo &lt;a href=&quot;http://www.shop.vodafone.it&quot;&gt;shop della Vodafone&lt;/a&gt; ed ora sto aspettando con ansia.&lt;/p&gt;
 &lt;p&gt;Stay Tuned&lt;/p&gt;
 &lt;p&gt;PS: Ho preso l&#39;&lt;b&gt;8 Gb Nero&lt;/b&gt;!!!&lt;/p&gt;
@@ -676,9 +677,9 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>FlorenceIN</title>
-   <link href="http://localhost:4000/2008/07/florencein"/>
+   <link href="http://localhost:4000/2008/07/15/florencein"/>
    <updated>2008-07-15T09:31:47+02:00</updated>
-   <id>http://localhost:4000/2008/07/florencein</id>
+   <id>http://localhost:4000/2008/07/15/florencein</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;float: left; margin-right: 10px;&quot; src=&quot;/assets/image.axd?picture=florencein.jpg&quot; alt=&quot;FlorenceIn&quot; height=&quot;166&quot; width=&quot;245&quot; /&gt;Dopo il successo strepitoso del gruppo presente sul social network LinkedIn &lt;a href=&quot;http://www.milanin.com/&quot;&gt;MilanIN&lt;/a&gt;, che raccoglie una serie di professionisti che lavorano a Milano, è stato creato un analogo gruppo per la città di Firenze, chiamato indovinate un pò, non era difficile &lt;a href=&quot;http://florencein.blog.dada.net/&quot;&gt;FlorenceIn&lt;/a&gt;, se lavorate a Firenze ed avete un account linkedIn provate ad entrare nel gruppo da &lt;a href=&quot;http://www.linkedin.com/e/gis/103153/2BA77124CBBA&quot;&gt;qui&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Buon social network a tutti :-)&lt;/p&gt;
 </content>
@@ -686,9 +687,9 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>Restyling del Blog</title>
-   <link href="http://localhost:4000/2008/07/restyling-del-blog"/>
+   <link href="http://localhost:4000/2008/07/10/restyling-del-blog"/>
    <updated>2008-07-10T09:00:38+02:00</updated>
-   <id>http://localhost:4000/2008/07/restyling-del-blog</id>
+   <id>http://localhost:4000/2008/07/10/restyling-del-blog</id>
    <content type="html">&lt;p&gt;Come tutti potete vedere, il blog ha cambiato veste ma i contenuti sono sempre gli stessi sfortunatamente :-) (lo so dovrei aggiornarlo più spesso), ho deciso di passare a questo &lt;a target=&quot;_blank&quot; href=&quot;http://wpthemes.info/misty-look/&quot;&gt;nuovo tema&lt;/a&gt; che ritengo molto più pulito ed elegante e decisamente più leggibile con tutti i browser moderni. &lt;br /&gt;Buona Lettura a tutti e Buone Vacanze a chi si trova già in ferie :-( &lt;/p&gt;
 &lt;p&gt;Tag Technorati: &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Wordpress&quot; rel=&quot;tag&quot;&gt;Wordpress&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -696,18 +697,18 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>Ballata del Programmatore</title>
-   <link href="http://localhost:4000/2008/06/ballata-del-programmatore-2"/>
+   <link href="http://localhost:4000/2008/06/12/ballata-del-programmatore-2"/>
    <updated>2008-06-12T16:12:43+02:00</updated>
-   <id>http://localhost:4000/2008/06/ballata-del-programmatore-2</id>
+   <id>http://localhost:4000/2008/06/12/ballata-del-programmatore-2</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;Ormai tutti conoscono questa canzone dedicata a noi poveri programmatori :-) ma volevo dinuovo ricordarla, eccola &lt;a href=&quot;http://www.derelitti.com/ballata_del_programmatore/&quot;&gt;qua &lt;/a&gt;in tutto il suo splendore !!!!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>iPhone 3G</title>
-   <link href="http://localhost:4000/2008/06/iphone-3g"/>
+   <link href="http://localhost:4000/2008/06/10/iphone-3g"/>
    <updated>2008-06-10T08:43:38+02:00</updated>
-   <id>http://localhost:4000/2008/06/iphone-3g</id>
+   <id>http://localhost:4000/2008/06/10/iphone-3g</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/iphone3g.png&quot; /&gt; Ed alla fine di tanti Rumor e tanti fake, finalmente l&#39;i&lt;a href=&quot;http://www.apple.com/it/&quot;&gt;Phone 3G&lt;/a&gt; è arrivato!!!! Nessuna sostanziale modifica alle caratteristiche del famoso telefono targato Apple, le finiture in plastica nera che lo rendono meno scivoloso del precedente, l&#39;arrivo del tanto richiesto 3G e la presenza del GPS tramite software Google Maps. La cosa comunque davvero interessante è la tanto sospirata uscita nel nostro paese l&#39;11 luglio tramite gli operatori &lt;a href=&quot;http://www.macitynet.it/macity/aA32813/tim_iphone_anche_per_i_prepagati.shtml&quot;&gt;Tim e Vodafone &lt;/a&gt;ed il nuovo prezzo che a detta del grande Steve dovrebbe essere di 199$ per la versione da 8 Gb e 299$ per quella da 16Gb, vedremo i nostri operatori quali offerte proporranno per il mitico Apple Phone. Ieri sera intanto durante la conferenza del WWWDC08 è stato presentato oltre all&#39;iPhone anche un nuovo servizio online che sostituirà il vetusto .Mac, chiamato &lt;a href=&quot;http://www.apple.com/mobileme/&quot;&gt;MobileMe&lt;/a&gt; che avrà molti servizi innovativi ma rimarrà sempre a pagamento. :-( &lt;/p&gt;
 &lt;p&gt;PS: Ieri sera per la prima volta ho seguito la &lt;a href=&quot;http://www.macitynet.it/macity/aA32821/keynote_in_streaming_quicktime.shtml&quot;&gt;conferenza Apple&lt;/a&gt; insieme ai membri dell&#39;&lt;a href=&quot;http://www.amugsiena.it/&quot;&gt;AMUG Siena&lt;/a&gt; ed è stata davvero una bella esperienza, ci tengo quindi a ringraziare tutti i partecipanti per la calorosa accoglienza :-) , peccato per la partita a seguire :-(&lt;/p&gt;
 </content>
@@ -715,18 +716,18 @@ Saluti e Buone Ferie!!!&lt;/p&gt;
  
  <entry>
    <title>iPod Shuffle!!!</title>
-   <link href="http://localhost:4000/2008/06/ipod-shuffle"/>
+   <link href="http://localhost:4000/2008/06/01/ipod-shuffle"/>
    <updated>2008-06-01T14:54:47+02:00</updated>
-   <id>http://localhost:4000/2008/06/ipod-shuffle</id>
+   <id>http://localhost:4000/2008/06/01/ipod-shuffle</id>
    <content type="html">&lt;p&gt;Semplicemente qualcosa che ho sempre cercato ed alla fine ho trovato, la semplicità fatta prodotto, l&#39;essenza stessa del pensiero Apple, stile e semplicità.... tutto ciò è l&#39;ipod Shuffle che dopo anni di convivenza diffiicile ho deciso di acquistare per sostituire il mio ipod Mini, che mi ha convinto a metà, lo Shuffle invece già lo adoro.&lt;br /&gt;&lt;img src=&quot;/assets/ipod_shuffle_2g.jpg&quot; alt=&quot;iPod shuffle&quot; height=&quot;181&quot; width=&quot;236&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Eee Pc Finalmente Anche io!!!</title>
-   <link href="http://localhost:4000/2008/05/eee-pc-finalmente-anche-io"/>
+   <link href="http://localhost:4000/2008/05/09/eee-pc-finalmente-anche-io"/>
    <updated>2008-05-09T15:25:37+02:00</updated>
-   <id>http://localhost:4000/2008/05/eee-pc-finalmente-anche-io</id>
+   <id>http://localhost:4000/2008/05/09/eee-pc-finalmente-anche-io</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/51202.gif&quot; alt=&quot;&quot; class=&quot;alignleft&quot; /&gt;&lt;br /&gt;
 Dopo la lunga attesa, durata più di due mesi finalmente il subnotebook Asus in versione &lt;a href=&quot;http://www.tim.it/consumer/c365/i3368/o51206/prodotto.do&quot;&gt;TIM Black Edition&lt;/a&gt;, è arrivato tramite corriere :-) , il famoso e-commerce &lt;a href=&quot;http://www.eprice.it/&quot;&gt;ePRICE &lt;/a&gt;è stato &lt;a href=&quot;http://www.antonioscatoloni.it/2008/03/17/146&quot;&gt;davvero lento&lt;/a&gt; nella spedizione dell&#39;ordine, ma alla fine tutto si è risolto nel migliore dei modi. Il piccolino è davvero carino, anche lo schermo da 7&quot; che maggiormente mi preoccupava specialmente nelle pagine web, invece mi sembra davvero non male. Una cosa che non sopporto invece e la modalità Easy, infatti ho subito &lt;a href=&quot;http://www.eeepc.it/asus-eee-tips-tricks/&quot;&gt;installato l&#39;Advanced Desktop &lt;/a&gt;sul sistema operativo Xandros. Lo ammetto la possibilità di poter &lt;a href=&quot;http://www.eeepc.it/installare-windows-xp-sulleee-pc-parte-1/&quot;&gt;installare Windows XP&lt;/a&gt; con tutto il suo parco sw, un pò mi alletta ma tenterò di resistere e mantenere così il sistema operativo preinstallato che sembra molto efficiente con l&#39;hw del piccolo Asus.&lt;/p&gt;
 &lt;p&gt;PS: Foto del mio gioiellino a breve :-)&lt;/p&gt;
@@ -735,9 +736,9 @@ Dopo la lunga attesa, durata più di due mesi finalmente il subnotebook Asus in 
  
  <entry>
    <title>Plugin di Aperture per Gallery e non solo!!!</title>
-   <link href="http://localhost:4000/2008/05/plugin-di-aperture-per-gallery-e-non-solo"/>
+   <link href="http://localhost:4000/2008/05/05/plugin-di-aperture-per-gallery-e-non-solo"/>
    <updated>2008-05-05T13:58:53+02:00</updated>
-   <id>http://localhost:4000/2008/05/plugin-di-aperture-per-gallery-e-non-solo</id>
+   <id>http://localhost:4000/2008/05/05/plugin-di-aperture-per-gallery-e-non-solo</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;
 Per tutti coloro che come me utilizzano, o meglio provano ad utilizzare il software per le foto digitali &lt;strong&gt;&lt;a href=&quot;http://www.apple.com/it/aperture/&quot;&gt;Aperture&lt;/a&gt;&lt;/strong&gt; di Apple ecco una &lt;a href=&quot;http://www.ubermind.com/products/&quot;&gt;serie di plugin&lt;/a&gt; per trasferire i propri capolavori sui princiapali sistemi di gestione di Album fotografici online tra cui il mio amato &lt;a href=&quot;http://gallery.menalto.com/&quot;&gt;Gallery&lt;/a&gt;. &lt;/p&gt;
 </content>
@@ -745,9 +746,9 @@ Per tutti coloro che come me utilizzano, o meglio provano ad utilizzare il softw
  
  <entry>
    <title>Un anno di vita per il mio Blog!!!</title>
-   <link href="http://localhost:4000/2008/04/un-anno-di-vita-per-il-mio-blog"/>
+   <link href="http://localhost:4000/2008/04/29/un-anno-di-vita-per-il-mio-blog"/>
    <updated>2008-04-29T14:24:25+02:00</updated>
-   <id>http://localhost:4000/2008/04/un-anno-di-vita-per-il-mio-blog</id>
+   <id>http://localhost:4000/2008/04/29/un-anno-di-vita-per-il-mio-blog</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.antonioscatoloni.it/wp-content/uploads/2008/05/compleanno1.jpg&quot;&gt;&lt;img src=&quot;/assets/compleanno1.jpg&quot; alt=&quot;&quot; title=&quot;compleanno1&quot; width=&quot;125&quot; height=&quot;135&quot; class=&quot;alignleft size-medium wp-image-166&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;A causa dell&#39;aggiornamento non mi sono neanche accorto che il mio Blog festeggia un &lt;strong&gt;anno di vita&lt;/strong&gt;, l&#39;avventura infatti è partita il 24 Aprile di un anno fa in questo &lt;a href=&quot;http://www.antonioscatoloni.it/2007/04/24/pronti-partenza-via&quot;&gt;modo&lt;/a&gt;. So di non essere un blogger molto costante come numero di articoli solo 6 al mese di media, ma cerco comunque di trovare contenuti e di arricchire il mio Blog, le idee per il futuro non mancano, quindi come sempre:&lt;/p&gt;
 &lt;p&gt;Stay Tuned!!&lt;/p&gt;
@@ -756,9 +757,9 @@ Per tutti coloro che come me utilizzano, o meglio provano ad utilizzare il softw
  
  <entry>
    <title>Wordpress 2.5!!! Finalmente</title>
-   <link href="http://localhost:4000/2008/04/wordpress-25-finalmente"/>
+   <link href="http://localhost:4000/2008/04/28/wordpress-25-finalmente"/>
    <updated>2008-04-28T14:52:28+02:00</updated>
-   <id>http://localhost:4000/2008/04/wordpress-25-finalmente</id>
+   <id>http://localhost:4000/2008/04/28/wordpress-25-finalmente</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/wp25.jpg&quot; alt=&quot;Wordpress 2.5&quot; class=&quot;alignnone&quot; /&gt;&lt;br /&gt;
 Era da un pò che volevo aggiornare il mio Blog, con la nuova versione di Wordpress, ma per una serie di motivi non trovavo mai il tempo, ieri mi sono deciso ed ho installato la nuova versione seguendo il &lt;a href=&quot;http://www.wordpress-it.it/wiki/Main/Upgrade-20&quot;&gt;tutorial &lt;/a&gt;sul sito di Wordpress Italia. La nuova &lt;strong&gt;Dashboard &lt;/strong&gt;è davvero meravigliosa, scrivere un post è ancora più facile ed intuititvo e la possbilità di inserire foto, video e suoni all&#39;interno di un articolo senza plugin esterni lo trovo molto comodo e funzionale.&lt;br /&gt;
 La procedura di aggiornamento mi ha però riservato qualche grattacapo, non avendo impostato i permessi dei nuovi file da caricare sul sito in modo corretto, tramite il mio amato client ftp &lt;a href=&quot;http://cyberduck.ch/&quot;&gt;CyberDuck&lt;/a&gt;, ho dovuto modificarli in seguito. Ora comunque tutto funziona meglio di prima ed il mio blog ora è aggiornato all&#39;ultima versione.&lt;br /&gt;
@@ -768,9 +769,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
  
  <entry>
    <title>Asus Eee PC 900 debutto!!!!</title>
-   <link href="http://localhost:4000/2008/04/asus-eee-pc-900-debutto"/>
+   <link href="http://localhost:4000/2008/04/17/asus-eee-pc-900-debutto"/>
    <updated>2008-04-17T14:50:10+02:00</updated>
-   <id>http://localhost:4000/2008/04/asus-eee-pc-900-debutto</id>
+   <id>http://localhost:4000/2008/04/17/asus-eee-pc-900-debutto</id>
    <content type="html">&lt;p&gt;Ne ero sicuro, la nuova versione del mio amato Eee PC sarebbe arrivata prima che io avessi tra le mani la vecchia versione con la nota &lt;a href=&quot;http://www.antonioscatoloni.it/2008/03/17/146&quot; target=&quot;_blank&quot;&gt;vicenda con Eprice &lt;/a&gt;che tutti conoscete. La prima differenza, che subito a primo sguardo si evidenzia fra i due modelli è lo schermo più generoso nella nuova versione, con un lcd da &lt;strong&gt;9 pollici&lt;/strong&gt; (risoluzione 1024x600) che non va ad aumentare le dimensioni del subnotebook andando ad eliminare le due casse, del tutto trascurabili in un portatile così piccolo. Altre novità, sono un dispositivo di storage più grande da &lt;strong&gt;12 GB&lt;/strong&gt; (&lt;strong&gt;20 GB&lt;/strong&gt; a scelta) una memoria Ram che passa da 512 ad &lt;strong&gt;1Gb&lt;/strong&gt; e cosa molto interessante la presenza di una &lt;em&gt;tecnologia multitouch&lt;/em&gt;, chiamata &lt;a href=&quot;http://www.asus.com/news_show.aspx?id=10911&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;em&gt;FingerGlide&lt;/em&gt;&lt;/strong&gt; &lt;/a&gt;che come nel caso dei nuovi portatili Apple, permette di effettuare operazioni come zoomare o ridemensionare finestre, semplicemente con due dita. A differenza dalla precedente versione c&#39;è ora anche la possibilità di scegliere tra una versione con &lt;strong&gt;Windows Xp&lt;/strong&gt; e disco da 20 GB ed una più economica con Linux e 12 GB di disco fisso.  Anche la webcam è stata migliorata disponendo ora di un sensore da 1,3 Mpixel. Il debutto dell&#39;Asus Eee PC 900 avverrà tra due settimane in Asia ed i primi di maggio nella verde Gran Bretagna ad un costo di &lt;strong&gt;329 sterline&lt;/strong&gt;, da noi il prezzo si aggirerà intorno ai 399€ facendo un rapido cambio con la sterlina.&lt;/p&gt;
 &lt;p&gt;Per avere maggiori dettagli ecco l&#39;articolo su &lt;a href=&quot;http://punto-informatico.it/p.aspx?i=2258601&quot; target=&quot;_blank&quot;&gt;PuntoInformatico&lt;/a&gt; ed una serie di video sul nuovo mini Asus :-)&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -780,9 +781,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
  
  <entry>
    <title>Economia Italiana un perchè</title>
-   <link href="http://localhost:4000/2008/04/economia-italiana-un-perche"/>
+   <link href="http://localhost:4000/2008/04/16/economia-italiana-un-perche"/>
    <updated>2008-04-16T10:46:50+02:00</updated>
-   <id>http://localhost:4000/2008/04/economia-italiana-un-perche</id>
+   <id>http://localhost:4000/2008/04/16/economia-italiana-un-perche</id>
    <content type="html">&lt;p&gt;Riporto questo serie di slide per capire meglio i problemi che affliggono l&#39;Economia Italiana ed il link al &lt;a href=&quot;http://guidoserra.it/&quot; target=&quot;_blank&quot;&gt;blog di Guido Serra&lt;/a&gt; dove  ho reperito il tutto.Non aggiungo alcun commento, fatelo voi se volete.
 &lt;div&gt;&lt;object width=&quot;425&quot; height=&quot;355&quot; style=&quot;margin: 0px&quot;&gt; &lt;param value=&quot;http://static.slideshare.net/swf/ssplayer2.swf?doc=economia-italiana-un-confronto-per-le-elezioni-1207844331339992-8&quot; name=&quot;movie&quot; /&gt;&lt;param value=&quot;true&quot; name=&quot;allowFullScreen&quot; /&gt;&lt;param value=&quot;always&quot; name=&quot;allowScriptAccess&quot; /&gt;&lt;embed src=&quot;http://static.slideshare.net/swf/ssplayer2.swf?doc=economia-italiana-un-confronto-per-le-elezioni-1207844331339992-8&quot; width=&quot;425&quot; height=&quot;355&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;&lt;/object&gt; 
 &lt;div&gt;&lt;a href=&quot;http://www.slideshare.net/?src=embed&quot;&gt;&lt;img src=&quot;/assets/logo_embd.png&quot; alt=&quot;SlideShare&quot; style=&quot;border-color: initial; margin-bottom: -5px; border-width: 0px; border-style: none&quot; /&gt;&lt;/a&gt; | &lt;a href=&quot;undefined&quot; title=&quot;View this slideshow on SlideShare&quot;&gt;View&lt;/a&gt; | &lt;a href=&quot;http://www.slideshare.net/upload&quot;&gt;Upload your own&lt;/a&gt;&lt;/div&gt;
@@ -793,9 +794,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
  
  <entry>
    <title>tuXstyle ti regala un iPod Touch !!! | Contest 1</title>
-   <link href="http://localhost:4000/2008/04/tuxstyle-ti-regala-un-ipod-touch-contest-1"/>
+   <link href="http://localhost:4000/2008/04/14/tuxstyle-ti-regala-un-ipod-touch-contest-1"/>
    <updated>2008-04-14T15:17:06+02:00</updated>
-   <id>http://localhost:4000/2008/04/tuxstyle-ti-regala-un-ipod-touch-contest-1</id>
+   <id>http://localhost:4000/2008/04/14/tuxstyle-ti-regala-un-ipod-touch-contest-1</id>
    <content type="html">&lt;div&gt;&lt;/div&gt;
 &lt;p&gt;Avete letto bene!!! &lt;a href=&quot;http://tuxstyle.netsons.org/2008/04/11/tuxstyle-ti-regala-un-ipod-touch-contest-1&quot; target=&quot;_blank&quot;&gt;tuXstyle&lt;/a&gt; ha organizzato un contest, con un fantastico iPod Touch 8GB in premio più una guida al JailBreak. Il contest terminerà il 25 aprile, festa della liberazione. Qualsiasi inscritto dopo questa data sarà ignorato.&lt;/p&gt;
 &lt;p&gt;I requisiti per la partecipazione sono:&lt;/p&gt;
@@ -833,9 +834,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
  
  <entry>
    <title>Windows 2008 Server sul mio MacBook Pro</title>
-   <link href="http://localhost:4000/2008/04/windows-2008-server-sul-mio-macbook-pro"/>
+   <link href="http://localhost:4000/2008/04/13/windows-2008-server-sul-mio-macbook-pro"/>
    <updated>2008-04-13T13:19:59+02:00</updated>
-   <id>http://localhost:4000/2008/04/windows-2008-server-sul-mio-macbook-pro</id>
+   <id>http://localhost:4000/2008/04/13/windows-2008-server-sul-mio-macbook-pro</id>
    <content type="html">&lt;p style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/assets/hero-event1.jpg&quot; alt=&quot;hero_event.jpg&quot; height=&quot;126&quot; width=&quot;200&quot; /&gt; Complice la giornata della presentazione di Visual Studio 2008 e l&#39;evento del &lt;a href=&quot;http://dotnetumbria.org/blogs/eventi/archive/2008/02/01/visual-studio-2008-community-launch-iscrizioni-aperte.aspx&quot;&gt;Community Afterhour&lt;/a&gt; tenutosi a Perugia ( &lt;a href=&quot;http://dotnetumbria.org/&quot;&gt;DotNet Umbria&lt;/a&gt; ) e l&#39;idea presa dal blog di &lt;a href=&quot;http://codeclimber.net.nz/archive/2008/04/07/Running-Win2008-on-my-Mac.aspx&quot;&gt;Simone Chiaretta&lt;/a&gt;, ho voluto mettere alla prova il mio &lt;span style=&quot;font-size: 13px&quot;&gt;MacBook Pro installandoci sopra tutti i software facenti parte la confezione di prova regalata da Microsoft durante l&#39;evento. La confezione conteneva i seguenti software:&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Visual Studio 2008&lt;/span&gt;&lt;/strong&gt; (come poteva mancare :-) )&lt;/span&gt;&lt;/li&gt;
@@ -848,9 +849,9 @@ La procedura di aggiornamento mi ha però riservato qualche grattacapo, non aven
  
  <entry>
    <title>L’Italia retrocede nella classifica del WEF</title>
-   <link href="http://localhost:4000/2008/04/l-e2-80-99italia-retrocede-nella-classifica-del-wef"/>
+   <link href="http://localhost:4000/2008/04/11/l-e2-80-99italia-retrocede-nella-classifica-del-wef"/>
    <updated>2008-04-11T08:53:03+02:00</updated>
-   <id>http://localhost:4000/2008/04/l%e2%80%99italia-retrocede-nella-classifica-del-wef</id>
+   <id>http://localhost:4000/2008/04/11/l%e2%80%99italia-retrocede-nella-classifica-del-wef</id>
    <content type="html">&lt;p class=&quot;MsoNormal&quot; align=&quot;left&quot;&gt;&lt;img src=&quot;/assets/gitr_cover.jpg&quot; alt=&quot;GITR 2007-2008&quot; border=&quot;0&quot; height=&quot;147&quot; width=&quot;103&quot; /&gt;Purtroppo le notizie riguardanti il nostro BelPaese non sono&lt;br /&gt;
 mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World Economic Forum&lt;/strong&gt; ce ne da piena conferma, nel suo &lt;a href=&quot;http://www.insead.edu/v1/gitr/wef/main/home.cfm&quot; target=&quot;_blank&quot;&gt;&lt;span id=&quot;corpoArticolo&quot;&gt;Global &lt;/span&gt;Information Technology Report 2007-2008&lt;/a&gt;, che misura la preparazione alla società edeconomia della rete di 127 Paesi con una classifica che vede l&#39;Italia scendere dal &lt;strong&gt;38esimo&lt;/strong&gt; che occupava un anno fa al &lt;strong&gt;42esimo&lt;/strong&gt;. Le voci più negative sono quelle riguardanti il contesto ge&lt;span id=&quot;corpoArticolo&quot;&gt;nerale, economico ed infrastrutturale dell&#39;ICT italico. Vanno un pò meglio la preparazione all&#39;ICT e l&#39;utilizzo specialmente in ambito individuale, interessante invece il dato sulla &lt;u&gt;telefonia mobile&lt;/u&gt;, dove il BelPaese risulta tra quelli con &lt;u&gt;i costi telefonici più bassi&lt;/u&gt;. Da questo report sembra comunque chiaro che un cambiamento strutturale è necessario, ma i segni purtroppo non sono incoraggianti.&lt;/span&gt;&lt;/p&gt;
 </content>
@@ -858,9 +859,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>MacOSX bucato</title>
-   <link href="http://localhost:4000/2008/03/macosx-bucato"/>
+   <link href="http://localhost:4000/2008/03/28/macosx-bucato"/>
    <updated>2008-03-28T12:37:15+01:00</updated>
-   <id>http://localhost:4000/2008/03/macosx-bucato</id>
+   <id>http://localhost:4000/2008/03/28/macosx-bucato</id>
    <content type="html">&lt;p&gt;La sicurezza dei sistemi operativi è un tema molto importante ogni anno dunque si organizza un evento chiamato &lt;a target=&quot;_blank&quot; mce_href=&quot;http://www.cansecwest.com/&quot; href=&quot;http://www.cansecwest.com/&quot;&gt;CanSecWest &lt;/a&gt;dove degli hacker cercano di violare i principali sistemi operativi, quest&#39;anno i contendenti erano Ubuntu, Windows Xp e MacOSX. Sono stati fatti due tentativi per violare i Sistemi, nel primo potevano essere violati solo i servizi veri e propri del sistema e qui nessuno dei tre ha ceduto, nel secondo tentativo era possibile attacare anche le applicazioni (Browser, Mail etc) e qui Safari ha ceduto, è stato effettuato infatti un attacco tramite codice Web che ha massacrato il mio  amato MacOSX.&lt;a target=&quot;_blank&quot; mce_href=&quot;http://www.infoworld.com/article/08/03/27/Gone-in-2-minutes-Mac-gets-hacked-first-in-contest_1.html&quot; href=&quot;http://www.infoworld.com/article/08/03/27/Gone-in-2-minutes-Mac-gets-hacked-first-in-contest_1.html&quot;&gt; L&#39;hacker &lt;/a&gt;che ci è riuscito si è cosi aggiudicato il primo premio un bellissimo MacBook Air.  &lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a target=&quot;_blank&quot; mce_href=&quot;http://www.oneapple.it/28/03/2008/cansecwest-mac-os-x-bucato-al-secondo-tentativo/&quot; href=&quot;http://www.oneapple.it/28/03/2008/cansecwest-mac-os-x-bucato-al-secondo-tentativo/&quot;&gt;Maggiori Info&lt;br /&gt;
@@ -873,18 +874,18 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Gallery</title>
-   <link href="http://localhost:4000/2008/03/gallery"/>
+   <link href="http://localhost:4000/2008/03/22/gallery"/>
    <updated>2008-03-22T10:47:53+01:00</updated>
-   <id>http://localhost:4000/2008/03/gallery</id>
+   <id>http://localhost:4000/2008/03/22/gallery</id>
    <content type="html">&lt;p align=&quot;left&quot;&gt;&lt;font face=&quot;sans-serif&quot;&gt;&lt;img src=&quot;/assets/logo.png&quot; style=&quot;max-width: 800px&quot; height=&quot;88&quot; width=&quot;222&quot; /&gt;&lt;/font&gt; Pubblicare delle foto sul proprio sito Web è una necessità molto comune, ma per tutti coloro che come me possiedono un blog su piattaforma &lt;a href=&quot;http://www.wordpress.org&quot; target=&quot;_blank&quot;&gt;Wordpress&lt;/a&gt;, non è direttamente possibile, senza l&#39;ausilio di un plugin esterno. All&#39;inizio la mia scelta era ricaduta su &lt;a href=&quot;http://wordpress.org/extend/plugins/nextgen-gallery/&quot; target=&quot;_blank&quot;&gt;nextGen Gallery &lt;/a&gt;un plugin molto interessante con funzioni di creazione Album, Gallerie e molto altro direttamente dal pannello di configurazione di Wordpress, ma il risultato sul blog risultava come un&#39;aggiunta e non mi soddisfava a pieno, così ho installato sul blog tramite ftp l&#39;ottimo &lt;a href=&quot;http://gallery.menalto.com/&quot;&gt;Gallery2&lt;/a&gt;, piattaforma in php creata proprio per mostrare al mondo i propri scatti, l&#39;equivalente di Wordpress per le foto. I due software infatti sono indipendenti ma tramite un plugin chiamato &lt;a href=&quot;http://wpg2.galleryembedded.com/index.php?title=Main_Page&quot; target=&quot;_blank&quot;&gt;WPG2&lt;/a&gt; è possibili farli convivere in modo molto interessante. Buone foto a tutti, specialmente a primavera :-)&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Buona Pasqua</title>
-   <link href="http://localhost:4000/2008/03/buona-pasqua"/>
+   <link href="http://localhost:4000/2008/03/22/buona-pasqua"/>
    <updated>2008-03-22T10:47:53+01:00</updated>
-   <id>http://localhost:4000/2008/03/buona-pasqua</id>
+   <id>http://localhost:4000/2008/03/22/buona-pasqua</id>
    <content type="html">&lt;p&gt;&lt;font color=&quot;#3366ff&quot;&gt;&lt;img src=&quot;/assets/Buona_Pasqua.jpg&quot; /&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;#3366ff&quot;&gt;Buona Pasqua a Tutti !!!!&lt;/font&gt;&lt;/p&gt;
 </content>
@@ -892,54 +893,54 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Aspettando l'Asus eeePC</title>
-   <link href="http://localhost:4000/2008/03/146"/>
+   <link href="http://localhost:4000/2008/03/17/146"/>
    <updated>2008-03-17T10:46:31+01:00</updated>
-   <id>http://localhost:4000/2008/03/146</id>
+   <id>http://localhost:4000/2008/03/17/146</id>
    <content type="html">&lt;p&gt;Alla fine non ho saputo resistere alla tentazione ed ho acquistato il famoso sub Notebook Asus eeePC, ma purtroppo questo gioello non è ancora tra le mie mani,  vista la  grande richiesta  infatti  risulta molto difficile acquistarlo, ma appena arriva subito una recensione.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>L'importanza dell'IT</title>
-   <link href="http://localhost:4000/2008/03/limportanza-dellit"/>
+   <link href="http://localhost:4000/2008/03/02/limportanza-dellit"/>
    <updated>2008-03-02T14:34:16+01:00</updated>
-   <id>http://localhost:4000/2008/03/limportanza-dellit</id>
+   <id>http://localhost:4000/2008/03/02/limportanza-dellit</id>
    <content type="html">&lt;p&gt;Riporto questo &lt;a href=&quot;http://cubasia.mioblog.net/index.php/2008/02/29/risolutori-di-problemi/&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt; di Giuseppe Cubasia un professionista dell&#39;IT che ama molto scrivere e collabora anche con la rivista online &lt;a href=&quot;http://punto-informatico.it/&quot; target=&quot;_blank&quot;&gt;Punto Informatico&lt;/a&gt;. In questo post ci spiega con un racconto molto particolare, come e quanto l&#39;IT sia importante nelle aziende oggigiorno e quanto sia fondamentale saper risolvere i problemi che quotidianamente vengono proposti a chi come noi fa questo mestiere.Buona Lettura.  &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Nuovo Prezzo per iPod Shuffle</title>
-   <link href="http://localhost:4000/2008/02/nuovo-prezzo-per-ipod-shuffle"/>
+   <link href="http://localhost:4000/2008/02/23/nuovo-prezzo-per-ipod-shuffle"/>
    <updated>2008-02-23T11:14:59+01:00</updated>
-   <id>http://localhost:4000/2008/02/nuovo-prezzo-per-ipod-shuffle</id>
+   <id>http://localhost:4000/2008/02/23/nuovo-prezzo-per-ipod-shuffle</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/overview-box.jpg&quot; /&gt;Per tutti coloro che utilizzano in maniera limitata il lettore di Apple, la versione più piccoladel famoso player lo &lt;span style=&quot;font-weight: bold&quot; class=&quot;Apple-style-span&quot;&gt;shuffle&lt;/span&gt; è quella più indicata, inoltre adesso questa versione viene venduta su AppleStore al prezzo di &lt;span style=&quot;font-weight: bold&quot; class=&quot;Apple-style-span&quot;&gt;45 €&lt;/span&gt; per la versione da 1Gb, la cosa quindi diventa ancora più interessante :-) , così tanto da indurmi in tentazione. Info su &lt;a href=&quot;http://store.apple.com/Apple/WebObjects/italystore?node=home/shop_ipod/family/ipod_shuffle&amp;amp;cid=OAS-EMEA-KWG-IT_iPod-IT&amp;amp;aosid=p202&amp;amp;esvt=GOITE&amp;amp;esvadt=999999-1215160-1013310-1&amp;amp;esvid=100468&quot; target=&quot;_blank&quot;&gt;AppleStore&lt;/a&gt;. &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Il Blu Ray di Sony domina l'Alta Definizione su DVD</title>
-   <link href="http://localhost:4000/2008/02/il-blu-ray-di-sony-domina-lalta-definizione-su-dvd"/>
+   <link href="http://localhost:4000/2008/02/19/il-blu-ray-di-sony-domina-lalta-definizione-su-dvd"/>
    <updated>2008-02-19T12:49:57+01:00</updated>
-   <id>http://localhost:4000/2008/02/il-blu-ray-di-sony-domina-lalta-definizione-su-dvd</id>
+   <id>http://localhost:4000/2008/02/19/il-blu-ray-di-sony-domina-lalta-definizione-su-dvd</id>
    <content type="html">&lt;p&gt; Ogni volta che ci sono due differenti formati, come spesso accade uno dei due viene &quot;uccciso&quot; dal mercato che segue le sue regole fatte di accordi, mediazioni etc. Come ai tempi delle videocassette dove il &lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/VHS&quot;&gt;VHS &lt;/a&gt;fece scomparire il formato &lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/Betamax&quot;&gt;BETAMAX&lt;/a&gt;, questa volta il &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/Blu-ray_Disc&quot;&gt;Blu Ray&lt;/a&gt;&lt;/strong&gt;, il fantomatico standard inventato da Sony per riprodurre contenuti in HD su tecnologia ottica sarà il successore dell&#39;odierno DVD, andando quindi a riempire gli scaffali di tutti i Blockbuster del mondo (o &lt;a target=&quot;_blank&quot; href=&quot;http://www.walmart.com/&quot;&gt;WalMart &lt;/a&gt;che si voglia). L&#39;altro contendente l&#39; &lt;a target=&quot;_blank&quot; href=&quot;http://it.wikipedia.org/wiki/HD_DVD&quot;&gt;HD-DVD &lt;/a&gt;creato da Toshiba e supportato  dalla Microsoft che aveva addirittura creato un accessorio per la sua Xbox 360 per leggere questi supporti, devono ammetterne la sconfitta. Decisiva è stata la scelta da parte di Warner Bros e &lt;a target=&quot;_blank&quot; href=&quot;http://www.walmart.com/&quot;&gt;WalMart &lt;/a&gt;(catena di noleggio di contenuti multimediali) di preferire la tecnologia Sony, supportata fra le altre cose dalla PS3.   &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Domenica di Febbraio</title>
-   <link href="http://localhost:4000/2008/02/domenica-di-febbraio"/>
+   <link href="http://localhost:4000/2008/02/10/domenica-di-febbraio"/>
    <updated>2008-02-10T14:37:29+01:00</updated>
-   <id>http://localhost:4000/2008/02/domenica-di-febbraio</id>
+   <id>http://localhost:4000/2008/02/10/domenica-di-febbraio</id>
    <content type="html">&lt;p&gt; Ci sono dei periodi dell&#39;anno che preannunciano la stagione prossima a seguire. Uno di questi periodi secondo me è Febbraio, in alcune giornate, come oggi per esempio, la Primavera sembra davvero più vicina!!!Buona Domenica a Tutti!!!!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Asus Eee PC</title>
-   <link href="http://localhost:4000/2008/02/asus-eee-pc"/>
+   <link href="http://localhost:4000/2008/02/02/asus-eee-pc"/>
    <updated>2008-02-02T12:54:47+01:00</updated>
-   <id>http://localhost:4000/2008/02/asus-eee-pc</id>
+   <id>http://localhost:4000/2008/02/02/asus-eee-pc</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/EeePC4G-2.jpg&quot; height=&quot;216&quot; width=&quot;250&quot; /&gt;Molti ricorderanno il progetto dei computer UMPC, dei piccoli pc con schermi da 7 o 10 pollici, che utilizzavano un sistema operativo Desktop come Windows XP o Linux. Alla presentazione riscossero un grande successo ma poi non divennero molto popolari. Adesso il produttore taiwanese Asus porta anche in Italia il suo &lt;a href=&quot;http://eeepc.asus.com/it/index.htm&quot; target=&quot;_blank&quot;&gt;Eee pc&lt;/a&gt;, un computer minuscolo con schermo da 7 pollici e sistema operativo Xubuntu. Questo piccolo personal computer dispone anche del Wifi, di un disco a stato solido da 4 Gb e di una tastiera regolare. La cosa che però lo rende davvero speciale è il prezzo di sole 
 
 	&lt;span style=&quot;font-weight: bold&quot; class=&quot;Apple-style-span&quot;&gt;299&lt;/span&gt;€.Disponibile anche in Italia presso la catena &lt;a href=&quot;http://compraonline.mediaworld.it/webapp/wcs/stores/servlet/LoadProduct?catalogId=20000&amp;amp;storeId=20000&amp;amp;langId=-1&amp;amp;partNumber=p-523075&quot; target=&quot;_blank&quot;&gt;MediaWorld&lt;/a&gt;. Supporta pienamente Windows Xp che deve essere però installato tramite un lettore cd/dvd esterno tramite porta usb, perchè il mini Asus non dispone di un&#39;unità ottica interna.Che dire, non vedo l&#39;ora di riuscire almeno a provare questa &quot;delizia&quot; tecnologica :-) &lt;span style=&quot;font-style: italic&quot; class=&quot;Apple-style-span&quot;&gt;&lt;span style=&quot;font-style: normal&quot; class=&quot;Apple-style-span&quot;&gt;
@@ -955,9 +956,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Danza Lenta</title>
-   <link href="http://localhost:4000/2008/01/danza-lenta-2"/>
+   <link href="http://localhost:4000/2008/01/26/danza-lenta-2"/>
    <updated>2008-01-26T09:46:01+01:00</updated>
-   <id>http://localhost:4000/2008/01/danza-lenta-2</id>
+   <id>http://localhost:4000/2008/01/26/danza-lenta-2</id>
    <content type="html">&lt;p&gt;Dedico questa poesia a tutti quelli che come me, prendono la vita sempre di corsa, che pensano troppo alla meta e poco al viaggio!!!!!&lt;/p&gt;
 &lt;p&gt;Autore: David L. Weatherford&lt;br /&gt;Titolo: Danza lenta&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&quot;Hai mai guardato i bambini in un girotondo? &lt;br /&gt;O ascoltato il rumore della pioggia quando cade a terra? &lt;br /&gt;O seguito mai lo svolazzare irregolare di una farfalla? &lt;br /&gt;O osservato il sole allo svanire della notte? &lt;br /&gt;Faresti meglio a rallentare. &lt;br /&gt;Non danzare cosi veloce. &lt;br /&gt;Il tempo è breve. &lt;br /&gt;La musica non durerà. &lt;/p&gt;
 &lt;p&gt;Percorri ogni giorno in volo? &lt;br /&gt;Quando dici &quot;Come stai? &quot; &lt;br /&gt;Ascolti la risposta? &lt;br /&gt;Quando la giornata è finita ti stendi sul tuo letto &lt;br /&gt;Con centinaia di questioni successive che ti passano per la testa? &lt;br /&gt;Faresti meglio a rallentare. &lt;br /&gt;Non danzare cosi veloce. &lt;br /&gt;Il tempo è breve. &lt;br /&gt;La musica non durerà. &lt;/p&gt;
@@ -969,9 +970,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Rainbow!!!</title>
-   <link href="http://localhost:4000/2008/01/rainbow"/>
+   <link href="http://localhost:4000/2008/01/21/rainbow"/>
    <updated>2008-01-21T13:15:14+01:00</updated>
-   <id>http://localhost:4000/2008/01/rainbow</id>
+   <id>http://localhost:4000/2008/01/21/rainbow</id>
    <content type="html">&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font style=&quot;font-family: Arial&quot; size=&quot;3&quot;&gt;Ho scovato questa foto su &lt;a href=&quot;http://www.flickr.com/photos/31953262@N00/2207177938/&quot;&gt;flickr&lt;/a&gt;  e devo dire che è magnifica!!!&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- technorati tags begin --&gt;&lt;/p&gt;
@@ -982,9 +983,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Macbook Pro impazzito!!!</title>
-   <link href="http://localhost:4000/2008/01/macbook-pro-impazzito"/>
+   <link href="http://localhost:4000/2008/01/20/macbook-pro-impazzito"/>
    <updated>2008-01-20T15:01:25+01:00</updated>
-   <id>http://localhost:4000/2008/01/macbook-pro-impazzito</id>
+   <id>http://localhost:4000/2008/01/20/macbook-pro-impazzito</id>
    <content type="html">&lt;p&gt;In questi giorni sono stato afflitto da un terribile problema col mio Macbook pro. Due processi &lt;i&gt;mdworker&lt;/i&gt; e &lt;i&gt;ATSServer&lt;/i&gt; facevano impazzire la CPU del mio portatile. Sapevo che il processo mdworker è il repsonsabile dell&#39;indicizzazione di Spotlight il sistema di ricerca all&#39;interno del nostro Mac, invece ATSServer è il gestore del rendering dei font su Macosx. Non riuscivo però a capire perchè tutto impazzisse in quel modo. Dopo un lungo giorvagare su Internet ho trovato la soluzione, in questi giorni ho rimediato un gran numero di ebook da leggere pian piano e l&#39;ho copiati sul mio disco interno indicizzato, il gran numero di font all&#39;interno dei file pdf, facevano impazzire Spotlight. Quindi ho semplicemente impedito a Spotlight di indicizzare la cartella contenente gli ebook ed il mio Macbook è tornato ad essere come sempre :-)&lt;/p&gt;
 &lt;p&gt;Il peso della cultura pesa anche al Portatile :-)&lt;/p&gt;
 </content>
@@ -992,9 +993,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Buon Compleanno Lisa!!!!</title>
-   <link href="http://localhost:4000/2008/01/buon-compleanno-lisa"/>
+   <link href="http://localhost:4000/2008/01/18/buon-compleanno-lisa"/>
    <updated>2008-01-18T17:32:16+01:00</updated>
-   <id>http://localhost:4000/2008/01/buon-compleanno-lisa</id>
+   <id>http://localhost:4000/2008/01/18/buon-compleanno-lisa</id>
    <content type="html">&lt;p&gt;Venticinque anni fa la Apple presentava &lt;strong&gt;Lisa &lt;/strong&gt;il primo computer con interfaccia grafica e mouse, davvero l&#39;inizio del computer come noi oggi lo vediamo.&lt;/p&gt;
 &lt;p&gt;Tanti Auguri PC, Tanti Auguri Lisa :-)&lt;/p&gt;
 &lt;p&gt;&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot; width=&quot;500&quot; height=&quot;410&quot; class=&quot;strPlayer&quot; id=&quot;flashplayerObj&quot; align=&quot;middle&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;sameDomain&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://tv.repubblica.it/flashplayer/player_embed.swf&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;bgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;autostart=false&amp;strip=0&amp;logo=1&amp;image=&amp;repeat=false&amp;file=repubblicatv/file/2008/Kevin Costner in Apple ad.flv&amp;videoTitle=Buon compleanno, Lisa&amp;fsType=fl&quot; /&gt;&lt;embed src=&quot;http://tv.repubblica.it/flashplayer/player_embed.swf&quot; quality=&quot;high&quot; bgcolor=&quot;#FFFFFF&quot; width=&quot;500&quot; height=&quot;410&quot; class=&quot;class=&quot;strPlayer&quot;&quot; name=&quot;flashplayerObj&quot; align=&quot;middle&quot; wmode=&quot;transparent&quot; allowScriptAccess=&quot;sameDomain&quot; allowFullScreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; flashvars=&quot;autostart=false&amp;strip=0&amp;logo=1&amp;repeat=false&amp;image=&amp;file=repubblicatv/file/2008/Kevin Costner in Apple ad.flv&amp;videoTitle=Buon compleanno, Lisa&amp;fsType=fl&quot; /&gt;&lt;/object&gt;&lt;/p&gt;
@@ -1004,9 +1005,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>The Next Best Thing!!!</title>
-   <link href="http://localhost:4000/2008/01/the-next-best-thing"/>
+   <link href="http://localhost:4000/2008/01/16/the-next-best-thing"/>
    <updated>2008-01-16T09:07:48+01:00</updated>
-   <id>http://localhost:4000/2008/01/the-next-best-thing</id>
+   <id>http://localhost:4000/2008/01/16/the-next-best-thing</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/design_displayair20080115.jpg&quot; height=&quot;243&quot; width=&quot;448&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Ed anche il Macbook Air alla fine è arrivato..............&lt;a href=&quot;http://www.apple.com/macbookair/&quot;&gt;Continua&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PS:Lo voglio è troppo bello :-(&lt;/p&gt;
@@ -1016,9 +1017,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Rumors "MacBook Air"</title>
-   <link href="http://localhost:4000/2008/01/rumors-macbook-air-2"/>
+   <link href="http://localhost:4000/2008/01/15/rumors-macbook-air-2"/>
    <updated>2008-01-15T09:17:36+01:00</updated>
-   <id>http://localhost:4000/2008/01/rumors-macbook-air-2</id>
+   <id>http://localhost:4000/2008/01/15/rumors-macbook-air-2</id>
    <content type="html">&lt;p&gt;A poche ore dalla diretta del Keynote di Steve Jobs si moltiplicano i rumors sull&#39;uscita di un nuovo prodotto, il rumor più accreditato e mostrato da Wired è un fantomatico &lt;strong&gt;Macbook Air&lt;/strong&gt;; una versione ultrasottile del piccolo portatile Apple che dovrebbe collegarsi alle reti solamente tramite tecnologie senza fili manca infatti di una connessione Ethernet,  non si sa se verrà usato il Wifi oppure Apple mostrerà al mondo una nuova tecnologia wireless.&lt;/p&gt;
 &lt;p&gt;Ci basta solo aspettare poche ore e tutto verrà svelato!!!!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/airbook.jpg&quot; height=&quot;275&quot; width=&quot;497&quot; /&gt;&lt;br /&gt;
@@ -1029,9 +1030,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>WordPress</title>
-   <link href="http://localhost:4000/2008/01/wordpress"/>
+   <link href="http://localhost:4000/2008/01/14/wordpress"/>
    <updated>2008-01-14T18:11:28+01:00</updated>
-   <id>http://localhost:4000/2008/01/wordpress</id>
+   <id>http://localhost:4000/2008/01/14/wordpress</id>
    <content type="html">&lt;p&gt;Un &lt;a href=&quot;http://wordpress.com/&quot;&gt;buon link&lt;/a&gt; da cui partire per creare un Blog!!!!!&lt;/p&gt;
 &lt;p&gt;Buon Blog a tutti!!!&lt;/p&gt;
 &lt;p&gt;Technorati Tags: &lt;a href=&quot;http://technorati.com/tag/Wordpress&quot; rel=&quot;tag&quot;&gt;Wordpress&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/Blog&quot; rel=&quot;tag&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;
@@ -1040,9 +1041,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>There's something in the air</title>
-   <link href="http://localhost:4000/2008/01/theres-something-in-the-air"/>
+   <link href="http://localhost:4000/2008/01/14/theres-something-in-the-air"/>
    <updated>2008-01-14T09:14:42+01:00</updated>
-   <id>http://localhost:4000/2008/01/theres-something-in-the-air</id>
+   <id>http://localhost:4000/2008/01/14/theres-something-in-the-air</id>
    <content type="html">&lt;p&gt;Ci siamo come ogni volta che accade l&#39;attesa sale alle stelle, ancora una volta MacWorld Expo, e la frenesia per le possibili novità di casa Apple diventa sempre più accesa. Quest&#39;anno la frase di accompagnamento dell&#39;evento è &quot;There&#39;s something in the air&quot; che fa pensare a qualcosa di innovativo. Comunque come sempre è inutile fare previsioni, si può solo attendere il giorno 15 dalle ore 18:00 in poi e vedere cosa Jobs e compagni si inventano questa volta per stupirci come sempre dopotutto :-) .&lt;/p&gt;
 &lt;p&gt;Technorati Tags: &lt;a href=&quot;http://technorati.com/tag/MacWorld&quot; rel=&quot;tag&quot;&gt;MacWorld&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/Apple&quot; rel=&quot;tag&quot;&gt;Apple&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1050,9 +1051,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Mac Switcher</title>
-   <link href="http://localhost:4000/2008/01/mac-switcher"/>
+   <link href="http://localhost:4000/2008/01/03/mac-switcher"/>
    <updated>2008-01-03T11:47:32+01:00</updated>
-   <id>http://localhost:4000/2008/01/mac-switcher</id>
+   <id>http://localhost:4000/2008/01/03/mac-switcher</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;Mi permetto di segnalare un &lt;a href=&quot;http://lifehacker.com/software/mac/hack-attack-a-guide-for-switching-to-a-mac-224674.php&quot;&gt;post molto interessante&lt;/a&gt; per tutti coloro che utilizzano Windows :-( ,ma sono molto affascinati dalla mela. L&#39;articolo è in Inglese.&lt;/p&gt;
 &lt;p&gt;Buona Lettura e mi raccomando diventate Mac User :-) !!!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://technorati.com/tag/RubyOnRails&quot; rel=&quot;tag&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1061,9 +1062,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Merry Christmas</title>
-   <link href="http://localhost:4000/2007/12/merry-christmas"/>
+   <link href="http://localhost:4000/2007/12/26/merry-christmas"/>
    <updated>2007-12-26T00:49:52+01:00</updated>
-   <id>http://localhost:4000/2007/12/merry-christmas</id>
+   <id>http://localhost:4000/2007/12/26/merry-christmas</id>
    <content type="html">&lt;p&gt;Eccoci giunti alla festa più colorata e luminosa dell’anno.&lt;/p&gt;
 &lt;p&gt;Un Augurio di Buon Natale a Tutti!!!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/42ani.gif&quot; /&gt;&lt;/p&gt;
@@ -1073,9 +1074,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Popolarità dei Linguaggi di Programmazione!!!</title>
-   <link href="http://localhost:4000/2007/12/popolarita-dei-linguaggi-di-programmazione"/>
+   <link href="http://localhost:4000/2007/12/21/popolarita-dei-linguaggi-di-programmazione"/>
    <updated>2007-12-21T11:02:46+01:00</updated>
-   <id>http://localhost:4000/2007/12/popolarita-dei-linguaggi-di-programmazione</id>
+   <id>http://localhost:4000/2007/12/21/popolarita-dei-linguaggi-di-programmazione</id>
    <content type="html">&lt;p&gt;Si sa a fine anno si fanno sempre delle statistiche :-) e come non si poteva lasciare da parte i linguaggi di programmazione, più famosi ed usati da tutti&amp;nbsp; gli sviluppatori. La &lt;a href=&quot;http://www.tiobe.com/tpci.htm&quot;&gt;TIOBE Programming Community &lt;/a&gt;ci fornisce un indice per determinare la popolarità di un linguaggio, come risulta chiaro il Java è il re assoluto e questo ben si sa, interessante invece è il posizionamento del linguaggio Ruby che forte del framework Rails sta diventando sempre più popolare tra gli sviluppatori Web.&lt;/p&gt;
 &lt;p&gt;Se questa classifica non vi basta potete trovarne &lt;a href=&quot;http://stacktrace.it/2007/12/i-linguaggi-di-programmazione-piu-popolari-in-italia-nel-2007/#continue&quot;&gt;qui&lt;/a&gt;, un&#39;altra, basata sulle parole chiave digitate sul motore di ricerca Google. Anche questa non si discosta di molto dai risultati dell&#39;altra.&lt;/p&gt;
 &lt;p&gt;Good Code to EveryOne!!!!&lt;/p&gt;
@@ -1085,9 +1086,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Learning Ruby on Rails!!!</title>
-   <link href="http://localhost:4000/2007/12/learning-ruby-on-rails"/>
+   <link href="http://localhost:4000/2007/12/18/learning-ruby-on-rails"/>
    <updated>2007-12-18T18:15:00+01:00</updated>
-   <id>http://localhost:4000/2007/12/learning-ruby-on-rails</id>
+   <id>http://localhost:4000/2007/12/18/learning-ruby-on-rails</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/rails.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Sono molto affascinato dai framework per lo sviluppo Web, ho così deciso di iniziare a leggermi un &lt;a href=&quot;http://pragprog.com/titles/rails2/index.html&quot;&gt;bel libro&lt;/a&gt; sul framework più innovativo e a mio modesto parere affascinante:&lt;a href=&quot;http://www.rubyonrails.org/&quot;&gt;Ruby On Rails&lt;/a&gt;. Questo ambiente inoltre è già integrato in &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;Leopard &lt;/a&gt;quindi tutto quello che mi serve per provare a scrivere qualcosa, è già sul mio Mac (&lt;a href=&quot;www.mysql.com&quot;&gt;MySql &lt;/a&gt;però ce l&#39;ho messo io).&lt;/p&gt;
 
@@ -1096,9 +1097,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Javaday Roma 2007</title>
-   <link href="http://localhost:4000/2007/12/javaday-roma-2007-2"/>
+   <link href="http://localhost:4000/2007/12/14/javaday-roma-2007-2"/>
    <updated>2007-12-14T11:45:54+01:00</updated>
-   <id>http://localhost:4000/2007/12/javaday-roma-2007-2</id>
+   <id>http://localhost:4000/2007/12/14/javaday-roma-2007-2</id>
    <content type="html">&lt;p&gt;Per chiunque sia interessato alla programmazione &lt;a href=&quot;http://it.wikipedia.org/wiki/Java_%28linguaggio%29&quot;&gt;Java &lt;/a&gt;e per vari motivi non ha potuto partecipare alla giornata Java tenutasi a Roma, sabato 1 Dicembre, segnalo la presenza delle &lt;a href=&quot;http://roma.javaday.it/roma/programma.vm&quot;&gt;slide &lt;/a&gt;relative alla conferenza. &lt;/p&gt;
 &lt;p&gt;Buona Lettura a tutti :-)&lt;/p&gt;
 </content>
@@ -1106,9 +1107,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>Lavorare con Ruby on Rails!!!!</title>
-   <link href="http://localhost:4000/2007/12/lavorare-con-ruby-on-rails"/>
+   <link href="http://localhost:4000/2007/12/13/lavorare-con-ruby-on-rails"/>
    <updated>2007-12-13T10:28:21+01:00</updated>
-   <id>http://localhost:4000/2007/12/lavorare-con-ruby-on-rails</id>
+   <id>http://localhost:4000/2007/12/13/lavorare-con-ruby-on-rails</id>
    <content type="html">&lt;p&gt;Anche Ruby on Rails ti fornisce la possibilità di lavorare!!!!La società fiorentina &lt;a href=&quot;http://www.extendi.it/&quot;&gt;Extendi &lt;/a&gt;cerca persone per lavorare su progetti Web 2.0 con il linguaggio RoR, chiunque è interessato può trovare l&#39;annuncio &lt;a href=&quot;http://www.extendi.it/ruby-on-rails/index.php/2007/12/12/vuoi-lavorare-con-noi-rails-e-web-20/&quot;&gt;qui&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ciao e Buon Lavoro!!!!&lt;/p&gt;
 </content>
@@ -1116,9 +1117,9 @@ mai entusiasmanti, specialmente quando si parla di ICT. Il &lt;strong&gt;World E
  
  <entry>
    <title>La Rivolta dei Bit</title>
-   <link href="http://localhost:4000/2007/12/la-rivolta-dei-bit"/>
+   <link href="http://localhost:4000/2007/12/12/la-rivolta-dei-bit"/>
    <updated>2007-12-12T16:16:27+01:00</updated>
-   <id>http://localhost:4000/2007/12/la-rivolta-dei-bit</id>
+   <id>http://localhost:4000/2007/12/12/la-rivolta-dei-bit</id>
    <content type="html">&lt;p&gt;Voglio segnalare un &lt;a href=&quot;http://guidoserra.it/archivi/2007/12/11/un-paese-in-ginocchio/&quot;&gt;pensiero &lt;/a&gt;postato da un blogger che condivido pienamente, ditemi cosa ne pensate!!!&lt;br /&gt;
 Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/archive/2007/12/12/90239.aspx&quot;&gt;blog di Stefano Palulello &lt;/a&gt;su UgiDotNet&lt;/p&gt;
 &lt;p&gt;Fonte: &lt;a href=&quot;http://guidoserra.it/&quot;&gt;Blog Guido Serra&lt;/a&gt;&lt;/p&gt;
@@ -1127,9 +1128,9 @@ Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/arch
  
  <entry>
    <title>PSPhone in arrivo?</title>
-   <link href="http://localhost:4000/2007/12/psphone-in-arrivo"/>
+   <link href="http://localhost:4000/2007/12/11/psphone-in-arrivo"/>
    <updated>2007-12-11T18:04:55+01:00</updated>
-   <id>http://localhost:4000/2007/12/psphone-in-arrivo</id>
+   <id>http://localhost:4000/2007/12/11/psphone-in-arrivo</id>
    <content type="html">&lt;p&gt;Voci ufficiose in diversi siti del panorama tecnologico, danno per imminente l&#39;uscita del fantomatico PSPhone, la fusione tra la piattaforma ludica portatile &lt;a href=&quot;http://it.playstation.com/psp/&quot;&gt;Sony PSP&lt;/a&gt; ed un cellulare della linea &lt;a href=&quot;http://www.sonyericsson.com/&quot;&gt;Sony Ericsson&lt;/a&gt;. Si parla di una tecnologia a doppio slider che ne permetterebbe l&#39;uso in due modalità differenti, una dedicata al gioco con tutti i controlli soliti delle console playstation, l&#39;altra come quella di un tipico cellulare slide phone.&lt;/p&gt;
 &lt;p&gt;Non si sa se avverrà veramente un annuncio da parte di Sony, attendiamo comunque (prima o poi) l&#39;arrivo di questo terminale.&lt;/p&gt;
 &lt;p&gt;Nell&#39;attesa un bel video del prodotto :-)&lt;/p&gt;
@@ -1141,9 +1142,9 @@ Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/arch
  
  <entry>
    <title>Windows su Mac</title>
-   <link href="http://localhost:4000/2007/12/windows-su-mac"/>
+   <link href="http://localhost:4000/2007/12/05/windows-su-mac"/>
    <updated>2007-12-05T11:43:32+01:00</updated>
-   <id>http://localhost:4000/2007/12/windows-su-mac</id>
+   <id>http://localhost:4000/2007/12/05/windows-su-mac</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/macwindows.jpg&quot; /&gt;Come tutti sapranno sono un affezionato utente Mac da diversi anni e da più di un anno sono ormai un felice possessore di un MacBook Pro 15&quot; Core2Duo successore del mio mitico ibook 14&quot; PowerPc. Dopo la migrazione ad Intel la possibilità di installare Windows sui nostri mac è diventata realtà e le modalità di farlo sono diventate diverse, i due virtualizzatori:&lt;a href=&quot;http://www.parallels.com/en/products/desktop/&quot;&gt; Parallels Desktop&lt;/a&gt;, &lt;a href=&quot;http://www.vmware.com/products/fusion/?urlcode=EMEA_Italian_Google_Mac&amp;amp;src=PaidSearch_07Q3_VMW_Google_EMEA_Italian_Google_Mac&amp;amp;ossrc=PaidSearch_07Q3_VMW_Google_EMEA_Italian_Google_Mac&amp;amp;gclid=CMS-vPL4kJACFQ9jQgodxgm0Ag&quot;&gt;  VmWare Fusion&lt;/a&gt; e &lt;a href=&quot;http://www.apple.com/macosx/features/bootcamp.html&quot;&gt;BootCamp &lt;/a&gt;soluzione nativa di mamma Apple. Dopo aver provato BootCamp per un pò ho deciso di abbandonarlo, uso Windows solo per Visual Studio, inoltre i driver forniti nel dvd di Leopard non mi hanno emozionato come prestazioni, ho allora installato il mio Windows Xp su Parallels e lo sto provando, ma anche VmWare Fusion mi stuzzica parecchio e conto il fine settimana di provarlo un pò.&lt;/p&gt;
 &lt;p&gt;A presto per una scelta definitiva tra i due i prodotti intanto eccovi delle testimonianze di chi ha già deciso la soluzione più adatta a se.&lt;br /&gt;&lt;a href=&quot;http://blog.bluecog.co.nz/archives/2007/09/08/coming-out-of-the-technology-closet/&quot;&gt;&lt;br /&gt;http://blog.bluecog.co.nz/archives/2007/09/08/coming-out-of-the-technology-closet/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://hammett.castleproject.org/?p=174&quot;&gt;http://hammett.castleproject.org/?p=174&lt;/a&gt;&lt;/p&gt;
@@ -1154,9 +1155,9 @@ Alcuni pensieri sul &lt;a href=&quot;http://blogs.ugidotnet.org/RamMuayBlog/arch
  
  <entry>
    <title>Android una nuova Tecnologia targata Google</title>
-   <link href="http://localhost:4000/2007/11/android-una-nuova-tecnologia-targata-google"/>
+   <link href="http://localhost:4000/2007/11/13/android-una-nuova-tecnologia-targata-google"/>
    <updated>2007-11-13T16:14:34+01:00</updated>
-   <id>http://localhost:4000/2007/11/android-una-nuova-tecnologia-targata-google</id>
+   <id>http://localhost:4000/2007/11/13/android-una-nuova-tecnologia-targata-google</id>
    <content type="html">&lt;p&gt; Dopo tanto parlare dell&#39;imminente uscita di un telefonino targato Google, il gigante del Web ha mostrato al mondo la sua &quot;mossa&quot; sul fronte telefonia, niente hardware per ora, ma solo una nuova tecnologia software chiamata &lt;a href=&quot;http://code.google.com/android/index.html&quot;&gt;Android&lt;/a&gt;. Questa tecnologia sarà comune a molti produttori sarà infatti un vero e proprio sistema aperto che porterà almeno si spera, una boccata fresca nel mondo della telefonia e permetterà di sviluppare applicazioni molto interessanti. La BigG ha già rilasciato un&#39;&lt;a href=&quot;http://code.google.com/android/download.html&quot;&gt;sdk &lt;/a&gt;per lo sviluppo e ci mostra questa nuova tecnologia in un video dimostrativo.&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -1169,18 +1170,18 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Cresce in Italia l'IT</title>
-   <link href="http://localhost:4000/2007/11/cresce-in-italia-lit"/>
+   <link href="http://localhost:4000/2007/11/08/cresce-in-italia-lit"/>
    <updated>2007-11-08T16:38:56+01:00</updated>
-   <id>http://localhost:4000/2007/11/cresce-in-italia-lit</id>
+   <id>http://localhost:4000/2007/11/08/cresce-in-italia-lit</id>
    <content type="html">&lt;p&gt; &lt;a href=&quot;http://www.cwi.it/showPage.php?template=articoli&amp;amp;id=18575&amp;amp;rss=1&quot;&gt;I&lt;/a&gt;&lt;a href=&quot;http://www.cwi.it/showPage.php?template=articoli&amp;amp;id=18575&amp;amp;rss=1&quot;&gt;nteressante articolo di ComputerWorldOnline&lt;/a&gt;&lt;a href=&quot;http://www.cwi.it/showPage.php?template=articoli&amp;amp;id=18575&amp;amp;rss=1&quot;&gt; &lt;/a&gt;che fa il punto sulla crescita dell&#39;Information Technology in Italia, vanno forte sicurezza, &lt;a href=&quot;http://it.wikipedia.org/wiki/Service-oriented_architecture&quot;&gt;SOA &lt;/a&gt;e &lt;a href=&quot;http://it.wikipedia.org/wiki/Customer_relationship_management&quot;&gt;CRM &lt;/a&gt;, meno bene tutto il comparto delle Telecomunicazioni.Technorati Tags: &lt;a href=&quot;http://technorati.com/tag/IT&quot; rel=&quot;tag&quot;&gt;IT&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/SOA&quot; rel=&quot;tag&quot;&gt;SOA&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/CRM&quot; rel=&quot;tag&quot;&gt;CRM&lt;/a&gt;, &lt;a href=&quot;http://technorati.com/tag/TLC&quot; rel=&quot;tag&quot;&gt;TLC&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Effettuare Logging in .NET con Apache log4net</title>
-   <link href="http://localhost:4000/2007/11/effettuare-logging-in-net-con-apache-log4net"/>
+   <link href="http://localhost:4000/2007/11/06/effettuare-logging-in-net-con-apache-log4net"/>
    <updated>2007-11-06T11:12:22+01:00</updated>
-   <id>http://localhost:4000/2007/11/effettuare-logging-in-net-con-apache-log4net</id>
+   <id>http://localhost:4000/2007/11/06/effettuare-logging-in-net-con-apache-log4net</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/ls-logo.jpg&quot; /&gt;Per un&#39;applicazione molto semplice sviluppata in .NET dovevo eseguire il log di tutto quello che l&#39;Applicazione eseguiva, permettendone il controllo. Dopo aver provato a creare dei log fatti &quot;a mano&quot; mi sono ricordato della librearia di logging sviluppata da Apache e l&#39;ho inserita nel mio progetto, metteno infatti a disposizione una pratica dll da incorporare. L&#39;utilizzo è molto semplice (ma presenta notevoli opzioni e possibilità di effettuare il logging in vari modi) basta infatti inserire il markup dell&#39;assembly in questo modo:&lt;/p&gt;
 &lt;pre&gt;&lt;strong&gt;[assembly: log4net.Config.XmlConfigurator(Watch=true)]&lt;/strong&gt;&lt;/pre&gt;
 &lt;p&gt;e configurare il codice in modo da creare un reference al Log(un possibile esempio):&lt;/p&gt;
@@ -1229,27 +1230,27 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Acquistare un dominio personale</title>
-   <link href="http://localhost:4000/2007/10/acquistare-un-dominio-personale"/>
+   <link href="http://localhost:4000/2007/10/21/acquistare-un-dominio-personale"/>
    <updated>2007-10-21T08:17:36+02:00</updated>
-   <id>http://localhost:4000/2007/10/acquistare-un-dominio-personale</id>
+   <id>http://localhost:4000/2007/10/21/acquistare-un-dominio-personale</id>
    <content type="html">&lt;p&gt;E&#39; un po di tempo che mi frulla in testa l&#39;idea di acquistare uno spazio tutto mio, un sito web del tipo &lt;strong&gt;&lt;a href=&quot;http://www.antonioscatoloni.it&quot;&gt;antonioscatoloni&lt;/a&gt;&lt;/strong&gt; e così mi la scorsa settimana mi sono deciso ed  ho acquistato un dominio su &lt;strong&gt;&lt;a href=&quot;http://hosting.aruba.it/&quot;&gt;aruba&lt;/a&gt;&lt;/strong&gt;, ma stupidamente non ho acquistato lo spazio web perchè il tutto considerando anche un database per caricare il blog, veniva a costarmi circa 40€ inoltre perchè  confidavo di poter effettuare un &lt;a href=&quot;http://faq.wordpress.com/2006/11/10/domain-mapping/&quot;&gt;domain mapping&lt;/a&gt; direttamente da questo spazio wordpress, ora invece ho scoperto che questo servizio è a pagamento su wordpress e quindi non ho convenienza nel farlo. L&#39;unica soluzione che ho trovato al mio problema di hosting è quella di acquistare un dominio + spazio (comprensivo di databse) tramite &lt;strong&gt;&lt;a href=&quot;http://www.tophost.it/&quot;&gt;TopHost&lt;/a&gt;&lt;/strong&gt; al prezzo di &lt;strong&gt;8.99 + iva&lt;/strong&gt; davvero un buon prezzo e di chiedere ad aruba il trasferimento del mio dominio verso questo Registrar.A presto speriamo sul nuovo Host :-)&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Cambio Tema al Blog!!!</title>
-   <link href="http://localhost:4000/2007/10/cambio-tema-al-blog"/>
+   <link href="http://localhost:4000/2007/10/01/cambio-tema-al-blog"/>
    <updated>2007-10-01T15:20:22+02:00</updated>
-   <id>http://localhost:4000/2007/10/cambio-tema-al-blog</id>
+   <id>http://localhost:4000/2007/10/01/cambio-tema-al-blog</id>
    <content type="html">&lt;p&gt;Mi scuso con tutti per questo ulteriore cambio tema, ma ritengo che il vecchio tema Regulus era elegante ma poco leggibile. Spero che il nuovo tema sia gradito a tutti :-) &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Controllare il traffico dati Internet con MacOsx!!!</title>
-   <link href="http://localhost:4000/2007/10/controllare-il-traffico-dati-internet-con-macosx"/>
+   <link href="http://localhost:4000/2007/10/01/controllare-il-traffico-dati-internet-con-macosx"/>
    <updated>2007-10-01T14:53:01+02:00</updated>
-   <id>http://localhost:4000/2007/10/controllare-il-traffico-dati-internet-con-macosx</id>
+   <id>http://localhost:4000/2007/10/01/controllare-il-traffico-dati-internet-con-macosx</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/page145_1.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Per tutti coloro come me che utilizzano una connessione con traffico limitato (Tim,Wind,3 etc) su piattaforma MacOsX, esiste un programma molto utile &lt;a href=&quot;http://www.nonsolomac.com/Mac/Software/Surplus%20Meter/surplusmeter.html&quot;&gt;Surplus Meter&lt;/a&gt; , che monitorizza il traffico dati fornendo anche delle statistiche sul traffico effettuato. &lt;br /&gt;Da Provare!!!!&lt;/p&gt;
 &lt;p&gt;Technorati Tags: &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Macosx&quot; rel=&quot;tag&quot;&gt;Macosx&lt;/a&gt;, &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Telefonia%20mobile&quot; rel=&quot;tag&quot;&gt;Telefonia mobile&lt;/a&gt;&lt;/p&gt;
@@ -1259,9 +1260,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>GoogleDocs under Attack!!!</title>
-   <link href="http://localhost:4000/2007/10/googledocs-under-attack"/>
+   <link href="http://localhost:4000/2007/10/01/googledocs-under-attack"/>
    <updated>2007-10-01T14:08:27+02:00</updated>
-   <id>http://localhost:4000/2007/10/googledocs-under-attack</id>
+   <id>http://localhost:4000/2007/10/01/googledocs-under-attack</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/google-logo.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;E&#39; stata in questi giorni messa in evidenza una falla nei sistemi del gigante del Web. Il sistema concettualmente molto semplice permette al malintenzionato di accedere ai Documenti di un utente che sono stati creati, tramite i servizi offerti dal multifunzionale motore di ricerca. Il servizio di Google permette infatti di inviare tramite email i documenti creati ed è proprio in questa procedura che viene eseguito l&#39;Hack. Il servizio Web infatti genera per ciascun documento una request di tipo GET dove viene inserito un codice &lt;strong&gt;DocID&lt;/strong&gt; seguito da un codice numerico che rappresenta il documento, modificando opportunamente il codice numerico si possono ricevere via email documenti appartenenti ad altri utenti, il sistema inafatti non verifica più la stringa della richiesta.&lt;/p&gt;
 &lt;p&gt;Tutta la procedura &lt;a href=&quot;http://xs-sniper.com/blog/&quot;&gt;qui&lt;/a&gt;.&lt;/p&gt;
@@ -1271,9 +1272,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Linq una nuova Tecnologia Targata Microsoft!!!</title>
-   <link href="http://localhost:4000/2007/09/linq-una-nuova-tecnologia-targata-microsoft"/>
+   <link href="http://localhost:4000/2007/09/19/linq-una-nuova-tecnologia-targata-microsoft"/>
    <updated>2007-09-19T09:46:52+02:00</updated>
-   <id>http://localhost:4000/2007/09/linq-una-nuova-tecnologia-targata-microsoft</id>
+   <id>http://localhost:4000/2007/09/19/linq-una-nuova-tecnologia-targata-microsoft</id>
    <content type="html">&lt;p&gt;Una delle cose più interessanti del nuovo framework .NET 3.5&amp;nbsp; è sicuramente Linq, un nuovo linguaggio integrabile all&#39;interno del codice C# o Vb per gestire in modo efficiente e semplice l&#39;accesso alle basi di Dati. Una risposta targata Microsoft ad &lt;a href=&quot;http://en.wikipedia.org/wiki/Object-relational_mapping&quot;&gt;ORM&lt;/a&gt; molto famosi come &lt;a href=&quot;http://www.hibernate.org/343.html&quot;&gt;Nhibernate&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.winfxitalia.com/articoli/netfx3.5/linq.aspx&quot;&gt;Maggiori&lt;/a&gt; Info.&lt;/p&gt;
 </content>
@@ -1281,9 +1282,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>SQL Injection!!!!</title>
-   <link href="http://localhost:4000/2007/09/sql-injection-2"/>
+   <link href="http://localhost:4000/2007/09/13/sql-injection-2"/>
    <updated>2007-09-13T09:33:57+02:00</updated>
-   <id>http://localhost:4000/2007/09/sql-injection-2</id>
+   <id>http://localhost:4000/2007/09/13/sql-injection-2</id>
    <content type="html">&lt;p&gt;Sono praticamente a secco di tecniche di Hacking ma una serie di post che ho trovato girovagando per Internet mi hanno convinto ad approfondire l&#39;argomento sulla SQL Injection. Praticamente questa tecnica si utilizza principalmente in tutti quei siti web dinamici che hanno del codice lato server (php,ASP,JSP etc) che accede ad un database sottostante per inserire ed autenticare gli utenti del sistema. In pratica una volta inseriti la USER e la PWD in un form, il codice li passa ad un DB SQL tramite una classica query del tipo &lt;em&gt;SELECT field wher USER=&quot;valore inserito nel form&quot; AND PWD=&quot;valore inserito nel form&quot;&lt;/em&gt;  e qui sta la tecnica del SQL injection, molti db per esempio l&#39;ottimo mySQL hanno sempre un &lt;em&gt;utente root&lt;/em&gt; nel sistema quindi il primo campo del form nel sito web possiamo riempirlo con questo dato, per quanto riguarda la password possiamo inserire una cosa di questo tipo &lt;strong&gt;123&#39; or &#39;1&#39; =&#39;1 &lt;/strong&gt;  in questo modo riformulando la query andiamo ad inserire una pwd che crea un&#39;affermazione sempre vera  che ci da accesso al sito web. Questa tecnica può essere facilmente aggirata dagli sviluppatori del sito, validando i campi o inserendo delle sequenze di &lt;em&gt;escape&lt;/em&gt; che eliminano la condizione in OR.&lt;/p&gt;
 &lt;p&gt;PS:Questo post è solo un modo per far capire a chi sviluppa siti web, quanto sia importante la sicurezza e non certo un modo per creare problemi a qualcuno.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://it.wikipedia.org/wiki/SQL_injection&quot;&gt;Maggiori Informazioni sulla tecnica.&lt;/a&gt;&lt;/p&gt;
@@ -1293,9 +1294,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Pensieri sull’estate</title>
-   <link href="http://localhost:4000/2007/08/pensieri-sullestate-2"/>
+   <link href="http://localhost:4000/2007/08/04/pensieri-sullestate-2"/>
    <updated>2007-08-04T22:11:25+02:00</updated>
-   <id>http://localhost:4000/2007/08/pensieri-sullestate-2</id>
+   <id>http://localhost:4000/2007/08/04/pensieri-sullestate-2</id>
    <content type="html">&lt;p&gt;A volte capita che qualcuno trovi le giuste parole, per cose che penso da una vita. Ringrazio Beppe Grillo per questo&amp;nbsp; &lt;a href=&quot;http://www.beppegrillo.it/2007/08/odio_allagosto.html&quot;&gt;pensiero&lt;/a&gt; post.&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Fonte Beppe Grillo Blog.&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;Technorati Tags: &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Agosto&quot; rel=&quot;tag&quot;&gt;Agosto&lt;/a&gt;, &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Vacanze&quot; rel=&quot;tag&quot;&gt;Vacanze&lt;/a&gt;, &lt;a class=&quot;performancingtags&quot; href=&quot;http://technorati.com/tag/Estate&quot; rel=&quot;tag&quot;&gt;Estate&lt;/a&gt;&lt;/p&gt;
@@ -1304,9 +1305,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Pronti per le Ferie!!!</title>
-   <link href="http://localhost:4000/2007/08/pronti-per-le-ferie"/>
+   <link href="http://localhost:4000/2007/08/04/pronti-per-le-ferie"/>
    <updated>2007-08-04T12:02:58+02:00</updated>
-   <id>http://localhost:4000/2007/08/pronti-per-le-ferie</id>
+   <id>http://localhost:4000/2007/08/04/pronti-per-le-ferie</id>
    <content type="html">&lt;div align=&quot;center&quot;&gt;
 &lt;div align=&quot;left&quot;&gt;&lt;img src=&quot;/assets/buone_vacanze_11.gif&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Dopo quasi un anno di duro lavoro, è arrivato il momento delle ferie. Spero che in molti sentiranno la mancanza dei miei post, a &lt;b&gt;fi&lt;/b&gt;&lt;b&gt;ne Agosto&lt;/b&gt; si riparte, speriamo più carichi di adesso.&lt;/p&gt;
@@ -1319,9 +1320,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Percorsi Formativi Microsoft</title>
-   <link href="http://localhost:4000/2007/07/percorsi-formativi-microsoft"/>
+   <link href="http://localhost:4000/2007/07/29/percorsi-formativi-microsoft"/>
    <updated>2007-07-29T12:39:07+02:00</updated>
-   <id>http://localhost:4000/2007/07/percorsi-formativi-microsoft</id>
+   <id>http://localhost:4000/2007/07/29/percorsi-formativi-microsoft</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/msdn_masthead_ltr.gif&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Una serie di lezioni &lt;a href=&quot;http://www.microsoft.com/italy/msdn/risorsemsdn/eventi/webcast/percorsi/default.mspx&quot;&gt;video (Webcast)&lt;/a&gt; per tutti coloro che desiderano conoscere le prinicipali &lt;b&gt;tecnologie di sviluppo software&lt;/b&gt;, legate al colosso di Redmond.&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;PS&lt;/b&gt;&lt;/font&gt;: Il formato video di questi video (webcast) &lt;u&gt;non è compatibile né con la piattaforma Mac né con quella Linux, &lt;/u&gt;in quanto i filmati utilizzano un codec proprietario Microsoft, non ancora disponibile sui player OpenSource (&lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;VLC&lt;/a&gt; incluso) &lt;font color=&quot;#ff0000&quot;&gt;:-((&lt;/font&gt;.&lt;/p&gt;
@@ -1334,18 +1335,18 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Modem Umts, Nokia 6680 e MacBook Pro</title>
-   <link href="http://localhost:4000/2007/07/modem-umts-nokia-6680-e-macbook-pro"/>
+   <link href="http://localhost:4000/2007/07/21/modem-umts-nokia-6680-e-macbook-pro"/>
    <updated>2007-07-21T13:22:45+02:00</updated>
-   <id>http://localhost:4000/2007/07/modem-umts-nokia-6680-e-macbook-pro</id>
+   <id>http://localhost:4000/2007/07/21/modem-umts-nokia-6680-e-macbook-pro</id>
    <content type="html">&lt;p&gt;Come molti in Italia, purtroppo non possiedo  una connessione ADSL (ma la vorrei &lt;span style=&quot;font-size: 20pt&quot;&gt;☺&lt;/span&gt;)per motivi legati alla mia posizione geografica, un pò decentrata dalla “giungla” urbana. Come tanti sto aspettando il famigerato Wifi Max, ma nell’attesa mi sono deciso a sfruttare il mio Nokia 6680 come modem Umts. Il nokione se la cava molto bene come velocità, accoppiato al mio macbook pro ma troppo spesso succede che si scollega ed è molto difficile per me ricollegarmi (solitamente ci riesco solo dopo tanti tentativi). Come sapranno già molti utenti mac, i cellulari nokia non hanno driver per la nostra piattaforma, né la &lt;a href=&quot;http://www.nokia.it/A4191025&quot;&gt;Nokia Pc Suite&lt;/a&gt;, software esclusivamente per Windows. Quindi ho sempre effettuato il collegamento tra i due dispositivi, tramite la tecnologia Bluetooth. Oggi però mi sono accorto che collegando il nokione col suo cavo al macbook  sotto “Preferenze di Sistema” --&amp;gt; “Network” viene rilevato come modem nokia 6680, quindi l’ho configurato con le impostazioni classiche (telefono *99#, script di connessione Nokia Infrared etc) e tutto va davvero molto molto meglio, niente più scollegamenti e la rete sembra ancora più reattiva &lt;span style=&quot;font-size: 20pt&quot;&gt;☺&lt;/span&gt;).&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Blue&Me Nav</title>
-   <link href="http://localhost:4000/2007/07/blueme-nav"/>
+   <link href="http://localhost:4000/2007/07/14/blueme-nav"/>
    <updated>2007-07-14T13:41:51+02:00</updated>
-   <id>http://localhost:4000/2007/07/blueme-nav</id>
+   <id>http://localhost:4000/2007/07/14/blueme-nav</id>
    <content type="html">&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;In queste settimane di lancio delle nuova &lt;a href=&quot;http://www.fiat500.com&quot;&gt;Fiat 500&lt;/a&gt;, si fa un gran parlare di questo sistema di intrattenimento ed informazione o come dice la fiat di &quot;infotainment&quot;. Il sistema presente su Fiat Punto, Bravo e 500, permette di usare un cellulare Bluetooth per chiamare e ricevere sms tutto tramite la propria auto ed una serie di comandi vocali, pilotati da pulsanti posti sul volante della propria auto, inoltre grazie ad una pratica porta usb permette di collegare all&#39;auto una chiavetta usb e riprodurre i file musicali presenti in essa. Il sistema è stato progettato da Fiat insieme al colosso di Redmond e sfrutta tecnologie derivanti da Windows Mobile per la gestione dei dati, ma al contrario di quanti molti dicono il sistema Blue&amp;amp;Me Nav supporta pienamente l&#39;ipod, con la pratica interfaccia di gestione: Album,Generi etc.&lt;/p&gt;
 &lt;p&gt;Complimenti Fiat!!!&lt;/p&gt;
@@ -1356,9 +1357,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>iPhone “blindato” No grazie!!!</title>
-   <link href="http://localhost:4000/2007/07/iphone-blindato-no-grazie"/>
+   <link href="http://localhost:4000/2007/07/01/iphone-blindato-no-grazie"/>
    <updated>2007-07-01T10:48:54+02:00</updated>
-   <id>http://localhost:4000/2007/07/iphone-blindato-no-grazie</id>
+   <id>http://localhost:4000/2007/07/01/iphone-blindato-no-grazie</id>
    <content type="html">&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Mi sembra assurdo come la Apple si stia prodigando nel cercare&amp;nbsp; di bloccare ogni forma di utilizzo dell&#39;iPhone in modo differente, da quello pensato da zio Steve. Non ho mai sopportato il &quot;depotenziamento&quot; di un sistema per soli fini commerciali, questo poi è davvero troppo a mio modesto parere. &lt;/p&gt;
 &lt;p&gt;Riporto una lista di limiti e vincoli dell&#39;iPhone americano in vendita in questi giorni unicamente con contratto stipulato con il provider AT&amp;amp;T.&lt;/p&gt;
@@ -1397,9 +1398,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Say Hello to iPhone!!!</title>
-   <link href="http://localhost:4000/2007/06/say-hello-to-iphone"/>
+   <link href="http://localhost:4000/2007/06/29/say-hello-to-iphone"/>
    <updated>2007-06-29T22:11:29+02:00</updated>
-   <id>http://localhost:4000/2007/06/say-hello-to-iphone</id>
+   <id>http://localhost:4000/2007/06/29/say-hello-to-iphone</id>
    <content type="html">&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Il grande giorno del debutto americano dell&#39;iPhone è arrivato, tantissime persone in coda negli Apple Store per acquistare questo meraviglioso strumento di comunicazione.Intanto noi europei aspettiamo, fiduciosi notizie per il nostro mercato e magari il supporto al 3G davvero utile, specialmente in Italia dove navigare a velocità decenti non è sempre così facile :-((&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.apple.com/&quot;&gt;http://www.apple.com/&lt;/a&gt;&lt;/p&gt;
@@ -1408,9 +1409,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>WiFi diritto alla conoscenza!!!</title>
-   <link href="http://localhost:4000/2007/06/wifi-diritto-alla-conoscenza"/>
+   <link href="http://localhost:4000/2007/06/17/wifi-diritto-alla-conoscenza"/>
    <updated>2007-06-17T18:32:57+02:00</updated>
-   <id>http://localhost:4000/2007/06/wifi-diritto-alla-conoscenza</id>
+   <id>http://localhost:4000/2007/06/17/wifi-diritto-alla-conoscenza</id>
    <content type="html">&lt;p&gt;Al via la gara per l&#39;assegnazione delle frequenze per l&#39;utilizzo della tecnologia WiFi Max, che speriamo riuscirà a colmare il famoso digital-divide italiano. Sul Web intanto è stata proposta una&lt;a href=&quot;http://www.petitiononline.com/wmaxfree/&quot;&gt; petizione&lt;/a&gt; da presentare al ministro delle telecomunicazioni &lt;a href=&quot;http://www.paologentiloni.it/&quot;&gt;On. Paolo Gentiloni &lt;/a&gt;per riuscire ad assegnare almeno un terzo delle frequenze ad enti senza fine di lucro, in modo da offrire un servizio il più libero possibile da interessi di solo spirito commerciale, ricordando l&#39;importanza che riveste Internet nel mondo moderno, come &lt;a href=&quot;http://it.wikipedia.org/wiki/Pagina_principale&quot;&gt;fonte di conoscenza universale&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Petizione Online  &lt;a href=&quot;http://www.petitiononline.com/wmaxfree/&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;http://www.petitiononline.com/wmaxfree&lt;/u&gt;/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.beppegrillo.it/2007/06/wimax_e_diritto_alla_conoscenza.html&quot;&gt;Fonte Beppe Grillo Blog&lt;/a&gt;&lt;/p&gt;
@@ -1419,9 +1420,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Cosa conoscere per lavorare nel grande mondo dell’Informatica? Qualcuno prova a rispondere!!!</title>
-   <link href="http://localhost:4000/2007/06/cosa-conoscere-per-lavorare-nel-grande-mondo-dellinformatica-qualcuno-prova-a-rispondere"/>
+   <link href="http://localhost:4000/2007/06/14/cosa-conoscere-per-lavorare-nel-grande-mondo-dellinformatica-qualcuno-prova-a-rispondere"/>
    <updated>2007-06-14T11:52:26+02:00</updated>
-   <id>http://localhost:4000/2007/06/cosa-conoscere-per-lavorare-nel-grande-mondo-dellinformatica-qualcuno-prova-a-rispondere</id>
+   <id>http://localhost:4000/2007/06/14/cosa-conoscere-per-lavorare-nel-grande-mondo-dellinformatica-qualcuno-prova-a-rispondere</id>
    <content type="html">&lt;p&gt;Questa domanda, specialmente per chi come me, inizia ora a lavorare nel mondo dell&#39;IT, è molto ricorrente. Non si può infatti pretendere di conoscere i vari framework di sviluppo, le varie tecnologie (.NET,J2EE etc) in breve tempo; bisogna scegliere e chi come sempre la fa da padrone, è il mercato. Qualcuno ha analizzato le varie richieste di lavoro (relative all&#39;Australia ma valide un pò dappertutto) e ne ha fatto uno&lt;a href=&quot;http://jamescrisp.blogspot.com/2007/06/is-net-or-java-dying.html&quot;&gt; studio interessante&lt;/a&gt;, corredato da grafici.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/best.JPG&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -1430,9 +1431,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>La guerra dei browser ha un altro guerriero!!!!</title>
-   <link href="http://localhost:4000/2007/06/la-guerra-dei-browser-ha-un-altro-guerriero"/>
+   <link href="http://localhost:4000/2007/06/13/la-guerra-dei-browser-ha-un-altro-guerriero"/>
    <updated>2007-06-13T10:53:07+02:00</updated>
-   <id>http://localhost:4000/2007/06/la-guerra-dei-browser-ha-un-altro-guerriero</id>
+   <id>http://localhost:4000/2007/06/13/la-guerra-dei-browser-ha-un-altro-guerriero</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/hero20070611.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;La guerra dei browser è sempre esistita dai tempi di Netscape contro Internet Explorer, con la vittoria di quest&#39;ultimo e l&#39;apertura di un&#39;era, quella dominata dal browser di Redmond. In  questi ultimi anni però Firefox , il celebre browser OpenSource ha rosicchiato qualcosina ad IE e Microsoft ha aggiornato il suo clelebre browser alla versione 7 che lo migliora notevolmente(se usate IE almeno &lt;a href=&quot;http://www.microsoft.com/italy/windows/downloads/ie/getitnow.mspx&quot;&gt;aggiornatelo&lt;/a&gt; :-)).Lunedi il grande annuncio Apple rilascerà il suo celebre borwser Safari anche per piattaforma Windows e non più solo per il suo MacOSX. Safari è un&#39;ottimo browser, tra quelli che ho provato è il più veloce nel caricare le pagine, Firefox però ha molte estensioni che lo rendono davvero full-optional. La versione Win di Safari è ancora in fase beta e nel complesso ancora molto instabile (crash in molti siti), è comunque possibile scaricarla dal &lt;a href=&quot;http://www.apple.com/it/safari/&quot;&gt;sito web si Apple&lt;/a&gt;, la versione MacOsX aggiornata proprio lunedi, invece è davvero superveloce :-)).&lt;/p&gt;
 &lt;p&gt;Good Browsing Folks!!!&lt;/p&gt;
@@ -1443,9 +1444,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Il mio Mac che Soddisfazione!!!!</title>
-   <link href="http://localhost:4000/2007/06/il-mio-mac-che-soddisfazione"/>
+   <link href="http://localhost:4000/2007/06/02/il-mio-mac-che-soddisfazione"/>
    <updated>2007-06-02T12:28:36+02:00</updated>
-   <id>http://localhost:4000/2007/06/il-mio-mac-che-soddisfazione</id>
+   <id>http://localhost:4000/2007/06/02/il-mio-mac-che-soddisfazione</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/gobelins-apple.jpg&quot; alt=&quot;gobelins-apple.jpg&quot; width=&quot;380&quot; height=&quot;284&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Non mi reputo un fan della &lt;strong&gt;Grande Mela&lt;/strong&gt; di quelli che sanno solo osannare e mai criticare, ma quando sto davanti al mio Mac, apprezzo e comprendo pienamente come questo personal computer riesca a rendere davvero “Grande” la propria &lt;strong&gt;vita digitale&lt;/strong&gt;. I problemi scompaiono tutto quello che ti serve è a portata di &lt;strong&gt;Mela-BackSpace&lt;/strong&gt;, &lt;strong&gt;iTunes&lt;/strong&gt; sempre a palla, il mitico &lt;strong&gt;PearlLyrics&lt;/strong&gt; che spara a video i testi delle canzoni che amo, &lt;strong&gt;FrontRow&lt;/strong&gt; ed il suo mitico telecomando, &lt;strong&gt;Toast&lt;/strong&gt; che non mi ha mai bruciato un cd-dvd, &lt;strong&gt;Safari&lt;/strong&gt; che è superveloce nell’aprire le pagine Web, &lt;strong&gt;Mail&lt;/strong&gt; e le sue cartelle Smart, &lt;strong&gt;Adium&lt;/strong&gt; il client messanger più bello mai visto che mi permette di utilizzare con un solo programma tutti gli  account IM Gtalk,Msn,Yahoo,AOL).&lt;/p&gt;
 &lt;p&gt;Questo poi è solo l’inizio, in autunno arriverà &lt;strong&gt;Leopard&lt;/strong&gt; ed allora  nuove funzioni, nuova linfa al Digital Life!!!&lt;/p&gt;
@@ -1457,9 +1458,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Bayer Biologicals vuole abbandonare il Senese!!! Lavoratori in sciopero</title>
-   <link href="http://localhost:4000/2007/05/bayer-biologicals-vuole-abbandonare-il-senese-lavoratori-in-sciopero"/>
+   <link href="http://localhost:4000/2007/05/31/bayer-biologicals-vuole-abbandonare-il-senese-lavoratori-in-sciopero"/>
    <updated>2007-05-31T11:40:09+02:00</updated>
-   <id>http://localhost:4000/2007/05/bayer-biologicals-vuole-abbandonare-il-senese-lavoratori-in-sciopero</id>
+   <id>http://localhost:4000/2007/05/31/bayer-biologicals-vuole-abbandonare-il-senese-lavoratori-in-sciopero</id>
    <content type="html">&lt;p&gt;La Bayer chiude il suo stabilimento toscano. Entro la fine del 2009&lt;br /&gt;l&#39;insediamento produttivo di Rosia, 15 chilometri a sud di Siena, 102&lt;br /&gt;occupati, sarà dismesso a favore di quello di &lt;b&gt;Garbagnate, in provincia&lt;br /&gt;di Milano&lt;/b&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.conquistedellavoro.it/cdl/gol/dettaglioArticolo.jsp?id=-1784303762&amp;amp;storico=1&amp;amp;data=17-05-2007&quot;&gt;Continua&lt;/a&gt;.&lt;/p&gt;
 
@@ -1469,9 +1470,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>I due più grandi “leader” dell’informatica moderna a confronto!!!</title>
-   <link href="http://localhost:4000/2007/05/i-due-piu-grandi-leader-dellinformatica-moderna-a-confronto"/>
+   <link href="http://localhost:4000/2007/05/31/i-due-piu-grandi-leader-dellinformatica-moderna-a-confronto"/>
    <updated>2007-05-31T11:26:26+02:00</updated>
-   <id>http://localhost:4000/2007/05/i-due-piu-grandi-leader-dellinformatica-moderna-a-confronto</id>
+   <id>http://localhost:4000/2007/05/31/i-due-piu-grandi-leader-dellinformatica-moderna-a-confronto</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/este_31122717_47090.jpg&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Incontro storico!!!  &lt;/strong&gt;Steve Jobs e Bill Gates uno di fronte all&#39;altro per parlare di due aziende che hanno cambiato e continueranno a cambiare l&#39;informatica ma anche la vita quotidiana di noi tutti (Windows,iPod etc). Insieme si raccontano parlano del passato, delle differenze tra i modi di concepire il software ma anche l&#39;hardware ed infine rivelano progetti per il futuro, a dire il vero non troppo differenti l&#39;uno dall&#39;altro.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.repubblica.it/2005/b/sezioni/scienza_e_tecnologia/mondomac/confronto-gates-jobs/confronto-gates-jobs.html&quot;&gt;Fonte Repubblica&lt;/a&gt;&lt;br /&gt;
@@ -1483,9 +1484,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Google Maps ora anche Street View</title>
-   <link href="http://localhost:4000/2007/05/google-maps-ora-anche-street-view-2"/>
+   <link href="http://localhost:4000/2007/05/30/google-maps-ora-anche-street-view-2"/>
    <updated>2007-05-30T15:51:09+02:00</updated>
-   <id>http://localhost:4000/2007/05/google-maps-ora-anche-street-view-2</id>
+   <id>http://localhost:4000/2007/05/30/google-maps-ora-anche-street-view-2</id>
    <content type="html">&lt;p&gt;Provate a inserire su &lt;a href=&quot;http://maps.google.com/&quot;&gt;Google Maps&lt;/a&gt; &quot;New York,NY&quot; nella casella di ricerca, cliccate su Street View, dovrebbero colorarsi di blu alcune strade e dovrebbe apparire anche un omino giallo nel centro, trascinate l&#39;omino giallo su una strada blu e potrete navigare nella città di New York in 3d! quasi fosse uno sparatutto alla Quake o Doom.&lt;/p&gt;
 &lt;p&gt;Per ora è possibile solo in alcune città americane:-(( ma aspettiamo fiduciosi che arrivi anche in Europa.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://maps.google.com/&quot;&gt;&lt;img alt=&quot;Street View&quot; src=&quot;/assets/o_streetview.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1496,9 +1497,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Microsoft presenta il tavolo computer (Microsoft Surface)</title>
-   <link href="http://localhost:4000/2007/05/microsoft-presenta-il-tavolo-computer-microsoft-surface-4"/>
+   <link href="http://localhost:4000/2007/05/30/microsoft-presenta-il-tavolo-computer-microsoft-surface-4"/>
    <updated>2007-05-30T11:22:35+02:00</updated>
-   <id>http://localhost:4000/2007/05/microsoft-presenta-il-tavolo-computer-microsoft-surface-4</id>
+   <id>http://localhost:4000/2007/05/30/microsoft-presenta-il-tavolo-computer-microsoft-surface-4</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img1.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Anche Microsoft ogni tanto ha delle belle idee :-)) e questa sembra una di quelle, quante volte nelle reception degli alberghi o in molti negozi abbiamo visto monitor stipati dentro scrivanie, a me è capitato alcune volte, per queste e molte altre esigenze nasce &lt;b&gt;Surface&lt;/b&gt; la nuova tecnologia di Microsoft che rivoluziona il concetto di scrivania. L&#39;interfaccia è di tipo &lt;b&gt;moulti-touch&lt;/b&gt; come nel cellulare Apple iPhone. Microsoft Surface riesce anche a far interagire &quot;cose digitali&quot; (cellullari, macchine fotografiche) in modo molto semplice. Il dispositivo è dotato di processore Pentium 4 da 3Ghz e 2 Gb di Ram con uno &lt;b&gt;schermo da 30&quot;&lt;/b&gt; risoluzione 1024X768, sistema operativo come prevedibile Windows Vista. &lt;/p&gt;
 &lt;p&gt;Maggiori info &lt;a href=&quot;http://www.macitynet.it/macity/aA28365/index.shtml&quot;&gt;qui&lt;/a&gt;&lt;/p&gt;
@@ -1511,9 +1512,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Creare il Web Con Ruby On Rails</title>
-   <link href="http://localhost:4000/2007/05/creare-il-web-con-ruby-on-rails"/>
+   <link href="http://localhost:4000/2007/05/26/creare-il-web-con-ruby-on-rails"/>
    <updated>2007-05-26T09:00:58+02:00</updated>
-   <id>http://localhost:4000/2007/05/creare-il-web-con-ruby-on-rails</id>
+   <id>http://localhost:4000/2007/05/26/creare-il-web-con-ruby-on-rails</id>
    <content type="html">&lt;p&gt;&lt;/p&gt;
 &lt;blockquote cite=&quot;http://rubyonrails.org/&quot;&gt;&lt;p&gt;&lt;img src=&quot;/assets/rails.png&quot; /&gt;
 &lt;/p&gt;&lt;/blockquote&gt;
@@ -1531,9 +1532,9 @@ Stay Tuned!!!!&lt;/p&gt;
  
  <entry>
    <title>Ajax Prima Parte!!</title>
-   <link href="http://localhost:4000/2007/05/ajax-prima-parte"/>
+   <link href="http://localhost:4000/2007/05/25/ajax-prima-parte"/>
    <updated>2007-05-25T22:05:16+02:00</updated>
-   <id>http://localhost:4000/2007/05/ajax-prima-parte</id>
+   <id>http://localhost:4000/2007/05/25/ajax-prima-parte</id>
    <content type="html">&lt;p&gt;Ajax: tutti conoscono quest’acronimo ormai, la tecnologia mostrata al mondo da Google ma inventata non si sa bene da chi (Microsoft forse :-(() sta riscuotendo grande notorietà. Ajax riesce infatti in modo non troppo complesso ad eliminare tutte le problematiche di gestione dei dati client-server, rendendo le WebApplication sempre più simile alle classiche applicazioni desktop side. Andiamo dunque a vedere un piccolo esempio di come la tecnologia funziona, Ajax utilizza il linguaggio JavaScript di Netscape per la programmazione lato client e si appoggia ad uno qualsiasi dei framework lato server (JSP-ASP-ASP.NET-PHP etc). Nell’esempio verrà utilizzato il framework JSP-Servlet che io conosco meglio :-). In questo piccolo frammento di codice usiamo Ajax per inserire e farci restituire una stringa di testo senza la necessità di dover ricaricare la pagina!!!!&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;color:#0000FF;&quot;&gt;CODICE LATO CLIENT&lt;br /&gt;
 &lt;/span&gt;&lt;br /&gt;
@@ -1666,9 +1667,9 @@ import javax.servlet.http.*;&lt;/p&gt;
  
  <entry>
    <title>Spotlight non trova più nulla</title>
-   <link href="http://localhost:4000/2007/05/spotlight-non-trova-piu-nulla"/>
+   <link href="http://localhost:4000/2007/05/19/spotlight-non-trova-piu-nulla"/>
    <updated>2007-05-19T08:01:17+02:00</updated>
-   <id>http://localhost:4000/2007/05/spotlight-non-trova-piu-nulla</id>
+   <id>http://localhost:4000/2007/05/19/spotlight-non-trova-piu-nulla</id>
    <content type="html">Il sistema di Apple per trovare file all’interno del proprio Mac è qualcosa di insostituibile, tanto che anche quando uso il mio pc premo i tasti “Windows backspace” nella vana speranza che appaia la finestra di ricerca(finalmente anche Vista ormai ha un sistema analogo :)) ma sul mio Xp non appare. A parte scherzi Spotlight semplifica di molto la mia vita digitale ma ieri mi ha fatto uno strano scherzo, sembrava che non trovasse più nulla, ad ogni query non rispondeva in alcun modo, in qualche caso appariva il laconico messaggio “Nessun risultato trovato”. A questo punto ho pensato di ricostruire l’indice che MacOsx genera automaticamente ci sono varie tecniche per farlo, applicazioni come &lt;a href=&quot;http://www.titanium.free.fr/pgs/english.html&quot;&gt;Onyx&lt;/a&gt;, permettono di farlo in modo automatico ma si può fare anche tramite il comando &lt;em&gt;&lt;strong&gt;sudo mdutil -E / &lt;/strong&gt;&lt;/em&gt;da terminale. Dopo aver riindicizzato il mio disco pensavo che tutto funzionasse di nuovo ma nulla, sono stato quasi tentato di fare un bell’“Archivia e Installa” ma poi ho trovato la soluzione googlando in rete, è bastato infatti cancellare il file di preferenze apple.spotlight, che si trova sotto la cartella Preferences, nella Libreria del proprio utente (/Utente /Library/Preferences) al successivo riavvio Spotlight era dinuova bella pronta per nuove ricerche sul mio disco.&lt;/p&gt;
 &lt;p&gt;Buon  Mela-Backspace a tutti!!!&lt;/p&gt;
 </content>
@@ -1676,9 +1677,9 @@ import javax.servlet.http.*;&lt;/p&gt;
  
  <entry>
    <title>Java vs Ruby On Rails</title>
-   <link href="http://localhost:4000/2007/05/49"/>
+   <link href="http://localhost:4000/2007/05/18/49"/>
    <updated>2007-05-18T08:05:14+02:00</updated>
-   <id>http://localhost:4000/2007/05/49</id>
+   <id>http://localhost:4000/2007/05/18/49</id>
    <content type="html">&lt;p&gt;[youtube=http://www.youtube.com/watch?v=PQbuyKUaKFo]&lt;br /&gt;
 Il Famoso linguaggio per il Web Ruby On Rails attacca il grande Java in uno spot in puro stile  Apple &quot;Get a Mac&quot;.&lt;/p&gt;
 &lt;p&gt;Guardatelo!!!!&lt;/p&gt;
@@ -1687,9 +1688,9 @@ Il Famoso linguaggio per il Web Ruby On Rails attacca il grande Java in uno spot
  
  <entry>
    <title>Wifi Max finalmente ci siamo!!! Arrivano le licenze</title>
-   <link href="http://localhost:4000/2007/05/wifi-max-finalmente-ci-siamo-arrivano-le-licenze"/>
+   <link href="http://localhost:4000/2007/05/15/wifi-max-finalmente-ci-siamo-arrivano-le-licenze"/>
    <updated>2007-05-15T07:33:27+02:00</updated>
-   <id>http://localhost:4000/2007/05/wifi-max-finalmente-ci-siamo-arrivano-le-licenze</id>
+   <id>http://localhost:4000/2007/05/15/wifi-max-finalmente-ci-siamo-arrivano-le-licenze</id>
    <content type="html">Finalmente dopo un lungo attendere &lt;strong&gt;l’AGCOMM&lt;/strong&gt; ha deciso come le frequenze per la tecnologia WiMax verranno assegnate, ci saranno tre licenze nella banda dei 3,5 Ghz su ciascuna  area di copertura, con un obbligo di copertura da raggiungere entro 30 mesi e con una durata della licenza pari a 15 anni. Speriamo che questa tecnologia prenda piede e si riesca a fornire connessioni Internet decenti, in tutto lo stivale.&lt;/p&gt;
 &lt;p&gt;Fonte &lt;em&gt;&lt;a href=&quot;http://www.tomshw.it/news.php?newsid=10011&quot;&gt;Tomshw&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/em&gt;Riporto i link ai due operatori che forniranno il servizio nelle province della Toscana e dell’Alto Lazio:&lt;/p&gt;
@@ -1700,18 +1701,18 @@ Il Famoso linguaggio per il Web Ruby On Rails attacca il grande Java in uno spot
  
  <entry>
    <title>La  Potenza del Web 2.0!!!</title>
-   <link href="http://localhost:4000/2007/05/la-potenza-del-web-20"/>
+   <link href="http://localhost:4000/2007/05/11/la-potenza-del-web-20"/>
    <updated>2007-05-11T13:14:36+02:00</updated>
-   <id>http://localhost:4000/2007/05/la-potenza-del-web-20</id>
+   <id>http://localhost:4000/2007/05/11/la-potenza-del-web-20</id>
    <content type="html">&lt;p&gt;Navigando ho trovato in un blog,  questo simpatico &lt;a href=&quot;http://www.cogniview.com/convert-pdf-to-excel/post/the-freelancers-toolset-100-web-apps-for-everything-you-will-possibly-need/&quot;&gt;link&lt;/a&gt; che fornisce un’elenco di un numero elevato di applicazioni che girano direttamente sul proprio browser,  ce ne sono di moltissimi tipi e categorie, dateci un’occhiata potreste trovarne una che fa al caso vostro!!!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>MacOsX e i mouse non ci siamo!!!</title>
-   <link href="http://localhost:4000/2007/05/macosx-e-i-mouse-non-ci-siamo"/>
+   <link href="http://localhost:4000/2007/05/10/macosx-e-i-mouse-non-ci-siamo"/>
    <updated>2007-05-10T11:11:13+02:00</updated>
-   <id>http://localhost:4000/2007/05/macosx-e-i-mouse-non-ci-siamo</id>
+   <id>http://localhost:4000/2007/05/10/macosx-e-i-mouse-non-ci-siamo</id>
    <content type="html">Ci sono molto motivi per scegliere il sistema operativo e quindi acquistare un bel Mac, ma come ogni cosa, anche il sistema di Apple ha delle piccole limitazioni a mio parere una di quelle più noiose è la gestione dei mouse. Mi spiego in Macosx l’utilizzo del mouse risulta molto più lento e con meno accelerazione che su Windows, rendendone l’utilizzo poco piacevole, tutto questo senza l’aggiunta di driver specifici (driver Microsoft, driver Logitech etc) disponibili per entrambe le piattaforme (Mac Win) . Per ovviare a questo problema, per i mouse sprovvisti di driver propri e per i Mighty Mouse di Apple sono state sviluppate delle applicazioni che sostituiscono il driver di Apple e forniscono una serie di settaggi che rendono l’uso del mouse, sul mio adorato Mac davvero piacevole :)).&lt;/p&gt;
 &lt;p&gt;Le principali applicazioni entrambe a pagamento sono:&lt;br /&gt;
 • &lt;a href=&quot;http://www.usboverdrive.com/USBOverdrive/News.html&quot;&gt;UsbOverDrive&lt;/a&gt; (non funziona ancora con il Mighty Mouse Bt  ma va benissimo con i mouse corded)&lt;br /&gt;
@@ -1721,9 +1722,9 @@ Il Famoso linguaggio per il Web Ruby On Rails attacca il grande Java in uno spot
  
  <entry>
    <title>Sun muove guerra ad Ajax e SilverLight!!!</title>
-   <link href="http://localhost:4000/2007/05/sun-muove-guerra-ad-ajax-e-silverlight"/>
+   <link href="http://localhost:4000/2007/05/09/sun-muove-guerra-ad-ajax-e-silverlight"/>
    <updated>2007-05-09T11:03:26+02:00</updated>
-   <id>http://localhost:4000/2007/05/sun-muove-guerra-ad-ajax-e-silverlight</id>
+   <id>http://localhost:4000/2007/05/09/sun-muove-guerra-ad-ajax-e-silverlight</id>
    <content type="html">&lt;p&gt;La notizia che aspettavo :))  dopo l’arrivo di SilverLight ed il massivo utilizzo di Ajax nelle applicazioni del web 2.0 anche Sun vuole mettersi in lizza con una sua tecnologia&lt;br /&gt;
 proprietaria che si chiamerà JavaFx e verrà integrata in tutto il framework Java, dando agli sviluppatori notevoli possibilità  grafiche, che adesso sono assenti nelle tecnologie java per il Web!!!&lt;/p&gt;
 &lt;p&gt;E’ proprio il caso di dire:&lt;/p&gt;
@@ -1737,9 +1738,9 @@ proprietaria che si chiamerà JavaFx e verrà integrata in tutto il framework Ja
  
  <entry>
    <title>I laptop a scuola non servono?</title>
-   <link href="http://localhost:4000/2007/05/i-laptop-a-scuola-non-servono"/>
+   <link href="http://localhost:4000/2007/05/08/i-laptop-a-scuola-non-servono"/>
    <updated>2007-05-08T12:42:31+02:00</updated>
-   <id>http://localhost:4000/2007/05/i-laptop-a-scuola-non-servono</id>
+   <id>http://localhost:4000/2007/05/08/i-laptop-a-scuola-non-servono</id>
    <content type="html">&lt;p&gt;Singolare questa notizia ripescata da &lt;a href=&quot;http://punto-informatico.it/p.aspx?id=1977685&amp;amp;r=PI&quot;&gt;PuntoInformatico&lt;/a&gt;,  dove si riporta che nello stato americano di New York, vogliono togliere i  laptop forniti dalla scuola agli alunni, adducendo il fatto che i ragazzi usano  le tecnologie fornite solo per motivi personali ed il corpo docente non sa bene  il modo in cui sfruttarle, inoltre i costi delle riparazioni delle macchine  rendono molto più economici i vecchi libri cartacei. Convengo con  PuntoInformatico nel dire che la cosa più importante è educare gli insegnanti  alle nuove tecnologie ed ail nuovo modo di insegnare che porta con se &lt;font color=&quot;#0080ff&quot;&gt;l&#39;e-learning. &lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;Una cosa del genere in  Italia sarebbe sicuramente ancora più difficile per lo scarso (quasi  inesistente) rapporto di un corpo docente in taluni casi molto in là con gli  anni, ma spero comunque in un futuro di vedere i mei figli accendere il macbook  (o come si chiamerà) per fare i compiti.&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;PS: Scuole newyorkesi non fornite pc qualunque ai vostri  studenti, prendete dei Mac alla fine dei conti risparmierete e si sa i Mac  rendono molto produttivi o almeno ci provano :)&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;em&gt;Fonte &lt;/em&gt;&lt;/font&gt;&lt;a href=&quot;http://punto-informatico.it/p.aspx?id=1977685&amp;amp;r=PI&quot;&gt;&lt;em&gt;PuntoInformatico.it&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1749,9 +1750,9 @@ proprietaria che si chiamerà JavaFx e verrà integrata in tutto il framework Ja
  
  <entry>
    <title>Medioevo Moderno</title>
-   <link href="http://localhost:4000/2007/05/medioevo-moderno"/>
+   <link href="http://localhost:4000/2007/05/07/medioevo-moderno"/>
    <updated>2007-05-07T12:30:48+02:00</updated>
-   <id>http://localhost:4000/2007/05/medioevo-moderno</id>
+   <id>http://localhost:4000/2007/05/07/medioevo-moderno</id>
    <content type="html">&lt;p&gt;Oggi voglio condividere questo &lt;a href=&quot;http://www.beppegrillo.it/2007/05/cane_di_paglia.html&quot;&gt;articolo di Beppe Grillo&lt;/a&gt;, che con la sua forza e&amp;nbsp;pessimismo incarna&amp;nbsp;il pensiero dell&#39;uomo moderno a tratti stufo di questa irritante&amp;nbsp;società.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Fonte: Beppegrillo.it&amp;nbsp;&lt;/em&gt;&lt;/p&gt;
 </content>
@@ -1759,9 +1760,9 @@ proprietaria che si chiamerà JavaFx e verrà integrata in tutto il framework Ja
  
  <entry>
    <title>Mac full of Web Browsers!!!!</title>
-   <link href="http://localhost:4000/2007/05/mac-full-of-web-browsers"/>
+   <link href="http://localhost:4000/2007/05/06/mac-full-of-web-browsers"/>
    <updated>2007-05-06T12:45:04+02:00</updated>
-   <id>http://localhost:4000/2007/05/mac-full-of-web-browsers</id>
+   <id>http://localhost:4000/2007/05/06/mac-full-of-web-browsers</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img12-shiiraicon4.jpg&quot; alt=&quot;img12-shiiraicon4.jpg&quot; width=&quot;128&quot; height=&quot;128&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Uno dei programmi più importanti in un personal computer è sicuramente il browser, e nella piattaforma Mac devo dire che c’è l’imbarazzo della scelta infatti al fantastico Safari il browser di casa Apple si affianca il sempre-verde Firefox e l’ottimo Camino cugino diretto del browser Mozilla, sviluppato direttamente tramite Cocoa  mantenendo così l’interfaccia tipica delle applicazioni Apple.&lt;br /&gt;
 Un browser  poco noto sviluppato tramite Webkit da un programmatore del Sol Levante (il motore web di Safari rilasciato open source da Apple sessa) è &lt;a href=&quot;http://hmdt-web.net/shiira/en&quot;&gt;Shiira&lt;/a&gt;, disponibile solo in piattaforma Mac ha una folta schiera di particolari opzioni:  una sidebar che contiene download, bookmars (importabili da Safari e Firefox), feed Rss ed altre utili informazioni, Exposè integrato nei tab, autocompletamento ottimizzato, notevoli funzioni di ricerca ed un gradevole effetto di transizione delle pagine in puro Mac Style. Spero di avervi convinto almeno a provarlo, anche se devo ricordarvi che è una versione beta lungi dall’essere perfetta.&lt;br /&gt;
@@ -1773,9 +1774,9 @@ Un browser  poco noto sviluppato tramite Webkit da un programmatore del Sol Leva
  
  <entry>
    <title>Il Web 2.0 si tinge d’Argento!!!</title>
-   <link href="http://localhost:4000/2007/04/il-web-20-si-tinge-dargento"/>
+   <link href="http://localhost:4000/2007/04/30/il-web-20-si-tinge-dargento"/>
    <updated>2007-04-30T21:48:43+02:00</updated>
-   <id>http://localhost:4000/2007/04/il-web-20-si-tinge-dargento</id>
+   <id>http://localhost:4000/2007/04/30/il-web-20-si-tinge-dargento</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img11.jpg&quot; alt=&quot;img11.jpg&quot; width=&quot;181&quot; height=&quot;223&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Anche Microsoft vuole dire la sua nel mondo delle applicazioni internet e lo fa con una nuova tecnologia &lt;a href=&quot;http://silverlight.net/&quot;&gt;SilverLight&lt;/a&gt;, che da oggi viene presentata ed è &lt;a href=&quot;http://www.microsoft.com/silverlight/downloads.aspx&quot;&gt;scaricabile&lt;/a&gt; in versione&lt;br /&gt;
 beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole competere con la tecnologia &lt;a href=&quot;http://it.wikipedia.org/wiki/Adobe_Flash&quot;&gt;Flash&lt;/a&gt; di Adobe, andando così a chiudere il cerchio delle soluzioni Microsoft per lo sviluppo di Web Applications.&lt;/p&gt;
@@ -1784,9 +1785,9 @@ beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole compete
  
  <entry>
    <title>Scrivere codice PHP tramite Eclipse!!!</title>
-   <link href="http://localhost:4000/2007/04/scrivere-codice-php-tramite-eclipse"/>
+   <link href="http://localhost:4000/2007/04/28/scrivere-codice-php-tramite-eclipse"/>
    <updated>2007-04-28T07:30:16+02:00</updated>
-   <id>http://localhost:4000/2007/04/scrivere-codice-php-tramite-eclipse</id>
+   <id>http://localhost:4000/2007/04/28/scrivere-codice-php-tramite-eclipse</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/header-logo2.gif&quot; alt=&quot;header-logo2.gif&quot; width=&quot;163&quot; height=&quot;68&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;La stragrande maggioranza dei programmatori &lt;a href=&quot;http://www.php.net/&quot;&gt;php&lt;/a&gt;, scrive il codice delle proprie pagine web tramite un notepad evoluto (BBEdit, TextWrangler, Notepad++ etc) in questa maniera riesce a vedere il codice correttamente identatato e con le parole chiavi del linguaggio colorate. Mancano comunque delle funzionalità avanzate a questo approccio sia nella parte di editing, dove non ci sono ne il completamento automatico ne un’auto-correzione sintattica, sia nella parte di debug dove non si possono inserire breakpoint per validare eventuali errori. A queste mancanze viene in soccorso un nuovo plugin per  &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt;, l’IDE multilinguaggio opensource. Il progetto intende portare il linguaggio php tra quelli supportati dall’IDE in  modo tale da poter utilizzare un’ambiente di sviluppo completo anche per il codice php.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/pdt/&quot;&gt;Progetto PDT&lt;/a&gt;&lt;br /&gt;
@@ -1796,9 +1797,9 @@ beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole compete
  
  <entry>
    <title>Google sempre più Grande</title>
-   <link href="http://localhost:4000/2007/04/google-sempre-pi-grande"/>
+   <link href="http://localhost:4000/2007/04/24/google-sempre-pi-grande"/>
    <updated>2007-04-24T11:47:44+02:00</updated>
-   <id>http://localhost:4000/2007/04/google-sempre-pi-grande</id>
+   <id>http://localhost:4000/2007/04/24/google-sempre-pi-grande</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/inner_img_890736ad505e2568.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Arriva &lt;a href=&quot;http://desktop.google.com/it/?utm_campaign=it&amp;amp;utm_source=it-ha-emea-it-google&amp;amp;utm_medium=ha&amp;amp;utm_term=web%20history&quot;&gt;WebHistory&lt;/a&gt; ed è già polverone sulla privacy e sui diritti dei cittadini della rete (netizen). La sottoscrizione al servizio è volontaria ma come per Google Desktop che indicizzava i contenuti del proprio disco rendendoli pubblici solo con esplicito consenso, qualche perplessità e dubbio questo servizio la lascia.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://webnews.html.it/news/leggi/5872/google-web-history-memoria-20/&quot;&gt;Html.it&lt;/a&gt;&lt;/p&gt;
@@ -1808,9 +1809,9 @@ beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole compete
  
  <entry>
    <title>Pronti Partenza Via!!!</title>
-   <link href="http://localhost:4000/2007/04/pronti-partenza-via"/>
+   <link href="http://localhost:4000/2007/04/24/pronti-partenza-via"/>
    <updated>2007-04-24T09:20:00+02:00</updated>
-   <id>http://localhost:4000/2007/04/pronti-partenza-via</id>
+   <id>http://localhost:4000/2007/04/24/pronti-partenza-via</id>
    <content type="html">&lt;p&gt;Ci risiamo apro dinuovo un blog, questa volta è quella definitiva. Wordpress è la piattaforma più famosa e diffusa e personalmente la trovo molto piacevole come interfaccia, molto Mac like!!!! Spero che mi seguirete su questo nuovo blog!!!&lt;/p&gt;
 &lt;p&gt;Stay Tuned.&lt;/p&gt;
 </content>
@@ -1818,12 +1819,13 @@ beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole compete
  
  <entry>
    <title>Jbuilder 2005 2006 Su Macosx</title>
-   <link href="http://localhost:4000/2007/04/jbuilder-2005-2006-su-macosx"/>
+   <link href="http://localhost:4000/2007/04/24/jbuilder-2005-2006-su-macosx"/>
    <updated>2007-04-24T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2007/04/jbuilder-2005-2006-su-macosx</id>
+   <id>http://localhost:4000/2007/04/24/jbuilder-2005-2006-su-macosx</id>
    <content type="html">
 ---
 layout: post
+comments: true
 title: JBuilder 2005-2006 su MacOsx
 date: 2007-04-24 12:06:41.000000000 +02:00
 categories:

@@ -9,7 +9,7 @@ tagline:             Information Technoogy and Beyond
 url:                 http://localhost:4000
 paginate:            5
 baseurl:             ""
-permalink:           '/:year/:month/:title'
+permalink:           '/:year/:month/:day/:title'
 license:
   link:             'https://creativecommons.org/licenses/by-nc/3.0/'
   label:            'CC BY-NC'
