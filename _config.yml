@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Antonio Scatoloni
 tagline:             Information Technoogy and Beyond
-url:                 http://localhost:4000
+url:                 http://www.antonioscatoloni.it/blog
 paginate:            5
 baseurl:             ""
 permalink:           '/:year/:month/:day/:title'
@@ -30,4 +30,4 @@ gems: [jekyll-paginate, jekyll-gist]
 pages_list:       
   About: 'http://www.antonioscatoloni.it'
   Archive: '/archive'
-
+ 
