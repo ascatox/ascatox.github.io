@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Antonio Scatoloni
 tagline:             Information Technoogy and Beyond
-url:                 http://www.antonioscatoloni.it/blog
+url:                 http://ascatox.github.io
 paginate:            5
 baseurl:             ""
 permalink:           '/:year/:month/:day/:title'
@@ -30,4 +30,3 @@ gems: [jekyll-paginate, jekyll-gist]
 pages_list:       
   About: 'http://www.antonioscatoloni.it'
   Archive: '/archive'
- 
