@@ -1,0 +1,22 @@
+---
+layout: post
+title: Spotlight non trova più nulla
+date: 2007-05-19 08:01:17.000000000 +02:00
+categories:
+- Blog
+- Mondo Apple
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1450582874;s:7:"payload";a:3:{i:0;a:1:{s:2:"id";i:67;}i:1;a:1:{s:2:"id";i:133;}i:2;a:1:{s:2:"id";i:61;}}}}
+author:
+  login: admin
+  email: antonio.scatoloni@gmail.com
+  display_name: admin
+  first_name: ''
+  last_name: ''
+---
+Il sistema di Apple per trovare file all’interno del proprio Mac è qualcosa di insostituibile, tanto che anche quando uso il mio pc premo i tasti “Windows backspace” nella vana speranza che appaia la finestra di ricerca(finalmente anche Vista ormai ha un sistema analogo :)) ma sul mio Xp non appare. A parte scherzi Spotlight semplifica di molto la mia vita digitale ma ieri mi ha fatto uno strano scherzo, sembrava che non trovasse più nulla, ad ogni query non rispondeva in alcun modo, in qualche caso appariva il laconico messaggio “Nessun risultato trovato”. A questo punto ho pensato di ricostruire l’indice che MacOsx genera automaticamente ci sono varie tecniche per farlo, applicazioni come <a href="http://www.titanium.free.fr/pgs/english.html">Onyx</a>, permettono di farlo in modo automatico ma si può fare anche tramite il comando <em><strong>sudo mdutil -E / </strong></em>da terminale. Dopo aver riindicizzato il mio disco pensavo che tutto funzionasse di nuovo ma nulla, sono stato quasi tentato di fare un bell’“Archivia e Installa” ma poi ho trovato la soluzione googlando in rete, è bastato infatti cancellare il file di preferenze apple.spotlight, che si trova sotto la cartella Preferences, nella Libreria del proprio utente (/Utente /Library/Preferences) al successivo riavvio Spotlight era dinuova bella pronta per nuove ricerche sul mio disco.</p>
+<p>Buon  Mela-Backspace a tutti!!!</p>

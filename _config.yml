@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Antonio Scatoloni
+tagline:             Information Technoogy and Beyond
+url:                 http://localhost:4000
+paginate:            5
+baseurl:             ""
+permalink:           '/:year/:month/:title'
+license:
+  link:             'https://creativecommons.org/licenses/by-nc/3.0/'
+  label:            'CC BY-NC'
+
+# About/contact
+author:
+  name:              Antonio Scatoloni
+  url:               https://twitter.com/ascatox
+  email:             antonio.scatoloni@gmail.com
+
+# Custom vars
+version:             0.1.0
+github:
+  repo:              https://github.com/ascatox/ascatox.github.io
+
+gems: [jekyll-paginate, jekyll-gist]
+
+pages_list:       
+  About: 'http://www.antonioscatoloni.it'
+  Archive: '/archive'
+

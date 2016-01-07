@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Ajax Prima Parte!! &middot; Antonio Scatoloni
+    
+  </title>
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="/public/css/poole.css">
+ <link rel="stylesheet" href="/public/css/syntax.css">
+ <link rel="stylesheet" href="/public/css/ascatox.css">
+ <link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css">
+
+ <!-- Fonts -->
+ <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700italic,700,400italic' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
+
+ <!-- Icons -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
+ <link rel="shortcut icon" href="public/favicon.ico">
+
+   <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Antonio Scatoloni" href="/atom.xml">
+</head>
+
+
+  <body>
+    
+
+    <div class="container content">
+      <header class="masthead">
+       <h3 class="masthead-title">
+		<img src="/assets/ascatox.jpg">
+        <a href="/" title="Home">Antonio Scatoloni</a>
+
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="http://www.antonioscatoloni.it">About</a></small>
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="/archive">Archive</a></small>
+        
+      </h3>
+        <div class="social-icons">
+          <a href="https://twitter.com/ascatox"><i class="fa fa-twitter"></i></a> 
+          <a href="https://github.com/ascatox"><i class="fa fa-github"></i></a>
+		   <a href="https://www.linkedin.com/in/antonioscatoloni"><i class="fa fa-linkedin-square"></i></a> 
+        </div>
+      </header>
+
+      <main>
+        <div class="post">
+  <h1 class="post-title">Ajax Prima Parte!!</h1>
+  <span class="post-date">25 May 2007</span>
+  <p>Ajax: tutti conoscono quest’acronimo ormai, la tecnologia mostrata al mondo da Google ma inventata non si sa bene da chi (Microsoft forse :-(() sta riscuotendo grande notorietà. Ajax riesce infatti in modo non troppo complesso ad eliminare tutte le problematiche di gestione dei dati client-server, rendendo le WebApplication sempre più simile alle classiche applicazioni desktop side. Andiamo dunque a vedere un piccolo esempio di come la tecnologia funziona, Ajax utilizza il linguaggio JavaScript di Netscape per la programmazione lato client e si appoggia ad uno qualsiasi dei framework lato server (JSP-ASP-ASP.NET-PHP etc). Nell’esempio verrà utilizzato il framework JSP-Servlet che io conosco meglio :-). In questo piccolo frammento di codice usiamo Ajax per inserire e farci restituire una stringa di testo senza la necessità di dover ricaricare la pagina!!!!</p>
+<p><span style="color:#0000FF;">CODICE LATO CLIENT<br />
+</span><br />
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"<br />
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;<br />
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;<br />
+&lt;head&gt;<br />
+&lt;title&gt;INVIO DI DATI Tramite Ajax&lt;/title&gt;</p>
+<p>&lt;script type="text/javascript"&gt;<br />
+var xmlHttp;</p>
+<p>function createXMLHttpRequest() {<br />
+    if (window.ActiveXObject) {<br />
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP"); //creo l’oggetto XMLHttpREquest<br />
+    }<br />
+    else if (window.XMLHttpRequest) {<br />
+        xmlHttp = new XMLHttpRequest();<br />
+    }<br />
+}</p>
+<p>function createQueryString() {<br />
+    var firstName = document.getElementById("firstName").value;<br />
+    var middleName = document.getElementById("middleName").value;<br />
+    var birthday = document.getElementById("birthday").value;</p>
+<p>    var queryString = "firstName=" + firstName + "&amp;middleName=" + middleName<br />
+        + "&amp;birthday=" + birthday;</p>
+<p>    return queryString;<br />
+}</p>
+<p>function doRequestUsingGET() {<br />
+    createXMLHttpRequest();</p>
+<p>    var queryString = "GetAndPostExample?";<br />
+    queryString = queryString + createQueryString()<br />
+        + "&amp;timeStamp=" + new Date().getTime();<br />
+    <span style="color:#0000FF;">xmlHttp.onreadystatechange = handleStateChange; //gestisco lo stato di XMLHttpRequest nel Get<br />
+    xmlHttp.open("GET", queryString, true);<br />
+    xmlHttp.send(null);<br />
+</span>}</p>
+<p>function doRequestUsingPOST() {<br />
+    createXMLHttpRequest();</p>
+<p>    var url = "GetAndPostExample?timeStamp=" + new Date().getTime();<br />
+    var queryString = createQueryString();</p>
+<p>    xmlHttp.open("POST", url, true);<br />
+    xmlHttp.onreadystatechange = handleStateChange;<br />
+    xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");<br />
+    xmlHttp.send(queryString);<br />
+}</p>
+<p>function handleStateChange() {<br />
+    if(xmlHttp.readyState == 4) {<br />
+        if(xmlHttp.status == 200) {<br />
+            parseResults();<br />
+        }<br />
+    }<br />
+}</p>
+<p>function parseResults() {<br />
+    var responseDiv = document.getElementById("serverResponse");<br />
+    if(responseDiv.hasChildNodes()) {<br />
+        responseDiv.removeChild(responseDiv.childNodes[0]);<br />
+    }</p>
+<p>    var responseText = document.createTextNode(xmlHttp.responseText);<br />
+    responseDiv.appendChild(responseText);<br />
+}</p>
+<p>&lt;/script&gt;<br />
+&lt;/head&gt;</p>
+<p>&lt;body&gt;<br />
+  &lt;h1&gt;Inserisci il tuo nome, cognome e data di nascita:&lt;/h1&gt;</p>
+<p>  &lt;table&gt;<br />
+    &lt;tbody&gt;<br />
+        &lt;tr&gt;<br />
+            &lt;td&gt;Nome:&lt;/td&gt;<br />
+            &lt;td&gt;&lt;input type="text" id="firstName"/&gt;<br />
+        &lt;/tr&gt;<br />
+        &lt;tr&gt;<br />
+            &lt;td&gt;Cognome:&lt;/td&gt;<br />
+            &lt;td&gt;&lt;input type="text" id="middleName"/&gt;<br />
+        &lt;/tr&gt;<br />
+        &lt;tr&gt;<br />
+            &lt;td&gt;Data di Nascita:&lt;/td&gt;<br />
+            &lt;td&gt;&lt;input type="text" id="birthday"/&gt;<br />
+        &lt;/tr&gt;<br />
+    &lt;/tbody&gt;</p>
+<p>  &lt;/table&gt;</p>
+<p>  &lt;form action="#"&gt;<br />
+    &lt;input type="button" value="Send parameters using GET" onclick="doRequestUsingGET();"/&gt;</p>
+<p>    &lt;br/&gt;&lt;br/&gt;<br />
+    &lt;input type="button" value="Send parameters using POST" onclick="doRequestUsingPOST();"/&gt;<br />
+  &lt;/form&gt;</p>
+<p>  &lt;br/&gt;<br />
+  &lt;h2&gt;Server Response:&lt;/h2&gt;</p>
+<p>  <span style="color:#0000FF;"><em>&lt;div id="serverResponse"&gt;&lt;/div&gt;</em></span></p>
+<p>&lt;/body&gt;<br />
+&lt;/html&gt;</p>
+<p><span style="color:#FF0000;">CODICE LATO SERVER “SERVLET”</span></p>
+<p>import java.io.*;<br />
+import java.net.*;<br />
+import javax.servlet.*;<br />
+import javax.servlet.http.*;</p>
+<p>public class GetAndPostExample extends HttpServlet {</p>
+<p>    protected void processRequest(HttpServletRequest request,<br />
+            HttpServletResponse response, String method)<br />
+    throws ServletException, IOException {</p>
+<p>        //Set content type of the response to text/xml<br />
+        response.setContentType("<span style="color:#FF0000;">text/xml</span>"); // invio dati in formato XML</p>
+<p>        //Get the user's input<br />
+        String firstName = request.getParameter("firstName");<br />
+        String middleName = request.getParameter("middleName");<br />
+        String birthday = request.getParameter("birthday");</p>
+<p>        //Create the response text<br />
+        String responseText = "Hello " + firstName + " " + middleName<br />
+                + ". Your birthday is " + birthday + "."<br />
+                + " [Method: " + method + "]";</p>
+<p>        //Write the response back to the browser<br />
+        PrintWriter out = response.getWriter();<br />
+        <span style="color:#FF0000;">out.println(responseText);</span></p>
+<p>        //Close the writer<br />
+        out.close();<br />
+    }</p>
+<p>    protected void doGet(HttpServletRequest request, HttpServletResponse response)<br />
+    throws ServletException, IOException {<br />
+        //Process the request in method processRequest<br />
+        processRequest(request, response, "GET");<br />
+    }</p>
+<p>    protected void doPost(HttpServletRequest request, HttpServletResponse response)<br />
+    throws ServletException, IOException {<br />
+        //Process the request in method processRequest<br />
+        processRequest(request, response, "POST");<br />
+    }<br />
+}</p>
+<p>Il codice è molto semplice e di facile comprensione, spero che il piccolo esempio possa far capire a tutti che Ajax è un paradigma di programmazione Web di facile comprensione,  ma che apre scenari, davvero interessanti nel mondo delle Applicazioni  Web.</p>
+<p>Good Code Folks :-))</p>
+
+</div>
+
+<div class="social-section">
+  <div class="fb-like" data-href="/2007/05/ajax-prima-parte" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="ascatox" data-lang="it" data-dnt="true">Tweet</a>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'ascatox'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//'+disqus_shortname+'.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://localhost:4000/2015/03/la-professione-dello-sviluppatore">
+            La professione dello sviluppatore
+            <small>12 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://localhost:4000/2014/10/corso-android">
+            Corso Android
+            <small>04 Oct 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://localhost:4000/2011/11/il-futuro-del-lavoro">
+            Il Futuro del Lavoro
+            <small>12 Nov 2011</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      </main>
+
+      <footer class="footer">
+      <p>
+        &copy; Antonio Scatoloni Weblog made with <a href="http://jekyllrb.com/">Jekyll</a> and much ♥, under <a href="https://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC</a>.
+      </p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
