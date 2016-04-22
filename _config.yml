@@ -29,5 +29,4 @@ gems: [jekyll-paginate, jekyll-gist]
 
 pages_list:       
 About: 'http://www.antonioscatoloni.it'
-# About: '/about'
-  Archive: '/archive'
+Archive: '/archive'
