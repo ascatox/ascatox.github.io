@@ -4,13 +4,38 @@
  <title>Antonio Scatoloni</title>
  <link href="http://ascatox.github.io/atom.xml" rel="self"/>
  <link href="http://ascatox.github.io/"/>
- <updated>2016-04-20T21:23:45+02:00</updated>
+ <updated>2016-04-24T12:32:42+02:00</updated>
  <id>http://ascatox.github.io</id>
  <author>
    <name>Antonio Scatoloni</name>
    <email>antonio.scatoloni@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Codemotion 2016 una bella giornata (prima parte)</title>
+   <link href="http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte"/>
+   <updated>2016-03-21T00:00:00+01:00</updated>
+   <id>http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/codemotion_2016_header.png&quot; alt=&quot;Jekyll&quot;&gt;
+Sono molti anni che cerco di partecipare ad una conferenza IT, ma per un motivo o per un un’altro, non sono mai riuscito a partecipare. Quest’anno ho deciso di condividere almeno un evento, uno solo almeno, durante tutto il 2016 ed ho scelto quello che secondo me rappresenta l’evento principale per tutti gli sviluppatori italiani il &lt;a href=&quot;http://it.codemotionworld.com/&quot; title=&quot;Codemotion&quot;&gt;Codemotion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Seguo questo evento da molti anni, da quando nacque come Java Day. In Italia si tiene in due differenti città, a Milano in autunno ed in primavera a Roma. Ho optato per la capitale più vicina a me in tutti i sensi. Sono partito quindi venerdì 18 Marzo per frequentare l’evento, avevo preso il biglietto con largo anticipo e ringrazio il &lt;a href=&quot;http://jugroma.blogspot.it/&quot; title=&quot;JUG Roma&quot;&gt;JUG Roma&lt;/a&gt; per lo sconto community che è stato davvero utile, il costo infatti è passato da 45€ (Early Bird) a 33€ con lo sconto applicato, davvero un prezzo giusto per un’evento che &lt;a href=&quot;http://www.codemotionworld.com/&quot; title=&quot;ormai è di statura internazionale&quot;&gt;ormai è di statura internazionale&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La giornata di venerdì parte subito male, con uno sciopero generale dei mezzi pubblici che mi preoccupa molto, specie per la metro indispensabile nella capitale. Alla fine invece ho raggiunto la sede del’evento presso l’&lt;a href=&quot;http://www.uniroma3.it/&quot; title=&quot;Università di Roma Tre&quot;&gt;Università di Roma Tre&lt;/a&gt; alle 9:00 circa, giusto in tempo per godermi tutto, senza perdere nulla. All’ingresso non appena arrivato trovo subito il logo del Codemotion e capisco che il posto è quello giusto.&lt;/p&gt;
+
+&lt;p&gt;Una fila composta di giovani all’ingresso aspetta per la registrazione, la maggior parte mi sembrano studenti ma mi accorgo subito che mi sbaglio infatti le file sono differenziate una per gli studenti una per coloro che come me hanno lasciato gli studi da qualche anno.&lt;/p&gt;
+
+&lt;p&gt;Effettuata la registrazione e preso il mio badge, faccio un primo giro per gli stand allestiti dalle &lt;a href=&quot;http://rome2016.codemotionworld.com/sponsors/&quot; title=&quot;aziende sponsor&quot;&gt;aziende sponsor&lt;/a&gt; presenti al Codemotion. Le aziende non sono molte qualcuna ha piccole sorprese come per esempio degli Hacking Contest o dei Test sui vari linguaggi di programmazione, tutte  hanno la lista delle posizioni vacanti per le quali cercano personale.
+Iniziano i talk, il primo è la presentazione dell’evento al quale partecipano gli organizzatori ed il &lt;a href=&quot;http://www.dia.uniroma3.it/%7Eatzeni/&quot; title=&quot;prof. Atzeni&quot;&gt;prof. Atzeni&lt;/a&gt; che fa gli onori di casa, ricordando che l’evento ormai ha molte sedi non solo in Italia ed in Europa, ma anche fuori dall’UE in particolare Tel Aviv e Dubai.&lt;/p&gt;
+
+&lt;p&gt;Il primo vero talk vede salire sul palco IBM che presenta il fiore all’occhiello della sua ricerca tecnologia lo stack &lt;a href=&quot;https://console.ng.bluemix.net/&quot; title=&quot;Bluemix&quot;&gt;Bluemix&lt;/a&gt; e &lt;a href=&quot;http://www.ibm.com/smarterplanet/us/en/ibmwatson/&quot; title=&quot;Watson&quot;&gt;Watson&lt;/a&gt; il suo sistema “intelligente” che fa cose strabilianti. Cosa molto interessante poi era la possibilità di mettere le mani su queste tecnologie nello stand dell’azienda.&lt;/p&gt;
+
+&lt;p&gt;Finito il talk di IBM, scelgo il talk di &lt;a href=&quot;https://www.thoughtworks.com/profiles/rebecca-parsons&quot; title=&quot;Rebecca Parsons&quot;&gt;Rebecca Parsons&lt;/a&gt; CTO di ThoughtWorks che ci parla di &lt;a href=&quot;http://rome2016.codemotionworld.com/conference/&quot; title=&quot;“Evolution of Evolutionary Architecture“&quot;&gt;“Evolution of Evolutionary Architecture“&lt;/a&gt;, Keynote molto interessante con molti spunti su come immaginare le architetture dei sistemi IT futuri.&lt;/p&gt;
+
+&lt;p&gt;Continua…&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>La professione dello sviluppatore</title>
