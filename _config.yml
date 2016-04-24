@@ -2,9 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # Dependencies
-markdown:         redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown:         	kramdown
 permalink:           pretty
 
 # Setup
@@ -34,6 +32,6 @@ gems: [jekyll-paginate, jekyll-gist]
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
-  About: '/about/'
+  About: 'http://www.antonioscatoloni.it/'
   Archive: '/archive/'
   Feed: '/atom.xml'
