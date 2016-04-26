@@ -12,6 +12,7 @@ tags:
 ![Jekyll]({{site.baseurl}}/assets/jekyll_header.png)
 
 ###Perchè Jekyll
+
 Sono molti anni che possiedo questo [blog](http://www.antonioscatoloni.it/blog), ma purtroppo come spesso succede, dopo la fiammata iniziale ho abbandonato il blog per molti molti motivi. 
 Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato [Wordpress](https://wordpress.org/), la gestione di questo famoso CMS per i miei utilizzi era troppo macchinosa e lenta, inoltre non riuscivo mai a trovare un tema, neanche modificandolo che mi soddisfacesse a pieno.
 
@@ -23,6 +24,7 @@ Questo post nasce proprio con questo scopo, un **piccolo diario di questo transi
 *Disclaimer: Per una guida esaustiva per effettuare la migrazione, consiglio caldamente quella di [Girliemac](http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) o quella di [Paul Stamatiou](http://paulstamatiou.com/how-to-wordpress-to-jekyll) già citata in precedenza.*
 
 ###Punti critici della mia migrazione
+
 La mia migrazione non è stata molto facile ed ancora adesso non è del tutto completa, sia per quanto riguarda il layout sia per i contenuti. Mi mancano infatti tutti i vecchi commenti che non sono riuscito a spostare sulla piattaforma [Disqus](https://disqus.com/) e le vecchie categorie, che ho deciso di abbandonare, per ricominciare una una nuova avventura con temi diversi.
 
 1. Dopo aver installato Jekyll sul mio Mac con il classico comando: 
@@ -50,11 +52,13 @@ La soluzione da tutti adottatata è quella di installare il [plugin per Wordpres
 http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte ``` ed ovviamente il dominio con il sottolivello devono essere uguali, nel mio caso (temporaneo) non è così, quindi l'associazione che esegue Disqus non funziona.
 
 ###Note sull'utilizzo
+
 Devo dire che all'inizio ero molto intimorito di scrivere post con Jekyll, l'utilizzo della piattaforma infatti si appoggia tutto su Github ed in particolare sulle [Github Pages](https://pages.github.com/).
 Per farla molto semplice, una volta creato un repo si Github con nome ``username.github.io`` nel mio caso quindi [ascatox.github.io](https://github.com/ascatox/ascatox.github.io), basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br/>
 I post sono semplicemente dei file scritti in Markdown con una particolare intestazione che devono essere gittati nel repo, per essere pubblicati. Il workflow di pubblicazione di un post può sembrare molto più laborioso di quanto lo fosse su Wordpress, ma una volta presa la mano e con i giusti strumenti, diventa [meno complesso](http://dottorblaster.it/2015/12/jekyll-flusso-pubblicazione).
 
 ###Applicazioni per creare post
+
 L'applicazione che ho deciso di usare per scrivere i miei post è [Mou](http://25.io/mou/), la trovo semplice ed efficace, peccato che non supporti lo [YAML front matter di Jekyll](https://jekyllrb.com/docs/frontmatter/).
 Una buona alternativa per chi non vuole mettere troppo le mani nel Markdown, potrebbe essere il [Jekyll Editor](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme "Jekyll Editor"), un'applicazione per Chrome che presenta un'interfaccia molto simile all'editor di Wordpress e che genera la sintassi Markdown. Al momento però presenta ancora numerosi bug in fase di creazione che ne rendono un pò complicato l'utilizzo.
 
