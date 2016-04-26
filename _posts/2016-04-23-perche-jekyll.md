@@ -11,7 +11,7 @@ tags:
 ---
 ![Jekyll]({{site.baseurl}}/assets/jekyll_header.png)
 
-###Perchè Jekyll
+##Perchè Jekyll
 
 Sono molti anni che possiedo questo [blog](http://www.antonioscatoloni.it/blog), ma purtroppo come spesso succede, dopo la fiammata iniziale ho abbandonato il blog per molti molti motivi. 
 Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato [Wordpress](https://wordpress.org/), la gestione di questo famoso CMS per i miei utilizzi era troppo macchinosa e lenta, inoltre non riuscivo mai a trovare un tema, neanche modificandolo che mi soddisfacesse a pieno.
