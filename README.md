@@ -6,7 +6,7 @@ My blog available under Jekyll.
 - [Poole](https://github.com/poole/poole)
 - [GitHub Pages](https://pages.github.com/)
 
-## Feel free to try my humble site
+## Feel free to fork my humble site
 Just download this repository, and serve the content using the Jekyll built-in webserver.
 
 <pre><code>
