@@ -121,8 +121,9 @@ public class RestTestIT extends Assert {
     }
 {% endhighlight %}
 
-In questo esempio viene eseguita la POST di alcuni dati la cosa interessante che mi ha fatto perdere del tempo è il parametro ``content`` nel caso infatti stia inserendo dei parametri tramite il path della mia API non ho un contenuto nel body, ma Restfuse nella versione attuale non permette di non inserire o di lasciare vuoto il parametro, da qui il valore ``content="dummy"`` utilizzato.
-Maggiori informazioni su questo bug le potete trovare [qui](https://github.com/eclipsesource/restfuse/issues/42 "qui").  
+In questo esempio viene eseguita la POST di alcuni dati la cosa interessante che mi ha fatto perdere del tempo è il parametro ``content`` nel caso infatti stia inserendo dei parametri tramite il path della mia API non ho un contenuto nel body, ma Restfuse nella versione attuale non permette di non inserire o di lasciare vuoto il parametro, da qui il valore ``content="dummy"`` utilizzato,
+maggiori informazioni su questo bug le potete trovare [qui](https://github.com/eclipsesource/restfuse/issues/42 "qui").
+Un'altro parametro molto importante è ``order`` che permette di definire un'ordine di esecuzione dei test, questo parametro farà storcere il naso ai puristi dell'idempotenza dei test, ma in taluni casi può essere molto utile.  
 
 ###Conclusioni
 Restfuse è sicuramente una buona libreria per testare REST API, ma presenta diversi bug al momento ed un supporto a tratti latitante, speriamo che il progetto riparta in qualche modo.
