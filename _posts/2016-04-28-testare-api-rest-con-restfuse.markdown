@@ -13,7 +13,6 @@ tags:
 ---
 ![Jekyll]({{site.baseurl}}/assets/rest_API.png)
 
-<h1>Testare API REST con Restfuse</h1>
 <h3>REST API</h3>
 Le [API](https://it.wikipedia.org/wiki/Application_programming_interface "API") REST o meglio [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer "RESTful"), sono oggi molto utilizzate, presentano infatti molteplici vantaggi, in particolar modo la semplicità di utilizzo ed il fatto di utilizzare il [protocollo HTTP](https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol "protocollo HTTP"), le rendono una standard de facto per il World Wide Web. Vengono utilizzate praticamente ovunque e da chiunque, basta colleagarsi ad un [sito del genere](https://www.publicapis.com) per capire la vastità dell'universo REST.
 <h3>Restfuse</h3>
