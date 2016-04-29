@@ -141,3 +141,6 @@ Se qualcuno è interessato all'utilizzo di Maven con il [plugin failsafe](https:
 
 Per adesso è tutto.<br/>
 Come sempre **Stay Tuned**!
+<br/>
+<br/>
+*Image Courtesy of [http://developer.decarta.com](http://developer.decarta.com/Docs/REST)*
