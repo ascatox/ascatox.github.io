@@ -6,6 +6,7 @@ categories: Eventi
 tags:
 - Codemotion
 ---
+
 ![Jekyll]({{site.baseurl}}/assets/codemotion_2016_header.png)
 Ripartiamo da dove ci [eravamo lasciati](http://antonioscatoloni.site/2016/03/21/codemotion-una-bella-giornata-prima-parte "eravamo lasciati").<br/>
 
