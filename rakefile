@@ -11,7 +11,7 @@ task :post do
 
   file = File.join(
     File.dirname(__FILE__),
-    '_posts',
+    '_drafts',
     slug + '.markdown'
   )
 
