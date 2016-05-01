@@ -1,0 +1,42 @@
+<p>#Testare API REST con Restfuse
+###REST API
+Le <a href="https://it.wikipedia.org/wiki/Application_programming_interface" title="API">API</a> REST o meglio ancora <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" title="RESTful">RESTful</a>, sono oggi molto utilizzate, hanno infatti molteplici vantaggi, in particolar modo la semplicità di utilizzo ed il fatto di utilizzare il <a href="https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol" title="protocollo HTTP">protocollo HTTP</a>, le rendono una standard de facto per il World Wide Web. Vengono utilizzate praticamente ovunque e da chiunque, basta andare in un sito del genere per capire la vastità dell’universo REST.
+###Restfuse
+Ma andiamo al sodo, per un progetto sul quale sto lavorando al momento, avevo la necessità non solo di sviluppare un’API REST ma eseguire dei test di integrazione per verificare che tutte le chiamate realizzate, funzionassero in modo corretto. Questo <a href="http://codingjam.it/junit-test-the-rest/" title="post">post</a> su <a href="http://codingjam.it/" title="CodingJam">CodingJam</a> mi ha ispirato, i possibili framework infatti per eseguire una serie di Test in ambiente REST non mancano davvero, come potete verificare nell’ottimo post citato.
+La mia scelta però è andata su <strong>Restfuse</strong>, per la <em>presunta semplicità</em>, e per il fatto che fosse <strong>un’estensione di <a href="http://junit.org/junit4/" title="JUnit">JUnit</a></strong> la più famosa libreria per i test automatici nel mondo Java.
+<br />
+Devo subito fare una premessa doverosa, al momento il progetto <a href="http://developer.eclipsesource.com/restfuse/" title="Restfuse">Restfuse</a> sembra in stallo, si capisce subito dal fatto che la homepage del progetto restituisce un’allarmante <strong>404 Not Found</strong>.
+Non mi sono comunque lasciato intimidire da questo funesto segnale ed ho iniziato a documentarmi sul <a href="https://github.com/eclipsesource/restfuse" title="repository Github del progetto">repository Github del progetto</a>.
+La doumentazione in rete su questo progetto non è molto ampia purtroppo, e tutto quello che c’è, ruota intorno al repository Github.
+###Installazione della Libreria
+Il modo migliore per gestire le dipendenze delle librerie in un progetto java è sicuramente tramite <a href="http://https://maven.apache.org/" title="Maven">Maven</a>, riporto quindi la dipendenza da aggiungere al proprio <a href="http://https://maven.apache.org/pom.html#Introduction" title="Maven POM">Maven POM</a>. La libreria è perfettamente presente su <a href="http://https://maven-repository.com/artifact/com.restfuse/com.eclipsesource.restfuse/1.2.0" title="Maven Central">Maven Central</a> quindi non serve aggiungere altri repository al proprio POM.
+<code class="highlighter-rouge">
+		&lt;dependency&gt;
+			&lt;groupId&gt;com.restfuse&lt;/groupId&gt;
+			&lt;artifactId&gt;com.eclipsesource.restfuse&lt;/artifactId&gt;
+			&lt;version&gt;1.2.0&lt;/version&gt;
+		&lt;/dependency&gt;
+</code>
+Se non fosse possibile utilizzare Maven, nella sezione <a href="http://developer.eclipsesource.com/restfuse/downloads/http://" title="download">download</a> del sito ufficiale è possibile scaricare la libreria.
+###Esempio di test con Restfuse
+Passiamo subito al <a href="hthttps://github.com/eclipsesource/restfuse/blob/master/com.eclipsesource.restfuse.example/src/com/eclipsesource/restfuse/example/SimpleHttpTest.javatp://" title="codice di esempio">codice di esempio</a> presente nel repository del progetto.</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="nd">@RunWith</span><span class="o">(</span> <span class="n">HttpJUnitRunner</span><span class="o">.</span><span class="na">class</span> <span class="o">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">SimpleHttpTest</span> <span class="o">{</span>
+  
+  <span class="nd">@Rule</span>
+  <span class="kd">public</span> <span class="n">Destination</span> <span class="n">restfuse</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Destination</span><span class="o">(</span> <span class="k">this</span><span class="o">,</span> <span class="s">"http://restfuse.com"</span> <span class="o">);</span>
+  
+  <span class="nd">@Context</span>
+  <span class="kd">private</span> <span class="n">Response</span> <span class="n">response</span><span class="o">;</span>
+  
+  <span class="nd">@HttpTest</span><span class="o">(</span> <span class="n">method</span> <span class="o">=</span> <span class="n">Method</span><span class="o">.</span><span class="na">GET</span><span class="o">,</span> <span class="n">path</span> <span class="o">=</span> <span class="s">"/"</span> <span class="o">)</span> 
+  <span class="kd">public</span> <span class="kt">void</span> <span class="n">checkRestfuseOnlineStatus</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">assertOk</span><span class="o">(</span> <span class="n">response</span> <span class="o">);</span>
+  <span class="o">}</span>
+  
+<span class="o">}</span></code></pre></figure>
+
+<p>Come si vede il tutto è perfettamente configurabile tramite <a href="http://https://en.wikipedia.org/wiki/Java_annotation" title="Annotations">Annotations</a>, <code class="highlighter-rouge">@RunWith</code> è la direttiva con la quale scegliamo la classe che eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
+L’Annotation <code class="highlighter-rouge">@HttpTest</code>contrassegna il test vero e proprio che vogliamo eseguire</p>
+
