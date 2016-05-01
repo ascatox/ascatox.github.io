@@ -6,6 +6,7 @@ categories: Eventi
 tags:
 - Codemotion
 ---
+
 ![Jekyll]({{site.baseurl}}/assets/codemotion_2016_header.png)
 Ripartiamo da dove ci [eravamo lasciati](http://antonioscatoloni.site/2016/03/21/codemotion-una-bella-giornata-prima-parte "eravamo lasciati").<br/>
 
@@ -24,7 +25,8 @@ Interessante e non scontata a parer mio è stata la consisderazione riguardante 
 Una possibile soluzione mostrata è stata quella di effettuare dei sync con il server non appena il computer torna in linea e tutta un'altra serie di scenari di questo tipo, con codice sorgente incluso, utlizzando la libreria [JQuery](https://jquery.com/).
 <br/>Anche questo talk davvero interessante.
 
-{% twitter oembed https://twitter.com/ascatox/status/710786941248266244 %}
+<div class="embed twitter"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 527.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710786941248266244" title="Twitter Tweet"></iframe>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 Finito questo talk sono passato direttamente al pranzo, che come si rispetti in questo tipo di conferenze è un composto da un lunch box, una busta contenente panini e/o tramezzini.<br/>
 I lunch box proposti dagli organizzatori erano di tre tipologie differenti una dei quali era pensato per i vegetariani. Io ho scelto quello classico con tramezzino al tonno, un panino ed una crostatina con confettura di prugna, davvero non male, peccato che nella busta mancasse una bottiglietta di acqua.
@@ -33,14 +35,16 @@ I lunch box proposti dagli organizzatori erano di tre tipologie differenti una d
 Dopo aver mangiato, ho trascorso del tempo in attesa dei talk pomerdiani girovagavano tra gli stand allestiti dalle aziende sponsor dell'evento alla ricerca delle spillette che ciascun'azienda forniva, in modo da riuscire a completare la collezione. Ogni azienda nel proprio stand aveva cose differenti, tutte avevano delle Job board con annunci di lavoro, qualcuna, in particolar modo tra le startup aveva portato qualche sorpresa.<br/>
 La startup [WeBox Studio](http://www.weboxstudio.com/) che mi ha colpito di più, aveva allestito un Hacking Contest, nel quale in molti hanno deciso di cimentarsi.
 
-{% twitter oembed https://twitter.com/fgpirillo/status/711523191496302592 %}
+<div class="embed twitter"><iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 683.312px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="711523191496302592" title="Twitter Tweet"></iframe>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 Nel pomeriggio il [primo talk](http://rome2016.codemotionworld.com/talk-detail/?detail=2324) al quale ho assistito è stato quello di [Marck Heckler](http://rome2016.codemotionworld.com/speaker/1842/) di [Pivotal Software](http://pivotal.io/).<br/>
 Il talk aveva come argomento i [Microservices](http://martinfowler.com/articles/microservices.html), un nuovo modo di concepire lo sviluppo di Applications che è sempre più in voga.
 <br/>Mi aspettavo un talk molto più teorico ed invece il taglio è stato molto pratico con codice scritto durante il talk stesso. La cosa poi molto interessante è stata l'utilizzo di [Spring Cloud](http://projects.spring.io/spring-cloud/) e una dimostrazione di come il gigante multimediale [Netflix](http://techblog.netflix.com/) utilizzi un'architettura a servizi per la gestione della sua infrastruttura.<br/>
 Questo per me è stato un talk molto utile, complice anche il massiccio uso di Spring/Java tecnologie che conosco ed uso.
 
-{% twitter oembed https://twitter.com/ascatox/status/710814419870224384 %}
+<div class="embed twitter"><iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 527.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710814419870224384" title="Twitter Tweet"></iframe>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 
 Il talk successivo che avevo deciso di seguire era *WebRTC + Socket.io: building a skype-like video chat with native javascript*, tenuto da Michele Di Salvatore, purtroppo a causa della malattia dello speaker è stato posticipato al giorno successivo.<br/>
@@ -62,4 +66,5 @@ Chiudo il post con il link al canale [Youtube](https://www.youtube.com/user/Code
 
 **Stay Tuned!**
 
-{% twitter oembed https://twitter.com/ascatox/status/710856668314210304 %}
+<div class="embed twitter"><iframe id="twitter-widget-3" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 424.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710806002925441024" title="Twitter Tweet"></iframe>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
