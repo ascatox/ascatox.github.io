@@ -68,5 +68,5 @@ Chiudo il post con il link al canale [Youtube](https://www.youtube.com/user/Code
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="it" dir="ltr">Una bellissima esperienza al <a href="https://twitter.com/hashtag/Codemotion?src=hash">#Codemotion</a> che spero riuscirò a ripetere ogni anno.</p>&mdash; Antonio Scatoloni (@ascatox) <a href="https://twitter.com/ascatox/status/710856668314210304">March 18, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<br/>
 *Image Courtesy of [Codemotion](http://it.codemotionworld.com)*
