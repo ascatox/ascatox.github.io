@@ -27,7 +27,7 @@ version:             0.1.0
 github:
   repo:              https://github.com/ascatox/ascatox.github.io
 
-gems: [jekyll-paginate, jekyll-gist, jemoji, jekyll-twitter-plugin]
+gems: [jekyll-paginate, jekyll-gist]
 
 twitter:
  consumer_key: LkQHjNQPlmAA8Sya8SKgINM1Q

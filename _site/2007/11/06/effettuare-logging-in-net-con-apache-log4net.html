@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Effettuare Logging in .NET con Apache log4net &middot; Antonio Scatoloni
+    
+  </title>
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="/public/css/poole.css">
+ <link rel="stylesheet" href="/public/css/syntax.css">
+ <link rel="stylesheet" href="/public/css/ascatox.css">
+ <link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css">
+
+ <!-- Fonts -->
+ <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700italic,700,400italic' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
+
+ <!-- Icons -->
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
+ <link rel="shortcut icon" href="public/favicon.ico">
+
+   <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Antonio Scatoloni" href="/atom.xml">
+</head>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77141714-1', 'auto');
+  ga('set', 'anonymizeIp', true); 
+  ga('send', 'pageview');
+
+</script>
+
+  <body>
+    
+
+    <div class="container content">
+      <header class="masthead">
+       <h3 class="masthead-title">
+		<img src="/assets/ascatox.jpg">
+        <a href="/" title="Home">Antonio Scatoloni</a>
+
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="http://www.antonioscatoloni.it/">About</a></small>
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="/archive">Archive</a></small>
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="/tag">Tags</a></small>
+        
+          &nbsp;&nbsp;&nbsp;
+          <small><a href="/atom.xml">Feed</a></small>
+        
+      </h3>
+        <div class="social-icons">
+          <a href="https://twitter.com/ascatox"><i class="fa fa-twitter"></i></a> 
+          <a href="https://github.com/ascatox"><i class="fa fa-github"></i></a>
+		   <a href="https://www.linkedin.com/in/antonioscatoloni"><i class="fa fa-linkedin-square"></i></a> 
+        </div>
+      </header>
+
+      <main>
+        <div class="post">
+  <h1 class="post-title">Effettuare Logging in .NET con Apache log4net</h1>
+  <span class="post-date">06 Nov 2007</span>
+  <p><img src="/assets/ls-logo.jpg" />Per un'applicazione molto semplice sviluppata in .NET dovevo eseguire il log di tutto quello che l'Applicazione eseguiva, permettendone il controllo. Dopo aver provato a creare dei log fatti "a mano" mi sono ricordato della librearia di logging sviluppata da Apache e l'ho inserita nel mio progetto, metteno infatti a disposizione una pratica dll da incorporare. L'utilizzo è molto semplice (ma presenta notevoli opzioni e possibilità di effettuare il logging in vari modi) basta infatti inserire il markup dell'assembly in questo modo:</p>
+<pre><strong>[assembly: log4net.Config.XmlConfigurator(Watch=true)]</strong></pre>
+<p>e configurare il codice in modo da creare un reference al Log(un possibile esempio):</p>
+<pre>   public class Log    {       public readonly ILog logger;
+
+
+      public Log() {
+
+          logger = LogManager.GetLogger
+           (<font color="#ff0000"><em>System.Reflection.MethodBase.GetCurrentMethod()</em></font>
+<font color="#ff0000"><em>            .DeclaringType</em></font>);
+
+
+           logger.Info("Logger inizializzato");}} </pre>
+<p>Utilizzando la Reflection si crea inoltre un codice portabile in ogni applicazione, basta infatti creare questa Classe ed accedere all'oggetto logger per poter generare dei messaggi di log:</p>
+<pre>logger.Warn("Eccezione")</pre>
+<p>Un'altra fase fondamentale del logging tramite log4Net è la configurazione dell mezzo su cui loggare, il metodo più semplice è l'Output a Console ma di maggiore utilità è l'Output <strong>su file di Testo</strong>. Vediamo come:</p>
+<p>Il modo più semplice è quello di utilizzare il file di Configurazione presente nella propria Applicazione nel caso di Applicazioni Windows basta aggiungere al file App.Config questo codice  all'interno della sezione &lt;configuration&gt;&lt;/configuration&gt;:</p>
+<pre><strong>   </strong>&lt;configSections&gt;</pre>
+<pre>      &lt;section name="log4net"</pre>
+<pre>      type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" /&gt;</pre>
+<pre>  &lt;/configSections&gt;</pre>
+<pre> &lt;log4net&gt;</pre>
+<pre>    &lt;appender name="<strong>RollingFile</strong>"</pre>
+<pre>       type="log4net.Appender.RollingFileAppender"&gt;</pre>
+<pre></pre>
+<pre>      &lt;file value="C:\Log\App.log" /&gt;</pre>
+<pre>      &lt;appendToFile value="true" /&gt;</pre>
+<pre>      &lt;<strong>maximumFileSize </strong>value="1KB" /&gt;</pre>
+<pre>      &lt;datePattern value="yyyyMMdd-HHmm" /&gt;</pre>
+<pre>      &lt;maxSizeRollBackups value="2" /&gt;</pre>
+<pre>     &lt;layout type="log4net.Layout.PatternLayout"&gt;</pre>
+<pre>        &lt;conversionPattern value="%date %level %logger - %message%newline" /&gt;</pre>
+<pre>      &lt;/layout&gt;</pre>
+<pre>    &lt;/appender&gt;    &lt;root&gt;</pre>
+<pre>     &lt;level value="ALL" /&gt;</pre>
+<pre>   &lt;appender-ref ref="RollingFile" /&gt;</pre>
+<pre>   &lt;/root&gt;</pre>
+<pre> &lt;/log4net&gt;</pre>
+<p>Con questa configurazione si ha quindi un log su file di Testo, che non appena il file supera la dimensione scelta in maximumfileSize ne crea un'altro, evitando di creare file di log di dimensioni enormi. Questa è solo una delle possibili configurazioni della libreria Apache log4net, maggiori informazioni e dettagli possono essere reperite <a href="http://logging.apache.org/">qui</a>.<br />
+<strong><br />
+<a href="http://blogs.ugidotnet.org/mitch/archive/2006/02/06/34382.aspx">Maggiori Dettagli</a></strong></p>
+<p>Buon Log a Tutti :-)</p>
+
+</div>
+
+<div class="social-section">
+  <div class="fb-like" data-href="/2007/11/06/effettuare-logging-in-net-con-apache-log4net" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="ascatox" data-lang="it" data-dnt="true">Tweet</a>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'ascatox'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//'+disqus_shortname+'.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="http://ascatox.github.io/2016/04/29/codemotion-una-bella-giornata-seconda-parte">
+            Codemotion una bella giornata (seconda parte)
+            <small>29 Apr 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://ascatox.github.io/2016/04/28/testare-api-rest-con-restfuse">
+            Testare API REST con Restfuse
+            <small>28 Apr 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="http://ascatox.github.io/2016/04/23/perche-jekyll">
+            Perchè Jekyll
+            <small>23 Apr 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+      </main>
+
+      <footer class="footer">
+      <p>
+        &copy; Antonio Scatoloni Weblog made with <a href="http://jekyllrb.com/">Jekyll</a>, under <a href="https://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC</a>.
+      </p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>

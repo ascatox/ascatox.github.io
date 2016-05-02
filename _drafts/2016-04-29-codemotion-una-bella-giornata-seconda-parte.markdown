@@ -21,12 +21,12 @@ Passato allo slot successivo, ho scelto di seguire il keynote di [Garann Means](
 Lo scopo di questo talk era quello di illustrare una serie di soluzioni per realizzare un'applicazione  Javascript che sapesse adattarsi al meglio alle più svariate situazioni presenti nel sistema dell'utente finale.<br/>
 Provo a spiegarmi meglio, una situazione che può capitare è incontrare utenti che non hanno abilitato il Javascript nel loro browser, in questo caso l'applicazione dovrebbe adattarsi a gestire la situazione con messaggi che invitano l'utente ad abilitarlo.
 Un'altra situazione particolare potrebbe essere un pc offline in questo caso l'applicazione deve funzionare ugualmente.
-Interessante e non scontata a parer mio è stata la consisderazione riguardante i paesi emergenti che hanno una [velocità media della rete internet](http://www.bitmat.it/blog/news/53787/internet-la-velocita-media-cresce-del-23-a-livello-globale "velocità media della rete internet") molto bassa	 e spesso con funzionamento intermittente. <br/>Comportamenti molto diversi rispetto ai paesi sviluppati ma che vanno sempre considerati se realizziamo un'applicazione Web di portate globale.
+Interessante e non scontata a parer mio è stata la consisderazione riguardante i paesi emergenti che hanno una [velocità media della rete internet](http://www.bitmat.it/blog/news/53787/internet-la-velocita-media-cresce-del-23-a-livello-globale "velocità media della rete internet") molto bassa e spesso con funzionamento intermittente. <br/>Comportamenti molto diversi rispetto ai paesi sviluppati ma che vanno sempre considerati se realizziamo un'applicazione Web di portate globale.
 Una possibile soluzione mostrata è stata quella di effettuare dei sync con il server non appena il computer torna in linea e tutta un'altra serie di scenari di questo tipo, con codice sorgente incluso, utlizzando la libreria [JQuery](https://jquery.com/).
 <br/>Anche questo talk davvero interessante.
 
-<div class="embed twitter"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 527.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710786941248266244" title="Twitter Tweet"></iframe>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">New talk &quot;Progressive enhancement for JS Apps&quot; <a href="https://twitter.com/hashtag/codemotion?src=hash">#codemotion</a> <a href="https://t.co/zK6wJOBjWw">pic.twitter.com/zK6wJOBjWw</a></p>&mdash; Antonio Scatoloni (@ascatox) <a href="https://twitter.com/ascatox/status/710786941248266244">March 18, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Finito questo talk sono passato direttamente al pranzo, che come si rispetti in questo tipo di conferenze è un composto da un lunch box, una busta contenente panini e/o tramezzini.<br/>
 I lunch box proposti dagli organizzatori erano di tre tipologie differenti una dei quali era pensato per i vegetariani. Io ho scelto quello classico con tramezzino al tonno, un panino ed una crostatina con confettura di prugna, davvero non male, peccato che nella busta mancasse una bottiglietta di acqua.
@@ -43,8 +43,6 @@ Il talk aveva come argomento i [Microservices](http://martinfowler.com/articles/
 <br/>Mi aspettavo un talk molto più teorico ed invece il taglio è stato molto pratico con codice scritto durante il talk stesso. La cosa poi molto interessante è stata l'utilizzo di [Spring Cloud](http://projects.spring.io/spring-cloud/) e una dimostrazione di come il gigante multimediale [Netflix](http://techblog.netflix.com/) utilizzi un'architettura a servizi per la gestione della sua infrastruttura.<br/>
 Questo per me è stato un talk molto utile, complice anche il massiccio uso di Spring/Java tecnologie che conosco ed uso.
 
-<div class="embed twitter"><iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 527.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710814419870224384" title="Twitter Tweet"></iframe>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 
 Il talk successivo che avevo deciso di seguire era *WebRTC + Socket.io: building a skype-like video chat with native javascript*, tenuto da Michele Di Salvatore, purtroppo a causa della malattia dello speaker è stato posticipato al giorno successivo.<br/>
@@ -58,7 +56,8 @@ Il talk in questione era *[Public speaking for geeks](http://rome2016.codemotion
 
 La cronistoria della mia giornata, si conclude in questo modo, purtroppo non ho potuto partecipare alla giornata successiva con mio profondo rammarico.
 Sono tornato a casa con il ricordo di una bella giornata di formazione, in mezzo a tanti ragazzi giovani e appassionati di IT ed aziende che seppur tra tante difficoltà cercano di fare innovazione.
-{% twitter oembed https://twitter.com/CodemotionIT/status/710806002925441024 %}
+
+
 
 
 Il mio prossiomo appuntamento con il [Codemotion](http://it.codemotionworld.com/category/codemotion-event/) è in autunno a Milano.<br/>
@@ -66,5 +65,3 @@ Chiudo il post con il link al canale [Youtube](https://www.youtube.com/user/Code
 
 **Stay Tuned!**
 
-<div class="embed twitter"><iframe id="twitter-widget-3" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: static; visibility: visible; display: block; width: 500px; height: 424.156px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="710806002925441024" title="Twitter Tweet"></iframe>
-<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
