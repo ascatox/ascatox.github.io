@@ -79,6 +79,146 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/2016/05/04/effettuare-demo-con-ngrock">
+        ngrock
+      </a>
+    </h1>
+
+    <time datetime="2016-05-04T00:00:00+02:00" class="post-date">04 May 2016</time>
+
+    <h3>A cosa serve</h3>
+<p>Quando si sviluppa un nuovo progetto software, una delle cose che ne determinano la riuscita è il feedback continuo del cliente, mostrargli gli avanzamenti in modo costante e continuo infatti, lo rende più partecipe e si riducono gli errori derivanti da requisiti non compresi a pieno.<br />
+Non a caso questo infatti è uno dei principi cardine di tra le principali metodologie Agili, XP Programming che parla proprio di <em>Customer on site</em>.
+Spesso, realizzare un’ambiente, dove il cliente possa visionare il prodotto nel durante, sarebbe una delle cose da pensare subito, nella fase di boostrap di un progetto, ma spesso questo è molto difficile per molti motivi, la soluzione più facile sarebbe mostrare il prodotto che si sta visonando in una macchina di sviluppo, ma questo potrebbe essere non immediato.<br /></p>
+
+<h3>Tunnel sicuri</h3>
+<p>Una soluzione che ho scoperto da poco è il servizio ngrock.
+Questo servizio, effettua un tunnel sicuro a localhost anche se la propria rete è dietro un proxy oppure un firewall, cosa tipica nelle reti aziendali.
+Ma andiamo subito a vedere come funziona, la prima cosa da fare come ovvio che sia è il download del software per la propria piattaforma (Mac, Windows, Linux) da questo <a href="https://ngrok.com/download" title="indirizzo">indirizzo</a>.<br /></p>
+
+<h3>Comandi</h3>
+<p>Una volta scaricato e scompattato se lanciamo il comando senza parametri abbiamo questo risultato:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>ngrok
+NAME:
+   ngrok - tunnel <span class="nb">local </span>ports to public URLs and inspect traffic
+
+DESCRIPTION:
+    ngrok exposes <span class="nb">local </span>networked services behinds NATs and firewalls to the
+    public internet over a secure tunnel. Share <span class="nb">local </span>websites, build/test
+    webhook consumers and self-host personal services.
+    Detailed <span class="nb">help </span><span class="k">for </span>each <span class="nb">command </span>is available with <span class="s1">'ngrok help &lt;command&gt;'</span>.
+    Open http://localhost:4040 <span class="k">for </span>ngrok<span class="s1">'s web interface to inspect traffic.
+
+EXAMPLES:
+    ngrok http 80                    # secure public URL for port 80 web server
+    ngrok http -subdomain=baz 8080   # port 8080 available at baz.ngrok.io
+    ngrok http foo.dev:80            # tunnel to host:port instead of localhost
+    ngrok tcp 22                     # tunnel arbitrary TCP traffic to port 22
+    ngrok tls -hostname=foo.com 443  # TLS traffic for foo.com to port 443
+    ngrok start foo bar baz          # start tunnels from the configuration file
+
+VERSION:
+   2.0.25
+
+AUTHOR:
+  inconshreveable - &lt;alan@ngrok.com&gt;
+
+COMMANDS:
+   authtoken    save authtoken to configuration file
+   credits      prints author and licensing information
+   http         start an HTTP tunnel
+   start        start tunnels by name from the configuration file
+   tcp          start a TCP tunnel
+   test         test ngrok service end-to-end
+   tls          start a TLS tunnel
+   update       update ngrok to the latest version
+   version      print the version string
+   help         Shows a list of commands or help for one command
+    </span></code></pre></figure>
+
+<p>Il semplice help del comando è di per sé molto esplicativo, lo scenario classico che andrà bene per molti progetti Web è quello di avere un Web Server per esempio <strong>Apache2</strong> oppure <strong>Nginx</strong> sulla porta standard <strong>80</strong>, in questo caso basterà digitare questo comando:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">   ngrok http 80 
+  </code></pre></figure>
+
+<p>per mostrare al mondo il nostro capolavoro di progetto.<br />
+Nel mio caso specifico, di sviluppatore Java non utilizzo Apache2 per i miei siti  bensì Tomcat che di <em>default</em> crea una connessione sulla porta 8080 quindi:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">   ngrok http 8080 
+   </code></pre></figure>
+
+<p>Una volta lanciato si presenta in questo modo:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ngrok by @inconshreveable                                                                                                                               <span class="o">(</span>Ctrl+C to quit<span class="o">)</span>
+
+Tunnel Status                 reconnecting <span class="o">(</span>dial tcp 198.58.96.133:443: ConnectEx tcp: i/o timeout<span class="o">)</span>
+Version                       2.0.25/
+Region                        United States <span class="o">(</span>us<span class="o">)</span>
+Web Interface                 http://127.0.0.1:4040
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              0       0       0.00    0.00    0.00    0.00</code></pre></figure>
+
+<p>In questo modo però il processo non è in background per lanciarlo in background, basterà aggiungere questo:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> ngrok http 8080 --log<span class="o">=</span>stdout</code></pre></figure>
+
+<p>tutto molto semplice ed immediato.
+Se invece fossimo dietro ad un server proxy che non permette ad ngrock di connettersi, basta impostare la variabile d’ambiente in questo modo:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">http_proxy</span><span class="o">=</span><span class="s2">"http://username:password@host:port"</span>
+ngrock http 8080</code></pre></figure>
+
+<p>ngrock infatti utilizza la variabile ambiente in pieno stile dei programmi linux (anche su macchine Windows).
+Proviamo a vedere cosa succede se decido di mostrare al mondo il mio blog direttamente dalla versione ospitata sulla mia macchina locale senza deploy su Github.<br />
+Il server jekyll lanciato con il comando <code class="highlighter-rouge">jekyll serve</code> si mette in ascolto su <code class="highlighter-rouge">localhost:4000</code>andiamo a vedere come utilizzare ngrock:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">./ngrok http 4000
+
+ngrok by @inconshreveable                                                                                                                                                       <span class="o">(</span>Ctrl+C to quit<span class="o">)</span>
+
+Tunnel Status                 online
+Version                       2.0.25/2.0.25
+Region                        United States <span class="o">(</span>us<span class="o">)</span>
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://020de402.ngrok.io -&gt; localhost:4000
+Forwarding                    https:///020de402.ngrok.io -&gt; localhost:4000
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              10      0       0.00    0.00    31.03   32.86
+
+HTTP Requests
+-------------
+
+GET /public/favicon.ico                                 200 OK
+GET /public/font-awesome/fonts/fontawesome-webfont.woff 200 OK
+GET /assets/codemotion_2016_header.png                  200 OK
+GET /assets/jekyll_header.png                           200 OK
+GET /assets/rest_API.png                                200 OK
+GET /assets/ascatox.jpg                                 200 OK
+GET /public/font-awesome/css/font-awesome.min.css       200 OK
+GET /public/css/ascatox.css                             200 OK
+GET /public/css/syntax.css                              200 OK
+GET /public/css/poole.css                               200 OK</code></pre></figure>
+
+<p>Il mio jekyll locale è accessibile in due indirizzi della rete di ngrock <strong>http://020de402.ngrok.io</strong> e  <strong>https://020de402.ngrok.io</strong> come si vede da queste immagini:
+<img src="/assets/rest_API.png" alt="Jekyll" />
+<img src="/assets/rest_API.png" alt="Jekyll" />
+<img src="/assets/rest_API.png" alt="Jekyll" /></p>
+
+<p>Una cosa per tutti coloro che storceranno il naso nel vedere gli indirizzi, ngrock è un servizio che offre dei piani a pagamento dove fornisce molte funzionalità aggiuntive,
+tra le quali anche la possibilità di poter utilizzare degli indirizzi personalizzati.
+<br />
+Per concludere ngrock è uno strumento molto potente che permette di gestire anche situazioni molto complesse come viene spiegato nella <a href="https://ngrok.com/docs" title="documentazione ufficiale">documentazione ufficiale</a> e nelle <a href="https://ngrok.com/faq" title="FAQ">FAQ</a> e che in tantissime situazioni può davvero essere davvero molto utile.<br /></p>
+
+<p>Interessante il post di Odino che mostra l’utilizzo di ngrock all’interno di un container docker, davvero un servizio utile.</p>
+
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/2016/04/29/codemotion-una-bella-giornata-seconda-parte">
         Codemotion una bella giornata (seconda parte)
       </a>
@@ -205,9 +345,9 @@ La libreria è perfettamente presente su <a href="https://maven-repository.com/a
   
 <span class="o">}</span></code></pre></figure>
 
-<p>Come si vede il tutto è perfettamente configurabile tramite <a href="http://https://en.wikipedia.org/wiki/Java_annotation" title="Annotations">Annotations</a>, <code>@RunWith</code> è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
-L’Annotation <code>@HttpTest</code>contrassegna il test vero e proprio che vogliamo eseguire.<br />
-Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il <code>method</code> che indica il verbo HTTP della nostra API ed il <code>path</code> ovvero il percorso nel quale risponde la nostra API.</p>
+<p>Come si vede il tutto è perfettamente configurabile tramite <a href="http://https://en.wikipedia.org/wiki/Java_annotation" title="Annotations">Annotations</a>, <code class="highlighter-rouge">@RunWith</code> è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
+L’Annotation <code class="highlighter-rouge">@HttpTest</code>contrassegna il test vero e proprio che vogliamo eseguire.<br />
+Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il <code class="highlighter-rouge">method</code> che indica il verbo HTTP della nostra API ed il <code class="highlighter-rouge">path</code> ovvero il percorso nel quale risponde la nostra API.</p>
 <h4>Secondo esempio</h4>
 <p>Quest’esempio è molto semplice, passiamo ad un’esempio leggermente più complesso in modo da conoscere meglio Restfuse. L’esempio è disponibile a questo <a href="http://https://github.com/eclipsesource/restfuse/blob/master/com.eclipsesource.restfuse.example/src/com/eclipsesource/restfuse/example/DynamicHeaderTest.java" title="indirizzo">indirizzo</a>.</p>
 
@@ -239,7 +379,7 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
   <span class="o">}</span>
 <span class="o">}</span></code></pre></figure>
 
-<p>In questo esempio la differenza principale con quello precedente sta nel metodo <code>getDestination()</code>, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro <code>{file}</code>. Una cosa molto importante da sapere è che il metodo <code>getDestination()</code> dell’esempio <strong>viene eseguito per ciascun test</strong>.</p>
+<p>In questo esempio la differenza principale con quello precedente sta nel metodo <code class="highlighter-rouge">getDestination()</code>, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro <code class="highlighter-rouge"><span class="p">{</span><span class="err">file</span><span class="p">}</span></code>. Una cosa molto importante da sapere è che il metodo <code class="highlighter-rouge">getDestination()</code> dell’esempio <strong>viene eseguito per ciascun test</strong>.</p>
 <h4>Ultimo esempio</h4>
 <p>L’ultimo esempio che voglio mostrare è un’inserimento di dati tramite <a href="https://en.wikipedia.org/wiki/POST_(HTTP)">POST</a>.</p>
 
@@ -273,10 +413,10 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
     <span class="o">}</span></code></pre></figure>
 
 <p>In questo esempio viene eseguita un POST di alcuni dati.<br />
-Una cosa curiosa che mi ha fatto perdere del tempo è il parametro <code>content</code>.<br /> Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il <code>path</code> dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore <code>content="dummy"</code> utilizzato.<br />
+Una cosa curiosa che mi ha fatto perdere del tempo è il parametro <code class="highlighter-rouge">content</code>.<br /> Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il <code class="highlighter-rouge">path</code> dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore <code class="highlighter-rouge">content="dummy"</code> utilizzato.<br />
 Maggiori informazioni su questo <strong>bug</strong> le potete trovare <a href="https://github.com/eclipsesource/restfuse/issues/42" title="qui">qui</a>.<br />
-Un’altro parametro molto importante è <code>order</code> che permette di definire <strong>un’ordine di esecuzione dei test</strong>.<br />
-Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.  </p>
+Un’altro parametro molto importante è <code class="highlighter-rouge">order</code> che permette di definire <strong>un’ordine di esecuzione dei test</strong>.<br />
+Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.</p>
 
 <h3>Conclusioni</h3>
 <p>Restfuse è sicuramente una buona libreria per testare REST API, ma presenta diversi <a href="https://github.com/eclipsesource/restfuse/issues">bug</a> al momento ed un supporto a tratti latitante, speriamo davvero che il progetto riparta in qualche modo.<br />
@@ -322,7 +462,7 @@ Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato <a href=
 <ol>
   <li>
     <p>Dopo aver installato Jekyll sul mio Mac con il classico comando: 
-<code>gem install jekyll</code></p>
+<code class="highlighter-rouge">gem install jekyll</code></p>
   </li>
   <li>
     <p>La prima cosa che ho fatto, come suggerito in <a href="http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/">moltissime guide</a> è stata quella di esportare tutti i contenuti dal mio <a href="http://www.antonioscatoloni.it/blog">Blog Wordpress</a> self hosted  alla nuova struttura Jekyll.
@@ -330,7 +470,7 @@ Ho provato ad utilizzare diversi plugin Wordpress, in particolare <a href="https
 Ho scaricato il file contenente tutti i miei post in formato xml, direttamente dalla Dashboard di Wordpress nella sezione <em>Strumenti-&gt;Esporta</em>. In questo modo ho generato un file xml contenente le informazioni relative ai post.</p>
   </li>
   <li>
-    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.<code>bash
+    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.<code class="highlighter-rouge">bash
 $ ruby -rubygems -e 'require "jekyll-import";
  JekyllImport::Importers::WordpressDotCom.run({
    "source" =&gt; "wordpress.xml",
@@ -346,13 +486,13 @@ Proprio in questi giorni ho notato che si può utilizzare un’altro <a href="ht
 
 <p>Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il <a href="https://wordpress.org/plugins/disqus-comment-system/">plugin per Wordpress di Disqus</a>, esportare il tutto in un file e poi importare il tutto nell’<a href="https://import.disqus.com/login/?next=/">apposita sezione</a> del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che <strong>il formato dei link dei post</strong> sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
-<code>http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
+<code class="highlighter-rouge">http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
 http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte</code> ed ovviamente il dominio con il sottolivello devono essere uguali, nel mio caso (temporaneo) non è così, quindi l’associazione che esegue Disqus non funziona.</p>
 
 <h3>Note sull'utilizzo</h3>
 
 <p>Devo dire che all’inizio ero molto intimorito di scrivere post con Jekyll, l’utilizzo della piattaforma infatti si appoggia tutto su Github ed in particolare sulle <a href="https://pages.github.com/">Github Pages</a>.
-Per farla molto semplice, una volta creato un repo si Github con nome <code>username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
+Per farla molto semplice, una volta creato un repo si Github con nome <code class="highlighter-rouge">username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
 I post sono semplicemente dei file scritti in Markdown con una particolare intestazione che devono essere gittati nel repo, per essere pubblicati. Il workflow di pubblicazione di un post può sembrare molto più laborioso di quanto lo fosse su Wordpress, ma una volta presa la mano e con i giusti strumenti, diventa <a href="http://dottorblaster.it/2015/12/jekyll-flusso-pubblicazione">meno complesso</a>.</p>
 
 <h3>Applicazioni per creare post</h3>
@@ -395,19 +535,6 @@ Iniziano i talk, il primo è la presentazione dell’evento al quale partecipano
 <p>Finito il talk di IBM, scelgo il talk di <a href="https://www.thoughtworks.com/profiles/rebecca-parsons" title="Rebecca Parsons">Rebecca Parsons</a> CTO di ThoughtWorks che ci parla di <a href="http://rome2016.codemotionworld.com/conference/" title="“Evolution of Evolutionary Architecture“">“Evolution of Evolutionary Architecture“</a>, Keynote molto interessante con molti spunti su come immaginare le architetture dei sistemi IT futuri.</p>
 
 <p>Continua…</p>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2015/03/12/la-professione-dello-sviluppatore">
-        La professione dello sviluppatore
-      </a>
-    </h1>
-
-    <time datetime="2015-03-12T08:29:29+01:00" class="post-date">12 Mar 2015</time>
-
-    <iframe width="560" height="315" src="//www.youtube.com/embed/Ry8JdyQpLWg" frameborder="0" allowfullscreen></iframe>
 
   </article>
   
