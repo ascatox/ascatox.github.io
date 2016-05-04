@@ -29,12 +29,6 @@ github:
 
 gems: [jekyll-paginate, jekyll-gist]
 
-twitter:
- consumer_key: LkQHjNQPlmAA8Sya8SKgINM1Q
- consumer_secret: IbKVS77eJu9RrVQw8jQ2oytfYcVnCzB3Y7Vs8mrqrs1Z6Bv0Fm
- access_token: 16308202-GAFmaaEAgpc348fU85YZksJlfDJYPUle2nqCvCWqD
- access_token_secret: fzlWY0Nnre88J20psqYciYfsoUaytMP9N46UxzrV6im7C
-
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
