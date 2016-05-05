@@ -75,5 +75,5 @@ Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possi
 <br/><br/>
 Ho deciso quindi di comprare un nuovo dominio presso [Namecheap](https://www.namecheap.com) ed ho scelto *antonioscatoloni.site*.
 <br/><br/>
-Fatto questo ho aggiunto un file *[CNAME](https://github.com/ascatox/ascatox.github.io/blob/master/CNAME)* al mio repo Github con dentro semplicemente ```antonioscatoloni.site``` poi mi sono recato nel [pannello di controllo](https://ap.www.namecheap.com/Domains/DomainControlPanel) di Namecheap, nella sezione **Advanced DNS** ho inserito gli indirizzi IP di Github e l'indirizzo della mia Github page che ricordo essere *username.github.io*.<br/><br/>
+Fatto questo ho aggiunto un file *[CNAME](https://github.com/ascatox/ascatox.github.io/blob/master/CNAME)* al mio repo Github con dentro semplicemente ```antonioscatoloni.site``` poi mi sono recato nel [pannello di controllo](https://ap.www.namecheap.com/Domains/DomainControlPanel) di Namecheap, nella sezione **Advanced DNS** ho inserito gli indirizzi IP di Github e l'indirizzo della mia Github Page che ricordo essere *username.github.io*.<br/><br/>
 ![Jekyll]({{site.baseurl}}/assets/CNAME.png)
