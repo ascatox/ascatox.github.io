@@ -34,14 +34,15 @@ La mia migrazione non è stata molto facile ed ancora adesso non è del tutto co
 Ho provato ad utilizzare diversi plugin Wordpress, in particolare [Jekyll Exporter](https://it.wordpress.org/plugins/jekyll-exporter/), ma a causa di una serie di errori derivanti dalla mancanza di alcune librerie nel mio hosting, ho deciso di utilizzare una soluzione più radicale.
 Ho scaricato il file contenente tutti i miei post in formato xml, direttamente dalla Dashboard di Wordpress nella sezione *Strumenti->Esporta*. In questo modo ho generato un file xml contenente le informazioni relative ai post.
 
-3. Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di [Jekyll](https://import.jekyllrb.com/docs/wordpressdotcom/) che serve per generare i post in formato Html o [Markdown](https://daringfireball.net/projects/markdown/) pronti (o quasi :-D) per la nuova piattaforma.```bash
+3. Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di [Jekyll](https://import.jekyllrb.com/docs/wordpressdotcom/) che serve per generare i post in formato Html o [Markdown](https://daringfireball.net/projects/markdown/) pronti (o quasi :-D) per la nuova piattaforma.
+{% highlight bash %}
 $ ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::WordpressDotCom.run({
       "source" => "wordpress.xml",
       "no_fetch_images" => false,
       "assets_folder" => "assets"
     })
-```
+ {% endhighlight %}
 *Attenzione il file wordpress.xml è quello esportato in precedenza, è possibile scegliere una cartella con nome diverso per le immagini scaricate.*<br/>
 Proprio in questi giorni ho notato che si può utilizzare un'altro [script](http://import.jekyllrb.com/docs/wordpress/), che accede direttamente al DB Mysql del proprio sito Wordpress.<br/>
 *Comunque per coloro che vogliono spostare il loro sito da Wordpress self hosted a Jekyll il plugin sopra citato è una soluzione piu efficace e semplice.*
@@ -68,3 +69,10 @@ Il mio **Blog riparte da qui**, nuova piattaforma nuova energia.
 Stay Tuned!
 
 *PS: Se volete effettuare un fork del [mio umile Weblog](https://github.com/ascatox/ascatox.github.io) fatelo pure.*
+<br/>
+Update: Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possibile collegare al mio dominio antonioscatoloni.it spazi diversi da quelli di Aruba stessi, quindi non era possibile agganciare il mio dominio a Github Pages.
+<br/>
+Ho deciso quindi di comprare un nuovo dominio presso [Namecheap](https://www.namecheap.com) ed ho scelto **antonioscatoloni.site**.
+<br/><br/>
+Fatto questo ho aggiunto un file *[CNAME](https://github.com/ascatox/ascatox.github.io/blob/master/CNAME)* al mio repo Github con dentro semplicemente ```antonioscatoloni.site``` poi mi sono recato nel [pannello di controllo](https://ap.www.namecheap.com/Domains/DomainControlPanel) di Namecheap, nella sezione **Advanced DNS** ho inserito gli indirizzi IP di Github ed l'indirizzo della mia Github page che ricordo essere **username.github.io**.<br/>
+![Jekyll]({{site.baseurl}}/assets/CNAME.png)
