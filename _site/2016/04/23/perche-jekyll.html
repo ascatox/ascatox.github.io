@@ -99,7 +99,7 @@ Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato <a href=
 <ol>
   <li>
     <p>Dopo aver installato Jekyll sul mio Mac con il classico comando: 
-<code class="highlighter-rouge">gem install jekyll</code></p>
+<code>gem install jekyll</code></p>
   </li>
   <li>
     <p>La prima cosa che ho fatto, come suggerito in <a href="http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/">moltissime guide</a> è stata quella di esportare tutti i contenuti dal mio <a href="http://www.antonioscatoloni.it/blog">Blog Wordpress</a> self hosted  alla nuova struttura Jekyll.
@@ -107,7 +107,7 @@ Ho provato ad utilizzare diversi plugin Wordpress, in particolare <a href="https
 Ho scaricato il file contenente tutti i miei post in formato xml, direttamente dalla Dashboard di Wordpress nella sezione <em>Strumenti-&gt;Esporta</em>. In questo modo ho generato un file xml contenente le informazioni relative ai post.</p>
   </li>
   <li>
-    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.<code class="highlighter-rouge">bash
+    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.<code>bash
 $ ruby -rubygems -e 'require "jekyll-import";
  JekyllImport::Importers::WordpressDotCom.run({
    "source" =&gt; "wordpress.xml",
@@ -123,13 +123,13 @@ Proprio in questi giorni ho notato che si può utilizzare un’altro <a href="ht
 
 <p>Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il <a href="https://wordpress.org/plugins/disqus-comment-system/">plugin per Wordpress di Disqus</a>, esportare il tutto in un file e poi importare il tutto nell’<a href="https://import.disqus.com/login/?next=/">apposita sezione</a> del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che <strong>il formato dei link dei post</strong> sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
-<code class="highlighter-rouge">http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
+<code>http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
 http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte</code> ed ovviamente il dominio con il sottolivello devono essere uguali, nel mio caso (temporaneo) non è così, quindi l’associazione che esegue Disqus non funziona.</p>
 
 <h3>Note sull'utilizzo</h3>
 
 <p>Devo dire che all’inizio ero molto intimorito di scrivere post con Jekyll, l’utilizzo della piattaforma infatti si appoggia tutto su Github ed in particolare sulle <a href="https://pages.github.com/">Github Pages</a>.
-Per farla molto semplice, una volta creato un repo si Github con nome <code class="highlighter-rouge">username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
+Per farla molto semplice, una volta creato un repo si Github con nome <code>username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
 I post sono semplicemente dei file scritti in Markdown con una particolare intestazione che devono essere gittati nel repo, per essere pubblicati. Il workflow di pubblicazione di un post può sembrare molto più laborioso di quanto lo fosse su Wordpress, ma una volta presa la mano e con i giusti strumenti, diventa <a href="http://dottorblaster.it/2015/12/jekyll-flusso-pubblicazione">meno complesso</a>.</p>
 
 <h3>Applicazioni per creare post</h3>
@@ -176,8 +176,8 @@ Stay Tuned!</p>
     
       <li>
         <h3>
-          <a href="http://ascatox.github.io/2016/05/04/effettuare-demo-con-ngrock">
-            ngrock
+          <a href="http://ascatox.github.io/2016/05/04/introduzione-a-ngrock">
+            Introduzione a ngrok
             <small>04 May 2016</small>
           </a>
         </h3>

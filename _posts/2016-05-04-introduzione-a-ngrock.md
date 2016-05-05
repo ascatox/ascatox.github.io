@@ -1,26 +1,26 @@
 ---
 layout: post
-title: Introduzioe a ngrock
+title: Introduzione a ngrok
 published: true
 categories: Servizi Web
 tags:
 - DevOps
 ---
+![Jekyll]({{site.baseurl}}/assets/ngrok.png)
 <h3>A cosa serve</h3>
 Quando si sviluppa un nuovo progetto software, una delle cose che ne determinano la riuscita è il feedback continuo del cliente, mostrargli gli avanzamenti in modo costante e continuo infatti, lo rende più partecipe e si riducono gli errori derivanti da requisiti non compresi a pieno.
-<br/><br/>
-Non a caso questo infatti è uno dei principi cardine di tra le principali metodologie Agili, XP Programming che parla proprio di *Customer on site*.
-Spesso, realizzare un'ambiente, dove il cliente possa visionare il prodotto nel durante, sarebbe una delle cose da pensare subito, nella fase di boostrap di un progetto, ma spesso questo è molto difficile per molti motivi, la soluzione più facile sarebbe mostrare il prodotto che si sta visonando in una macchina di sviluppo, ma questo potrebbe essere non immediato.<br/>
+Non a caso questo infatti è uno dei principi cardine di una tra le principali [metodologie Agili](https://it.wikipedia.org/wiki/Metodologia_agile), *[XP Programming](https://it.wikipedia.org/wiki/Extreme_programming)* che parla proprio di **[On site Customer](http://www.extremeprogramming.org/rules/customer.html)**.<br/><br/>
+Un altro ambito molto utile, potrebbe essere la condivisione con altri membri del Team di progetto della propria versione locale del prodotto, se lavorano in sedi differenti o come sempre più spesso accade in **[Remote Working](https://www.ideato.it/news-for-all/remote-working-istruzioni-per-luso)**. <br/>
 
 <h3>Tunnel sicuri</h3>
-Una soluzione che ho scoperto da poco è il servizio ngrock.
-Questo servizio, effettua un tunnel sicuro a localhost anche se la propria rete è dietro un proxy oppure un firewall, cosa tipica nelle reti aziendali.
-Ma andiamo subito a vedere come funziona, la prima cosa da fare come ovvio che sia è il download del software per la propria piattaforma (Mac, Windows, Linux) da questo [indirizzo](https://ngrok.com/download "indirizzo").<br/>
+Per risolvere queste problematiche una soluzione che ho scoperto da poco è il servizio **[ngrok](https://ngrok.com)**.
+Questo servizio, effettua un tunnel sicuro dell'indirizzo locale (localhost), anche se la propria rete è dietro un proxy oppure un firewall, cosa tipica nelle reti aziendali.<br/>
+Ma andiamo subito a vedere come funziona, la prima cosa da fare come ovvio che sia, è il download del software per la propria piattaforma (Mac, Windows, Linux) da questo [indirizzo](https://ngrok.com/download "indirizzo").<br/>
 
-<h3>Comandi</h3>
+<h3>Comando</h3>
 Una volta scaricato e scompattato se lanciamo il comando senza parametri abbiamo questo risultato:
 {% highlight bash %}
-$ ngrok
+$ ./ngrok
 NAME:
    ngrok - tunnel local ports to public URLs and inspect traffic
 
@@ -57,15 +57,15 @@ COMMANDS:
    version      print the version string
    help         Shows a list of commands or help for one command
     {% endhighlight %}
-  Il semplice help del comando è di per sé molto esplicativo, lo scenario classico che andrà bene per molti progetti Web è quello di avere un Web Server per esempio **Apache2** oppure **Nginx** sulla porta standard **80**, in questo caso basterà digitare questo comando:
+  Il semplice help del comando è di per sé molto esplicativo, lo scenario classico che andrà bene per molti progetti Web, è quello di avere un Web Server per esempio **[Apache](https://httpd.apache.org)**, sulla porta standard **80**, in questo caso basterà digitare questo comando:
 {% highlight bash %}
-   ngrok http 80 
-  {% endhighlight %}
+   ./ngrok http 80 
+{% endhighlight %}
 per mostrare al mondo il nostro capolavoro di progetto.<br/>
-Nel mio caso specifico, di sviluppatore Java non utilizzo Apache2 per i miei siti  bensì Tomcat che di *default* crea una connessione sulla porta 8080 quindi:
+Nel mio caso specifico, di sviluppatore Java non utilizzo Apache2 per i miei siti  bensì [Tomcat](http://tomcat.apache.org) che di *default* crea una connessione sulla porta 8080 quindi:
 {% highlight bash %}
-   ngrok http 8080 
-   {% endhighlight %}
+   ./ngrok http 8080 
+{% endhighlight %}
 Una volta lanciato si presenta in questo modo:
 {% highlight bash %}
 ngrok by @inconshreveable                                                                                                                               (Ctrl+C to quit)
@@ -80,17 +80,17 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
 {% endhighlight %}
 In questo modo però il processo non è in background per lanciarlo in background, basterà aggiungere questo:
 {% highlight bash %}
- ngrok http 8080 --log=stdout
+ ./ngrok http 8080 --log=stdout
 {% endhighlight %}
 tutto molto semplice ed immediato.
-Se invece fossimo dietro ad un server proxy che non permette ad ngrock di connettersi, basta impostare la variabile d'ambiente in questo modo:
+Se invece fossimo dietro ad un server proxy che non permette ad ngrok di connettersi, basta impostare la variabile d'ambiente in questo modo.
 {% highlight bash %}
 export http_proxy="http://username:password@host:port"
-ngrock http 8080
+ngrok http 8080
 {% endhighlight %}
-ngrock infatti utilizza la variabile ambiente in pieno stile dei programmi linux (anche su macchine Windows).
+Il servizio ngrok infatti, utilizza la variabile ambiente *http_proxy* in pieno stile linux (funziona anche su macchine Windows).<br/>
 Proviamo a vedere cosa succede se decido di mostrare al mondo il mio blog direttamente dalla versione ospitata sulla mia macchina locale senza deploy su Github.<br/>
-Il server jekyll lanciato con il comando ```jekyll serve``` si mette in ascolto su ```localhost:4000```andiamo a vedere come utilizzare ngrock: 
+Il server [Jekyll](https://jekyllrb.com) lanciato con il comando ```jekyll serve``` si mette in ascolto su ```localhost:4000```andiamo a vedere come utilizzare ngrok: 
 {% highlight bash %}
 ./ngrok http 4000
 
@@ -121,16 +121,24 @@ GET /public/css/syntax.css                              200 OK
 GET /public/css/poole.css                               200 OK
 {% endhighlight %}
 
-Il mio jekyll locale è accessibile in due indirizzi della rete di ngrock **http://020de402.ngrok.io** e  **https://020de402.ngrok.io** come si vede da queste immagini:
-![Jekyll]({{site.baseurl}}/assets/ngrock_localhost.png)
-![Jekyll]({{site.baseurl}}/assets/ngrock_http.png)
-![Jekyll]({{site.baseurl}}/assets/ngrock_https.png)
-
-Una cosa per tutti coloro che storceranno il naso nel vedere gli indirizzi, ngrock è un servizio che offre dei piani a pagamento dove fornisce molte funzionalità aggiuntive,
-tra le quali anche la possibilità di poter utilizzare degli indirizzi personalizzati.
+Il mio sito jekyll locale è ora accessibile tramite due indirizzi pubblici della rete di ngrok **http://020de402.ngrok.io** e  **https://020de402.ngrok.io** come si vede da queste immagini.
+<br/><br/>
+![Jekyll]({{site.baseurl}}/assets/ngrok_localhost.png)
+![Jekyll]({{site.baseurl}}/assets/ngrok_http.png)
+![Jekyll]({{site.baseurl}}/assets/ngrok_https.png)
 <br/>
-Per concludere ngrock è uno strumento molto potente che permette di gestire anche situazioni molto complesse come viene spiegato nella [documentazione ufficiale](https://ngrok.com/docs "documentazione ufficiale") e nelle [FAQ](https://ngrok.com/faq "FAQ") e che in tantissime situazioni può davvero essere davvero molto utile.<br/>
-
-Interessante il post di Odino che mostra l'utilizzo di ngrock all'interno di un container docker, davvero un servizio utile.
-
-
+Una cosa per tutti coloro che storceranno il naso nel vedere gli indirizzi, ngrok è un servizio che offre dei piani a pagamento dove fornisce molte funzionalità aggiuntive,
+tra le quali anche la possibilità di poter utilizzare degli indirizzi personalizzati.<br/>
+Un'altra possibilità è quella di modificare gli indirizzi in modo da appartenere al proprio dominio come spiegato nell'apposita 
+[documentazione](https://ngrok.com/docs#custom-domains).
+<h3>Conclusioni</h3>
+Questa è solamente una piccola introduzione al servizio ngrok, uno strumento molto potente che permette di gestire anche situazioni molto complesse come viene spiegato nella [documentazione ufficiale](https://ngrok.com/docs "documentazione ufficiale") e nelle [FAQ](https://ngrok.com/faq "FAQ") e che in tantissime situazioni può davvero essere molto utile.<br/><br/>
+PS: Per chi vuole approfondire, consiglio [questo post](http://unnikked.tk/ngrok-tunnel-sicuri-su-localhost/) e [questo](http://unnikked.tk/come-installare-ngrok-con-un-certificato-self-signed/) che forniscono una guida esaustiva al servizio.
+<br/>
+Interessante poi il [post di Odino](http://odino.org/how-docker-changed-me/), che mostra l'utilizzo di ngrok all'interno di un container [docker](https://www.docker.com).
+<br/>
+<br/> 
+**Stay Tuned!**
+<br/>
+<br/>
+*Image Courtesy of [ngrok.com](https://ngrok.com)*
