@@ -69,10 +69,10 @@ Il mio **Blog riparte da qui**, nuova piattaforma nuova energia.
 Stay Tuned!
 
 *PS: Se volete effettuare un fork del [mio umile Weblog](https://github.com/ascatox/ascatox.github.io) fatelo pure.*
-<br/>
-Update: Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possibile collegare al mio dominio antonioscatoloni.it spazi diversi da quelli di Aruba stessi, quindi non era possibile agganciare il mio dominio a Github Pages.
-<br/>
-Ho deciso quindi di comprare un nuovo dominio presso [Namecheap](https://www.namecheap.com) ed ho scelto **antonioscatoloni.site**.
 <br/><br/>
-Fatto questo ho aggiunto un file *[CNAME](https://github.com/ascatox/ascatox.github.io/blob/master/CNAME)* al mio repo Github con dentro semplicemente ```antonioscatoloni.site``` poi mi sono recato nel [pannello di controllo](https://ap.www.namecheap.com/Domains/DomainControlPanel) di Namecheap, nella sezione **Advanced DNS** ho inserito gli indirizzi IP di Github ed l'indirizzo della mia Github page che ricordo essere **username.github.io**.<br/>
+**Update**: Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possibile collegare al mio dominio antonioscatoloni.it spazi diversi da quelli di Aruba stessi, quindi non era possibile agganciare il mio dominio a Github Pages.
+<br/><br/>
+Ho deciso quindi di comprare un nuovo dominio presso [Namecheap](https://www.namecheap.com) ed ho scelto *antonioscatoloni.site*.
+<br/><br/>
+Fatto questo ho aggiunto un file *[CNAME](https://github.com/ascatox/ascatox.github.io/blob/master/CNAME)* al mio repo Github con dentro semplicemente ```antonioscatoloni.site``` poi mi sono recato nel [pannello di controllo](https://ap.www.namecheap.com/Domains/DomainControlPanel) di Namecheap, nella sezione **Advanced DNS** ho inserito gli indirizzi IP di Github ed l'indirizzo della mia Github page che ricordo essere **username.github.io**.<br/><br/>
 ![Jekyll]({{site.baseurl}}/assets/CNAME.png)
