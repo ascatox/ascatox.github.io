@@ -4,13 +4,62 @@
  <title>Antonio Scatoloni</title>
  <link href="http://ascatox.github.io/atom.xml" rel="self"/>
  <link href="http://ascatox.github.io/"/>
- <updated>2016-05-05T10:58:41+02:00</updated>
+ <updated>2016-05-09T11:04:28+02:00</updated>
  <id>http://ascatox.github.io</id>
  <author>
    <name>Antonio Scatoloni</name>
    <email>antonio.scatoloni@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Soft Skills - The software developer's life manual (prima parte)</title>
+   <link href="http://ascatox.github.io/2016/05/07/soft-skills-recensione-prima-parte"/>
+   <updated>2016-05-07T00:00:00+02:00</updated>
+   <id>http://ascatox.github.io/2016/05/07/soft-skills-recensione-prima-parte</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/softSkills.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Recensione Libro&lt;/h2&gt;
+&lt;h3&gt;Introduzione&lt;/h3&gt;
+&lt;p&gt;La formazione al giorno d’oggi è una cosa fondamentale, avevo già scritto un post, quando avevo iniziato il corso Android su Coursera, voglio ritornarci per recensire un &lt;a href=&quot;http://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397&quot;&gt;libro&lt;/a&gt; che al momento sto leggendo.&lt;br /&gt;
+Il mestiere di Software Engineer/Developer molto più di altri, richiede una formazione continua, su argomenti di tipo tecnico che cambiano continuamente, pensiamo per esempio ai framework di Front End in Javascript, ne escono di continuo nuovi, o le nuove metodologie di sviluppo Agile che richiedono di rinfrescare le conoscenze acquisite.&lt;br /&gt;&lt;br /&gt;
+Tornando al libro, questo libro come forse avrete intuito dal titolo, non è un libro tecnico ma è un libro che fornisce al lettore tutta l’esperienza dello scrittore, il mitico &lt;strong&gt;&lt;a href=&quot;https://simpleprogrammer.com&quot;&gt;John Sonmez&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;
+Lo scrittore infatti dopo una brillante carriera come Software Engineer, ha deciso di mettersi in gioco nella formazione, creando un blog si successo ed una serie di corsi su &lt;a href=&quot;https://www.pluralsight.com/authors/john-sonmez&quot;&gt;Pluralsight&lt;/a&gt; che si occupano di una delle cose più importanti ma meno considerate in assoluto le &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Soft_skills&quot;&gt;Soft Skills&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Considerazione sul mio Blog&lt;/h3&gt;
+&lt;p&gt;Arrivato a questo punto devo fare una doverosa considerazione.&lt;br /&gt;
+La mia attività nello scrivere articoli in questo blog ha avuto un periodo fortunato negli anni &lt;a href=&quot;http://antonioscatoloni.site/2007/04/24/pronti-partenza-via&quot;&gt;2007-2009&lt;/a&gt;, poi come spesso succede in questi casi ho deciso di mollare, semplicemente perchè lo strumento Blog mi sembrava superato da altre forme di comunicazione in particolar modo &lt;a href=&quot;https://twitter.com/ascatox&quot;&gt;Twitter&lt;/a&gt;.&lt;br /&gt;
+Leggendo questo libro ed in particolar modo la sezione due e tre ho deciso di ripartire.&lt;br /&gt;
+John  nella seconda sezione del libro &lt;em&gt;Marketing yourself&lt;/em&gt;, spiega come sia davvero importante farsi conoscere specie con uno spazio tutto e come nel suo caso, la creazione di un Blog sia stato il primo passo per avviare un’&lt;a href=&quot;https://simpleprogrammer.com&quot;&gt;attività di successo&lt;/a&gt;.
+&lt;br /&gt;Ma non è stata solo questa sezione ad avermi ispirato, quella che maggiormente mi ha convinto a ricominciare è stata la sezione tre &lt;strong&gt;“Learning”&lt;/strong&gt; che parla di come bisogna continuamente imparare cose nuove e come l’insegnamento sia la parte più importante del processo.&lt;br /&gt;&lt;br /&gt;
+Con questo blog appunto voglio provare ad insegnare qualcosa, anche qualcosa di non troppo complesso, questo post nasce proprio dalla &lt;strong&gt;voglia di condividere&lt;/strong&gt;, quello che passo dopo passo sto provando ad imparare.&lt;/p&gt;
+
+&lt;h3&gt;Il libro&lt;/h3&gt;
+&lt;p&gt;Il libro esplora tutte le principali componenti che influenzano la vita di un Professional Sofware Developer.&lt;br /&gt;
+Le sezioni presenti che John illustra sono:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Career&lt;/li&gt;
+  &lt;li&gt;Marketing yourself&lt;/li&gt;
+  &lt;li&gt;Learning&lt;/li&gt;
+  &lt;li&gt;Productivity&lt;/li&gt;
+  &lt;li&gt;Financial&lt;/li&gt;
+  &lt;li&gt;Fitness&lt;/li&gt;
+  &lt;li&gt;Spirit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ciascuna sezione comprende diversi capitoli per un totale di settanta.&lt;br /&gt;
+Al momento non ho &lt;em&gt;ancora concluso&lt;/em&gt; tutti i capitoli del libro ma sto procedendo di buon passo.
+&lt;br /&gt;
+&lt;br /&gt;
+Questo post è solo una segnalazione di questo meraviglioso libro, che non volevo attendere per fare.&lt;br /&gt;
+&lt;strong&gt;Continua…&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Stay Tuned!&lt;/strong&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;em&gt;Image courtesy of &lt;a href=&quot;http://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397&quot;&gt;Soft Skills - The software developer’s life manual&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Introduzione a ngrok</title>
@@ -397,19 +446,21 @@ Ho provato ad utilizzare diversi plugin Wordpress, in particolare &lt;a href=&qu
 Ho scaricato il file contenente tutti i miei post in formato xml, direttamente dalla Dashboard di Wordpress nella sezione &lt;em&gt;Strumenti-&amp;gt;Esporta&lt;/em&gt;. In questo modo ho generato un file xml contenente le informazioni relative ai post.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di &lt;a href=&quot;https://import.jekyllrb.com/docs/wordpressdotcom/&quot;&gt;Jekyll&lt;/a&gt; che serve per generare i post in formato Html o &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; pronti (o quasi :-D) per la nuova piattaforma.&lt;code&gt;bash
-$ ruby -rubygems -e &#39;require &quot;jekyll-import&quot;;
- JekyllImport::Importers::WordpressDotCom.run({
-   &quot;source&quot; =&amp;gt; &quot;wordpress.xml&quot;,
-   &quot;no_fetch_images&quot; =&amp;gt; false,
-   &quot;assets_folder&quot; =&amp;gt; &quot;assets&quot;
- })
-&lt;/code&gt;
-&lt;em&gt;Attenzione il file wordpress.xml è quello esportato in precedenza, è possibile scegliere una cartella con nome diverso per le immagini scaricate.&lt;/em&gt;&lt;br /&gt;
-Proprio in questi giorni ho notato che si può utilizzare un’altro &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpress/&quot;&gt;script&lt;/a&gt;, che accede direttamente al DB Mysql del proprio sito Wordpress.&lt;br /&gt;
-&lt;em&gt;Comunque per coloro che vogliono spostare il loro sito da Wordpress self hosted a Jekyll il plugin sopra citato è una soluzione piu efficace e semplice.&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di &lt;a href=&quot;https://import.jekyllrb.com/docs/wordpressdotcom/&quot;&gt;Jekyll&lt;/a&gt; che serve per generare i post in formato Html o &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; pronti (o quasi :-D) per la nuova piattaforma.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;&#39;require &quot;jekyll-import&quot;;
+    JekyllImport::Importers::WordpressDotCom.run({
+      &quot;source&quot; =&amp;gt; &quot;wordpress.xml&quot;,
+      &quot;no_fetch_images&quot; =&amp;gt; false,
+      &quot;assets_folder&quot; =&amp;gt; &quot;assets&quot;
+    })
+ &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Attenzione il file wordpress.xml è quello esportato in precedenza, è possibile scegliere una cartella con nome diverso per le immagini scaricate.&lt;/em&gt;&lt;br /&gt;
+Proprio in questi giorni ho notato che si può utilizzare un’altro &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpress/&quot;&gt;script&lt;/a&gt;, che accede direttamente al DB Mysql del proprio sito Wordpress.&lt;br /&gt;
+&lt;em&gt;Comunque per coloro che vogliono spostare il loro sito da Wordpress self hosted a Jekyll il plugin sopra citato è una soluzione piu efficace e semplice.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il &lt;a href=&quot;https://wordpress.org/plugins/disqus-comment-system/&quot;&gt;plugin per Wordpress di Disqus&lt;/a&gt;, esportare il tutto in un file e poi importare il tutto nell’&lt;a href=&quot;https://import.disqus.com/login/?next=/&quot;&gt;apposita sezione&lt;/a&gt; del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che &lt;strong&gt;il formato dei link dei post&lt;/strong&gt; sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
@@ -433,6 +484,14 @@ Il mio &lt;strong&gt;Blog riparte da qui&lt;/strong&gt;, nuova piattaforma nuova
 Stay Tuned!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;PS: Se volete effettuare un fork del &lt;a href=&quot;https://github.com/ascatox/ascatox.github.io&quot;&gt;mio umile Weblog&lt;/a&gt; fatelo pure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;Update&lt;/h3&gt;
+&lt;p&gt;Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possibile collegare al mio dominio antonioscatoloni.it spazi diversi da quelli di Aruba stessi, quindi non è stato possibile agganciare il mio dominio alla mia pagina &lt;em&gt;&lt;a href=&quot;https://github.com/ascatox/ascatox.github.io&quot;&gt;ascatox.github.io&lt;/a&gt;&lt;/em&gt;.
+&lt;br /&gt;&lt;br /&gt;
+Ho deciso quindi di comprare un nuovo dominio presso &lt;a href=&quot;https://www.namecheap.com&quot;&gt;Namecheap&lt;/a&gt; ed ho scelto &lt;em&gt;antonioscatoloni.site&lt;/em&gt;.
+&lt;br /&gt;&lt;br /&gt;
+Fatto questo ho aggiunto un file &lt;em&gt;&lt;a href=&quot;https://github.com/ascatox/ascatox.github.io/blob/master/CNAME&quot;&gt;CNAME&lt;/a&gt;&lt;/em&gt; al mio repo Github con dentro semplicemente &lt;code&gt;antonioscatoloni.site&lt;/code&gt; poi mi sono recato nel &lt;a href=&quot;https://ap.www.namecheap.com/Domains/DomainControlPanel&quot;&gt;pannello di controllo&lt;/a&gt; di Namecheap, nella sezione &lt;strong&gt;Advanced DNS&lt;/strong&gt; ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere &lt;em&gt;username.github.io&lt;/em&gt;.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/CNAME.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  

@@ -107,19 +107,21 @@ Ho provato ad utilizzare diversi plugin Wordpress, in particolare <a href="https
 Ho scaricato il file contenente tutti i miei post in formato xml, direttamente dalla Dashboard di Wordpress nella sezione <em>Strumenti-&gt;Esporta</em>. In questo modo ho generato un file xml contenente le informazioni relative ai post.</p>
   </li>
   <li>
-    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.<code>bash
-$ ruby -rubygems -e 'require "jekyll-import";
- JekyllImport::Importers::WordpressDotCom.run({
-   "source" =&gt; "wordpress.xml",
-   "no_fetch_images" =&gt; false,
-   "assets_folder" =&gt; "assets"
- })
-</code>
-<em>Attenzione il file wordpress.xml è quello esportato in precedenza, è possibile scegliere una cartella con nome diverso per le immagini scaricate.</em><br />
-Proprio in questi giorni ho notato che si può utilizzare un’altro <a href="http://import.jekyllrb.com/docs/wordpress/">script</a>, che accede direttamente al DB Mysql del proprio sito Wordpress.<br />
-<em>Comunque per coloro che vogliono spostare il loro sito da Wordpress self hosted a Jekyll il plugin sopra citato è una soluzione piu efficace e semplice.</em></p>
+    <p>Il passo successivo è stato quello di utilizzare uno script Ruby dalla console Ruby, fornito direttamente sul sito di <a href="https://import.jekyllrb.com/docs/wordpressdotcom/">Jekyll</a> che serve per generare i post in formato Html o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> pronti (o quasi :-D) per la nuova piattaforma.</p>
   </li>
 </ol>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>ruby -rubygems -e <span class="s1">'require "jekyll-import";
+    JekyllImport::Importers::WordpressDotCom.run({
+      "source" =&gt; "wordpress.xml",
+      "no_fetch_images" =&gt; false,
+      "assets_folder" =&gt; "assets"
+    })
+ </span></code></pre></figure>
+
+<p><em>Attenzione il file wordpress.xml è quello esportato in precedenza, è possibile scegliere una cartella con nome diverso per le immagini scaricate.</em><br />
+Proprio in questi giorni ho notato che si può utilizzare un’altro <a href="http://import.jekyllrb.com/docs/wordpress/">script</a>, che accede direttamente al DB Mysql del proprio sito Wordpress.<br />
+<em>Comunque per coloro che vogliono spostare il loro sito da Wordpress self hosted a Jekyll il plugin sopra citato è una soluzione piu efficace e semplice.</em></p>
 
 <p>Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il <a href="https://wordpress.org/plugins/disqus-comment-system/">plugin per Wordpress di Disqus</a>, esportare il tutto in un file e poi importare il tutto nell’<a href="https://import.disqus.com/login/?next=/">apposita sezione</a> del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che <strong>il formato dei link dei post</strong> sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
@@ -143,6 +145,14 @@ Il mio <strong>Blog riparte da qui</strong>, nuova piattaforma nuova energia.
 Stay Tuned!</p>
 
 <p><em>PS: Se volete effettuare un fork del <a href="https://github.com/ascatox/ascatox.github.io">mio umile Weblog</a> fatelo pure.</em></p>
+
+<h3>Update</h3>
+<p>Purtroppo ho scoperto che con il mio piano di Hosting presso Aruba, non è possibile collegare al mio dominio antonioscatoloni.it spazi diversi da quelli di Aruba stessi, quindi non è stato possibile agganciare il mio dominio alla mia pagina <em><a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a></em>.
+<br /><br />
+Ho deciso quindi di comprare un nuovo dominio presso <a href="https://www.namecheap.com">Namecheap</a> ed ho scelto <em>antonioscatoloni.site</em>.
+<br /><br />
+Fatto questo ho aggiunto un file <em><a href="https://github.com/ascatox/ascatox.github.io/blob/master/CNAME">CNAME</a></em> al mio repo Github con dentro semplicemente <code>antonioscatoloni.site</code> poi mi sono recato nel <a href="https://ap.www.namecheap.com/Domains/DomainControlPanel">pannello di controllo</a> di Namecheap, nella sezione <strong>Advanced DNS</strong> ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere <em>username.github.io</em>.<br /><br />
+<img src="/assets/CNAME.png" alt="Jekyll" /></p>
 
 </div>
 
@@ -176,6 +186,15 @@ Stay Tuned!</p>
     
       <li>
         <h3>
+          <a href="http://ascatox.github.io/2016/05/07/soft-skills-recensione-prima-parte">
+            Soft Skills - The software developer's life manual (prima parte)
+            <small>07 May 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
           <a href="http://ascatox.github.io/2016/05/04/introduzione-a-ngrock">
             Introduzione a ngrok
             <small>04 May 2016</small>
@@ -188,15 +207,6 @@ Stay Tuned!</p>
           <a href="http://ascatox.github.io/2016/04/29/codemotion-una-bella-giornata-seconda-parte">
             Codemotion una bella giornata (seconda parte)
             <small>29 Apr 2016</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="http://ascatox.github.io/2016/04/28/testare-api-rest-con-restfuse">
-            Testare API REST con Restfuse
-            <small>28 Apr 2016</small>
           </a>
         </h3>
       </li>

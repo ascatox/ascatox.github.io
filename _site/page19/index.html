@@ -79,6 +79,21 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/2007/12/12/la-rivolta-dei-bit">
+        La Rivolta dei Bit
+      </a>
+    </h1>
+
+    <time datetime="2007-12-12T16:16:27+01:00" class="post-date">12 Dec 2007</time>
+
+    <p>Voglio segnalare un <a href="http://guidoserra.it/archivi/2007/12/11/un-paese-in-ginocchio/">pensiero </a>postato da un blogger che condivido pienamente, ditemi cosa ne pensate!!!<br />
+Alcuni pensieri sul <a href="http://blogs.ugidotnet.org/RamMuayBlog/archive/2007/12/12/90239.aspx">blog di Stefano Palulello </a>su UgiDotNet</p>
+<p>Fonte: <a href="http://guidoserra.it/">Blog Guido Serra</a></p>
+
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/2007/12/11/psphone-in-arrivo">
         PSPhone in arrivo?
       </a>
@@ -141,61 +156,6 @@ Stay Tuned!!!!</p>
     <time datetime="2007-11-08T16:38:56+01:00" class="post-date">08 Nov 2007</time>
 
     <p> <a href="http://www.cwi.it/showPage.php?template=articoli&amp;id=18575&amp;rss=1">I</a><a href="http://www.cwi.it/showPage.php?template=articoli&amp;id=18575&amp;rss=1">nteressante articolo di ComputerWorldOnline</a><a href="http://www.cwi.it/showPage.php?template=articoli&amp;id=18575&amp;rss=1"> </a>che fa il punto sulla crescita dell'Information Technology in Italia, vanno forte sicurezza, <a href="http://it.wikipedia.org/wiki/Service-oriented_architecture">SOA </a>e <a href="http://it.wikipedia.org/wiki/Customer_relationship_management">CRM </a>, meno bene tutto il comparto delle Telecomunicazioni.Technorati Tags: <a href="http://technorati.com/tag/IT" rel="tag">IT</a>, <a href="http://technorati.com/tag/SOA" rel="tag">SOA</a>, <a href="http://technorati.com/tag/CRM" rel="tag">CRM</a>, <a href="http://technorati.com/tag/TLC" rel="tag">TLC</a></p>
-
-  </article>
-  
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2007/11/06/effettuare-logging-in-net-con-apache-log4net">
-        Effettuare Logging in .NET con Apache log4net
-      </a>
-    </h1>
-
-    <time datetime="2007-11-06T11:12:22+01:00" class="post-date">06 Nov 2007</time>
-
-    <p><img src="/assets/ls-logo.jpg" />Per un'applicazione molto semplice sviluppata in .NET dovevo eseguire il log di tutto quello che l'Applicazione eseguiva, permettendone il controllo. Dopo aver provato a creare dei log fatti "a mano" mi sono ricordato della librearia di logging sviluppata da Apache e l'ho inserita nel mio progetto, metteno infatti a disposizione una pratica dll da incorporare. L'utilizzo è molto semplice (ma presenta notevoli opzioni e possibilità di effettuare il logging in vari modi) basta infatti inserire il markup dell'assembly in questo modo:</p>
-<pre><strong>[assembly: log4net.Config.XmlConfigurator(Watch=true)]</strong></pre>
-<p>e configurare il codice in modo da creare un reference al Log(un possibile esempio):</p>
-<pre>   public class Log    {       public readonly ILog logger;
-
-
-      public Log() {
-
-          logger = LogManager.GetLogger
-           (<font color="#ff0000"><em>System.Reflection.MethodBase.GetCurrentMethod()</em></font>
-<font color="#ff0000"><em>            .DeclaringType</em></font>);
-
-
-           logger.Info("Logger inizializzato");}} </pre>
-<p>Utilizzando la Reflection si crea inoltre un codice portabile in ogni applicazione, basta infatti creare questa Classe ed accedere all'oggetto logger per poter generare dei messaggi di log:</p>
-<pre>logger.Warn("Eccezione")</pre>
-<p>Un'altra fase fondamentale del logging tramite log4Net è la configurazione dell mezzo su cui loggare, il metodo più semplice è l'Output a Console ma di maggiore utilità è l'Output <strong>su file di Testo</strong>. Vediamo come:</p>
-<p>Il modo più semplice è quello di utilizzare il file di Configurazione presente nella propria Applicazione nel caso di Applicazioni Windows basta aggiungere al file App.Config questo codice  all'interno della sezione &lt;configuration&gt;&lt;/configuration&gt;:</p>
-<pre><strong>   </strong>&lt;configSections&gt;</pre>
-<pre>      &lt;section name="log4net"</pre>
-<pre>      type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" /&gt;</pre>
-<pre>  &lt;/configSections&gt;</pre>
-<pre> &lt;log4net&gt;</pre>
-<pre>    &lt;appender name="<strong>RollingFile</strong>"</pre>
-<pre>       type="log4net.Appender.RollingFileAppender"&gt;</pre>
-<pre></pre>
-<pre>      &lt;file value="C:\Log\App.log" /&gt;</pre>
-<pre>      &lt;appendToFile value="true" /&gt;</pre>
-<pre>      &lt;<strong>maximumFileSize </strong>value="1KB" /&gt;</pre>
-<pre>      &lt;datePattern value="yyyyMMdd-HHmm" /&gt;</pre>
-<pre>      &lt;maxSizeRollBackups value="2" /&gt;</pre>
-<pre>     &lt;layout type="log4net.Layout.PatternLayout"&gt;</pre>
-<pre>        &lt;conversionPattern value="%date %level %logger - %message%newline" /&gt;</pre>
-<pre>      &lt;/layout&gt;</pre>
-<pre>    &lt;/appender&gt;    &lt;root&gt;</pre>
-<pre>     &lt;level value="ALL" /&gt;</pre>
-<pre>   &lt;appender-ref ref="RollingFile" /&gt;</pre>
-<pre>   &lt;/root&gt;</pre>
-<pre> &lt;/log4net&gt;</pre>
-<p>Con questa configurazione si ha quindi un log su file di Testo, che non appena il file supera la dimensione scelta in maximumfileSize ne crea un'altro, evitando di creare file di log di dimensioni enormi. Questa è solo una delle possibili configurazioni della libreria Apache log4net, maggiori informazioni e dettagli possono essere reperite <a href="http://logging.apache.org/">qui</a>.<br />
-<strong><br />
-<a href="http://blogs.ugidotnet.org/mitch/archive/2006/02/06/34382.aspx">Maggiori Dettagli</a></strong></p>
-<p>Buon Log a Tutti :-)</p>
 
   </article>
   
