@@ -9,6 +9,7 @@ tags:
 ![Jekyll]({{site.baseurl}}/assets/ngrok.png)
 <h3>A cosa serve</h3>
 Quando si sviluppa un nuovo progetto software, una delle cose che ne determinano la riuscita è il feedback continuo del cliente, mostrargli gli avanzamenti in modo costante e continuo infatti, lo rende più partecipe e si riducono gli errori derivanti da requisiti non compresi a pieno.
+<!--more-->
 Non a caso questo infatti è uno dei principi cardine di una tra le principali [metodologie Agili](https://it.wikipedia.org/wiki/Metodologia_agile), *[XP Programming](https://it.wikipedia.org/wiki/Extreme_programming)* che parla proprio di **[On site Customer](http://www.extremeprogramming.org/rules/customer.html)**.<br/><br/>
 Un altro ambito molto utile, potrebbe essere la condivisione con altri membri del Team di progetto della propria versione locale del prodotto, se lavorano in sedi differenti o come sempre più spesso accade in **[Remote Working](https://www.ideato.it/news-for-all/remote-working-istruzioni-per-luso)**. <br/>
 

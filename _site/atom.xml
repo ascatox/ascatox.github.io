@@ -4,7 +4,7 @@
  <title>Antonio Scatoloni</title>
  <link href="http://ascatox.github.io/atom.xml" rel="self"/>
  <link href="http://ascatox.github.io/"/>
- <updated>2016-05-11T17:19:29+02:00</updated>
+ <updated>2016-05-18T17:01:31+02:00</updated>
  <id>http://ascatox.github.io</id>
  <author>
    <name>Antonio Scatoloni</name>
@@ -18,9 +18,9 @@
    <updated>2016-05-07T00:00:00+02:00</updated>
    <id>http://ascatox.github.io/2016/05/07/soft-skills-recensione-prima-parte</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/softSkills.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Recensione Libro&lt;/h2&gt;
 &lt;h3&gt;Introduzione&lt;/h3&gt;
 &lt;p&gt;La formazione al giorno d’oggi è una cosa fondamentale, avevo già scritto un post, quando avevo iniziato il corso Android su Coursera, voglio ritornarci per recensire un &lt;a href=&quot;http://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397&quot;&gt;libro&lt;/a&gt; che al momento sto leggendo.&lt;br /&gt;
+&lt;!--more--&gt;
 Il mestiere di Software Engineer/Developer molto più di altri, richiede una formazione continua, su argomenti di tipo tecnico che cambiano continuamente, pensiamo per esempio ai framework di Front End in Javascript, ne escono di continuo nuovi, o le nuove metodologie di sviluppo Agile che richiedono di rinfrescare le conoscenze acquisite.&lt;br /&gt;&lt;br /&gt;
 Tornando al libro, questo libro come forse avrete intuito dal titolo, non è un libro tecnico ma è un libro che fornisce al lettore tutta l’esperienza dello scrittore, il mitico &lt;strong&gt;&lt;a href=&quot;https://simpleprogrammer.com&quot;&gt;John Sonmez&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;
 Lo scrittore infatti dopo una brillante carriera come Software Engineer, ha deciso di mettersi in gioco nella formazione, creando un blog si successo ed una serie di corsi su &lt;a href=&quot;https://www.pluralsight.com/authors/john-sonmez&quot;&gt;Pluralsight&lt;/a&gt; che si occupano di una delle cose più importanti ma meno considerate in assoluto le &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Soft_skills&quot;&gt;Soft Skills&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
@@ -69,6 +69,7 @@ Questo post è solo una segnalazione di questo meraviglioso libro, che non volev
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/ngrok.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;A cosa serve&lt;/h3&gt;
 &lt;p&gt;Quando si sviluppa un nuovo progetto software, una delle cose che ne determinano la riuscita è il feedback continuo del cliente, mostrargli gli avanzamenti in modo costante e continuo infatti, lo rende più partecipe e si riducono gli errori derivanti da requisiti non compresi a pieno.
+&lt;!--more--&gt;
 Non a caso questo infatti è uno dei principi cardine di una tra le principali &lt;a href=&quot;https://it.wikipedia.org/wiki/Metodologia_agile&quot;&gt;metodologie Agili&lt;/a&gt;, &lt;em&gt;&lt;a href=&quot;https://it.wikipedia.org/wiki/Extreme_programming&quot;&gt;XP Programming&lt;/a&gt;&lt;/em&gt; che parla proprio di &lt;strong&gt;&lt;a href=&quot;http://www.extremeprogramming.org/rules/customer.html&quot;&gt;On site Customer&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;&lt;br /&gt;
 Un altro ambito molto utile, potrebbe essere la condivisione con altri membri del Team di progetto della propria versione locale del prodotto, se lavorano in sedi differenti o come sempre più spesso accade in &lt;strong&gt;&lt;a href=&quot;https://www.ideato.it/news-for-all/remote-working-istruzioni-per-luso&quot;&gt;Remote Working&lt;/a&gt;&lt;/strong&gt;. &lt;br /&gt;&lt;/p&gt;
 
@@ -215,9 +216,9 @@ Ripartiamo da dove ci &lt;a href=&quot;http://antonioscatoloni.site/2016/03/21/c
 
 &lt;p&gt;Finiti i talk introduttivi, iniziano le sessioni parallele, dove uno può scegliere tra sette talk in parallelo che seguono dei &lt;a href=&quot;http://rome2016.codemotionworld.com/conference/&quot; title=&quot;percorsi predefiniti&quot;&gt;percorsi predefiniti&lt;/a&gt;, ciascun percorso segue un filo conduttore (Mobile, Game Dev, Security, Motivational, Devops, Architectures, Cloud/Bigdata, etc).&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;La mia scelta lungamente ponderata, è stata quella di seguire maggiormente dei talk sul &lt;strong&gt;mondo Javascript&lt;/strong&gt; (con qualche eccezione), linguaggio che mi piace molto e che &lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot; title=&quot;vorrei approfondire&quot;&gt;vorrei approfondire&lt;/a&gt; sempre di più.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Il &lt;a href=&quot;http://rome2016.codemotionworld.com/talk-detail/?detail=2279&quot; title=&quot;primo talk&quot;&gt;primo talk&lt;/a&gt; che ho seguito è stato quello di &lt;a href=&quot;http://rome2016.codemotionworld.com/speaker/1887/&quot; title=&quot;David Clemens&quot;&gt;David Clemens&lt;/a&gt; di &lt;a href=&quot;http://www.nearform.com/&quot; title=&quot;nearForm&quot;&gt;nearForm&lt;/a&gt; che ci ha mostrato una serie di scenari reali dove ha utilizzato con successo il &lt;a href=&quot;https://facebook.github.io/react/&quot; title=&quot;Framework React&quot;&gt;Framework React&lt;/a&gt; con tutte le considerazioni del caso ed i vari pro e i contro, davvero un talk interessate.&lt;br /&gt;
+&lt;p&gt;La mia scelta lungamente ponderata, è stata quella di seguire maggiormente dei talk sul &lt;strong&gt;mondo Javascript&lt;/strong&gt; (con qualche eccezione), linguaggio che mi piace molto e che &lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot; title=&quot;vorrei approfondire&quot;&gt;vorrei approfondire&lt;/a&gt; sempre di più.&lt;br /&gt;
+&lt;!--more--&gt;
+Il &lt;a href=&quot;http://rome2016.codemotionworld.com/talk-detail/?detail=2279&quot; title=&quot;primo talk&quot;&gt;primo talk&lt;/a&gt; che ho seguito è stato quello di &lt;a href=&quot;http://rome2016.codemotionworld.com/speaker/1887/&quot; title=&quot;David Clemens&quot;&gt;David Clemens&lt;/a&gt; di &lt;a href=&quot;http://www.nearform.com/&quot; title=&quot;nearForm&quot;&gt;nearForm&lt;/a&gt; che ci ha mostrato una serie di scenari reali dove ha utilizzato con successo il &lt;a href=&quot;https://facebook.github.io/react/&quot; title=&quot;Framework React&quot;&gt;Framework React&lt;/a&gt; con tutte le considerazioni del caso ed i vari pro e i contro, davvero un talk interessate.&lt;br /&gt;
 Il talk era molto affollato, considerando poi che l’aula N10 della Facoltà di Ingegneria dell’Università Roma TRE fosse molto grande, devo dire che questo argomento ha riscosso molto successo, ma questo me lo potevo immaginare visto l’interesse attuale che riscuotono i vari Framework client side di Front End.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Passato allo slot successivo, ho scelto di seguire il keynote di &lt;a href=&quot;http://rome2016.codemotionworld.com/speaker/1151/&quot; title=&quot;Garann Means&quot;&gt;Garann Means&lt;/a&gt; dal titolo &lt;em&gt;&lt;a href=&quot;http://rome2016.codemotionworld.com/talk-detail/?detail=2292&quot;&gt;Progressive Enhancements for JavaScript Apps&lt;/a&gt;&lt;/em&gt;.&lt;br /&gt;
@@ -283,7 +284,8 @@ Chiudo il post con il link al canale &lt;a href=&quot;https://www.youtube.com/us
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/rest_API.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;REST API&lt;/h3&gt;
-&lt;p&gt;Le &lt;a href=&quot;https://it.wikipedia.org/wiki/Application_programming_interface&quot; title=&quot;API&quot;&gt;API&lt;/a&gt; REST o meglio &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot; title=&quot;RESTful&quot;&gt;RESTful&lt;/a&gt;, sono oggi molto utilizzate, presentano infatti molteplici vantaggi, in particolar modo la semplicità di utilizzo ed il fatto di utilizzare il &lt;a href=&quot;https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol&quot; title=&quot;protocollo HTTP&quot;&gt;protocollo HTTP&lt;/a&gt;, le rendono una standard de facto per il World Wide Web. Vengono utilizzate praticamente ovunque e da chiunque, basta colleagarsi ad un &lt;a href=&quot;https://www.publicapis.com&quot;&gt;sito del genere&lt;/a&gt; per capire la vastità dell’universo REST.&lt;/p&gt;
+&lt;p&gt;Le &lt;a href=&quot;https://it.wikipedia.org/wiki/Application_programming_interface&quot; title=&quot;API&quot;&gt;API&lt;/a&gt; REST o meglio &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot; title=&quot;RESTful&quot;&gt;RESTful&lt;/a&gt;, sono oggi molto utilizzate, presentano infatti molteplici vantaggi, in particolar modo la semplicità di utilizzo ed il fatto di utilizzare il &lt;a href=&quot;https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol&quot; title=&quot;protocollo HTTP&quot;&gt;protocollo HTTP&lt;/a&gt;, le rendono una standard de facto per il World Wide Web. Vengono utilizzate praticamente ovunque e da chiunque, basta colleagarsi ad un &lt;a href=&quot;https://www.publicapis.com&quot;&gt;sito del genere&lt;/a&gt; per capire la vastità dell’universo REST.
+&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;Restfuse&lt;/h3&gt;
 &lt;p&gt;Ma andiamo al sodo, per un progetto sul quale sto lavorando al momento, avevo la necessità, non solo di sviluppare un’API REST ma anche di eseguire dei test di integrazione per verificare che tutte le chiamate realizzate, funzionassero in modo corretto.
 Questo &lt;a href=&quot;http://codingjam.it/junit-test-the-rest/&quot; title=&quot;post&quot;&gt;post&lt;/a&gt; su &lt;a href=&quot;http://codingjam.it/&quot; title=&quot;CodingJam&quot;&gt;CodingJam&lt;/a&gt; mi ha ispirato.&lt;br /&gt;
@@ -422,7 +424,8 @@ Come sempre &lt;strong&gt;Stay Tuned&lt;/strong&gt;!
 &lt;h3&gt;Perchè Jekyll&lt;/h3&gt;
 
 &lt;p&gt;Sono molti anni che possiedo questo &lt;a href=&quot;http://www.antonioscatoloni.it/blog&quot;&gt;blog&lt;/a&gt;, ma purtroppo come spesso succede, dopo la fiammata iniziale ho abbandonato il blog per molti molti motivi. 
-Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato &lt;a href=&quot;https://wordpress.org/&quot;&gt;Wordpress&lt;/a&gt;, la gestione di questo famoso CMS per i miei utilizzi era troppo macchinosa e lenta, inoltre non riuscivo mai a trovare un tema, neanche modificandolo che mi soddisfacesse a pieno.&lt;/p&gt;
+Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato &lt;a href=&quot;https://wordpress.org/&quot;&gt;Wordpress&lt;/a&gt;, la gestione di questo famoso CMS per i miei utilizzi era troppo macchinosa e lenta, inoltre non riuscivo mai a trovare un tema, neanche modificandolo che mi soddisfacesse a pieno.
+&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Quando ho iniziato a conoscere &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; è stato subito amore a prima vista per questo blog engine di tipo statico, semplice ma molto efficace.
 &lt;a href=&quot;http://paulstamatiou.com/how-to-wordpress-to-jekyll/&quot;&gt;Questo post&lt;/a&gt; di &lt;a href=&quot;http://paulstamatiou.com/about/&quot;&gt;Paul Stamatiou&lt;/a&gt; è stato il mio apripista per il passaggio da Wordpress a Jekyll.&lt;/p&gt;
@@ -501,9 +504,9 @@ Fatto questo ho aggiunto un file &lt;em&gt;&lt;a href=&quot;https://github.com/a
    <updated>2016-03-21T00:00:00+01:00</updated>
    <id>http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/codemotion_2016_header.png&quot; alt=&quot;Jekyll&quot; /&gt;
-Sono molti anni che cerco di partecipare ad una conferenza IT, ma per un motivo o per un un’altro, non sono mai riuscito a partecipare. Quest’anno ho deciso di condividere almeno un evento, uno solo almeno, durante tutto il 2016 ed ho scelto quello che secondo me rappresenta l’evento principale per tutti gli sviluppatori italiani il &lt;a href=&quot;http://it.codemotionworld.com/&quot; title=&quot;Codemotion&quot;&gt;Codemotion&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Seguo questo evento da molti anni, da quando nacque come Java Day. In Italia si tiene in due differenti città, a Milano in autunno ed in primavera a Roma. Ho optato per la capitale più vicina a me in tutti i sensi. Sono partito quindi venerdì 18 Marzo per frequentare l’evento, avevo preso il biglietto con largo anticipo e ringrazio il &lt;a href=&quot;http://jugroma.blogspot.it/&quot; title=&quot;JUG Roma&quot;&gt;JUG Roma&lt;/a&gt; per lo sconto community che è stato davvero utile, il costo infatti è passato da 45€ (Early Bird) a 33€ con lo sconto applicato, davvero un prezzo giusto per un’evento che &lt;a href=&quot;http://www.codemotionworld.com/&quot; title=&quot;ormai è di statura internazionale&quot;&gt;ormai è di statura internazionale&lt;/a&gt;.&lt;/p&gt;
+Sono molti anni che cerco di partecipare ad una conferenza IT, ma per un motivo o per un un’altro, non sono mai riuscito a partecipare. Quest’anno ho deciso di condividere almeno un evento, uno solo almeno, durante tutto il 2016 ed ho scelto quello che secondo me rappresenta l’evento principale per tutti gli sviluppatori italiani il &lt;a href=&quot;http://it.codemotionworld.com/&quot; title=&quot;Codemotion&quot;&gt;Codemotion&lt;/a&gt;.
+&lt;!--more--&gt;
+Seguo questo evento da molti anni, da quando nacque come Java Day. In Italia si tiene in due differenti città, a Milano in autunno ed in primavera a Roma. Ho optato per la capitale più vicina a me in tutti i sensi. Sono partito quindi venerdì 18 Marzo per frequentare l’evento, avevo preso il biglietto con largo anticipo e ringrazio il &lt;a href=&quot;http://jugroma.blogspot.it/&quot; title=&quot;JUG Roma&quot;&gt;JUG Roma&lt;/a&gt; per lo sconto community che è stato davvero utile, il costo infatti è passato da 45€ (Early Bird) a 33€ con lo sconto applicato, davvero un prezzo giusto per un’evento che &lt;a href=&quot;http://www.codemotionworld.com/&quot; title=&quot;ormai è di statura internazionale&quot;&gt;ormai è di statura internazionale&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;La giornata di venerdì parte subito male, con uno sciopero generale dei mezzi pubblici che mi preoccupa molto, specie per la metro indispensabile nella capitale. Alla fine invece ho raggiunto la sede del’evento presso l’&lt;a href=&quot;http://www.uniroma3.it/&quot; title=&quot;Università di Roma Tre&quot;&gt;Università di Roma Tre&lt;/a&gt; alle 9:00 circa, giusto in tempo per godermi tutto, senza perdere nulla. All’ingresso non appena arrivato trovo subito il logo del Codemotion e capisco che il posto è quello giusto.&lt;/p&gt;
 
@@ -536,6 +539,7 @@ Iniziano i talk, il primo è la presentazione dell’evento al quale partecipano
    <id>http://ascatox.github.io/2014/10/04/corso-android</id>
    <content type="html">&lt;p&gt;&lt;img title=&quot;NewImage.png&quot; src=&quot;/assets/NewImage.png&quot; alt=&quot;NewImage&quot; width=&quot;240&quot; height=&quot;135&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;carriera lavorativa&lt;/strong&gt; nel mondo moderno è sempre più difficile, specialmente per noi generazione dei &lt;a href=&quot;http://en.wikipedia.org/wiki/Millennials&quot;&gt;Millenials&lt;/a&gt;, che dobbiamo sempre reinventarci, per essere sempre &lt;strong&gt;impiegabili&lt;/strong&gt;, in un mondo che cambia troppo rapidamente.&lt;/p&gt;
+&lt;!--more--&gt;
 &lt;p&gt;Venendo al nocciolo della questione, era molto tempo che pensavo di dare una spolverata alle mie conoscenze tecniche, che come si legge dal mio sito sono principalmente in tecnologia &lt;strong&gt;Java&lt;/strong&gt;/&lt;strong&gt;Javascript&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Ho deciso quindi di dedicare il mio poco :-(  tempo libero alla frequentazione di un corso sulla piattaforma &lt;a href=&quot;https://www.coursera.org&quot;&gt;Coursera&lt;/a&gt;, che offre interessanti corsi gratuiti in collaborazione con &lt;a href=&quot;https://www.coursera.org/umd&quot;&gt;Università&lt;/a&gt; di tutto il mondo. Il corso che sto seguendo, è relativo alla &lt;a href=&quot;https://www.coursera.org/course/android&quot;&gt;programmazione mobile su piattaforma Android&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ho cominciato da poco  più una settimana, ma posso già dire che la piattaforma è ottima ed il mio interesse sull’argomento è alle stelle.&lt;/p&gt;

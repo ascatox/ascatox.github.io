@@ -15,6 +15,7 @@ tags:
 
 Sono molti anni che possiedo questo [blog](http://www.antonioscatoloni.it/blog), ma purtroppo come spesso succede, dopo la fiammata iniziale ho abbandonato il blog per molti molti motivi. 
 Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato [Wordpress](https://wordpress.org/), la gestione di questo famoso CMS per i miei utilizzi era troppo macchinosa e lenta, inoltre non riuscivo mai a trovare un tema, neanche modificandolo che mi soddisfacesse a pieno.
+<!--more-->
 
 Quando ho iniziato a conoscere [Jekyll](https://jekyllrb.com/) è stato subito amore a prima vista per questo blog engine di tipo statico, semplice ma molto efficace.
 [Questo post](http://paulstamatiou.com/how-to-wordpress-to-jekyll/) di [Paul Stamatiou](http://paulstamatiou.com/about/) è stato il mio apripista per il passaggio da Wordpress a Jekyll.

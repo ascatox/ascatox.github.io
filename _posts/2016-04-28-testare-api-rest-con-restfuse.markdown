@@ -15,6 +15,7 @@ tags:
 
 <h3>REST API</h3>
 Le [API](https://it.wikipedia.org/wiki/Application_programming_interface "API") REST o meglio [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer "RESTful"), sono oggi molto utilizzate, presentano infatti molteplici vantaggi, in particolar modo la semplicità di utilizzo ed il fatto di utilizzare il [protocollo HTTP](https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol "protocollo HTTP"), le rendono una standard de facto per il World Wide Web. Vengono utilizzate praticamente ovunque e da chiunque, basta colleagarsi ad un [sito del genere](https://www.publicapis.com) per capire la vastità dell'universo REST.
+<!--more-->
 <h3>Restfuse</h3>
 Ma andiamo al sodo, per un progetto sul quale sto lavorando al momento, avevo la necessità, non solo di sviluppare un'API REST ma anche di eseguire dei test di integrazione per verificare che tutte le chiamate realizzate, funzionassero in modo corretto.
 Questo [post](http://codingjam.it/junit-test-the-rest/ "post") su [CodingJam](http://codingjam.it/ "CodingJam") mi ha ispirato.<br/>

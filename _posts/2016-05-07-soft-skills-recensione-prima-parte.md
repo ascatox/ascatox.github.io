@@ -7,9 +7,9 @@ tags:
 - Soft Skills
 ---
 ![Jekyll]({{site.baseurl}}/assets/softSkills.png)
-<h2>Recensione Libro</h2>
 <h3>Introduzione</h3>
 La formazione al giorno d'oggi è una cosa fondamentale, avevo già scritto un post, quando avevo iniziato il corso Android su Coursera, voglio ritornarci per recensire un [libro](http://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397) che al momento sto leggendo.<br/>
+<!--more-->
 Il mestiere di Software Engineer/Developer molto più di altri, richiede una formazione continua, su argomenti di tipo tecnico che cambiano continuamente, pensiamo per esempio ai framework di Front End in Javascript, ne escono di continuo nuovi, o le nuove metodologie di sviluppo Agile che richiedono di rinfrescare le conoscenze acquisite.<br/><br/>
 Tornando al libro, questo libro come forse avrete intuito dal titolo, non è un libro tecnico ma è un libro che fornisce al lettore tutta l'esperienza dello scrittore, il mitico **[John Sonmez](https://simpleprogrammer.com)**.<br/>
 Lo scrittore infatti dopo una brillante carriera come Software Engineer, ha deciso di mettersi in gioco nella formazione, creando un blog si successo ed una serie di corsi su [Pluralsight](https://www.pluralsight.com/authors/john-sonmez) che si occupano di una delle cose più importanti ma meno considerate in assoluto le **[Soft Skills](https://en.wikipedia.org/wiki/Soft_skills)**.

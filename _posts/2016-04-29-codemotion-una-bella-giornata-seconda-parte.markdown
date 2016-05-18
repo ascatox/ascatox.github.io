@@ -13,7 +13,7 @@ Ripartiamo da dove ci [eravamo lasciati](http://antonioscatoloni.site/2016/03/21
 Finiti i talk introduttivi, iniziano le sessioni parallele, dove uno può scegliere tra sette talk in parallelo che seguono dei [percorsi predefiniti](http://rome2016.codemotionworld.com/conference/ "percorsi predefiniti"), ciascun percorso segue un filo conduttore (Mobile, Game Dev, Security, Motivational, Devops, Architectures, Cloud/Bigdata, etc).<br/>
 
 La mia scelta lungamente ponderata, è stata quella di seguire maggiormente dei talk sul **mondo Javascript** (con qualche eccezione), linguaggio che mi piace molto e che [vorrei approfondire](https://github.com/getify/You-Dont-Know-JS "vorrei approfondire") sempre di più.<br/>
-
+<!--more-->
 Il [primo talk](http://rome2016.codemotionworld.com/talk-detail/?detail=2279 "primo talk") che ho seguito è stato quello di [David Clemens](http://rome2016.codemotionworld.com/speaker/1887/ "David Clemens") di [nearForm](http://www.nearform.com/ "nearForm") che ci ha mostrato una serie di scenari reali dove ha utilizzato con successo il [Framework React](https://facebook.github.io/react/ "Framework React") con tutte le considerazioni del caso ed i vari pro e i contro, davvero un talk interessate.<br/>
 Il talk era molto affollato, considerando poi che l'aula N10 della Facoltà di Ingegneria dell'Università Roma TRE fosse molto grande, devo dire che questo argomento ha riscosso molto successo, ma questo me lo potevo immaginare visto l'interesse attuale che riscuotono i vari Framework client side di Front End.<br/>
 

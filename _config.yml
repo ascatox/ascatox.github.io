@@ -4,6 +4,7 @@
 # Dependencies
 markdown:         	kramdown
 permalink:           pretty
+excerpt_separator:  "<!--more-->"
 
 # Setup
 title:               Antonio Scatoloni

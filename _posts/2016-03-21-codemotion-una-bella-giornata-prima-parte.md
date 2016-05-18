@@ -6,7 +6,7 @@ categories: Eventi
 ---
 ![Jekyll]({{site.baseurl}}/assets/codemotion_2016_header.png)
 Sono molti anni che cerco di partecipare ad una conferenza IT, ma per un motivo o per un un’altro, non sono mai riuscito a partecipare. Quest’anno ho deciso di condividere almeno un evento, uno solo almeno, durante tutto il 2016 ed ho scelto quello che secondo me rappresenta l’evento principale per tutti gli sviluppatori italiani il [Codemotion](http://it.codemotionworld.com/ "Codemotion").
-
+<!--more-->
 Seguo questo evento da molti anni, da quando nacque come Java Day. In Italia si tiene in due differenti città, a Milano in autunno ed in primavera a Roma. Ho optato per la capitale più vicina a me in tutti i sensi. Sono partito quindi venerdì 18 Marzo per frequentare l’evento, avevo preso il biglietto con largo anticipo e ringrazio il [JUG Roma](http://jugroma.blogspot.it/ "JUG Roma") per lo sconto community che è stato davvero utile, il costo infatti è passato da 45€ (Early Bird) a 33€ con lo sconto applicato, davvero un prezzo giusto per un’evento che [ormai è di statura internazionale](http://www.codemotionworld.com/ "ormai è di statura internazionale").
 
 La giornata di venerdì parte subito male, con uno sciopero generale dei mezzi pubblici che mi preoccupa molto, specie per la metro indispensabile nella capitale. Alla fine invece ho raggiunto la sede del’evento presso l’[Università di Roma Tre](http://www.uniroma3.it/ "Università di Roma Tre") alle 9:00 circa, giusto in tempo per godermi tutto, senza perdere nulla. All’ingresso non appena arrivato trovo subito il logo del Codemotion e capisco che il posto è quello giusto.
