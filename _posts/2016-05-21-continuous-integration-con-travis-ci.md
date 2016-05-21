@@ -8,12 +8,13 @@ tags:
 ---
 ![Jekyll]({{site.baseurl}}/assets/travis.png)
 <h2>Introduzione</h2>
-La [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) nel mondo dello sviluppo software moderno è una pratica sempre più diffusa e praticata, che permette di ridurre la possibilità di bug e favorisce la corretta integrazione dei componenti sviluppati da molti programmatori, specie in progetti Software molto grandi.
+La [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) nel mondo dello sviluppo software moderno è una pratica sempre più diffusa e praticata, che permette di ridurre la possibilità di bug e favorisce la corretta integrazione dei componenti software sviluppati da molti programmatori, specie in progetti molto grandi.
 <!--more-->
 <h3><a href="https://travis-ci.org/">Travis CI</a></h3>
-Un'attore fondamentale della CI è proprio il server che esegue l'integrazione, ce ne sono molti, quelli più conosciuti sono sicuramente [Jenkins](https://jenkins.io/2.0/), [Hudson CI](http://hudson-ci.org/) ed appunto Travis CI.<br/>
-Ma cosa fa effettivamente un server CI.<br/>
-Un server CI esegue la [build](https://en.wikipedia.org/wiki/Software_build) di un progetto Software, quindi di solito, preleva l'ultima versione del progetto da un sistema di Version Control, come SVN o GIT ed esegue uno script che può spingersi fino al deploy del software in produzione oppure creare semplicemente dei pacchetti binari pronti per essere installati su una o più macchine di produzione.
+Un'attore fondamentale della CI è proprio il server che esegue l'integrazione.<br/>
+Ce ne sono molti, quelli più conosciuti sono sicuramente [Jenkins](https://jenkins.io/2.0/), [Hudson CI](http://hudson-ci.org/) ed appunto Travis.<br/>
+<h4>Ma cosa fa effettivamente un server CI</h4>
+Un server CI esegue la [build](https://en.wikipedia.org/wiki/Software_build) di un progetto software, quindi di solito, preleva l'ultima versione del progetto da un sistema di [Version Control](https://en.wikipedia.org/wiki/Version_control), come [SVN](https://it.wikipedia.org/wiki/Subversion) o [GIT](https://it.wikipedia.org/wiki/Git_(software)) ed esegue uno script che può spingersi fino al deploy del software in produzione oppure creare semplicemente dei pacchetti binari pronti per essere installati su una o più macchine di produzione.
 <h2>Utilizzare Travis CI con Github</h2>
 Una funzionalità particolare che ho scoperto in questi ultimi giorni utilizzando Github come repository GIT per una serie di progetti, è la possibilità di integrare Travis con Github ed eseguire quindi una CI anche per progetti ospitati dal celebre servizio.<br/><br/>
 Ovviamente in questo caso non si parla di una fase di deploy ma vengono solo eseguiti una serie di test, in modo da verificare che la build del progetto sia corretta e non ci siano errori presenti, a seguito delle commit effettuate.
@@ -29,11 +30,11 @@ Iniziare l'integrazione è davvero facile basta infatti inserire nella root del 
 All'interno di questo file va specificato il linguaggio con il quale stiamo sviluppando.<br/>
 Mi spiego meglio con un'esempio:
 {%highlight bash%}language:java {%endhighlight%}
-questa è la **configurazione** **automatica**, che come ovvio che sia da moltissime cose per scontate in pieno stile *convention over configuration*.
+questa è la **configurazione** **automatica**, che come ovvio che sia da moltissime cose per scontate in pieno stile *[convention over configuration](https://it.wikipedia.org/wiki/Convention_Over_Configuration)*.<br/>
 Le convenzioni per quanto rigurda questo caso specifico con linguaggio Java e che il progetto utilizzi una di queste tecnologie:<br/>
 *Oracle JDK 7 (default), Oracle JDK 8, OpenJDK 6, OpenJDK 7, Gradle 2.0, Maven 3.2 and Ant 1.8*
 
-in automatico Travis riconoscerà la JDK usata ed eseguirà i test cercando i file di configurazione di uno dei principali package manager del mondo Java	.<br/>
+in automatico Travis riconoscerà la [JDK](https://it.wikipedia.org/wiki/Java_Development_Kit) usata ed eseguirà i test cercando i file di configurazione di uno dei principali package manager del mondo Java	.<br/>
 Se trova infatti il file `build.gradle`, il progetto utilizza [Gradle](http://gradle.org/) quindi Travis lancerà in automatico il comando:
 {%highlight bash%}gradle check{%endhighlight%}
 
@@ -44,7 +45,7 @@ altrimenti se non trova nessuno dei due file utilizzerà [Apache Ant](http://ant
 
 
 {%highlight bash%}ant test{%endhighlight%}
-Tutto questo con una sola riga scritta nel file `.travis.yml`.
+Tutto questo con una sola riga scritta nel file `.travis.yml`.<br/>
 Comunque è sempre buona prassi essere più *espliciti* possibili specificando la JDK e lo script con il quale eseguire i test per determinare se la build è corretta o meno.<br/>
 Nel mio caso infatti avendo un progetto sviluppato con JDK 1.8 e Maven ho creato un file fatto in questo modo:
 

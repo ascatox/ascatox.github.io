@@ -4,7 +4,7 @@
  <title>Antonio Scatoloni</title>
  <link href="http://ascatox.github.io/atom.xml" rel="self"/>
  <link href="http://ascatox.github.io/"/>
- <updated>2016-05-21T12:41:53+02:00</updated>
+ <updated>2016-05-21T13:23:59+02:00</updated>
  <id>http://ascatox.github.io</id>
  <author>
    <name>Antonio Scatoloni</name>
@@ -19,12 +19,13 @@
    <id>http://ascatox.github.io/2016/05/21/continuous-integration-con-travis-ci</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/travis.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Introduzione&lt;/h2&gt;
-&lt;p&gt;La &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;Continuous Integration&lt;/a&gt; nel mondo dello sviluppo software moderno è una pratica sempre più diffusa e praticata, che permette di ridurre la possibilità di bug e favorisce la corretta integrazione dei componenti sviluppati da molti programmatori, specie in progetti Software molto grandi.
+&lt;p&gt;La &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;Continuous Integration&lt;/a&gt; nel mondo dello sviluppo software moderno è una pratica sempre più diffusa e praticata, che permette di ridurre la possibilità di bug e favorisce la corretta integrazione dei componenti software sviluppati da molti programmatori, specie in progetti molto grandi.
 &lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis CI&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Un’attore fondamentale della CI è proprio il server che esegue l’integrazione, ce ne sono molti, quelli più conosciuti sono sicuramente &lt;a href=&quot;https://jenkins.io/2.0/&quot;&gt;Jenkins&lt;/a&gt;, &lt;a href=&quot;http://hudson-ci.org/&quot;&gt;Hudson CI&lt;/a&gt; ed appunto Travis CI.&lt;br /&gt;
-Ma cosa fa effettivamente un server CI.&lt;br /&gt;
-Un server CI esegue la &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_build&quot;&gt;build&lt;/a&gt; di un progetto Software, quindi di solito, preleva l’ultima versione del progetto da un sistema di Version Control, come SVN o GIT ed esegue uno script che può spingersi fino al deploy del software in produzione oppure creare semplicemente dei pacchetti binari pronti per essere installati su una o più macchine di produzione.&lt;/p&gt;
+&lt;p&gt;Un’attore fondamentale della CI è proprio il server che esegue l’integrazione.&lt;br /&gt;
+Ce ne sono molti, quelli più conosciuti sono sicuramente &lt;a href=&quot;https://jenkins.io/2.0/&quot;&gt;Jenkins&lt;/a&gt;, &lt;a href=&quot;http://hudson-ci.org/&quot;&gt;Hudson CI&lt;/a&gt; ed appunto Travis.&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Ma cosa fa effettivamente un server CI&lt;/h4&gt;
+&lt;p&gt;Un server CI esegue la &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_build&quot;&gt;build&lt;/a&gt; di un progetto software, quindi di solito, preleva l’ultima versione del progetto da un sistema di &lt;a href=&quot;https://en.wikipedia.org/wiki/Version_control&quot;&gt;Version Control&lt;/a&gt;, come &lt;a href=&quot;https://it.wikipedia.org/wiki/Subversion&quot;&gt;SVN&lt;/a&gt; o &lt;a href=&quot;https://it.wikipedia.org/wiki/Git_(software)&quot;&gt;GIT&lt;/a&gt; ed esegue uno script che può spingersi fino al deploy del software in produzione oppure creare semplicemente dei pacchetti binari pronti per essere installati su una o più macchine di produzione.&lt;/p&gt;
 &lt;h2&gt;Utilizzare Travis CI con Github&lt;/h2&gt;
 &lt;p&gt;Una funzionalità particolare che ho scoperto in questi ultimi giorni utilizzando Github come repository GIT per una serie di progetti, è la possibilità di integrare Travis con Github ed eseguire quindi una CI anche per progetti ospitati dal celebre servizio.&lt;br /&gt;&lt;br /&gt;
 Ovviamente in questo caso non si parla di una fase di deploy ma vengono solo eseguiti una serie di test, in modo da verificare che la build del progetto sia corretta e non ci siano errori presenti, a seguito delle commit effettuate.&lt;/p&gt;
@@ -44,11 +45,11 @@ Mi spiego meglio con un’esempio:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;language:java &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;questa è la &lt;strong&gt;configurazione&lt;/strong&gt; &lt;strong&gt;automatica&lt;/strong&gt;, che come ovvio che sia da moltissime cose per scontate in pieno stile &lt;em&gt;convention over configuration&lt;/em&gt;.
+&lt;p&gt;questa è la &lt;strong&gt;configurazione&lt;/strong&gt; &lt;strong&gt;automatica&lt;/strong&gt;, che come ovvio che sia da moltissime cose per scontate in pieno stile &lt;em&gt;&lt;a href=&quot;https://it.wikipedia.org/wiki/Convention_Over_Configuration&quot;&gt;convention over configuration&lt;/a&gt;&lt;/em&gt;.&lt;br /&gt;
 Le convenzioni per quanto rigurda questo caso specifico con linguaggio Java e che il progetto utilizzi una di queste tecnologie:&lt;br /&gt;
 &lt;em&gt;Oracle JDK 7 (default), Oracle JDK 8, OpenJDK 6, OpenJDK 7, Gradle 2.0, Maven 3.2 and Ant 1.8&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;in automatico Travis riconoscerà la JDK usata ed eseguirà i test cercando i file di configurazione di uno dei principali package manager del mondo Java	.&lt;br /&gt;
+&lt;p&gt;in automatico Travis riconoscerà la &lt;a href=&quot;https://it.wikipedia.org/wiki/Java_Development_Kit&quot;&gt;JDK&lt;/a&gt; usata ed eseguirà i test cercando i file di configurazione di uno dei principali package manager del mondo Java	.&lt;br /&gt;
 Se trova infatti il file &lt;code class=&quot;highlighter-rouge&quot;&gt;build.gradle&lt;/code&gt;, il progetto utilizza &lt;a href=&quot;http://gradle.org/&quot;&gt;Gradle&lt;/a&gt; quindi Travis lancerà in automatico il comando:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gradle check&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -61,7 +62,7 @@ Se trova infatti il file &lt;code class=&quot;highlighter-rouge&quot;&gt;build.g
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ant &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Tutto questo con una sola riga scritta nel file &lt;code class=&quot;highlighter-rouge&quot;&gt;.travis.yml&lt;/code&gt;.
+&lt;p&gt;Tutto questo con una sola riga scritta nel file &lt;code class=&quot;highlighter-rouge&quot;&gt;.travis.yml&lt;/code&gt;.&lt;br /&gt;
 Comunque è sempre buona prassi essere più &lt;em&gt;espliciti&lt;/em&gt; possibili specificando la JDK e lo script con il quale eseguire i test per determinare se la build è corretta o meno.&lt;br /&gt;
 Nel mio caso infatti avendo un progetto sviluppato con JDK 1.8 e Maven ho creato un file fatto in questo modo:&lt;/p&gt;
 
