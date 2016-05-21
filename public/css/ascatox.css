@@ -129,7 +129,7 @@ a .pagination-item:hover {
 	display: -webkit-flex; /* Safari */
     justify-content: space-between;
     -webkit-justify-content: space-between; /* Safari 6.1+ */
-	width: 4.5rem;
+	width: 5rem;
 }
 
 .twitter-share-button {
