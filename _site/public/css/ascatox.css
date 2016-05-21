@@ -123,8 +123,13 @@ a .pagination-item:hover {
 }
 
 .social-section {
-	margin-bottom: 1rem;
-	margin-top: -1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    display: flex;
+	display: -webkit-flex; /* Safari */
+    justify-content: space-between;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+	width: 4.5rem;
 }
 
 .twitter-share-button {
