@@ -4,13 +4,86 @@
  <title>Antonio Scatoloni</title>
  <link href="http://ascatox.github.io/atom.xml" rel="self"/>
  <link href="http://ascatox.github.io/"/>
- <updated>2016-05-18T17:01:31+02:00</updated>
+ <updated>2016-05-21T12:41:53+02:00</updated>
  <id>http://ascatox.github.io</id>
  <author>
    <name>Antonio Scatoloni</name>
    <email>antonio.scatoloni@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Continuous Integration con Travis CI</title>
+   <link href="http://ascatox.github.io/2016/05/21/continuous-integration-con-travis-ci"/>
+   <updated>2016-05-21T00:00:00+02:00</updated>
+   <id>http://ascatox.github.io/2016/05/21/continuous-integration-con-travis-ci</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/travis.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Introduzione&lt;/h2&gt;
+&lt;p&gt;La &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;Continuous Integration&lt;/a&gt; nel mondo dello sviluppo software moderno è una pratica sempre più diffusa e praticata, che permette di ridurre la possibilità di bug e favorisce la corretta integrazione dei componenti sviluppati da molti programmatori, specie in progetti Software molto grandi.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis CI&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Un’attore fondamentale della CI è proprio il server che esegue l’integrazione, ce ne sono molti, quelli più conosciuti sono sicuramente &lt;a href=&quot;https://jenkins.io/2.0/&quot;&gt;Jenkins&lt;/a&gt;, &lt;a href=&quot;http://hudson-ci.org/&quot;&gt;Hudson CI&lt;/a&gt; ed appunto Travis CI.&lt;br /&gt;
+Ma cosa fa effettivamente un server CI.&lt;br /&gt;
+Un server CI esegue la &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_build&quot;&gt;build&lt;/a&gt; di un progetto Software, quindi di solito, preleva l’ultima versione del progetto da un sistema di Version Control, come SVN o GIT ed esegue uno script che può spingersi fino al deploy del software in produzione oppure creare semplicemente dei pacchetti binari pronti per essere installati su una o più macchine di produzione.&lt;/p&gt;
+&lt;h2&gt;Utilizzare Travis CI con Github&lt;/h2&gt;
+&lt;p&gt;Una funzionalità particolare che ho scoperto in questi ultimi giorni utilizzando Github come repository GIT per una serie di progetti, è la possibilità di integrare Travis con Github ed eseguire quindi una CI anche per progetti ospitati dal celebre servizio.&lt;br /&gt;&lt;br /&gt;
+Ovviamente in questo caso non si parla di una fase di deploy ma vengono solo eseguiti una serie di test, in modo da verificare che la build del progetto sia corretta e non ci siano errori presenti, a seguito delle commit effettuate.&lt;/p&gt;
+&lt;h3&gt;Come fare&lt;/h3&gt;
+&lt;h4&gt;Registrazione a Travis&lt;/h4&gt;
+&lt;p&gt;La prima cosa da fare è andare sulla &lt;a href=&quot;https://travis-ci.org/&quot; title=&quot;Homepage&quot;&gt;Homepage&lt;/a&gt; del servizio e registrarsi con le proprie credenziali Github.&lt;br /&gt;&lt;br /&gt;
+Fatto questo è possibile tramite il sito stesso scegliere quali repository presenti nel proprio account, vogliamo collegare al servizio Travis, a questo punto andiamo ad inserire il file di configurazione di Travis nel nostro repository Github.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/travis_ci_choose_repo.png&quot; alt=&quot;Jekyll&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Integrazione con Github&lt;/h4&gt;
+&lt;p&gt;Iniziare l’integrazione è davvero facile basta infatti inserire nella root del proprio progetto un file con nome:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;.travis.yml &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All’interno di questo file va specificato il linguaggio con il quale stiamo sviluppando.&lt;br /&gt;
+Mi spiego meglio con un’esempio:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;language:java &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;questa è la &lt;strong&gt;configurazione&lt;/strong&gt; &lt;strong&gt;automatica&lt;/strong&gt;, che come ovvio che sia da moltissime cose per scontate in pieno stile &lt;em&gt;convention over configuration&lt;/em&gt;.
+Le convenzioni per quanto rigurda questo caso specifico con linguaggio Java e che il progetto utilizzi una di queste tecnologie:&lt;br /&gt;
+&lt;em&gt;Oracle JDK 7 (default), Oracle JDK 8, OpenJDK 6, OpenJDK 7, Gradle 2.0, Maven 3.2 and Ant 1.8&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;in automatico Travis riconoscerà la JDK usata ed eseguirà i test cercando i file di configurazione di uno dei principali package manager del mondo Java	.&lt;br /&gt;
+Se trova infatti il file &lt;code class=&quot;highlighter-rouge&quot;&gt;build.gradle&lt;/code&gt;, il progetto utilizza &lt;a href=&quot;http://gradle.org/&quot;&gt;Gradle&lt;/a&gt; quindi Travis lancerà in automatico il comando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gradle check&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;se trova il file &lt;code class=&quot;highlighter-rouge&quot;&gt;pom.xml&lt;/code&gt; ma non il &lt;code class=&quot;highlighter-rouge&quot;&gt;build.gradle&lt;/code&gt; è un progetto che utilizza &lt;a href=&quot;https://maven.apache.org/&quot;&gt;Maven&lt;/a&gt; quindi il comando è:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mvn &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;altrimenti se non trova nessuno dei due file utilizzerà &lt;a href=&quot;http://ant.apache.org/&quot;&gt;Apache Ant&lt;/a&gt; e lancerà il comando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ant &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Tutto questo con una sola riga scritta nel file &lt;code class=&quot;highlighter-rouge&quot;&gt;.travis.yml&lt;/code&gt;.
+Comunque è sempre buona prassi essere più &lt;em&gt;espliciti&lt;/em&gt; possibili specificando la JDK e lo script con il quale eseguire i test per determinare se la build è corretta o meno.&lt;br /&gt;
+Nel mio caso infatti avendo un progetto sviluppato con JDK 1.8 e Maven ho creato un file fatto in questo modo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;    language: java
+    jdk:
+      - oraclejdk8
+    script: &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../service &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; mvn &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;interessante vedere come tramite parametro &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; è possibile lanciare dei comandi per testare la build. Il processo di test partirà subito dopo aver effettuato una commit.
+&lt;br /&gt;&lt;br /&gt;
+Un’ulteriore cosa opzionale che si può aggiungere al proprio progetto Github è il link nel file &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; all’immagine relativa allo stato, dell’ultima build testata da Travis, in modo da vedere a colpo d’occhio lo stato del repository.&lt;br /&gt;
+&lt;a href=&quot;https://github.com/ascatox/BeInCpps/tree/master/CamService&quot;&gt;Qui&lt;/a&gt; un’esempio di quello che intendo.&lt;/p&gt;
+
+&lt;h2&gt;Conclusioni&lt;/h2&gt;
+&lt;p&gt;Quello mostrato è un’esempio molto semplice e limitato per di più legato al mondo Java.&lt;br /&gt;
+Travis permette di gestire e testare molte tecnologie, trovate comunque molti &lt;a href=&quot;https://docs.travis-ci.com/&quot;&gt;esempi e documentazione&lt;/a&gt; nel sito di Travis.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Stay Tuned!&lt;/strong&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;em&gt;Image Courtesy of &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis CI&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Soft Skills - The software developer's life manual (prima parte)</title>
@@ -152,7 +225,7 @@ ngrok http 8080&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Il servizio ngrok infatti, utilizza la variabile ambiente &lt;em&gt;http_proxy&lt;/em&gt; in pieno stile linux (funziona anche su macchine Windows).&lt;br /&gt;
 Proviamo a vedere cosa succede se decido di mostrare al mondo il mio blog direttamente dalla versione ospitata sulla mia macchina locale senza deploy su Github.&lt;br /&gt;
-Il server &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; lanciato con il comando &lt;code&gt;jekyll serve&lt;/code&gt; si mette in ascolto su &lt;code&gt;localhost:4000&lt;/code&gt;andiamo a vedere come utilizzare ngrok: &lt;/p&gt;
+Il server &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; lanciato con il comando &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; si mette in ascolto su &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:4000&lt;/code&gt;andiamo a vedere come utilizzare ngrok:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./ngrok http 4000
 
@@ -327,9 +400,9 @@ La libreria è perfettamente presente su &lt;a href=&quot;https://maven-reposito
   
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Come si vede il tutto è perfettamente configurabile tramite &lt;a href=&quot;http://https://en.wikipedia.org/wiki/Java_annotation&quot; title=&quot;Annotations&quot;&gt;Annotations&lt;/a&gt;, &lt;code&gt;@RunWith&lt;/code&gt; è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
-L’Annotation &lt;code&gt;@HttpTest&lt;/code&gt;contrassegna il test vero e proprio che vogliamo eseguire.&lt;br /&gt;
-Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il &lt;code&gt;method&lt;/code&gt; che indica il verbo HTTP della nostra API ed il &lt;code&gt;path&lt;/code&gt; ovvero il percorso nel quale risponde la nostra API.&lt;/p&gt;
+&lt;p&gt;Come si vede il tutto è perfettamente configurabile tramite &lt;a href=&quot;http://https://en.wikipedia.org/wiki/Java_annotation&quot; title=&quot;Annotations&quot;&gt;Annotations&lt;/a&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;@RunWith&lt;/code&gt; è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
+L’Annotation &lt;code class=&quot;highlighter-rouge&quot;&gt;@HttpTest&lt;/code&gt;contrassegna il test vero e proprio che vogliamo eseguire.&lt;br /&gt;
+Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il &lt;code class=&quot;highlighter-rouge&quot;&gt;method&lt;/code&gt; che indica il verbo HTTP della nostra API ed il &lt;code class=&quot;highlighter-rouge&quot;&gt;path&lt;/code&gt; ovvero il percorso nel quale risponde la nostra API.&lt;/p&gt;
 &lt;h4&gt;Secondo esempio&lt;/h4&gt;
 &lt;p&gt;Quest’esempio è molto semplice, passiamo ad un’esempio leggermente più complesso in modo da conoscere meglio Restfuse. L’esempio è disponibile a questo &lt;a href=&quot;http://https://github.com/eclipsesource/restfuse/blob/master/com.eclipsesource.restfuse.example/src/com/eclipsesource/restfuse/example/DynamicHeaderTest.java&quot; title=&quot;indirizzo&quot;&gt;indirizzo&lt;/a&gt;.&lt;/p&gt;
 
@@ -361,7 +434,7 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
   &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;In questo esempio la differenza principale con quello precedente sta nel metodo &lt;code&gt;getDestination()&lt;/code&gt;, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro &lt;code&gt;{file}&lt;/code&gt;. Una cosa molto importante da sapere è che il metodo &lt;code&gt;getDestination()&lt;/code&gt; dell’esempio &lt;strong&gt;viene eseguito per ciascun test&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In questo esempio la differenza principale con quello precedente sta nel metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;getDestination()&lt;/code&gt;, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;. Una cosa molto importante da sapere è che il metodo &lt;code class=&quot;highlighter-rouge&quot;&gt;getDestination()&lt;/code&gt; dell’esempio &lt;strong&gt;viene eseguito per ciascun test&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4&gt;Ultimo esempio&lt;/h4&gt;
 &lt;p&gt;L’ultimo esempio che voglio mostrare è un’inserimento di dati tramite &lt;a href=&quot;https://en.wikipedia.org/wiki/POST_(HTTP)&quot;&gt;POST&lt;/a&gt;.&lt;/p&gt;
 
@@ -395,10 +468,10 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;In questo esempio viene eseguita un POST di alcuni dati.&lt;br /&gt;
-Una cosa curiosa che mi ha fatto perdere del tempo è il parametro &lt;code&gt;content&lt;/code&gt;.&lt;br /&gt; Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il &lt;code&gt;path&lt;/code&gt; dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore &lt;code&gt;content=&quot;dummy&quot;&lt;/code&gt; utilizzato.&lt;br /&gt;
+Una cosa curiosa che mi ha fatto perdere del tempo è il parametro &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt;.&lt;br /&gt; Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il &lt;code class=&quot;highlighter-rouge&quot;&gt;path&lt;/code&gt; dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore &lt;code class=&quot;highlighter-rouge&quot;&gt;content=&quot;dummy&quot;&lt;/code&gt; utilizzato.&lt;br /&gt;
 Maggiori informazioni su questo &lt;strong&gt;bug&lt;/strong&gt; le potete trovare &lt;a href=&quot;https://github.com/eclipsesource/restfuse/issues/42&quot; title=&quot;qui&quot;&gt;qui&lt;/a&gt;.&lt;br /&gt;
-Un’altro parametro molto importante è &lt;code&gt;order&lt;/code&gt; che permette di definire &lt;strong&gt;un’ordine di esecuzione dei test&lt;/strong&gt;.&lt;br /&gt;
-Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.  &lt;/p&gt;
+Un’altro parametro molto importante è &lt;code class=&quot;highlighter-rouge&quot;&gt;order&lt;/code&gt; che permette di definire &lt;strong&gt;un’ordine di esecuzione dei test&lt;/strong&gt;.&lt;br /&gt;
+Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.&lt;/p&gt;
 
 &lt;h3&gt;Conclusioni&lt;/h3&gt;
 &lt;p&gt;Restfuse è sicuramente una buona libreria per testare REST API, ma presenta diversi &lt;a href=&quot;https://github.com/eclipsesource/restfuse/issues&quot;&gt;bug&lt;/a&gt; al momento ed un supporto a tratti latitante, speriamo davvero che il progetto riparta in qualche modo.&lt;br /&gt;
@@ -441,7 +514,7 @@ Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato &lt;a hr
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Dopo aver installato Jekyll sul mio Mac con il classico comando: 
-&lt;code&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;La prima cosa che ho fatto, come suggerito in &lt;a href=&quot;http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/&quot;&gt;moltissime guide&lt;/a&gt; è stata quella di esportare tutti i contenuti dal mio &lt;a href=&quot;http://www.antonioscatoloni.it/blog&quot;&gt;Blog Wordpress&lt;/a&gt; self hosted  alla nuova struttura Jekyll.
@@ -467,13 +540,13 @@ Proprio in questi giorni ho notato che si può utilizzare un’altro &lt;a href=
 
 &lt;p&gt;Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il &lt;a href=&quot;https://wordpress.org/plugins/disqus-comment-system/&quot;&gt;plugin per Wordpress di Disqus&lt;/a&gt;, esportare il tutto in un file e poi importare il tutto nell’&lt;a href=&quot;https://import.disqus.com/login/?next=/&quot;&gt;apposita sezione&lt;/a&gt; del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che &lt;strong&gt;il formato dei link dei post&lt;/strong&gt; sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
-&lt;code&gt;http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
+&lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
 http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte&lt;/code&gt; ed ovviamente il dominio con il sottolivello devono essere uguali, nel mio caso (temporaneo) non è così, quindi l’associazione che esegue Disqus non funziona.&lt;/p&gt;
 
 &lt;h3&gt;Note sull&#39;utilizzo&lt;/h3&gt;
 
 &lt;p&gt;Devo dire che all’inizio ero molto intimorito di scrivere post con Jekyll, l’utilizzo della piattaforma infatti si appoggia tutto su Github ed in particolare sulle &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.
-Per farla molto semplice, una volta creato un repo si Github con nome &lt;code&gt;username.github.io&lt;/code&gt; nel mio caso quindi &lt;a href=&quot;https://github.com/ascatox/ascatox.github.io&quot;&gt;ascatox.github.io&lt;/a&gt;, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.&lt;br /&gt;
+Per farla molto semplice, una volta creato un repo si Github con nome &lt;code class=&quot;highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; nel mio caso quindi &lt;a href=&quot;https://github.com/ascatox/ascatox.github.io&quot;&gt;ascatox.github.io&lt;/a&gt;, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.&lt;br /&gt;
 I post sono semplicemente dei file scritti in Markdown con una particolare intestazione che devono essere gittati nel repo, per essere pubblicati. Il workflow di pubblicazione di un post può sembrare molto più laborioso di quanto lo fosse su Wordpress, ma una volta presa la mano e con i giusti strumenti, diventa &lt;a href=&quot;http://dottorblaster.it/2015/12/jekyll-flusso-pubblicazione&quot;&gt;meno complesso&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;Applicazioni per creare post&lt;/h3&gt;
@@ -493,7 +566,7 @@ Stay Tuned!&lt;/p&gt;
 &lt;br /&gt;&lt;br /&gt;
 Ho deciso quindi di comprare un nuovo dominio presso &lt;a href=&quot;https://www.namecheap.com&quot;&gt;Namecheap&lt;/a&gt; ed ho scelto &lt;em&gt;antonioscatoloni.site&lt;/em&gt;.
 &lt;br /&gt;&lt;br /&gt;
-Fatto questo ho aggiunto un file &lt;em&gt;&lt;a href=&quot;https://github.com/ascatox/ascatox.github.io/blob/master/CNAME&quot;&gt;CNAME&lt;/a&gt;&lt;/em&gt; al mio repo Github con dentro semplicemente &lt;code&gt;antonioscatoloni.site&lt;/code&gt; poi mi sono recato nel &lt;a href=&quot;https://ap.www.namecheap.com/Domains/DomainControlPanel&quot;&gt;pannello di controllo&lt;/a&gt; di Namecheap, nella sezione &lt;strong&gt;Advanced DNS&lt;/strong&gt; ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere &lt;em&gt;username.github.io&lt;/em&gt;.&lt;br /&gt;&lt;br /&gt;
+Fatto questo ho aggiunto un file &lt;em&gt;&lt;a href=&quot;https://github.com/ascatox/ascatox.github.io/blob/master/CNAME&quot;&gt;CNAME&lt;/a&gt;&lt;/em&gt; al mio repo Github con dentro semplicemente &lt;code class=&quot;highlighter-rouge&quot;&gt;antonioscatoloni.site&lt;/code&gt; poi mi sono recato nel &lt;a href=&quot;https://ap.www.namecheap.com/Domains/DomainControlPanel&quot;&gt;pannello di controllo&lt;/a&gt; di Namecheap, nella sezione &lt;strong&gt;Advanced DNS&lt;/strong&gt; ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere &lt;em&gt;username.github.io&lt;/em&gt;.&lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;/assets/CNAME.png&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
@@ -2330,7 +2403,7 @@ beta per Mac e Windows. SilverLight è un plugin multi-browser che vuole compete
  </entry>
  
  <entry>
-   <title>Jbuilder   Su Macosx</title>
+   <title>Jbuilder 2005 2006 Su Macosx</title>
    <link href="http://ascatox.github.io/2007/04/24/jbuilder-2005-2006-su-macosx"/>
    <updated>2007-04-24T00:00:00+02:00</updated>
    <id>http://ascatox.github.io/2007/04/24/jbuilder-2005-2006-su-macosx</id>
