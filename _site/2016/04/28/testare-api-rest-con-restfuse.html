@@ -124,9 +124,9 @@ La libreria è perfettamente presente su <a href="https://maven-repository.com/a
   
 <span class="o">}</span></code></pre></figure>
 
-<p>Come si vede il tutto è perfettamente configurabile tramite <a href="http://https://en.wikipedia.org/wiki/Java_annotation" title="Annotations">Annotations</a>, <code class="highlighter-rouge">@RunWith</code> è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
-L’Annotation <code class="highlighter-rouge">@HttpTest</code>contrassegna il test vero e proprio che vogliamo eseguire.<br />
-Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il <code class="highlighter-rouge">method</code> che indica il verbo HTTP della nostra API ed il <code class="highlighter-rouge">path</code> ovvero il percorso nel quale risponde la nostra API.</p>
+<p>Come si vede il tutto è perfettamente configurabile tramite <a href="http://https://en.wikipedia.org/wiki/Java_annotation" title="Annotations">Annotations</a>, <code>@RunWith</code> è la direttiva con la quale scegliamo la classe chi eseguirà i nostri test, come dicevo all’inizio del post, alla fine Restfuse è un’estensione di JUnit.
+L’Annotation <code>@HttpTest</code>contrassegna il test vero e proprio che vogliamo eseguire.<br />
+Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente il <code>method</code> che indica il verbo HTTP della nostra API ed il <code>path</code> ovvero il percorso nel quale risponde la nostra API.</p>
 <h4>Secondo esempio</h4>
 <p>Quest’esempio è molto semplice, passiamo ad un’esempio leggermente più complesso in modo da conoscere meglio Restfuse. L’esempio è disponibile a questo <a href="http://https://github.com/eclipsesource/restfuse/blob/master/com.eclipsesource.restfuse.example/src/com/eclipsesource/restfuse/example/DynamicHeaderTest.java" title="indirizzo">indirizzo</a>.</p>
 
@@ -158,7 +158,7 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
   <span class="o">}</span>
 <span class="o">}</span></code></pre></figure>
 
-<p>In questo esempio la differenza principale con quello precedente sta nel metodo <code class="highlighter-rouge">getDestination()</code>, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro <code class="highlighter-rouge"><span class="p">{</span><span class="err">file</span><span class="p">}</span></code>. Una cosa molto importante da sapere è che il metodo <code class="highlighter-rouge">getDestination()</code> dell’esempio <strong>viene eseguito per ciascun test</strong>.</p>
+<p>In questo esempio la differenza principale con quello precedente sta nel metodo <code>getDestination()</code>, attraverso questo metodo infatti possiamo settare i vari parametri nel path che andremo ad utilizzare nei nostri test, nel caso specifico il parametro <code>{file}</code>. Una cosa molto importante da sapere è che il metodo <code>getDestination()</code> dell’esempio <strong>viene eseguito per ciascun test</strong>.</p>
 <h4>Ultimo esempio</h4>
 <p>L’ultimo esempio che voglio mostrare è un’inserimento di dati tramite <a href="https://en.wikipedia.org/wiki/POST_(HTTP)">POST</a>.</p>
 
@@ -192,10 +192,10 @@ Come possiamo vedere l’Annotation è composta da diversi parametri ovviamente 
     <span class="o">}</span></code></pre></figure>
 
 <p>In questo esempio viene eseguita un POST di alcuni dati.<br />
-Una cosa curiosa che mi ha fatto perdere del tempo è il parametro <code class="highlighter-rouge">content</code>.<br /> Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il <code class="highlighter-rouge">path</code> dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore <code class="highlighter-rouge">content="dummy"</code> utilizzato.<br />
+Una cosa curiosa che mi ha fatto perdere del tempo è il parametro <code>content</code>.<br /> Nel caso infatti che si debbano inserire dei parametri semplicemente tramite il <code>path</code> dell’API, senza quindi contenuto nel body, nella versione attuale della libreria non è permesso di non inserire o di lasciare vuoto il parametro in questione pena un NullPointerException, da qui il valore <code>content="dummy"</code> utilizzato.<br />
 Maggiori informazioni su questo <strong>bug</strong> le potete trovare <a href="https://github.com/eclipsesource/restfuse/issues/42" title="qui">qui</a>.<br />
-Un’altro parametro molto importante è <code class="highlighter-rouge">order</code> che permette di definire <strong>un’ordine di esecuzione dei test</strong>.<br />
-Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.</p>
+Un’altro parametro molto importante è <code>order</code> che permette di definire <strong>un’ordine di esecuzione dei test</strong>.<br />
+Questo parametro farà storcere il naso ai puristi dell’idempotenza dei test, ma in taluni casi può essere molto utile.  </p>
 
 <h3>Conclusioni</h3>
 <p>Restfuse è sicuramente una buona libreria per testare REST API, ma presenta diversi <a href="https://github.com/eclipsesource/restfuse/issues">bug</a> al momento ed un supporto a tratti latitante, speriamo davvero che il progetto riparta in qualche modo.<br />
@@ -214,7 +214,7 @@ Come sempre <strong>Stay Tuned</strong>!
 <div class="social-section">
 	<!--the Twitter base 
     https://twitter.com/share --> 
-	<a href="https://twitter.com/share?text=Testare API REST con Restfuse&url=&via=antonioscatoloni.site/">
+	<a href="https://twitter.com/share?text=Testare API REST con Restfuse&url=http://antonioscatoloni.site/2016/04/28/testare-api-rest-con-restfuse">
     <!-- use the twitter logo for the link --> 
     <img alt="..." 
         class="footer-icon" 

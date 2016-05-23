@@ -100,7 +100,7 @@ Un motivo che mi teneva lontano dallo scrivere nel blog è sempre stato <a href=
 <ol>
   <li>
     <p>Dopo aver installato Jekyll sul mio Mac con il classico comando: 
-<code class="highlighter-rouge">gem install jekyll</code></p>
+<code>gem install jekyll</code></p>
   </li>
   <li>
     <p>La prima cosa che ho fatto, come suggerito in <a href="http://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/">moltissime guide</a> è stata quella di esportare tutti i contenuti dal mio <a href="http://www.antonioscatoloni.it/blog">Blog Wordpress</a> self hosted  alla nuova struttura Jekyll.
@@ -126,13 +126,13 @@ Proprio in questi giorni ho notato che si può utilizzare un’altro <a href="ht
 
 <p>Mi rimangono ancora alcuni punti aperti che spero di risolvere il prima possibile, specialmente il trasferimento dei commenti presenti sul vecchio Blog.
 La soluzione da tutti adottatata è quella di installare il <a href="https://wordpress.org/plugins/disqus-comment-system/">plugin per Wordpress di Disqus</a>, esportare il tutto in un file e poi importare il tutto nell’<a href="https://import.disqus.com/login/?next=/">apposita sezione</a> del sito Disqus. Nel mio caso tutto è andato come doveva andare ma bisogna stare attenti che <strong>il formato dei link dei post</strong> sia lo stesso tra il vecchio Blog e quello con Jekyll. Ogni link deve avere lo stesso identico formato permalink per esempio:
-<code class="highlighter-rouge">http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
+<code>http://www.antonioscatoloni.it/blog/2016/03/21/codemotion-una-bella-giornata-prima-parte diventa
 http://ascatox.github.io/2016/03/21/codemotion-una-bella-giornata-prima-parte</code> ed ovviamente il dominio con il sottolivello devono essere uguali, nel mio caso (temporaneo) non è così, quindi l’associazione che esegue Disqus non funziona.</p>
 
 <h3>Note sull'utilizzo</h3>
 
 <p>Devo dire che all’inizio ero molto intimorito di scrivere post con Jekyll, l’utilizzo della piattaforma infatti si appoggia tutto su Github ed in particolare sulle <a href="https://pages.github.com/">Github Pages</a>.
-Per farla molto semplice, una volta creato un repo si Github con nome <code class="highlighter-rouge">username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
+Per farla molto semplice, una volta creato un repo si Github con nome <code>username.github.io</code> nel mio caso quindi <a href="https://github.com/ascatox/ascatox.github.io">ascatox.github.io</a>, basta gittare nel repo il sito  creato con Jekyll in locale e GitHub lo ospiterà per noi, senza dover pagare un centesimo.<br />
 I post sono semplicemente dei file scritti in Markdown con una particolare intestazione che devono essere gittati nel repo, per essere pubblicati. Il workflow di pubblicazione di un post può sembrare molto più laborioso di quanto lo fosse su Wordpress, ma una volta presa la mano e con i giusti strumenti, diventa <a href="http://dottorblaster.it/2015/12/jekyll-flusso-pubblicazione">meno complesso</a>.</p>
 
 <h3>Applicazioni per creare post</h3>
@@ -152,7 +152,7 @@ Stay Tuned!</p>
 <br /><br />
 Ho deciso quindi di comprare un nuovo dominio presso <a href="https://www.namecheap.com">Namecheap</a> ed ho scelto <em>antonioscatoloni.site</em>.
 <br /><br />
-Fatto questo ho aggiunto un file <em><a href="https://github.com/ascatox/ascatox.github.io/blob/master/CNAME">CNAME</a></em> al mio repo Github con dentro semplicemente <code class="highlighter-rouge">antonioscatoloni.site</code> poi mi sono recato nel <a href="https://ap.www.namecheap.com/Domains/DomainControlPanel">pannello di controllo</a> di Namecheap, nella sezione <strong>Advanced DNS</strong> ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere <em>username.github.io</em>.<br /><br />
+Fatto questo ho aggiunto un file <em><a href="https://github.com/ascatox/ascatox.github.io/blob/master/CNAME">CNAME</a></em> al mio repo Github con dentro semplicemente <code>antonioscatoloni.site</code> poi mi sono recato nel <a href="https://ap.www.namecheap.com/Domains/DomainControlPanel">pannello di controllo</a> di Namecheap, nella sezione <strong>Advanced DNS</strong> ed ho inserito gli indirizzi IP di Github e l’indirizzo della mia Github Page, che ricordo essere <em>username.github.io</em>.<br /><br />
 <img src="/assets/CNAME.png" alt="Jekyll" /></p>
 
 </div>
@@ -160,7 +160,7 @@ Fatto questo ho aggiunto un file <em><a href="https://github.com/ascatox/ascatox
 <div class="social-section">
 	<!--the Twitter base 
     https://twitter.com/share --> 
-	<a href="https://twitter.com/share?text=Perchè Jekyll&url=&via=antonioscatoloni.site/">
+	<a href="https://twitter.com/share?text=Perchè Jekyll&url=http://antonioscatoloni.site/2016/04/23/perche-jekyll">
     <!-- use the twitter logo for the link --> 
     <img alt="..." 
         class="footer-icon" 
