@@ -180,7 +180,7 @@ a .pagination-item:hover {
 
 .breaker {
   height: 1px;
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
   width: 100%;
 }
 .breaker:before {
