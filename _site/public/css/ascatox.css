@@ -177,3 +177,19 @@ a .pagination-item:hover {
 		text-align: left;
 	}
 }
+
+.breaker {
+  height: 1px;
+  margin: 2.5rem auto;
+  width: 100%;
+}
+.breaker:before {
+  content: "• • •";
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #aaa;
+  letter-spacing: 4px;
+  position: relative;
+  top: -8px;
+}
