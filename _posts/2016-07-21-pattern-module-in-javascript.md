@@ -8,16 +8,17 @@ tags:
 ---
 ![Jekyll]({{site.baseurl}}/assets/lego.png)
 <h2>Introduzione</h2>
-Definizione di [Wikipedia](https://it.wikipedia.org/wiki/Design_pattern "Wikipedia") per **Design Pattern**:
-><strong>"In informatica, nell'ambito dell'ingegneria del software, un design pattern, è un concetto che può essere definito una soluzione progettuale generale ad un problema ricorrente. Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di progettazione e sviluppo del software, ancor prima della definizione dell'algoritmo risolutivo della parte computazionale."</strong>
+Definizione di [Wikipedia](https://it.wikipedia.org/wiki/Design_pattern "Wikipedia") per **Design Pattern**:<br/>
+>"In informatica, nell'ambito dell'ingegneria del software, un design pattern, è un concetto che può essere definito una soluzione progettuale generale ad un problema ricorrente. Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di progettazione e sviluppo del software, ancor prima della definizione dell'algoritmo risolutivo della parte computazionale."
 <!--more-->
-Il termine ha iniziato a prendere piede, tra i programmatori di tutto il mondo, dopo la pubblicazione del famoso libro Design Patterns: Elementi per il riuso di software a oggetti di Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides nel 1995 (gli autori di questo libro vengono spesso chiamati la Gang of Four).
-I design pattern sono uno strumento fondamentale nello sviluppo delle applicazioni software professionali. Essi vengono studiati in tutti corsi di ingegneria del software del mondo e in ambito professionale la loro conoscenza è diventata un prerequisito fondamentale (sono spesso argomento di discussione durante i colloqui tecnici nei processi di selezione del personale). I principali vantaggi dell’utilizzo dei design pattern nella progettazione di applicazioni software sono:
+<br/>
+Il termine ha iniziato a prendere piede, tra i programmatori di tutto il mondo, dopo la pubblicazione del famoso libro Design Patterns: Elementi per il riuso di software a oggetti di Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides nel 1995 (gli autori di questo libro vengono spesso chiamati la Gang of Four).<br/>
+I design pattern sono uno strumento fondamentale nello sviluppo delle applicazioni software professionali. Essi vengono studiati in tutti corsi di ingegneria del software del mondo e in ambito professionale la loro conoscenza è diventata un prerequisito fondamentale (sono spesso argomento di discussione durante i colloqui tecnici nei processi di selezione del personale). I principali vantaggi dell’utilizzo dei design pattern nella progettazione di applicazioni software sono:<br/>
 - ridurre i tempi di sviluppo, grazie al riutilizzo di soluzioni preesistenti;
 - migliorare la condivisione del codice, grazie all’uso di tecniche standard note;
 - migliorare la qualità del codice, grazie all’impiego di tecniche testate negli anni.
 
-I design pattern possono essere suddivisi **in tre categorie principali**:
+I design pattern possono essere suddivisi **in tre categorie principali**:<br/>
 creazionali, utilizzati per risolvere problemi di programmazione che prevedono la creazione di oggetti a seconda di determinati parametri o condizioni;
 - strutturali, per il riutilizzo degli oggetti esistenti fornendo, sostanzialmente, un’interfaccia più adatta alle loro esigenze;
 - comportamentali, che forniscono soluzioni alle più comuni tipologie di interazione tra gli oggetti.
