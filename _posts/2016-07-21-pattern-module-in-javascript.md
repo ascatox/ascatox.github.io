@@ -15,17 +15,17 @@ Definizione di [Wikipedia](https://it.wikipedia.org/wiki/Design_pattern "Wikiped
 Il termine ha iniziato a prendere piede, tra i programmatori di tutto il mondo, dopo la pubblicazione del famoso libro Design Patterns: Elementi per il riuso di software a oggetti di Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides nel 1995 (gli autori di questo libro vengono spesso chiamati la Gang of Four).<br/>
 I design pattern sono uno strumento fondamentale nello sviluppo delle applicazioni software professionali. Essi vengono studiati in tutti corsi di ingegneria del software del mondo e in ambito professionale la loro conoscenza è diventata un prerequisito fondamentale (sono spesso argomento di discussione durante i colloqui tecnici nei processi di selezione del personale). I principali vantaggi dell’utilizzo dei design pattern nella progettazione di applicazioni software sono:<br/>
 
-- ridurre i tempi di sviluppo, grazie al riutilizzo di soluzioni preesistenti;
-- migliorare la condivisione del codice, grazie all’uso di tecniche standard note;
-- migliorare la qualità del codice, grazie all’impiego di tecniche testate negli anni.
+- **ridurre i tempi di sviluppo**, grazie al riutilizzo di soluzioni preesistenti;
+- **migliorare la condivisione del codice**, grazie all’uso di tecniche standard note;
+- **migliorare la qualità del codice**, grazie all’impiego di tecniche testate negli anni.
 
 <br/>
 
 I design pattern possono essere suddivisi **in tre categorie principali**:<br/>
 
-- creazionali, utilizzati per risolvere problemi di programmazione che prevedono la creazione di oggetti a seconda di determinati parametri o condizioni;
-- strutturali, per il riutilizzo degli oggetti esistenti fornendo, sostanzialmente, un’interfaccia più adatta alle loro esigenze;
-- comportamentali, che forniscono soluzioni alle più comuni tipologie di interazione tra gli oggetti.
+- **creazionali**, utilizzati per risolvere problemi di programmazione che prevedono la creazione di oggetti a seconda di determinati parametri o condizioni;
+- **strutturali**, per il riutilizzo degli oggetti esistenti fornendo, sostanzialmente, un’interfaccia più adatta alle loro esigenze;
+- **comportamentali**, che forniscono soluzioni alle più comuni tipologie di interazione tra gli oggetti.
 <br/>
 Andiamo quindi a scoprire uno dei principali di natura creazionale il **pattern Module**.
 
@@ -89,10 +89,10 @@ All’esterno della funzione anonima, è possibile istanziare uno o più oggetti
 <h2>Conclusioni</h2>
 L’utilizzo del pattern Module all’interno delle proprie applicazioni JavaScript ha numerosi vantaggi, tra i quali:
 
-- scalabilità - la possibilità di definire porzioni isolate di codice agevola il processo di interazione tra gli oggetti all’aumentare del numero degli stessi;
-- gestione della complessità del codice - l’utilizzo dei moduli consente di suddividere un progetto di grandi dimensioni in porzioni più piccole, che possono essere gestite in maniera più agevole. Inoltre, l’uso dei moduli consente una migliore interoperabilità all’interno di un team di sviluppo. Se ogni sviluppatore lavora su una porzione di codice isolata non ci sono problemi di sovrapposizione del codice e l’interazione tra i membri del team diventa più agevole;
-- qualità del codice - l’uso di porzioni distinte e separate di codice migliora la qualità di un progetto software, garantendo anche migliori performance dal punto di vista dell’interprete JavaScript, per esempio nella gestione del garbage collector;
-- estendibilità del codice - un progetto software suddiviso in moduli consente di essere esteso in maniera totalmente naturale. È sufficiente creare un nuovo modulo e aggiungerlo al progetto
+- **scalabilità** - la possibilità di definire porzioni isolate di codice agevola il processo di interazione tra gli oggetti all’aumentare del numero degli stessi;
+- **gestione della complessità del codice** - l’utilizzo dei moduli consente di suddividere un progetto di grandi dimensioni in porzioni più piccole, che possono essere gestite in maniera più agevole. Inoltre, l’uso dei moduli consente una migliore interoperabilità all’interno di un team di sviluppo. Se ogni sviluppatore lavora su una porzione di codice isolata non ci sono problemi di sovrapposizione del codice e l’interazione tra i membri del team diventa più agevole;
+- **qualità del codice** - l’uso di porzioni distinte e separate di codice migliora la qualità di un progetto software, garantendo anche migliori performance dal punto di vista dell’interprete JavaScript, per esempio nella gestione del garbage collector;
+- **estendibilità del codice** - un progetto software suddiviso in moduli consente di essere esteso in maniera totalmente naturale. È sufficiente creare un nuovo modulo e aggiungerlo al progetto
 
 <h2>Riferimenti</h2>
 In rete ci sono moltissimi siti, blog o altro che spiegano questo famoso pattern.<br/>
