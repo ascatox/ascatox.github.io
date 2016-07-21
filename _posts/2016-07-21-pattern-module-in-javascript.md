@@ -31,7 +31,7 @@ Andiamo quindi a scoprire uno dei principali di natura creazionale il **pattern 
 <h3>Problema da risolvere</h3>
 Chiunque si sia cimentato nello scrivere codice Javascript (non considerando al momento ES6), conosce quanto sia difficile mantenere il codice organizzato e ben **isolato**. In linguaggi come il Java, tramite il concetto di classe e grazie ai modificatori di accesso si riesce ad isolare in maniera efficace delle determinate aree di codice, in JavaScript questo non è possibile e da qui nasce il Module.<br/>
 *Il problema che si vuole risolvere con il pattern Module è creare porzioni isolate di codice con proprie variabili private e con la creazione di funzioni specifiche accessibili dall’esterno.*
-<h2>Come funziona</h2>
+<h3>Come funziona</h3>
 Il pattern Module è basato sul concetto di funzione anonima auto eseguita ([anonymous self-executing function](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/ "anonymous self-executing function")).
 <br/>
 La struttura di una funzione di questo tipo è definita nel modo seguente:
