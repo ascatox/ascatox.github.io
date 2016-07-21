@@ -19,8 +19,6 @@ I design pattern sono uno strumento fondamentale nello sviluppo delle applicazio
 - **migliorare la condivisione del codice**, grazie all’uso di tecniche standard note;
 - **migliorare la qualità del codice**, grazie all’impiego di tecniche testate negli anni.
 
-<br/>
-
 I design pattern possono essere suddivisi **in tre categorie principali**:<br/>
 
 - **creazionali**, utilizzati per risolvere problemi di programmazione che prevedono la creazione di oggetti a seconda di determinati parametri o condizioni;
