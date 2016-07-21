@@ -67,4 +67,4 @@ Travis permette di gestire e testare molte tecnologie, trovate comunque molti [e
 **Stay Tuned!**
 <br/>
 <br/>
-*Image Courtesy of [Travis CI](https://travis-ci.org/)*
+*Image Courtesy of [Visit Lego Liberty](http://visitlegoliberty.com/)*
