@@ -84,6 +84,7 @@ All’esterno della funzione anonima, è possibile istanziare uno o più oggetti
 
 <h2>Conclusioni</h2>
 L’utilizzo del pattern Module all’interno delle proprie applicazioni JavaScript ha numerosi vantaggi, tra i quali:
+
 - scalabilità - la possibilità di definire porzioni isolate di codice agevola il processo di interazione tra gli oggetti all’aumentare del numero degli stessi;
 - gestione della complessità del codice - l’utilizzo dei moduli consente di suddividere un progetto di grandi dimensioni in porzioni più piccole, che possono essere gestite in maniera più agevole. Inoltre, l’uso dei moduli consente una migliore interoperabilità all’interno di un team di sviluppo. Se ogni sviluppatore lavora su una porzione di codice isolata non ci sono problemi di sovrapposizione del codice e l’interazione tra i membri del team diventa più agevole;
 - qualità del codice - l’uso di porzioni distinte e separate di codice migliora la qualità di un progetto software, garantendo anche migliori performance dal punto di vista dell’interprete JavaScript, per esempio nella gestione del garbage collector;
