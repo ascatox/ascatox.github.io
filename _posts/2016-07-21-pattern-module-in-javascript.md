@@ -12,7 +12,7 @@ Definizione di [Wikipedia](https://it.wikipedia.org/wiki/Design_pattern "Wikiped
 *"In informatica, nell'ambito dell'ingegneria del software, un design pattern, è un concetto che può essere definito una soluzione progettuale generale ad un problema ricorrente. Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di progettazione e sviluppo del software, ancor prima della definizione dell'algoritmo risolutivo della parte computazionale."*
 <!--more-->
 <br/><br/>
-Il termine ha iniziato a prendere piede, tra i programmatori di tutto il mondo, dopo la pubblicazione del famoso libro [Design Patterns](https://www.amazon.it/gp/product/B000SEIBB8/ref=dp-kindle-redirect?ie=UTF8&btkr=1): Elementi per il riuso di software a oggetti di Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides nel 1995 (gli autori di questo libro vengono spesso chiamati la Gang of Four).<br/><br/>
+Il termine ha iniziato a prendere piede, tra i programmatori di tutto il mondo, dopo la pubblicazione del famoso libro [Design Patterns](https://www.amazon.it/gp/product/B000SEIBB8/ref=dp-kindle-redirect?ie=UTF8&btkr=1:) Elementi per il riuso di software a oggetti di Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides nel 1995 (gli autori di questo libro vengono spesso chiamati la Gang of Four).<br/><br/>
 I design pattern sono uno strumento fondamentale nello sviluppo delle applicazioni software professionali. Essi vengono studiati in tutti corsi di ingegneria del software del mondo e in ambito professionale la loro conoscenza è diventata un prerequisito fondamentale (sono spesso argomento di discussione durante i colloqui tecnici nei processi di selezione del personale). I principali vantaggi dell’utilizzo dei design pattern nella progettazione di applicazioni software sono:<br/>
 
 - **ridurre i tempi di sviluppo**, grazie al riutilizzo di soluzioni preesistenti;
@@ -29,7 +29,7 @@ Andiamo quindi a scoprire uno dei principali di natura creazionale il **pattern 
 
 <h2>Module</h2>
 <h3>Problema da risolvere</h3>
-Chiunque si sia cimentato nello scrivere codice Javascript (non considerando al momento ES6), conosce quanto sia difficile mantenere il codice organizzato e ben **isolato**. In linguaggi come il Java, tramite il concetto di classe e grazie ai modificatori di accesso si riesce ad isolare in maniera efficace delle determinate aree di codice, in JavaScript questo non è possibile e da qui nasce il Module.<br/>
+Chiunque si sia cimentato nello scrivere codice Javascript (non considerando al momento ES6), conosce quanto sia difficile mantenere il codice organizzato e ben **isolato**. In linguaggi come il Java, tramite il concetto di classe e grazie ai modificatori di accesso riusciamo ad isolare in maniera efficace delle determinate aree di codice, in JavaScript questo non è possibile e da qui nasce il Module.<br/>
 *Il problema che si vuole risolvere con il pattern Module è creare porzioni isolate di codice con proprie variabili private e con la creazione di funzioni specifiche accessibili dall’esterno.*
 <h3>Come funziona</h3>
 Il pattern Module è basato sul concetto di funzione anonima auto eseguita ([anonymous self-executing function](http://markdalgleish.com/2011/03/self-executing-anonymous-functions/ "anonymous self-executing function")).
