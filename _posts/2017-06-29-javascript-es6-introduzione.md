@@ -8,7 +8,7 @@ tags:
 ---
 ![Jekyll]({{site.baseurl}}/assets/es6-logo.jpg)
 ## Da ES5 a ES6
-Javascript è un linguaggio di programmazione che riscuote sempre maggior successo in questi ultimi periodi, come testimoniano moltissimi sondaggi come quelle che ogni anno fornisce il celebre sito [StackOverflow](https://insights.stackoverflow.com/survey/2017#technology).
+Javascript è un linguaggio di programmazione che riscuote sempre maggior successo in questi ultimi periodi, come testimoniano moltissimi sondaggi come quelle che ogni anno fornisce il celebre sito [StackOverflow](https://insights.stackoverflow.com/survey/2017#technology).<!--more-->
 
 La versione attuale di Javascript maggiormente diffusa ed utilizzata al momento è [EcmaScript 5](https://it.wikipedia.org/wiki/ECMAScript) approvata in via definitiva nel 2009.<br/>
 
