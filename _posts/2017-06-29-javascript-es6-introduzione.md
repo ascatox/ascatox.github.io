@@ -6,7 +6,7 @@ categories: Sviluppo software
 tags:
 - Javascript
 ---
-![Jekyll]({{site.baseurl}}/assets/es6-logo.jpg)
+![Jekyll]({{site.baseurl}}/assets/es6-logo-low.jpg)
 ## Da ES5 a ES6
 Javascript è un linguaggio di programmazione che riscuote sempre maggior successo in questi ultimi periodi, come testimoniano moltissimi sondaggi come quelle che ogni anno fornisce il celebre sito [StackOverflow](https://insights.stackoverflow.com/survey/2017#technology).<!--more-->
 
