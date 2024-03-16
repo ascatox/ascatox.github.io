@@ -73,7 +73,8 @@ Questo comando compilerà tutti i contratti presenti nella directory contracts e
 ## Test dei contratti
 Truffle fornisce un ambiente di test integrato che consente di scrivere e eseguire test per i contratti. I test devono essere scritti utilizzando il framework di test Mocha e l'assertion library Chai. Ecco un esempio di test per il contratto **SimpleStorage**:
 
-```const SimpleStorage = artifacts.require("SimpleStorage");
+```javascript
+const SimpleStorage = artifacts.require("SimpleStorage");
 
 contract("SimpleStorage", accounts => {
     it("should set data", async () => {
@@ -88,7 +89,8 @@ contract("SimpleStorage", accounts => {
 ## Migrazione dei contratti
 Una volta compilati e testati i contratti, è possibile distribuirli sulla blockchain Ethereum utilizzando il sistema di migrazione di Truffle. Le migrazioni sono scritte utilizzando JavaScript e determinano l'ordine di distribuzione dei contratti. Ad esempio, una migrazione semplice potrebbe essere:
 
-```const SimpleStorage = artifacts.require("SimpleStorage");
+```javascript
+const SimpleStorage = artifacts.require("SimpleStorage");
 
 module.exports = function(deployer) {
     deployer.deploy(SimpleStorage);
@@ -107,5 +109,10 @@ Per semplificare ulteriormente lo sviluppo dei Smart Contract, Truffle offre un'
 
 ## Conclusione
 Truffle è uno strumento essenziale per lo sviluppo di Smart Contract su Ethereum. Fornisce una suite completa di strumenti per semplificare il processo di sviluppo, test e distribuzione dei contratti, rendendo più accessibile lo sviluppo per i principianti. Con una buona comprensione di Truffle e dei concetti di base di Ethereum, è possibile iniziare a creare applicazioni decentralizzate e contribuire all'ecosistema blockchain in modo significativo. Con l'integrazione di Truffle con Visual Studio Code, il processo di sviluppo è reso ancora più efficiente e intuitivo.
+
+
+Alla prossima puntata &#x1f44b;&#x1f3fb;.
+<br/>
+Stay tuned!
 
 
