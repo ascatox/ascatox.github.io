@@ -20,7 +20,7 @@ Truffle è un framework di sviluppo per Ethereum che offre una suite completa di
 Truffle è un framework di sviluppo che semplifica la creazione, il test e la distribuzione di Smart Contract su Ethereum. È scritto in JavaScript e offre una serie di funzionalità utili, tra cui:
 
 - **Gestione del progetto**: Truffle organizza automaticamente la struttura del progetto, fornendo una base solida per lo sviluppo.
-- **Compilazione dei contratti**: Truffle integra un compilatore Solidity per convertire gli Smart Contract in bytecode eseguibile sulla blockchain Ethereum.
+- **Compilazione dei contratti**: Truffle integra un compilatore [Solidity](https://soliditylang.org/) per convertire gli Smart Contract in bytecode eseguibile sulla blockchain Ethereum.
 - **Test automatizzati**: Fornisce un ambiente di test integrato per verificare che i contratti funzionino correttamente.
 - **Migrazioni dei contratti**: Gestisce automaticamente la distribuzione dei contratti sulla blockchain Ethereum.
 - **Console interattiva**: Truffle fornisce una console interattiva che consente di interagire direttamente con i contratti.
@@ -28,7 +28,7 @@ Truffle è un framework di sviluppo che semplifica la creazione, il test e la di
 
 ## Installazione di Truffle
 
-Prima di iniziare a utilizzare Truffle, è necessario avere Node.js e npm (Node Package Manager) installati nel proprio sistema. Una volta installati, è possibile procedere con l'installazione di Truffle tramite npm utilizzando il seguente comando:
+Prima di iniziare a utilizzare Truffle, è necessario avere [Node.js](https://nodejs.org/en) e npm (Node Package Manager) installati nel proprio sistema. Una volta installati, è possibile procedere con l'installazione di Truffle tramite npm utilizzando il seguente comando:
 
 `npm install -g truffle
 `
@@ -71,7 +71,7 @@ Una volta scritti i contratti, è possibile compilare il codice Solidity utilizz
 Questo comando compilerà tutti i contratti presenti nella directory contracts e genererà i rispettivi file bytecode e ABI (Application Binary Interface) nella directory build.
 
 ## Test dei contratti
-Truffle fornisce un ambiente di test integrato che consente di scrivere e eseguire test per i contratti. I test devono essere scritti utilizzando il framework di test Mocha e l'assertion library Chai. Ecco un esempio di test per il contratto **SimpleStorage**:
+Truffle fornisce un ambiente di test integrato che consente di scrivere e eseguire test per i contratti. I test devono essere scritti utilizzando il framework di test [Mocha](https://mochajs.org/) e l'assertion library [Chai](https://www.chaijs.com/). Ecco un esempio di test per il contratto **SimpleStorage**:
 
 ```javascript
 const SimpleStorage = artifacts.require("SimpleStorage");
@@ -99,13 +99,13 @@ module.exports = function(deployer) {
 ## Utilizzo della console interattiva
 Truffle fornisce una console interattiva che consente di interagire direttamente con i contratti sulla blockchain Ethereum. È possibile avviare la console utilizzando il comando:
 
-`truffle console
-`
+``truffle console
+``
 Una volta avviata la console, è possibile interagire con i contratti utilizzando il loro ABI (Application Binary Interface) e indirizzo.
 
 
 ## Integrazione con Visual Studio Code
-Per semplificare ulteriormente lo sviluppo dei Smart Contract, Truffle offre un'estensione per Visual Studio Code. Questa estensione fornisce funzionalità avanzate per lo sviluppo, il debug e il testing direttamente nell'IDE. È possibile installare l'estensione direttamente dall'Extension Marketplace di Visual Studio Code cercando [Truffle Suite](https://archive.trufflesuite.com/docs/vscode-ext/quickstart/).
+Per semplificare ulteriormente lo sviluppo dei Smart Contract, Truffle offre un'estensione per [Visual Studio Code](https://code.visualstudio.com/). Questa estensione fornisce funzionalità avanzate per lo sviluppo, il debug e il testing direttamente nell'IDE. È possibile installare l'estensione direttamente dall'Extension Marketplace di Visual Studio Code cercando [Truffle Suite](https://archive.trufflesuite.com/docs/vscode-ext/quickstart/).
 
 ## Conclusione
 Truffle è uno strumento essenziale per lo sviluppo di Smart Contract su Ethereum. Fornisce una suite completa di strumenti per semplificare il processo di sviluppo, test e distribuzione dei contratti, rendendo più accessibile lo sviluppo per i principianti. Con una buona comprensione di Truffle e dei concetti di base di Ethereum, è possibile iniziare a creare applicazioni decentralizzate e contribuire all'ecosistema blockchain in modo significativo. Con l'integrazione di Truffle con Visual Studio Code, il processo di sviluppo è reso ancora più efficiente e intuitivo.
