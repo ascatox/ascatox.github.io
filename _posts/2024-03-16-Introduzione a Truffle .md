@@ -9,6 +9,8 @@ tags:
 # Uno strumento essenziale per lo sviluppo di Smart Contract su Ethereum
 ![Truffle logo](/assets/truffle-logo.png)
 
+## Introduzione
+
 Lo sviluppo di [Smart Contract](https://www.coinbase.com/it/learn/crypto-basics/what-is-a-smart-contract#:~:text=Gli%20smart%20contract%20consentono%20agli%20sviluppatori%20di%20creare%20un'ampia,qualsiasi%20altra%20transazione%20in%20criptovaluta.) su **Ethereum** richiede un insieme di strumenti robusti e affidabili che semplifichino il processo di scrittura, test e distribuzione dei contratti stessi. Tra questi strumenti, uno dei più ampiamente utilizzati e raccomandati dalla comunità di sviluppatori è [Truffle](https://archive.trufflesuite.com/).
 
 Truffle è un framework di sviluppo per Ethereum che offre una suite completa di strumenti per semplificare lo sviluppo di Smart Contract e applicazioni decentralizzate (DApps). In questo articolo, esploreremo come utilizzare Truffle per creare, testare e distribuire Smart Contract, rivolgendoci soprattutto ai **principianti**.<!--more-->
